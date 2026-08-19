@@ -25,7 +25,7 @@ ARTICLE_TYPES = {
 }
 
 BODY_SELECTORS = [
-    "div.ue-l-article__main-column",
+    "div.ue-l-article__body div.ue-l-article__main-column",
     "div.ue-l-article__body",
     "div.ue-c-article__body",
     "div.ue-l-article__main",
@@ -264,16 +264,16 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
     if isinstance(keywords, str):
         keywords = [k.strip() for k in keywords.split(",")]
     tags = [str(k).strip() for k in (keywords or []) if str(k).strip()]
-    # news_keywords a veces trae solo las palabras del slug ("vinagrismo",
-    # "ilustrado", "real"…), que no aportan nada: se descartan.
-    palabras_slug = set(re.split(r"[-_]", urlutil.article_id(canonical).lower()))
     news_keywords = _meta(soup, "news_keywords")
     if news_keywords:
-        tags.extend(
-            k.strip()
-            for k in news_keywords.split(",")
-            if k.strip() and not (k.strip().islower() and k.strip() in palabras_slug)
-        )
+        tags.extend(k.strip() for k in news_keywords.split(",") if k.strip())
+
+    # Tanto el JSON-LD como news_keywords traen a veces las palabras sueltas del
+    # slug de la URL ("vinagrismo", "ilustrado", "real"...), que no son
+    # etiquetas de nada: se descartan.
+    palabras_slug = set(re.split(r"[-_]", urlutil.article_id(canonical).lower()))
+    tags = [t for t in tags if not (t.islower() and t in palabras_slug)]
+
     seen_tags: set[str] = set()
     tags = [t for t in tags if not (t.lower() in seen_tags or seen_tags.add(t.lower()))]
 

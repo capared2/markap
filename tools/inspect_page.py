@@ -91,6 +91,22 @@ def main(url: str) -> int:
     for parrafo in article["paragraphs"][:6]:
         print(f"    - {parrafo[:100]}")
 
+    print()
+    print("=" * 70)
+    print("LINAJE DE CADA BLOQUE DE TEXTO (para afinar que descartar)")
+    print("=" * 70)
+    if container is not None:
+        for nodo in container.find_all(["p", "h2", "li"]):
+            texto = nodo.get_text(" ", strip=True)
+            if len(texto) < 25:
+                continue
+            cadena = []
+            padre = nodo.parent
+            while padre is not None and padre is not container.parent:
+                cadena.append("." + ".".join(padre.get("class", [])) if padre.get("class") else padre.name)
+                padre = padre.parent
+            print(f"  {' < '.join(cadena[:4]):86} | {texto[:56]}")
+
     fetcher.close()
     return 0
 
