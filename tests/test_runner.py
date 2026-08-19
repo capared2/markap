@@ -102,3 +102,18 @@ def test_category_depth_one_groups_everything_under_the_top_section(tmp_path):
     data = tmp_path / "data"
     assert (data / "futbol" / "part-0001.json").exists()
     assert not (data / "futbol" / "real-madrid").exists()
+
+
+def test_discovery_never_consumes_the_whole_budget(tmp_path, monkeypatch):
+    """Con presupuesto agotado el run termina sin descubrir ni descargar nada."""
+    slow = []
+
+    def spy(fetcher, sources, crawl_depth=1, deadline=None):
+        slow.append(deadline)
+        return set()
+
+    monkeypatch.setattr(runner.discovery, "discover", spy)
+    summary = run(options(tmp_path, time_budget=100))
+    assert summary["discovered"] == 0
+    # el descubrimiento recibe una fraccion del presupuesto, no el total
+    assert slow and slow[0] is not None

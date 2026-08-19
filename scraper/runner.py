@@ -16,6 +16,9 @@ log = logging.getLogger(__name__)
 
 FLUSH_EVERY = 200
 BATCH_SIZE = 100
+# Descubrir es solo el medio: nunca puede comerse toda la ejecucion, o el run
+# terminaria sin guardar una sola noticia.
+DISCOVERY_SHARE = 0.4
 
 
 @dataclass
@@ -33,6 +36,7 @@ class Options:
     time_budget: int = config.DEFAULT_TIME_BUDGET
     since: str | None = None         # ISO date, drops older stories
     max_failures: int = 3            # give up on a URL after this many failed runs
+    discovery_share: float = DISCOVERY_SHARE  # fraction of the budget spent finding URLs
     data_dir: str = "data"
     state_dir: str = "state"
     user_agent: str = config.DEFAULT_USER_AGENT
@@ -84,12 +88,19 @@ def run(options: Options) -> dict:
     }
 
     try:
+        deadline = started + options.time_budget if options.time_budget else None
+        discovery_deadline = (
+            started + options.time_budget * options.discovery_share if options.time_budget else None
+        )
+
         if not options.skip_discovery:
             sources = options.sources
             if options.mode == "incremental" and "crawl" in sources and options.crawl_depth > 1:
                 # Incremental runs only need the front pages.
                 options.crawl_depth = 1
-            found = discovery.discover(fetcher, sources, crawl_depth=options.crawl_depth)
+            found = discovery.discover(
+                fetcher, sources, crawl_depth=options.crawl_depth, deadline=discovery_deadline
+            )
             summary["discovered"] = len(found)
 
             fresh = []
@@ -105,9 +116,11 @@ def run(options: Options) -> dict:
         since_flush = 0
 
         while state.pending and summary["fetched"] < limit:
-            elapsed = time.monotonic() - started
-            if options.time_budget and elapsed > options.time_budget:
-                log.info("time budget of %ss reached; %s URLs stay queued", options.time_budget, len(state.pending))
+            if deadline is not None and time.monotonic() > deadline:
+                log.info(
+                    "time budget of %ss reached; %s URLs stay queued",
+                    options.time_budget, len(state.pending),
+                )
                 break
 
             remaining = limit - summary["fetched"]

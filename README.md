@@ -78,6 +78,11 @@ Tres fuentes que se complementan y se pueden combinar con `--sources`:
 | `rss` | Los feeds RSS de cada sección, más los que anuncie la portada. Lo más rápido para lo recién publicado. |
 | `crawl` | Recorrido por las portadas de sección, para lo que no aparezca en las otras dos. |
 
+El descubrimiento tiene su propio límite: consume como mucho el 40 % de
+`--time-budget`, así que una ejecución siempre reserva tiempo para descargar y
+guardar noticias en vez de quedarse explorando. El crawl además tiene un techo
+de 300 páginas de sección por ejecución.
+
 ## Ejecución en GitHub Actions
 
 El workflow [`Scrape Marca`](.github/workflows/scrape.yml) corre **cada 2 horas**
