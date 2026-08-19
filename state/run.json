@@ -1,0 +1,48 @@
+{
+  "updated_at": "2026-08-19T22:36:34.721945Z",
+  "seen": 25,
+  "pending": 1345,
+  "failed": 0,
+  "abandoned": 0,
+  "last_run": {
+    "mode": "incremental",
+    "discovered": 1370,
+    "queued": 1370,
+    "fetched": 25,
+    "saved": 25,
+    "skipped_old": 0,
+    "failed": 0,
+    "categories": {
+      "futbol/malaga": 2,
+      "futbol/atletico": 1,
+      "tiramillas/cine": 1,
+      "futbol/athletic": 1,
+      "ciclismo": 1,
+      "baloncesto": 1,
+      "futbol/conference-league": 1,
+      "tenis": 1,
+      "tiramillas/tiempo": 1,
+      "tiramillas/sociedad": 3,
+      "futbol/burgos": 1,
+      "futbol/sporting": 1,
+      "motor/formula1": 1,
+      "futbol/real-sociedad": 1,
+      "ciclismo/vuelta-espana": 1,
+      "futbol/real-madrid": 1,
+      "futbol/barcelona": 1,
+      "tiramillas/ciencia": 1,
+      "futbol/alaves": 1,
+      "futbol/betis": 1,
+      "tenis/masters-1000-cincinnati": 1,
+      "futbol/espanyol": 1
+    },
+    "total_articles": 25,
+    "total_categories": 22,
+    "duration_seconds": 48.6,
+    "http": {
+      "requests": 63,
+      "errors": 4,
+      "blocked": 0
+    }
+  }
+}
