@@ -65,7 +65,7 @@ class FakeFetcher:
             return Response(url, 200, SUBSECTION_HTML, "text/html")
         if url.endswith(".html") and "/20" in url:
             return Response(url, 200, ARTICLE_HTML.replace(
-                "https://www.marca.com/futbol/real-madrid/2026/08/19/68a1b2c3ca4741f1234b45a8.html", url
+                "https://www.marca.com/futbol/real-madrid/2026/08/19/vinicius-decide-clasico.html", url
             ), "text/html")
         self.stats["errors"] += 1
         return None

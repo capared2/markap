@@ -157,3 +157,24 @@ def test_latest_feed_holds_the_newest_cards_without_bodies(tmp_path):
     assert "body" not in latest["articles"][0]
     assert "images" not in latest["articles"][0]
     assert latest["articles"][0]["image"] == "https://img/4.jpg"
+
+
+def test_lookup_maps_every_article_to_its_shard(tmp_path):
+    store = ArticleStore(tmp_path, shard_size=2)
+    for n in range(3):
+        store.add(make_article(n, "futbol/real-madrid"))
+    store.flush()
+    store.rebuild_index()
+
+    lookup = json.loads(
+        (tmp_path / "futbol" / "real-madrid" / "lookup.json").read_text(encoding="utf-8")
+    )
+    assert lookup["category"] == "futbol/real-madrid"
+    assert lookup["count"] == 3
+    assert sorted(lookup["parts"].values()) == [1, 1, 2]
+    # cada id apunta al archivo que realmente lo contiene
+    for article_id, part in lookup["parts"].items():
+        payload = json.loads(
+            (tmp_path / "futbol" / "real-madrid" / f"part-{part:04d}.json").read_text(encoding="utf-8")
+        )
+        assert any(a["id"] == article_id for a in payload["articles"])

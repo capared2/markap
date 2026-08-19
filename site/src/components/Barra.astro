@@ -1,0 +1,76 @@
+---
+import type { Indice } from "../lib/types";
+import { enlaceCategoria, etiquetaCategoria, numero } from "../lib/format";
+
+interface Props {
+  indice: Indice | null;
+  activa?: string;
+}
+
+const { indice, activa } = Astro.props;
+
+// Agrupa "futbol/real-madrid" bajo su seccion raiz "futbol".
+const grupos = new Map<string, { clave: string; total: number }[]>();
+for (const entrada of indice?.categories ?? []) {
+  const raiz = entrada.category.split("/")[0]!;
+  const lista = grupos.get(raiz) ?? [];
+  lista.push({ clave: entrada.category, total: entrada.articles });
+  grupos.set(raiz, lista);
+}
+
+const ordenados = [...grupos.entries()]
+  .map(([raiz, hijos]) => ({
+    raiz,
+    total: hijos.reduce((suma, h) => suma + h.total, 0),
+    hijos: hijos.sort((a, b) => b.total - a.total),
+  }))
+  .sort((a, b) => b.total - a.total);
+---
+
+<nav aria-label="Todas las categorías" class="text-sm">
+  <h2 class="mb-3 text-xs font-semibold uppercase tracking-widest text-[var(--color-tinta-tenue)]">
+    Categorías
+  </h2>
+
+  <div class="flex flex-col gap-4 lg:max-h-[calc(100vh-11rem)] lg:overflow-y-auto lg:pr-1">
+    {
+      ordenados.map(({ raiz, total, hijos }) => (
+        <div>
+          <a
+            href={enlaceCategoria(raiz)}
+            class:list={[
+              "flex items-baseline justify-between gap-2 rounded px-2 py-1 font-bold",
+              activa === raiz
+                ? "bg-[var(--color-marca-claro)] text-[var(--color-marca)]"
+                : "hover:bg-[var(--color-lienzo-alt)]",
+            ]}
+          >
+            <span>{etiquetaCategoria(raiz)}</span>
+            <span class="text-xs font-normal tabular-nums text-[var(--color-tinta-tenue)]">
+              {numero(total)}
+            </span>
+          </a>
+
+          {hijos
+            .filter((hijo) => hijo.clave !== raiz)
+            .map((hijo) => (
+              <a
+                href={enlaceCategoria(hijo.clave)}
+                class:list={[
+                  "flex items-baseline justify-between gap-2 rounded py-1 pl-4 pr-2",
+                  activa === hijo.clave
+                    ? "bg-[var(--color-marca-claro)] font-semibold text-[var(--color-marca)]"
+                    : "text-[var(--color-tinta-suave)] hover:bg-[var(--color-lienzo-alt)]",
+                ]}
+              >
+                <span>{etiquetaCategoria(hijo.clave)}</span>
+                <span class="text-xs tabular-nums text-[var(--color-tinta-tenue)]">
+                  {numero(hijo.total)}
+                </span>
+              </a>
+            ))}
+        </div>
+      ))
+    }
+  </div>
+</nav>

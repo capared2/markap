@@ -1,0 +1,29 @@
+---
+import { colorSeccion, enlaceCategoria, etiquetaCategoria } from "../lib/format";
+
+interface Props {
+  clave: string;
+  total?: number;
+}
+
+const { clave, total } = Astro.props;
+const color = colorSeccion(clave);
+---
+
+<section class="mt-10">
+  <header class="mb-4 flex items-baseline gap-3 border-t-2 pt-3" style={`border-color:${color}`}>
+    <h2 class="font-display text-xl font-extrabold uppercase tracking-wide" style={`color:${color}`}>
+      {etiquetaCategoria(clave)}
+    </h2>
+    {total !== undefined && (
+      <span class="text-xs text-[var(--color-tinta-tenue)]">{total} en el archivo</span>
+    )}
+    <a
+      href={enlaceCategoria(clave)}
+      class="ml-auto text-xs font-semibold text-[var(--color-tinta-suave)] hover:text-[var(--color-marca)]"
+    >
+      Ver todo →
+    </a>
+  </header>
+  <slot />
+</section>

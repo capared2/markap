@@ -25,6 +25,7 @@ ARTICLE_TYPES = {
 }
 
 BODY_SELECTORS = [
+    "div.ue-l-article__main-column",
     "div.ue-l-article__body",
     "div.ue-c-article__body",
     "div.ue-l-article__main",
@@ -41,6 +42,16 @@ NOISE_PATTERN = re.compile(
     re.I,
 )
 DROP_TAGS = ("script", "style", "noscript", "aside", "nav", "footer", "form", "iframe", "svg")
+
+# Bloques que Marca intercala dentro del cuerpo y no son parte de la noticia.
+DROP_SELECTORS = (
+    ".ue-l-article__secondary-column",
+    ".ue-c-article__related",
+    ".ue-c-article__premium-block",
+    ".tab-breadcrumb",
+    "ue-related",
+    "[data-related]",
+)
 
 
 def _text(node) -> str:
@@ -190,6 +201,9 @@ def _body_text(soup: BeautifulSoup) -> tuple[str, list[str]]:
     working = BeautifulSoup(str(container), "lxml")
     for tag in working.find_all(DROP_TAGS):
         tag.decompose()
+    for selector in DROP_SELECTORS:
+        for tag in working.select(selector):
+            tag.decompose()
     for tag in working.find_all(attrs={"class": NOISE_PATTERN}):
         tag.decompose()
     for tag in working.find_all(attrs={"id": NOISE_PATTERN}):
@@ -250,9 +264,16 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
     if isinstance(keywords, str):
         keywords = [k.strip() for k in keywords.split(",")]
     tags = [str(k).strip() for k in (keywords or []) if str(k).strip()]
+    # news_keywords a veces trae solo las palabras del slug ("vinagrismo",
+    # "ilustrado", "real"…), que no aportan nada: se descartan.
+    palabras_slug = set(re.split(r"[-_]", urlutil.article_id(canonical).lower()))
     news_keywords = _meta(soup, "news_keywords")
     if news_keywords:
-        tags.extend(k.strip() for k in news_keywords.split(",") if k.strip())
+        tags.extend(
+            k.strip()
+            for k in news_keywords.split(",")
+            if k.strip() and not (k.strip().islower() and k.strip() in palabras_slug)
+        )
     seen_tags: set[str] = set()
     tags = [t for t in tags if not (t.lower() in seen_tags or seen_tags.add(t.lower()))]
 
@@ -270,11 +291,20 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
         or _meta(soup, "article:section")
         or ""
     )
-    breadcrumbs = [
-        _text(node)
-        for node in soup.select(".ue-c-breadcrumb a, nav[aria-label*=migas] a, .breadcrumb a")
-        if _text(node)
-    ]
+    migas = soup.select_one("ul.tab-breadcrumb.js-containerbreadcrumb") or soup.select_one(
+        ".ue-c-breadcrumb, nav[aria-label*=migas]"
+    )
+    breadcrumbs = [_text(a) for a in migas.find_all("a")] if migas else []
+    breadcrumbs = [m for m in breadcrumbs if m]
+
+    tipo_contenido = next(
+        (
+            tag["content"].split(":", 1)[1]
+            for tag in soup.find_all("meta", attrs={"name": "mrf:tags"})
+            if tag.get("content", "").startswith("contentType:")
+        ),
+        None,
+    )
 
     videos = [
         urljoin(url, node.get("src"))
@@ -289,6 +319,7 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
         "category": urlutil.category_key(canonical, category_depth),
         "category_path": urlutil.category_segments(canonical),
         "section": section,
+        "content_type": tipo_contenido,
         "breadcrumbs": breadcrumbs,
         "title": title.strip(),
         "standfirst": standfirst,

@@ -129,11 +129,16 @@ class ArticleStore:
         """Write ``data/index.json`` and the ``data/latest.json`` cover feed."""
         categories: list[dict] = []
         latest: list[dict] = []
+        lookups: dict[str, dict[str, int]] = {}
         total = 0
         for part in sorted(self.data_dir.rglob("part-*.json")):
             payload = _read_json(part, {})
             if not payload.get("category"):
                 continue
+            lookup = lookups.setdefault(payload["category"], {})
+            for article in payload.get("articles", []):
+                if article.get("id"):
+                    lookup[article["id"]] = payload.get("part", 1)
             latest.extend(
                 {key: article.get(key) for key in CARD_FIELDS}
                 for article in payload.get("articles", [])
@@ -162,6 +167,14 @@ class ArticleStore:
             self.data_dir / "latest.json",
             {"generated_at": _now(), "count": len(latest), "articles": latest},
         )
+
+        # Un mapa id -> numero de parte por categoria, para que el frontend
+        # resuelva cualquier noticia leyendo un solo archivo.
+        for category, lookup in lookups.items():
+            _write_json(
+                self.category_dir(category) / "lookup.json",
+                {"category": category, "count": len(lookup), "parts": lookup},
+            )
 
         index = {
             "source": "marca.com",

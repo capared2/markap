@@ -1,0 +1,116 @@
+---
+import type { Indice } from "../lib/types";
+import { enlaceCategoria, etiquetaCategoria, nombreCategoria } from "../lib/format";
+
+interface Props {
+  indice: Indice | null;
+  categoriaActiva?: string;
+}
+
+const { indice, categoriaActiva } = Astro.props;
+
+// Secciones principales de la barra: las cabeceras de primer nivel con mas
+// noticias archivadas.
+const principales = [...new Set((indice?.categories ?? []).map((c) => c.category.split("/")[0]!))]
+  .map((raiz) => ({
+    raiz,
+    total: (indice?.categories ?? [])
+      .filter((c) => c.category === raiz || c.category.startsWith(`${raiz}/`))
+      .reduce((suma, c) => suma + c.articles, 0),
+  }))
+  .sort((a, b) => b.total - a.total)
+  .slice(0, 10);
+---
+
+<header
+  class="sticky top-0 z-20 border-b border-[var(--color-linea)] bg-[var(--color-lienzo)]/95 backdrop-blur"
+>
+  <div class="contenedor flex items-center gap-4 py-3">
+    <a href="/" class="flex shrink-0 items-center gap-2" aria-label="markap, inicio">
+      <span class="grid size-8 place-items-center rounded-md bg-[var(--color-marca)] text-lg font-bold text-white">
+        m
+      </span>
+      <span class="flex flex-col leading-none">
+        <strong class="font-display text-2xl font-extrabold uppercase leading-none tracking-tight">markap</strong>
+        <small class="text-[0.65rem] uppercase tracking-widest text-[var(--color-tinta-tenue)]">
+          archivo de marca.com
+        </small>
+      </span>
+    </a>
+
+    <form action="/buscar" method="get" role="search" class="ml-auto w-full max-w-sm">
+      <label for="q" class="sr-only">Buscar noticias</label>
+      <div class="relative">
+        <svg
+          class="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 stroke-[var(--color-tinta-tenue)]"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M20 20l-3.5-3.5"></path>
+        </svg>
+        <input
+          id="q"
+          name="q"
+          type="search"
+          placeholder="Buscar titulares, autores, etiquetas…"
+          autocomplete="off"
+          class="w-full rounded-full border border-[var(--color-linea)] bg-[var(--color-lienzo-alt)] py-2 pl-9 pr-4 text-sm outline-none placeholder:text-[var(--color-tinta-tenue)] focus:border-[var(--color-marca)] focus:bg-[var(--color-lienzo)]"
+        />
+      </div>
+    </form>
+
+    <button
+      type="button"
+      id="cambiar-tema"
+      aria-label="Cambiar entre tema claro y oscuro"
+      class="grid size-9 shrink-0 place-items-center rounded-full border border-[var(--color-linea)] text-[var(--color-tinta-suave)] hover:border-[var(--color-marca)] hover:text-[var(--color-marca)]"
+    >
+      <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"></path>
+      </svg>
+    </button>
+  </div>
+
+  {
+    principales.length > 0 && (
+      <nav aria-label="Secciones" class="contenedor flex gap-1 overflow-x-auto pb-2 text-sm">
+        <a
+          href="/"
+          class:list={[
+            "shrink-0 rounded-full px-3 py-1 font-semibold",
+            !categoriaActiva
+              ? "bg-[var(--color-marca)] text-white"
+              : "text-[var(--color-tinta-suave)] hover:bg-[var(--color-lienzo-alt)]",
+          ]}
+        >
+          Portada
+        </a>
+        {principales.map(({ raiz }) => (
+          <a
+            href={enlaceCategoria(raiz)}
+            title={nombreCategoria(raiz)}
+            class:list={[
+              "shrink-0 rounded-full px-3 py-1 font-semibold",
+              categoriaActiva === raiz || categoriaActiva?.startsWith(`${raiz}/`)
+                ? "bg-[var(--color-marca)] text-white"
+                : "text-[var(--color-tinta-suave)] hover:bg-[var(--color-lienzo-alt)]",
+            ]}
+          >
+            {etiquetaCategoria(raiz)}
+          </a>
+        ))}
+      </nav>
+    )
+  }
+</header>
+
+<script is:inline>
+  document.getElementById("cambiar-tema")?.addEventListener("click", () => {
+    const oscuro = document.documentElement.classList.toggle("oscuro");
+    localStorage.setItem("tema", oscuro ? "oscuro" : "claro");
+  });
+</script>

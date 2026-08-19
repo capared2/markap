@@ -1,0 +1,134 @@
+---
+import Base from "../../layouts/Base.astro";
+import Tarjeta from "../../components/Tarjeta.astro";
+import { obtenerIndice, obtenerNoticia, obtenerRelacionadas } from "../../lib/data";
+import { enlaceCategoria, fecha, nombreCategoria } from "../../lib/format";
+
+// La ruta es /noticia/<categoria con barras>/<id>
+const ruta = (Astro.params.ruta ?? "").split("/").filter(Boolean);
+const id = ruta.pop() ?? "";
+const categoria = ruta.join("/");
+
+if (!categoria || !id) {
+  return new Response(null, { status: 404, statusText: "Noticia no encontrada" });
+}
+
+const [indice, noticia] = await Promise.all([
+  obtenerIndice(Astro.url),
+  obtenerNoticia(categoria, id, Astro.url),
+]);
+
+if (!noticia) {
+  return new Response(null, { status: 404, statusText: "Noticia no encontrada" });
+}
+
+const relacionadas = await obtenerRelacionadas(noticia, Astro.url);
+const portada = noticia.images?.[0];
+const galeria = (noticia.images ?? []).slice(1, 5);
+---
+
+<Base
+  titulo={`${noticia.title} · markap`}
+  descripcion={noticia.summary || noticia.standfirst}
+  indice={indice}
+  categoriaActiva={noticia.category}
+  cache={86400}
+>
+  <article class="mx-auto max-w-3xl">
+    <a
+      href={enlaceCategoria(noticia.category)}
+      class="text-sm text-[var(--color-tinta-suave)] hover:text-[var(--color-marca)]"
+    >
+      ← {nombreCategoria(noticia.category)}
+    </a>
+
+    <h1 class="mt-3 font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">
+      {noticia.title}
+    </h1>
+
+    {
+      noticia.standfirst && (
+        <p class="mt-3 font-serif text-lg text-[var(--color-tinta-suave)]">{noticia.standfirst}</p>
+      )
+    }
+
+    <div
+      class="my-5 flex flex-wrap items-center gap-x-3 gap-y-1 border-y border-[var(--color-linea)] py-3 text-sm text-[var(--color-tinta-tenue)]"
+    >
+      {noticia.authors.length > 0 && (
+        <span class="font-semibold text-[var(--color-tinta)]">{noticia.authors.join(", ")}</span>
+      )}
+      {noticia.published_at && (
+        <time datetime={noticia.published_at}>{fecha(noticia.published_at, true)}</time>
+      )}
+      <span>{noticia.word_count} palabras</span>
+      {noticia.is_premium && (
+        <span class="rounded bg-[var(--color-marca-claro)] px-1.5 py-0.5 text-xs font-bold uppercase text-[var(--color-marca)]">
+          Premium
+        </span>
+      )}
+    </div>
+
+    {
+      portada && (
+        <figure class="mb-6">
+          <img src={portada.url} alt="" class="w-full rounded-xl" loading="eager" />
+          {portada.caption && (
+            <figcaption class="pt-2 text-xs text-[var(--color-tinta-tenue)]">
+              {portada.caption}
+            </figcaption>
+          )}
+        </figure>
+      )
+    }
+
+    <div class="font-serif text-lg leading-relaxed">
+      {noticia.paragraphs.map((parrafo) => <p class="mb-5">{parrafo}</p>)}
+    </div>
+
+    {
+      galeria.length > 0 && (
+        <div class="my-8 grid grid-cols-2 gap-3">
+          {galeria.map((imagen) => (
+            <img src={imagen.url} alt={imagen.caption ?? ""} loading="lazy" class="w-full rounded-lg" />
+          ))}
+        </div>
+      )
+    }
+
+    {
+      noticia.tags.length > 0 && (
+        <div class="my-6 flex flex-wrap gap-2">
+          {noticia.tags.map((etiqueta) => (
+            <span class="rounded-full bg-[var(--color-lienzo-alt)] px-3 py-1 text-xs text-[var(--color-tinta-suave)]">
+              {etiqueta}
+            </span>
+          ))}
+        </div>
+      )
+    }
+
+    <a
+      href={noticia.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block rounded-xl border border-[var(--color-linea)] bg-[var(--color-lienzo)] p-4 text-sm text-[var(--color-tinta-suave)] hover:border-[var(--color-marca)] hover:text-[var(--color-marca)]"
+    >
+      <strong class="block text-[var(--color-tinta)]">Leer en marca.com</strong>
+      Esta copia procede del archivo; el original y sus derechos pertenecen a Marca.
+    </a>
+  </article>
+
+  {
+    relacionadas.length > 0 && (
+      <section class="mx-auto mt-12 max-w-5xl">
+        <h2 class="mb-4 border-t-2 border-[var(--color-marca)] pt-3 font-display text-xl font-extrabold uppercase tracking-wide">Más de {nombreCategoria(noticia.category)}</h2>
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {relacionadas.map((articulo) => (
+            <Tarjeta articulo={articulo} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Base>

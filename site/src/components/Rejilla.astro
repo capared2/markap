@@ -1,0 +1,21 @@
+---
+import type { Noticia, Tarjeta as TipoTarjeta } from "../lib/types";
+import Tarjeta from "./Tarjeta.astro";
+
+interface Props {
+  articulos: (TipoTarjeta | Noticia)[];
+  columnas?: 2 | 3 | 4;
+}
+
+const { articulos, columnas = 3 } = Astro.props;
+
+const rejilla = {
+  2: "sm:grid-cols-2",
+  3: "sm:grid-cols-2 lg:grid-cols-3",
+  4: "sm:grid-cols-2 lg:grid-cols-4",
+}[columnas];
+---
+
+<div class:list={["grid gap-5", rejilla]}>
+  {articulos.map((articulo) => <Tarjeta articulo={articulo} />)}
+</div>

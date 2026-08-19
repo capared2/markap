@@ -1,0 +1,86 @@
+---
+import "../styles/global.css";
+import Cabecera from "../components/Cabecera.astro";
+import Pie from "../components/Pie.astro";
+import type { Indice } from "../lib/types";
+
+interface Props {
+  titulo: string;
+  descripcion?: string;
+  indice: Indice | null;
+  /** Segundos que el edge de Cloudflare puede reutilizar la respuesta. */
+  cache?: number;
+  categoriaActiva?: string;
+}
+
+const {
+  titulo,
+  descripcion = "Archivo navegable de las noticias publicadas en marca.com, ordenado por categoría.",
+  indice,
+  cache = 900,
+  categoriaActiva,
+} = Astro.props;
+
+// El dataset se regenera cada dos horas: servir desde el edge y revalidar en
+// segundo plano mantiene el sitio rápido sin quedarse obsoleto.
+Astro.response.headers.set(
+  "Cache-Control",
+  `public, max-age=60, s-maxage=${cache}, stale-while-revalidate=86400`,
+);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo}</title>
+    <meta name="description" content={descripcion} />
+    <meta property="og:title" content={titulo} />
+    <meta property="og:description" content={descripcion} />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23d8232a'/><text x='50' y='72' font-size='62' font-family='Helvetica,Arial' font-weight='bold' fill='white' text-anchor='middle'>m</text></svg>"
+    />
+    <script is:inline>
+      // Las fotos siguen alojadas en el CDN de Marca: si alguna desaparece,
+      // se oculta en vez de mostrar el icono de imagen rota.
+      addEventListener(
+        "error",
+        (evento) => {
+          if (evento.target instanceof HTMLImageElement) evento.target.style.visibility = "hidden";
+        },
+        true,
+      );
+
+      // Aplica el tema antes de pintar para que no haya destello.
+      const guardado = localStorage.getItem("tema");
+      const oscuro = guardado ? guardado === "oscuro" : matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.classList.toggle("oscuro", oscuro);
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a
+      href="#contenido"
+      class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:m-2 focus:rounded focus:bg-[var(--color-marca)] focus:px-4 focus:py-2 focus:text-white"
+    >
+      Ir al contenido
+    </a>
+
+    <Cabecera indice={indice} categoriaActiva={categoriaActiva} />
+
+    <main id="contenido" class="contenedor w-full flex-1 py-8">
+      <slot />
+    </main>
+
+    <Pie indice={indice} />
+  </body>
+</html>

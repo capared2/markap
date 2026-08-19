@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+import Vacio from "../components/Vacio.astro";
+import { obtenerIndice } from "../lib/data";
+
+const indice = await obtenerIndice(Astro.url);
+---
+
+<Base titulo="Página no encontrada · markap" indice={indice} cache={3600}>
+  <Vacio
+    titulo="Esta página no existe"
+    detalle="Puede que la noticia todavía no esté en el archivo. Vuelve a la portada o entra por categoría."
+  />
+  <p class="mt-6 text-center">
+    <a
+      href="/"
+      class="rounded-full border border-[var(--color-linea)] px-4 py-2 text-sm font-semibold hover:border-[var(--color-marca)] hover:text-[var(--color-marca)]"
+    >
+      Ir a la portada
+    </a>
+  </p>
+</Base>

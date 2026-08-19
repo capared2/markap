@@ -5,7 +5,7 @@ import pytest
 from scraper.parser import parse_article, parse_date
 
 FIXTURE = Path(__file__).parent / "fixtures" / "article.html"
-URL = "https://www.marca.com/futbol/real-madrid/2026/08/19/68a1b2c3ca4741f1234b45a8.html"
+URL = "https://www.marca.com/futbol/real-madrid/2026/08/19/vinicius-decide-clasico.html"
 
 
 @pytest.fixture(scope="module")
@@ -15,7 +15,7 @@ def article():
 
 def test_core_fields(article):
     assert article["title"] == "Vinicius decide el clasico en el 93"
-    assert article["id"] == "68a1b2c3ca4741f1234b45a8"
+    assert article["id"] == "vinicius-decide-clasico"
     assert article["url"] == URL
     assert article["category"] == "futbol/real-madrid"
     assert article["category_path"] == ["futbol", "real-madrid"]
@@ -70,3 +70,28 @@ def test_parse_article_returns_none_without_headline():
 )
 def test_parse_date_handles_every_format_marca_emits(raw, expected):
     assert parse_date(raw) == expected
+
+
+def test_related_teasers_from_the_sidebar_stay_out_of_the_body(article):
+    """La columna secundaria de Marca son noticias relacionadas, no el cuerpo."""
+    assert "Mercado cerrado" not in article["body"]
+    assert "Mourinho" not in article["body"]
+    assert not any("Mercado cerrado" in p for p in article["paragraphs"])
+
+
+def test_breadcrumbs_come_from_the_real_marca_markup(article):
+    assert article["breadcrumbs"] == ["Marca", "Futbol", "Real Madrid"]
+    # el submenu de secciones no es una miga de pan
+    assert "Plantilla" not in article["breadcrumbs"]
+
+
+def test_slug_words_are_not_kept_as_tags(article):
+    """news_keywords repite el slug de la URL; eso no son etiquetas."""
+    assert "decide" not in article["tags"]
+    assert "vinicius" not in article["tags"]
+    assert "Vinicius" in article["tags"]
+    assert "Real Madrid" in article["tags"]
+
+
+def test_content_type_is_read_from_marca_metadata(article):
+    assert article["content_type"] == "opinion"

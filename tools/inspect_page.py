@@ -23,6 +23,19 @@ def describe(node) -> str:
     return f"<{node.name}{' id=' + ident if ident else ''}{' class=' + classes if classes else ''}>"
 
 
+def arbol(nodo, nivel: int, maximo: int = 3) -> None:
+    """Imprime la estructura de bloques con el inicio de su texto."""
+    if nivel >= maximo:
+        return
+    for hijo in nodo.find_all(recursive=False):
+        if hijo.name in ("script", "style", "noscript"):
+            continue
+        texto = hijo.get_text(" ", strip=True)[:78].replace("\n", " ")
+        sangria = "  " * (nivel + 2)
+        print(f"{sangria}{describe(hijo)[:64]:66} | {texto}")
+        arbol(hijo, nivel + 1, maximo)
+
+
 def main(url: str) -> int:
     fetcher = Fetcher(delay=0)
     resp = fetcher.get(url)
@@ -52,10 +65,8 @@ def main(url: str) -> int:
 
     if container is not None:
         print(f"\n  contenedor elegido: {describe(container)}")
-        print("\n  hijos directos (tag / clases / inicio del texto):")
-        for child in container.find_all(recursive=False):
-            texto = child.get_text(" ", strip=True)[:70].replace("\n", " ")
-            print(f"    {describe(child)[:70]:72} | {texto}")
+        print("\n  arbol de bloques (hasta 3 niveles):")
+        arbol(container, 0)
 
     print()
     print("=" * 70)

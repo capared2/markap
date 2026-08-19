@@ -1,0 +1,124 @@
+---
+import Base from "../layouts/Base.astro";
+import Tarjeta from "../components/Tarjeta.astro";
+import Rejilla from "../components/Rejilla.astro";
+import ListaUltimas from "../components/ListaUltimas.astro";
+import Seccion from "../components/Seccion.astro";
+import Vacio from "../components/Vacio.astro";
+import { obtenerIndice, obtenerPortada } from "../lib/data";
+import { fecha, fechaLarga, numero } from "../lib/format";
+import type { Tarjeta as TipoTarjeta } from "../lib/types";
+
+const [indice, portada] = await Promise.all([
+  obtenerIndice(Astro.url),
+  obtenerPortada(Astro.url),
+]);
+
+const articulos = portada?.articles ?? [];
+
+// Apertura clasica de portada: una noticia principal, dos de apoyo y una
+// columna con lo ultimo que ha entrado.
+const [apertura, ...resto] = articulos;
+const apoyo = resto.slice(0, 2);
+const ultimas = articulos.slice(0, 8);
+
+// Bandas por seccion, ordenadas por volumen de noticias recientes.
+const porSeccion = new Map<string, TipoTarjeta[]>();
+for (const articulo of resto.slice(2)) {
+  const raiz = articulo.category.split("/")[0]!;
+  porSeccion.set(raiz, [...(porSeccion.get(raiz) ?? []), articulo]);
+}
+
+const totales = new Map(
+  (indice?.categories ?? []).map((c) => [c.category.split("/")[0]!, 0] as const),
+);
+for (const categoria of indice?.categories ?? []) {
+  const raiz = categoria.category.split("/")[0]!;
+  totales.set(raiz, (totales.get(raiz) ?? 0) + categoria.articles);
+}
+
+// Una banda con una sola noticia deja la fila coja: esas van al bloque final.
+const candidatas = [...porSeccion.entries()].map(([clave, lista]) => ({
+  clave,
+  lista,
+  total: totales.get(clave) ?? 0,
+}));
+
+const bandas = candidatas
+  .filter((banda) => banda.lista.length >= 2)
+  .map((banda) => ({ ...banda, lista: banda.lista.slice(0, 4) }))
+  .sort((a, b) => b.lista.length - a.lista.length || b.total - a.total);
+
+const sueltas = candidatas
+  .filter((banda) => banda.lista.length < 2)
+  .flatMap((banda) => banda.lista);
+
+const hoy = fechaLarga(new Date());
+---
+
+<Base titulo="markap · archivo de noticias de Marca" indice={indice} cache={600}>
+  <div class="mb-6 flex flex-wrap items-baseline justify-between gap-2 border-b border-[var(--color-linea)] pb-3">
+    <h1 class="font-display text-4xl font-extrabold uppercase tracking-tight">Portada</h1>
+    <p class="text-sm text-[var(--color-tinta-tenue)]">
+      <span>{hoy}</span>
+      {indice && ` · ${numero(indice.total_articles)} noticias archivadas`}
+      {indice && ` · actualizado ${fecha(indice.generated_at, true)}`}
+    </p>
+  </div>
+
+  {
+    articulos.length === 0 ? (
+      <Vacio
+        titulo="Todavía no hay noticias archivadas"
+        detalle="Ejecuta el workflow «Scrape Marca» en GitHub Actions para llenar el archivo."
+      />
+    ) : (
+      <>
+        <div class="grid gap-6 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
+          <div class="flex flex-col gap-6">
+            {apertura && <Tarjeta articulo={apertura} variante="apertura" />}
+            {apoyo.length > 0 && (
+              <div class="grid gap-5 sm:grid-cols-2">
+                {apoyo.map((articulo) => (
+                  <Tarjeta articulo={articulo} />
+                ))}
+              </div>
+            )}
+          </div>
+
+          <ListaUltimas articulos={ultimas} />
+        </div>
+
+        {bandas.map((banda) => (
+          <Seccion clave={banda.clave} total={banda.total}>
+            <Rejilla articulos={banda.lista} columnas={4} />
+          </Seccion>
+        ))}
+
+        {sueltas.length > 0 && (
+          <section class="mt-10">
+            <header class="mb-4 border-t-2 border-[var(--color-tinta-tenue)] pt-3">
+              <h2 class="font-display text-xl font-extrabold uppercase tracking-wide">
+                También en el archivo
+              </h2>
+            </header>
+            <div class="grid gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
+              {sueltas.map((articulo) => (
+                <Tarjeta articulo={articulo} variante="compacta" />
+              ))}
+            </div>
+          </section>
+        )}
+
+        <p class="mt-12 text-center">
+          <a
+            href="/categorias"
+            class="rounded-full border border-[var(--color-linea)] px-5 py-2 text-sm font-semibold hover:border-[var(--color-marca)] hover:text-[var(--color-marca)]"
+          >
+            Ver todas las categorías del archivo
+          </a>
+        </p>
+      </>
+    )
+  }
+</Base>
