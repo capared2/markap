@@ -45,8 +45,15 @@ DROP_TAGS = ("script", "style", "noscript", "aside", "nav", "footer", "form", "i
 
 # Bloques que Marca intercala dentro del cuerpo y no son parte de la noticia.
 DROP_SELECTORS = (
-    ".ue-l-article__secondary-column",
+    ".ue-l-article__secondary-column",   # barra lateral con otras noticias
+    ".ue-c-article__subtitles",          # titulares de noticias relacionadas
+    ".ue-c-article__related-news",
     ".ue-c-article__related",
+    ".ue-c-article__bar",                # firma y fecha
+    ".ue-c-article__bar-secondary",      # botones de compartir
+    ".ue-c-article__share-tools",
+    ".ue-c-article__tags-container",
+    ".ue-c-popular-links",
     ".ue-c-article__premium-block",
     ".tab-breadcrumb",
     "ue-related",
@@ -260,10 +267,15 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
             if _text(node)
         ]
 
+    tags: list[str] = [
+        _text(nodo) for nodo in soup.select(".ue-c-article__tags a, .ue-c-article__tags-item")
+    ]
+    tags = [t for t in tags if t]
+
     keywords = data.get("keywords")
     if isinstance(keywords, str):
         keywords = [k.strip() for k in keywords.split(",")]
-    tags = [str(k).strip() for k in (keywords or []) if str(k).strip()]
+    tags += [str(k).strip() for k in (keywords or []) if str(k).strip()]
     news_keywords = _meta(soup, "news_keywords")
     if news_keywords:
         tags.extend(k.strip() for k in news_keywords.split(",") if k.strip())

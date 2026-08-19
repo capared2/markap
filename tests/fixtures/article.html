@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Replica la maqueta real de marca.com (ver tools/ultima-inspeccion.txt). -->
 <html lang="es">
 <head>
   <title>Vinicius decide el clasico | Marca</title>
@@ -6,8 +7,11 @@
   <meta property="og:title" content="Vinicius decide el clasico en el 93"/>
   <meta property="og:description" content="El brasileno firmo el 2-1 definitivo en el descuento."/>
   <meta property="og:image" content="https://phantom-marca.uecdn.es/foto/vini.jpg"/>
-  <meta name="news_keywords" content="Real Madrid, Vinicius, Clasico, vinicius, decide, clasico"/>
+  <meta name="news_keywords" content="vinicius, decide, clasico"/>
   <meta property="article:section" content="Real Madrid"/>
+  <meta name="mrf:sections" content="futbol"/>
+  <meta name="mrf:tags" content="sub-section:real-madrid"/>
+  <meta name="mrf:tags" content="contentType:opinion"/>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -20,7 +24,7 @@
         "datePublished": "2026-08-19T22:47:00+02:00",
         "dateModified": "2026-08-19T23:10:00Z",
         "articleSection": "Real Madrid",
-        "keywords": "Real Madrid, LaLiga",
+        "keywords": "vinicius, decide, clasico",
         "author": [{"@type": "Person", "name": "Juan Castro"}, {"@type": "Person", "name": "Marca Redaccion"}],
         "image": {"@type": "ImageObject", "url": "https://phantom-marca.uecdn.es/foto/vini-jsonld.jpg"},
         "isAccessibleForFree": false
@@ -30,27 +34,80 @@
   </script>
 </head>
 <body>
-  <ul class="tab-breadcrumb js-containerbreadcrumb"><li><a href="/">Marca</a></li><li><a href="/futbol.html">Futbol</a></li><li><a href="/futbol/real-madrid.html">Real Madrid</a></li></ul>
-  <ul class="tab-breadcrumb tab-breadcrumb-list js-breadcrumb-submenu"><li><a href="#">Noticias</a></li><li><a href="#">Plantilla</a></li></ul>
-  <meta name="mrf:tags" content="contentType:opinion"/>
-  <article>
-    <h1>Vinicius decide el clasico en el 93</h1>
-    <p class="ue-c-article__standfirst">El brasileno aparecio cuando peor lo pasaba su equipo en el Bernabeu.</p>
-    <div class="ue-l-article__body">
-    <div class="ue-l-article__main-column">
-      <p>El Real Madrid gano un clasico agonico gracias a un gol de Vinicius en el minuto 93 de partido.</p>
-      <h2>Un final de infarto que nadie esperaba en el estadio</h2>
-      <p>El Barcelona habia empatado diez minutos antes con un cabezazo dentro del area pequena.</p>
-      <figure><img src="/foto/interior.jpg"/><figcaption>Vinicius celebra el gol</figcaption></figure>
-      <div class="ue-c-article__related"><p>Te puede interesar esta otra noticia relacionada del club</p></div>
-      <p>corto</p>
-      <script>var ads = 1;</script>
+  <ul class="tab-breadcrumb js-containerbreadcrumb">
+    <li><a href="/">Marca</a></li><li><a href="/futbol.html">Futbol</a></li><li><a href="/futbol/real-madrid.html">Real Madrid</a></li>
+  </ul>
+  <ul class="tab-breadcrumb tab-breadcrumb-list js-breadcrumb-submenu">
+    <li><a href="#">Noticias</a></li><li><a href="#">Plantilla</a></li>
+  </ul>
+
+  <!-- Marca usa la misma clase de columna para la cabecera y para el cuerpo. -->
+  <div class="ue-l-article__main-column">
+    <div class="ue-c-article__header">
+      <div class="ue-c-article__kicker-group">Real Madrid</div>
+      <h1 class="ue-c-article__headline">Vinicius decide el clasico en el 93</h1>
+      <p class="ue-c-article__standfirst">El brasileno aparecio cuando peor lo pasaba su equipo en el Bernabeu.</p>
     </div>
+  </div>
+
+  <div class="ue-l-article__body">
+    <div class="ue-l-article__main-column ue-l-article--minimum-content-from-tablet">
+      <figure class="ue-c-article__media">
+        <div class="ue-c-article__media-img-container"><img src="/foto/interior.jpg"/></div>
+        <figcaption class="ue-c-article__media-caption">Vinicius celebra el gol</figcaption>
+      </figure>
+
+      <div class="ue-c-article__bar">
+        <ul class="ue-c-article__byline"><li>JUAN CASTRO</li></ul>
+        <div class="ue-c-article__publishdate">Actualizado 19/08/2026 - 22:47 CEST</div>
+      </div>
+
+      <div class="ue-c-article__bar-secondary">
+        <ul class="ue-c-article__share-tools">
+          <li class="ue-c-article__share-tools-item">Compartir en Facebook y en el resto de redes</li>
+        </ul>
+      </div>
+
+      <!-- Titulares de otras noticias, no forman parte de esta. -->
+      <ul class="ue-c-article__subtitles">
+        <li class="ue-c-article__subtitles-item">
+          <span class="ue-c-article__subtitles-kicker">Real Madrid.</span>
+          <a href="/otra.html">Mercado cerrado... salvo "accidente" en el ultimo dia de plazo</a>
+        </li>
+        <li class="ue-c-article__subtitles-item">
+          <span class="ue-c-article__subtitles-kicker">Real Madrid.</span>
+          <a href="/otra2.html">Mourinho: "No puedo esconder o intentar ser lo que no soy en absoluto"</a>
+        </li>
+      </ul>
+
+      <div class="ue-c-article__body">
+        <p class="ue-c-article__paragraph">El Real Madrid gano un clasico agonico gracias a un gol de Vinicius en el minuto 93 de partido.</p>
+        <h2>Un final de infarto que nadie esperaba en el estadio</h2>
+        <p class="ue-c-article__paragraph">El Barcelona habia empatado diez minutos antes con un cabezazo dentro del area pequena.</p>
+        <p class="ue-c-article__paragraph">corto</p>
+        <script>var ads = 1;</script>
+      </div>
+
+      <div class="ue-c-article__tags-container">
+        <ul class="ue-c-article__tags">
+          <li class="ue-c-article__tags-item"><a href="/t/real-madrid">Real Madrid</a></li>
+          <li class="ue-c-article__tags-item"><a href="/t/vinicius">Vinicius</a></li>
+        </ul>
+      </div>
+
+      <div class="ue-c-article__related-news">
+        <div class="ue-c-article__related-news-item">
+          <span class="ue-c-article__related-news-kicker">Real Madrid</span>
+          <a href="/rel.html">Demandar al Madrid y luego arbitrarle en la misma temporada</a>
+        </div>
+      </div>
+
+      <div class="ue-c-popular-links js-featured-links">Ver enlaces de interes Mundial Resultados Calendario</div>
+    </div>
+
     <div class="ue-l-article__secondary-column">
-      <p>Real Madrid. Mercado cerrado... salvo "accidente" en el mercado de fichajes</p>
-      <p>Real Madrid. Mourinho: "No puedo esconder o intentar ser lo que no soy en absoluto"</p>
+      <p>Otra noticia distinta que vive en la barra lateral del articulo</p>
     </div>
-    </div>
-  </article>
+  </div>
 </body>
 </html>

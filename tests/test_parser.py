@@ -28,12 +28,8 @@ def test_dates_are_normalised_to_utc(article):
     assert article["modified_at"] == "2026-08-19T23:10:00Z"
 
 
-def test_authors_and_tags(article):
+def test_authors(article):
     assert article["authors"] == ["Juan Castro", "Marca Redaccion"]
-    assert "Real Madrid" in article["tags"]
-    assert "Clasico" in article["tags"]
-    # deduplicated case-insensitively across json-ld and news_keywords
-    assert sum(t.lower() == "real madrid" for t in article["tags"]) == 1
 
 
 def test_body_keeps_prose_and_drops_noise(article):
@@ -72,11 +68,19 @@ def test_parse_date_handles_every_format_marca_emits(raw, expected):
     assert parse_date(raw) == expected
 
 
-def test_related_teasers_from_the_sidebar_stay_out_of_the_body(article):
-    """La columna secundaria de Marca son noticias relacionadas, no el cuerpo."""
-    assert "Mercado cerrado" not in article["body"]
-    assert "Mourinho" not in article["body"]
-    assert not any("Mercado cerrado" in p for p in article["paragraphs"])
+def test_only_the_story_itself_ends_up_in_the_body(article):
+    """Marca rodea el cuerpo de titulares ajenos, firma, compartir y tags."""
+    for intruso in (
+        "Mercado cerrado",        # ue-c-article__subtitles
+        "Mourinho",               # ue-c-article__subtitles
+        "Demandar al Madrid",     # ue-c-article__related-news
+        "barra lateral",          # ue-l-article__secondary-column
+        "Compartir en Facebook",  # ue-c-article__share-tools
+        "enlaces de interes",     # ue-c-popular-links
+        "Actualizado 19/08/2026", # ue-c-article__publishdate
+    ):
+        assert intruso not in article["body"], f"«{intruso}» no es parte de la noticia"
+    assert "gol de Vinicius en el minuto 93" in article["body"]
 
 
 def test_breadcrumbs_come_from_the_real_marca_markup(article):
@@ -85,12 +89,9 @@ def test_breadcrumbs_come_from_the_real_marca_markup(article):
     assert "Plantilla" not in article["breadcrumbs"]
 
 
-def test_slug_words_are_not_kept_as_tags(article):
-    """news_keywords repite el slug de la URL; eso no son etiquetas."""
-    assert "decide" not in article["tags"]
-    assert "vinicius" not in article["tags"]
-    assert "Vinicius" in article["tags"]
-    assert "Real Madrid" in article["tags"]
+def test_tags_come_from_marcas_own_tag_list(article):
+    """Las etiquetas buenas son las que Marca pinta; el slug no aporta nada."""
+    assert article["tags"] == ["Real Madrid", "Vinicius"]
 
 
 def test_content_type_is_read_from_marca_metadata(article):
