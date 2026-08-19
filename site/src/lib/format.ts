@@ -80,13 +80,31 @@ const ACENTOS: Record<string, string> = {
   "juegos-olimpicos": "Juegos Olímpicos",
   esports: "eSports",
   tiramillas: "Tiramillas",
+  // Ediciones internacionales de Marca, que cuelgan de su propio prefijo.
+  co: "Marca Colombia",
+  mx: "Marca México",
+  us: "Marca USA",
+  en: "Marca English",
+  ar: "Marca Argentina",
+  cl: "Marca Chile",
+  pe: "Marca Perú",
+  ve: "Marca Venezuela",
+  "claro-sports": "Claro Sports",
+  "combates-ufc": "Combates / UFC",
 };
+
+// Palabras que no llevan mayuscula dentro de un nombre de seccion.
+const MINUSCULAS = new Set(["y", "de", "del", "la", "el", "en", "los", "las", "a"]);
 
 function titulo(texto: string): string {
   if (ACENTOS[texto]) return ACENTOS[texto]!;
   return texto
     .split("-")
-    .map((palabra) => palabra.charAt(0).toUpperCase() + palabra.slice(1))
+    .map((palabra, indice) =>
+      indice > 0 && MINUSCULAS.has(palabra)
+        ? palabra
+        : palabra.charAt(0).toUpperCase() + palabra.slice(1),
+    )
     .join(" ");
 }
 

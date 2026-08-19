@@ -1,18 +1,28 @@
-# markap — scraper de noticias de marca.com
+# markap — archivo de noticias de marca.com
 
 Scraper de las noticias de [marca.com](https://www.marca.com/) que guarda cada
 noticia en JSON, **partiendo el dataset por categoría** para que ningún archivo
-se vuelva inmanejable, y que se ejecuta solo mediante **GitHub Actions**.
+se vuelva inmanejable, se ejecuta solo mediante **GitHub Actions**, y se navega
+en un sitio hecho con Astro y desplegado en Cloudflare.
+
+| Pieza | Dónde |
+| --- | --- |
+| Scraper | `scraper/` — ver este documento |
+| Dataset | `data/` — un JSON por categoría, partido en trozos |
+| Sitio | `site/` — ver [`site/README.md`](site/README.md) |
+| Automatización | `.github/workflows/` |
 
 ## Cómo queda organizado el dataset
 
 ```
 data/
 ├── index.json                       # catálogo: categorías, archivos y totales
+├── latest.json                      # las 200 más recientes, sin cuerpo (portada)
 ├── futbol/
 │   ├── real-madrid/
 │   │   ├── part-0001.json           # 400 noticias por archivo (configurable)
-│   │   └── part-0002.json
+│   │   ├── part-0002.json
+│   │   └── lookup.json              # id de noticia → archivo que la contiene
 │   ├── barcelona/part-0001.json
 │   └── primera-division/part-0001.json
 ├── baloncesto/nba/part-0001.json
@@ -52,6 +62,7 @@ siguiente `part-NNNN.json`, así que los archivos se mantienen en pocos MB.
       "word_count": 512,
       "authors": ["…"],
       "tags": ["…"],
+      "content_type": "opinion",
       "published_at": "2026-08-19T20:47:00Z",   // siempre UTC ISO-8601
       "modified_at": "2026-08-19T23:10:00Z",
       "language": "es",
@@ -67,6 +78,15 @@ siguiente `part-NNNN.json`, así que los archivos se mantienen en pocos MB.
 
 Los datos se extraen del JSON-LD (`NewsArticle`) que publica Marca, con
 Open Graph, `<meta>` y el HTML del cuerpo como respaldo si falta algo.
+
+El cuerpo se toma de `div.ue-c-article__body`, que es solo la noticia: quedan
+fuera los titulares de otras noticias que Marca intercala, la barra de firma,
+los botones de compartir, las etiquetas y las relacionadas. Las etiquetas se
+leen de la lista que Marca publica al pie, no de las palabras del slug.
+
+Si Marca cambia su maquetación, el workflow **Inspeccionar página** vuelca la
+estructura de cualquier noticia en `tools/ultima-inspeccion.txt` para poder
+reajustar los selectores.
 
 ## De dónde salen las noticias
 
@@ -140,6 +160,21 @@ state/
 
 Como está versionado en el repo, cada corrida arranca sabiendo exactamente qué
 falta. Para rehacer el dataset desde cero, borrá `state/` y `data/`.
+
+## El sitio
+
+`site/` es un frontend en **Astro 7 + TypeScript + Tailwind 4** que se despliega
+en **Cloudflare Pages** conectando este repositorio desde su panel:
+
+| Ajuste | Valor |
+| --- | --- |
+| Root directory | `site` |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| `NODE_VERSION` | `22` |
+
+Cada vez que el scraper commitea noticias nuevas, Cloudflare reconstruye el
+sitio. Los detalles están en [`site/README.md`](site/README.md).
 
 ## Tests
 
