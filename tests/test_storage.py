@@ -134,3 +134,26 @@ def test_failures_are_retried_until_the_limit_then_abandoned(tmp_path):
     exhausted = RunState(tmp_path, max_failures=3)
     assert exhausted.failed["https://dead"] == 3
     assert exhausted.enqueue(["https://dead"]) == 0
+
+
+def test_latest_feed_holds_the_newest_cards_without_bodies(tmp_path):
+    store = ArticleStore(tmp_path, shard_size=50)
+    for n in range(5):
+        article = make_article(n, "futbol/real-madrid")
+        article["published_at"] = f"2026-08-{10 + n:02d}T00:00:00Z"
+        article["body"] = "un cuerpo larguisimo " * 100
+        article["images"] = [{"url": f"https://img/{n}.jpg", "caption": ""}]
+        store.add(article)
+    store.add({**make_article(9, "tenis"), "published_at": "2020-01-01T00:00:00Z"})
+    store.flush()
+    store.rebuild_index()
+
+    latest = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
+    assert latest["count"] == 6
+    # ordenadas de mas nueva a mas vieja, sin importar la categoria
+    assert latest["articles"][0]["published_at"] == "2026-08-14T00:00:00Z"
+    assert latest["articles"][-1]["category"] == "tenis"
+    # tarjetas ligeras: sin cuerpo, con una sola imagen de portada
+    assert "body" not in latest["articles"][0]
+    assert "images" not in latest["articles"][0]
+    assert latest["articles"][0]["image"] == "https://img/4.jpg"

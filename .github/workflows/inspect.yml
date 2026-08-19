@@ -1,0 +1,36 @@
+name: Inspeccionar pagina
+
+# Utilidad de mantenimiento: vuelca la estructura de una noticia de Marca para
+# poder ajustar los selectores del parser cuando cambien su maquetacion.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL de la noticia a inspeccionar"
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Inspeccionar
+        run: python tools/inspect_page.py "${{ inputs.url }}" | tee inspect.txt
+      - name: Añadir al resumen
+        if: always()
+        run: |
+          {
+            echo '```'
+            cat inspect.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

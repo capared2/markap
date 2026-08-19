@@ -11,6 +11,13 @@ from pathlib import Path
 log = logging.getLogger(__name__)
 
 PART_TEMPLATE = "part-{:04d}.json"
+LATEST_LIMIT = 200          # noticias en la portada ligera del frontend
+# Campos que el frontend necesita para una tarjeta: el cuerpo se deja fuera
+# para que latest.json siga pesando poco.
+CARD_FIELDS = (
+    "id", "url", "category", "title", "standfirst", "summary",
+    "authors", "published_at", "images", "is_premium",
+)
 
 
 def _now() -> str:
@@ -119,13 +126,18 @@ class ArticleStore:
         )
 
     def rebuild_index(self) -> dict:
-        """Write ``data/index.json`` describing every category shard."""
+        """Write ``data/index.json`` and the ``data/latest.json`` cover feed."""
         categories: list[dict] = []
+        latest: list[dict] = []
         total = 0
         for part in sorted(self.data_dir.rglob("part-*.json")):
             payload = _read_json(part, {})
             if not payload.get("category"):
                 continue
+            latest.extend(
+                {key: article.get(key) for key in CARD_FIELDS}
+                for article in payload.get("articles", [])
+            )
             relative = part.relative_to(self.data_dir).as_posix()
             entry = next(
                 (c for c in categories if c["category"] == payload["category"]),
@@ -139,6 +151,18 @@ class ArticleStore:
             total += payload.get("count", 0)
 
         categories.sort(key=lambda c: (-c["articles"], c["category"]))
+        latest.sort(key=lambda a: (a.get("published_at") or "", a.get("id") or ""), reverse=True)
+        latest = latest[:LATEST_LIMIT]
+        for article in latest:
+            # una sola imagen por tarjeta: la de portada
+            images = article.get("images") or []
+            article["image"] = images[0]["url"] if images else None
+            article.pop("images", None)
+        _write_json(
+            self.data_dir / "latest.json",
+            {"generated_at": _now(), "count": len(latest), "articles": latest},
+        )
+
         index = {
             "source": "marca.com",
             "generated_at": _now(),
