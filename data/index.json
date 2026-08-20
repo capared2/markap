@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-20T14:54:26.727787Z",
-  "total_articles": 8741,
-  "total_categories": 308,
+  "generated_at": "2026-08-20T16:33:55.347725Z",
+  "total_articles": 8795,
+  "total_categories": 309,
   "categories": [
     {
       "category": "motor/formula1",
-      "articles": 1213,
+      "articles": 1214,
       "files": [
         {
           "file": "motor/formula1/part-0001.json",
@@ -58,7 +58,7 @@
         },
         {
           "file": "motor/formula1/part-0013.json",
-          "count": 13
+          "count": 14
         }
       ]
     },
@@ -140,7 +140,7 @@
     },
     {
       "category": "futbol",
-      "articles": 201,
+      "articles": 203,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -152,13 +152,13 @@
         },
         {
           "file": "futbol/part-0003.json",
-          "count": 1
+          "count": 3
         }
       ]
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 163,
+      "articles": 164,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -166,7 +166,7 @@
         },
         {
           "file": "futbol/real-madrid/part-0002.json",
-          "count": 63
+          "count": 64
         }
       ]
     },
@@ -186,7 +186,7 @@
     },
     {
       "category": "coches-y-motos/coches",
-      "articles": 126,
+      "articles": 128,
       "files": [
         {
           "file": "coches-y-motos/coches/part-0001.json",
@@ -194,13 +194,13 @@
         },
         {
           "file": "coches-y-motos/coches/part-0002.json",
-          "count": 26
+          "count": 28
         }
       ]
     },
     {
       "category": "radio",
-      "articles": 124,
+      "articles": 126,
       "files": [
         {
           "file": "radio/part-0001.json",
@@ -208,17 +208,17 @@
         },
         {
           "file": "radio/part-0002.json",
-          "count": 24
+          "count": 26
         }
       ]
     },
     {
       "category": "futbol/barcelona",
-      "articles": 93,
+      "articles": 94,
       "files": [
         {
           "file": "futbol/barcelona/part-0001.json",
-          "count": 93
+          "count": 94
         }
       ]
     },
@@ -233,6 +233,16 @@
       ]
     },
     {
+      "category": "futbol/premier-league",
+      "articles": 82,
+      "files": [
+        {
+          "file": "futbol/premier-league/part-0001.json",
+          "count": 82
+        }
+      ]
+    },
+    {
       "category": "baloncesto/acb",
       "articles": 81,
       "files": [
@@ -243,12 +253,12 @@
       ]
     },
     {
-      "category": "futbol/premier-league",
-      "articles": 81,
+      "category": "futbol/primera-division",
+      "articles": 72,
       "files": [
         {
-          "file": "futbol/premier-league/part-0001.json",
-          "count": 81
+          "file": "futbol/primera-division/part-0001.json",
+          "count": 72
         }
       ]
     },
@@ -263,22 +273,12 @@
       ]
     },
     {
-      "category": "futbol/primera-division",
-      "articles": 71,
-      "files": [
-        {
-          "file": "futbol/primera-division/part-0001.json",
-          "count": 71
-        }
-      ]
-    },
-    {
       "category": "futbol/atletico",
-      "articles": 68,
+      "articles": 69,
       "files": [
         {
           "file": "futbol/atletico/part-0001.json",
-          "count": 68
+          "count": 69
         }
       ]
     },
@@ -293,22 +293,22 @@
       ]
     },
     {
-      "category": "combates-ufc",
-      "articles": 62,
+      "category": "tiramillas/sociedad",
+      "articles": 64,
       "files": [
         {
-          "file": "combates-ufc/part-0001.json",
-          "count": 62
+          "file": "tiramillas/sociedad/part-0001.json",
+          "count": 64
         }
       ]
     },
     {
-      "category": "tiramillas/sociedad",
-      "articles": 62,
+      "category": "combates-ufc",
+      "articles": 63,
       "files": [
         {
-          "file": "tiramillas/sociedad/part-0001.json",
-          "count": 62
+          "file": "combates-ufc/part-0001.json",
+          "count": 63
         }
       ]
     },
@@ -433,6 +433,16 @@
       ]
     },
     {
+      "category": "futbol/betis",
+      "articles": 52,
+      "files": [
+        {
+          "file": "futbol/betis/part-0001.json",
+          "count": 52
+        }
+      ]
+    },
+    {
       "category": "regalos-promociones",
       "articles": 52,
       "files": [
@@ -448,16 +458,6 @@
       "files": [
         {
           "file": "futbol/argentina/part-0001.json",
-          "count": 51
-        }
-      ]
-    },
-    {
-      "category": "futbol/betis",
-      "articles": 51,
-      "files": [
-        {
-          "file": "futbol/betis/part-0001.json",
           "count": 51
         }
       ]
@@ -623,6 +623,16 @@
       ]
     },
     {
+      "category": "mx/futbol",
+      "articles": 49,
+      "files": [
+        {
+          "file": "mx/futbol/part-0001.json",
+          "count": 49
+        }
+      ]
+    },
+    {
       "category": "nfl",
       "articles": 49,
       "files": [
@@ -673,16 +683,6 @@
       ]
     },
     {
-      "category": "mx/futbol",
-      "articles": 47,
-      "files": [
-        {
-          "file": "mx/futbol/part-0001.json",
-          "count": 47
-        }
-      ]
-    },
-    {
       "category": "baloncesto/copa-rey",
       "articles": 45,
       "files": [
@@ -699,6 +699,16 @@
         {
           "file": "futbol/colombia/part-0001.json",
           "count": 45
+        }
+      ]
+    },
+    {
+      "category": "apuestas-deportivas/predicciones",
+      "articles": 43,
+      "files": [
+        {
+          "file": "apuestas-deportivas/predicciones/part-0001.json",
+          "count": 43
         }
       ]
     },
@@ -733,12 +743,12 @@
       ]
     },
     {
-      "category": "apuestas-deportivas/predicciones",
-      "articles": 42,
+      "category": "tenis",
+      "articles": 43,
       "files": [
         {
-          "file": "apuestas-deportivas/predicciones/part-0001.json",
-          "count": 42
+          "file": "tenis/part-0001.json",
+          "count": 43
         }
       ]
     },
@@ -783,22 +793,12 @@
       ]
     },
     {
-      "category": "tenis",
+      "category": "otros-deportes",
       "articles": 41,
       "files": [
         {
-          "file": "tenis/part-0001.json",
-          "count": 41
-        }
-      ]
-    },
-    {
-      "category": "otros-deportes",
-      "articles": 40,
-      "files": [
-        {
           "file": "otros-deportes/part-0001.json",
-          "count": 40
+          "count": 41
         }
       ]
     },
@@ -1063,6 +1063,16 @@
       ]
     },
     {
+      "category": "ciclismo/vuelta-espana",
+      "articles": 23,
+      "files": [
+        {
+          "file": "ciclismo/vuelta-espana/part-0001.json",
+          "count": 23
+        }
+      ]
+    },
+    {
       "category": "golf",
       "articles": 23,
       "files": [
@@ -1078,16 +1088,6 @@
       "files": [
         {
           "file": "ciclismo/part-0001.json",
-          "count": 22
-        }
-      ]
-    },
-    {
-      "category": "ciclismo/vuelta-espana",
-      "articles": 22,
-      "files": [
-        {
-          "file": "ciclismo/vuelta-espana/part-0001.json",
           "count": 22
         }
       ]
@@ -1158,6 +1158,16 @@
       "files": [
         {
           "file": "futbol/youth-league/part-0001.json",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "category": "mx/actualidad",
+      "articles": 21,
+      "files": [
+        {
+          "file": "mx/actualidad/part-0001.json",
           "count": 21
         }
       ]
@@ -1293,16 +1303,6 @@
       ]
     },
     {
-      "category": "mx/actualidad",
-      "articles": 19,
-      "files": [
-        {
-          "file": "mx/actualidad/part-0001.json",
-          "count": 19
-        }
-      ]
-    },
-    {
       "category": "olimpismo",
       "articles": 19,
       "files": [
@@ -1353,6 +1353,16 @@
       ]
     },
     {
+      "category": "tiramillas/economia",
+      "articles": 17,
+      "files": [
+        {
+          "file": "tiramillas/economia/part-0001.json",
+          "count": 17
+        }
+      ]
+    },
+    {
       "category": "futbol/venezuela",
       "articles": 16,
       "files": [
@@ -1363,11 +1373,21 @@
       ]
     },
     {
-      "category": "tiramillas/economia",
+      "category": "mma",
       "articles": 16,
       "files": [
         {
-          "file": "tiramillas/economia/part-0001.json",
+          "file": "mma/part-0001.json",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "category": "tiramillas/musica",
+      "articles": 16,
+      "files": [
+        {
+          "file": "tiramillas/musica/part-0001.json",
           "count": 16
         }
       ]
@@ -1433,26 +1453,6 @@
       ]
     },
     {
-      "category": "mma",
-      "articles": 14,
-      "files": [
-        {
-          "file": "mma/part-0001.json",
-          "count": 14
-        }
-      ]
-    },
-    {
-      "category": "tiramillas/musica",
-      "articles": 14,
-      "files": [
-        {
-          "file": "tiramillas/musica/part-0001.json",
-          "count": 14
-        }
-      ]
-    },
-    {
       "category": "golf/liv-golf",
       "articles": 13,
       "files": [
@@ -1463,11 +1463,31 @@
       ]
     },
     {
+      "category": "tiramillas/ciencia",
+      "articles": 13,
+      "files": [
+        {
+          "file": "tiramillas/ciencia/part-0001.json",
+          "count": 13
+        }
+      ]
+    },
+    {
       "category": "tiramillas/cine",
       "articles": 13,
       "files": [
         {
           "file": "tiramillas/cine/part-0001.json",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "category": "tiramillas/sucesos",
+      "articles": 13,
+      "files": [
+        {
+          "file": "tiramillas/sucesos/part-0001.json",
           "count": 13
         }
       ]
@@ -1503,26 +1523,6 @@
       ]
     },
     {
-      "category": "tiramillas/ciencia",
-      "articles": 12,
-      "files": [
-        {
-          "file": "tiramillas/ciencia/part-0001.json",
-          "count": 12
-        }
-      ]
-    },
-    {
-      "category": "tiramillas/sucesos",
-      "articles": 12,
-      "files": [
-        {
-          "file": "tiramillas/sucesos/part-0001.json",
-          "count": 12
-        }
-      ]
-    },
-    {
       "category": "tiramillas/television",
       "articles": 12,
       "files": [
@@ -1539,6 +1539,26 @@
         {
           "file": "vela/copa-del-rey/part-0001.json",
           "count": 12
+        }
+      ]
+    },
+    {
+      "category": "basketball/wnba",
+      "articles": 10,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "category": "futbol/andorra",
+      "articles": 10,
+      "files": [
+        {
+          "file": "futbol/andorra/part-0001.json",
+          "count": 10
         }
       ]
     },
@@ -1583,11 +1603,11 @@
       ]
     },
     {
-      "category": "basketball/wnba",
+      "category": "basketball/nba",
       "articles": 9,
       "files": [
         {
-          "file": "basketball/wnba/part-0001.json",
+          "file": "basketball/nba/part-0001.json",
           "count": 9
         }
       ]
@@ -1613,11 +1633,21 @@
       ]
     },
     {
-      "category": "futbol/andorra",
+      "category": "lifestyle/us-news",
       "articles": 9,
       "files": [
         {
-          "file": "futbol/andorra/part-0001.json",
+          "file": "lifestyle/us-news/part-0001.json",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "category": "mx/trending",
+      "articles": 9,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
           "count": 9
         }
       ]
@@ -1673,31 +1703,21 @@
       ]
     },
     {
-      "category": "basketball/nba",
+      "category": "lifestyle/celebrities",
       "articles": 8,
       "files": [
         {
-          "file": "basketball/nba/part-0001.json",
+          "file": "lifestyle/celebrities/part-0001.json",
           "count": 8
         }
       ]
     },
     {
-      "category": "lifestyle/us-news",
+      "category": "mx/beisbol",
       "articles": 8,
       "files": [
         {
-          "file": "lifestyle/us-news/part-0001.json",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 8,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
+          "file": "mx/beisbol/part-0001.json",
           "count": 8
         }
       ]
@@ -1763,6 +1783,16 @@
       ]
     },
     {
+      "category": "futbol/cadiz",
+      "articles": 7,
+      "files": [
+        {
+          "file": "futbol/cadiz/part-0001.json",
+          "count": 7
+        }
+      ]
+    },
+    {
       "category": "futbol/granada",
       "articles": 7,
       "files": [
@@ -1788,16 +1818,6 @@
       "files": [
         {
           "file": "futbol/oviedo/part-0001.json",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/celebrities",
-      "articles": 7,
-      "files": [
-        {
-          "file": "lifestyle/celebrities/part-0001.json",
           "count": 7
         }
       ]
@@ -1848,16 +1868,6 @@
       "files": [
         {
           "file": "baloncesto/clasificacion-mundial-europa/part-0001.json",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "category": "futbol/cadiz",
-      "articles": 6,
-      "files": [
-        {
-          "file": "futbol/cadiz/part-0001.json",
           "count": 6
         }
       ]
@@ -2143,6 +2153,16 @@
       ]
     },
     {
+      "category": "tiramillas/series",
+      "articles": 4,
+      "files": [
+        {
+          "file": "tiramillas/series/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
       "category": "bienestar/psicologia-sexo",
       "articles": 3,
       "files": [
@@ -2173,6 +2193,16 @@
       ]
     },
     {
+      "category": "futbol/ceuta",
+      "articles": 3,
+      "files": [
+        {
+          "file": "futbol/ceuta/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
       "category": "futbol/champions-league-femenina",
       "articles": 3,
       "files": [
@@ -2198,6 +2228,26 @@
       "files": [
         {
           "file": "futbol/valladolid/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "nfl/en",
+      "articles": 3,
+      "files": [
+        {
+          "file": "nfl/en/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "nfl/las-vegas-raiders",
+      "articles": 3,
+      "files": [
+        {
+          "file": "nfl/las-vegas-raiders/part-0001.json",
           "count": 3
         }
       ]
@@ -2283,11 +2333,11 @@
       ]
     },
     {
-      "category": "futbol/ceuta",
+      "category": "football/mls",
       "articles": 2,
       "files": [
         {
-          "file": "futbol/ceuta/part-0001.json",
+          "file": "football/mls/part-0001.json",
           "count": 2
         }
       ]
@@ -2403,26 +2453,6 @@
       ]
     },
     {
-      "category": "nfl/en",
-      "articles": 2,
-      "files": [
-        {
-          "file": "nfl/en/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "category": "nfl/las-vegas-raiders",
-      "articles": 2,
-      "files": [
-        {
-          "file": "nfl/las-vegas-raiders/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
       "category": "nfl/philadelphia-eagles",
       "articles": 2,
       "files": [
@@ -2463,6 +2493,16 @@
       ]
     },
     {
+      "category": "tenis/us-open",
+      "articles": 2,
+      "files": [
+        {
+          "file": "tenis/us-open/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
       "category": "tenis/wimbledon",
       "articles": 2,
       "files": [
@@ -2478,16 +2518,6 @@
       "files": [
         {
           "file": "tennis/en/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "category": "tiramillas/series",
-      "articles": 2,
-      "files": [
-        {
-          "file": "tiramillas/series/part-0001.json",
           "count": 2
         }
       ]
@@ -2618,16 +2648,6 @@
       "files": [
         {
           "file": "football/fifa-club-world-cup/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "category": "football/mls",
-      "articles": 1,
-      "files": [
-        {
-          "file": "football/mls/part-0001.json",
           "count": 1
         }
       ]
@@ -2983,16 +3003,6 @@
       ]
     },
     {
-      "category": "mx/beisbol",
-      "articles": 1,
-      "files": [
-        {
-          "file": "mx/beisbol/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
       "category": "mx/boxeo",
       "articles": 1,
       "files": [
@@ -3048,6 +3058,16 @@
       "files": [
         {
           "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "nfl/san-francisco-49ers",
+      "articles": 1,
+      "files": [
+        {
+          "file": "nfl/san-francisco-49ers/part-0001.json",
           "count": 1
         }
       ]
@@ -3168,16 +3188,6 @@
       "files": [
         {
           "file": "tenis/album/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "category": "tenis/us-open",
-      "articles": 1,
-      "files": [
-        {
-          "file": "tenis/us-open/part-0001.json",
           "count": 1
         }
       ]
