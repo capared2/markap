@@ -47,6 +47,8 @@ def build_parser() -> argparse.ArgumentParser:
                         help="veces que se reintenta una pagina que llego sin cuerpo")
     parser.add_argument("--max-failures", type=int, default=3,
                         help="intentos por URL antes de descartarla definitivamente")
+    parser.add_argument("--site-url", default=config.SITE_URL,
+                        help="dominio publico del sitio, usado en los sitemaps")
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--state-dir", default="state")
     parser.add_argument("--user-agent", default=config.DEFAULT_USER_AGENT)
@@ -95,6 +97,7 @@ def main(argv: list[str] | None = None) -> int:
         max_failures=args.max_failures,
         min_words=args.min_words,
         empty_retries=args.empty_retries,
+        site_url=args.site_url,
         data_dir=args.data_dir,
         state_dir=args.state_dir,
         user_agent=args.user_agent,

@@ -6,7 +6,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 
-from . import config, discovery
+from . import config, discovery, seo
 from . import urls as urlutil
 from .fetcher import Fetcher
 from .parser import parse_article
@@ -38,6 +38,7 @@ class Options:
     max_failures: int = 3            # give up on a URL after this many failed runs
     min_words: int = 10              # por debajo de esto la noticia no tiene cuerpo
     empty_retries: int = 3           # veces que se reintenta una pagina sin cuerpo
+    site_url: str = config.SITE_URL   # dominio publico, para los sitemaps
     discovery_share: float = DISCOVERY_SHARE  # fraction of the budget spent finding URLs
     data_dir: str = "data"
     state_dir: str = "state"
@@ -183,6 +184,9 @@ def run(options: Options) -> dict:
         for category, count in store.flush().items():
             summary["categories"][category] = summary["categories"].get(category, 0) + count
         index = store.rebuild_index()
+        summary["seo"] = seo.construir(
+            options.data_dir, options.site_url, store.sitemap_entries, index["categories"]
+        )
         summary["total_articles"] = index["total_articles"]
         summary["total_categories"] = index["total_categories"]
         summary["duration_seconds"] = round(time.monotonic() - started, 1)

@@ -51,6 +51,7 @@ class ArticleStore:
     def __init__(self, data_dir: str | Path, shard_size: int):
         self.data_dir = Path(data_dir)
         self.shard_size = max(1, shard_size)
+        self.sitemap_entries: list[dict] = []
         self._lock = threading.Lock()
         self._buffers: dict[str, list[dict]] = {}
 
@@ -130,6 +131,9 @@ class ArticleStore:
         categories: list[dict] = []
         latest: list[dict] = []
         lookups: dict[str, dict[str, int]] = {}
+        # Entradas minimas para los sitemaps: se recogen en esta misma pasada
+        # para no volver a leer todo el dataset.
+        self.sitemap_entries: list[dict] = []
         total = 0
         for part in sorted(self.data_dir.rglob("part-*.json")):
             payload = _read_json(part, {})
@@ -139,6 +143,14 @@ class ArticleStore:
             for article in payload.get("articles", []):
                 if article.get("id"):
                     lookup[article["id"]] = payload.get("part", 1)
+            for article in payload.get("articles", []):
+                self.sitemap_entries.append({
+                    "id": article.get("id"),
+                    "category": article.get("category"),
+                    "title": article.get("title", ""),
+                    "published_at": article.get("published_at"),
+                    "modified_at": article.get("modified_at"),
+                })
             latest.extend(
                 {key: article.get(key) for key in CARD_FIELDS}
                 for article in payload.get("articles", [])

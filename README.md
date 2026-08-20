@@ -199,6 +199,25 @@ state/
 Como está versionado en el repo, cada corrida arranca sabiendo exactamente qué
 falta. Para rehacer el dataset desde cero, borrá `state/` y `data/`.
 
+## SEO automático
+
+En la misma pasada que los índices se generan los sitemaps en `data/seo/`, de
+modo que se actualizan solos en cada ejecución:
+
+| Fichero | Contenido |
+| --- | --- |
+| `sitemap.xml` | Índice que agrupa el resto |
+| `sitemap-secciones.xml` | Portada, directorio y una entrada por categoría |
+| `sitemap-noticias-NNNN.xml` | Todas las noticias, de la más reciente a la más antigua, en trozos de 25.000 |
+| `sitemap-news.xml` | Formato Google News: lo publicado en las últimas 48 h (máximo 1.000) |
+
+Se producen aquí y no en el sitio a propósito: así el frontend los sirve tal
+cual, sin gastar CPU construyéndolos en cada petición (Cloudflare Workers corta
+a los 10 ms en el plan gratuito).
+
+El dominio se fija con `--site-url` o la variable `SITE_URL`; por defecto
+`https://jomperr.com`.
+
 ## El sitio
 
 El frontend que presenta este archivo vive en su propio repositorio,

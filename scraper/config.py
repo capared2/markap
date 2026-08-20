@@ -5,6 +5,9 @@ import os
 
 BASE_URL = "https://www.marca.com"
 
+# Dominio publico del sitio que consume este dataset (para los sitemaps).
+SITE_URL = os.environ.get("SITE_URL", "https://jomperr.com")
+
 # Hosts we are willing to fetch article HTML from.
 ALLOWED_HOSTS = {
     "www.marca.com",
