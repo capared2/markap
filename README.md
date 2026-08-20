@@ -9,8 +9,8 @@ en un sitio hecho con Astro y desplegado en Cloudflare.
 | --- | --- |
 | Scraper | `scraper/` — ver este documento |
 | Dataset | `data/` — un JSON por categoría, partido en trozos |
-| Sitio | `site/` — ver [`site/README.md`](site/README.md) |
 | Automatización | `.github/workflows/` |
+| Sitio | Repositorio aparte: [capared2/markaptrue](https://github.com/capared2/markaptrue) |
 
 ## Cómo queda organizado el dataset
 
@@ -163,18 +163,22 @@ falta. Para rehacer el dataset desde cero, borrá `state/` y `data/`.
 
 ## El sitio
 
-`site/` es un frontend en **Astro 7 + TypeScript + Tailwind 4** que se despliega
-en **Cloudflare Pages** conectando este repositorio desde su panel:
+El frontend que presenta este archivo vive en su propio repositorio,
+[**capared2/markaptrue**](https://github.com/capared2/markaptrue), y se despliega
+en Cloudflare Pages.
 
-| Ajuste | Valor |
-| --- | --- |
-| Root directory | `site` |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| `NODE_VERSION` | `22` |
+No hay ninguna conexión que mantener entre ambos: el sitio lee estos JSON por
+HTTP desde `raw.githubusercontent.com`, así que cada vez que el workflow
+publica noticias nuevas aparecen solas, sin reconstruir ni desplegar nada.
 
-Cada vez que el scraper commitea noticias nuevas, Cloudflare reconstruye el
-sitio. Los detalles están en [`site/README.md`](site/README.md).
+Esto significa que **el dataset es una API pública**. Cualquier cliente puede
+consumirlo igual:
+
+```
+https://raw.githubusercontent.com/capared2/markap/main/data/index.json
+https://raw.githubusercontent.com/capared2/markap/main/data/latest.json
+https://raw.githubusercontent.com/capared2/markap/main/data/futbol/real-madrid/part-0001.json
+```
 
 ## Tests
 
