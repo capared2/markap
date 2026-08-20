@@ -99,3 +99,19 @@ def test_las_mas_recientes_van_primero_y_con_mas_prioridad(tmp_path):
     xml = (tmp_path / "seo" / "sitemap-noticias-0001.xml").read_text(encoding="utf-8")
     assert xml.index("noticia-2") < xml.index("noticia-1")
     assert "<priority>0.8</priority>" in xml
+
+
+def test_las_secciones_sin_pagina_propia_tambien_entran(tmp_path):
+    """«hockey» solo tiene hijas, pero su pagina existe y reune lo de ellas."""
+    construir(tmp_path, [articulo(1, "hockey/hockey-hielo")], [
+        {"category": "hockey/hockey-hielo", "articles": 5},
+        {"category": "hockey/hockey-patines", "articles": 2},
+        {"category": "tenis", "articles": 9},
+    ])
+    enlaces = locs(tmp_path / "seo" / "sitemap-secciones.xml")
+    assert "https://jomperr.com/categoria/hockey" in enlaces
+    assert "https://jomperr.com/categoria/hockey/hockey-hielo" in enlaces
+    assert "https://jomperr.com/categoria/hockey/hockey-patines" in enlaces
+    assert "https://jomperr.com/categoria/tenis" in enlaces
+    # sin duplicar las que ya tienen pagina propia
+    assert enlaces.count("https://jomperr.com/categoria/tenis") == 1

@@ -98,15 +98,13 @@ def construir(
         _entrada(f"{base}/", _ahora(), "1.0", "hourly"),
         _entrada(f"{base}/categorias", _ahora(), "0.6", "weekly"),
     ]
-    for categoria in categorias:
-        fijas.append(
-            _entrada(
-                f"{base}/categoria/{categoria['category']}",
-                _ahora(),
-                "0.7",
-                "hourly",
-            )
-        )
+    # Las secciones raiz que solo tienen subsecciones tambien tienen pagina:
+    # reunen lo de sus hijas, asi que deben entrar en el sitemap.
+    claves = {c["category"] for c in categorias}
+    raices = {c["category"].split("/")[0] for c in categorias} - claves
+
+    for clave in sorted(claves | raices):
+        fijas.append(_entrada(f"{base}/categoria/{clave}", _ahora(), "0.7", "hourly"))
     _escribir(destino / "sitemap-secciones.xml", _urlset(fijas))
 
     # --- sitemap de Google News: solo lo publicado en las ultimas 48 h ---
