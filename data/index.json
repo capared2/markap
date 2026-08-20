@@ -1,6 +1,6 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-20T01:54:06.954367Z",
+  "generated_at": "2026-08-20T03:29:39.198582Z",
   "total_articles": 5158,
   "total_categories": 261,
   "categories": [
@@ -10,10 +10,22 @@
       "files": [
         {
           "file": "motor/formula1/part-0001.json",
-          "count": 400
+          "count": 100
         },
         {
           "file": "motor/formula1/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "motor/formula1/part-0003.json",
+          "count": 100
+        },
+        {
+          "file": "motor/formula1/part-0004.json",
+          "count": 100
+        },
+        {
+          "file": "motor/formula1/part-0005.json",
           "count": 20
         }
       ]
@@ -24,10 +36,22 @@
       "files": [
         {
           "file": "motor/motogp/part-0001.json",
-          "count": 400
+          "count": 100
         },
         {
           "file": "motor/motogp/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "motor/motogp/part-0003.json",
+          "count": 100
+        },
+        {
+          "file": "motor/motogp/part-0004.json",
+          "count": 100
+        },
+        {
+          "file": "motor/motogp/part-0005.json",
           "count": 10
         }
       ]
@@ -38,7 +62,11 @@
       "files": [
         {
           "file": "futbol/part-0001.json",
-          "count": 147
+          "count": 100
+        },
+        {
+          "file": "futbol/part-0002.json",
+          "count": 47
         }
       ]
     },
@@ -48,7 +76,11 @@
       "files": [
         {
           "file": "futbol/mundial/part-0001.json",
-          "count": 136
+          "count": 100
+        },
+        {
+          "file": "futbol/mundial/part-0002.json",
+          "count": 36
         }
       ]
     },
@@ -58,7 +90,11 @@
       "files": [
         {
           "file": "futbol/futbol-femenino/part-0001.json",
-          "count": 135
+          "count": 100
+        },
+        {
+          "file": "futbol/futbol-femenino/part-0002.json",
+          "count": 35
         }
       ]
     },

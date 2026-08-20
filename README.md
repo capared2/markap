@@ -20,7 +20,7 @@ data/
 ├── latest.json                      # las 200 más recientes, sin cuerpo (portada)
 ├── futbol/
 │   ├── real-madrid/
-│   │   ├── part-0001.json           # 400 noticias por archivo (configurable)
+│   │   ├── part-0001.json           # 100 noticias por archivo (configurable)
 │   │   ├── part-0002.json
 │   │   └── lookup.json              # id de noticia → archivo que la contiene
 │   ├── barcelona/part-0001.json
@@ -35,8 +35,22 @@ La categoría sale de la propia URL de la noticia: de
 previos a la fecha, o sea `futbol/real-madrid`. Con `--category-depth 1` todo
 `futbol/*` se agruparía en una sola categoría `futbol`.
 
-Cuando un archivo llega a `--shard-size` noticias (400 por defecto) se abre el
-siguiente `part-NNNN.json`, así que los archivos se mantienen en pocos MB.
+Cuando un archivo llega a `--shard-size` noticias (100 por defecto) se abre el
+siguiente `part-NNNN.json`.
+
+Ese tope de 100 no es estético: el sitio parsea el archivo entero para pintar
+una noticia, y el plan gratuito de Cloudflare Workers corta a los **10 ms de
+CPU por petición**. Con 400 noticias por archivo los de motor llegaban a
+3,4 MB y ~9 ms de parseo, al borde del límite; con 100 el peor caso baja a
+~2,8 ms. Si algún día subes el tamaño, mide antes.
+
+Bajar `--shard-size` solo afecta a los archivos nuevos: los ya escritos
+conservan su tamaño. Para reorganizar lo que ya está guardado:
+
+```bash
+python tools/reshard.py --shard-size 100 --dry-run   # ver qué cambiaría
+python tools/reshard.py --shard-size 100
+```
 
 ### Formato de cada archivo
 
@@ -44,7 +58,7 @@ siguiente `part-NNNN.json`, así que los archivos se mantienen en pocos MB.
 {
   "category": "futbol/real-madrid",
   "part": 1,
-  "count": 400,
+  "count": 100,
   "updated_at": "2026-08-19T22:10:04Z",
   "articles": [
     {

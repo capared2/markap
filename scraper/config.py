@@ -27,7 +27,7 @@ DEFAULT_DELAY = 0.6          # seconds between requests per worker slot
 DEFAULT_WORKERS = 6
 DEFAULT_TIMEOUT = 25         # seconds
 DEFAULT_RETRIES = 3
-DEFAULT_SHARD_SIZE = 400     # articles per JSON file
+DEFAULT_SHARD_SIZE = 100     # articulos por fichero JSON (ver README: limite de CPU)
 DEFAULT_CATEGORY_DEPTH = 2   # /futbol/real-madrid/... -> "futbol/real-madrid"
 DEFAULT_TIME_BUDGET = 3300   # seconds of article fetching per run
 
