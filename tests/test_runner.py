@@ -117,3 +117,34 @@ def test_discovery_never_consumes_the_whole_budget(tmp_path, monkeypatch):
     assert summary["discovered"] == 0
     # el descubrimiento recibe una fraccion del presupuesto, no el total
     assert slow and slow[0] is not None
+
+
+def _sin_cuerpo(html, url, profundidad):
+    """Parsea de verdad, pero deja sin cuerpo la noticia de tenis del sitio falso."""
+    from scraper.parser import parse_article as real
+
+    articulo = real(html, url, profundidad)
+    if articulo and "ccc3" in url:
+        articulo["word_count"] = 0
+        articulo["paragraphs"] = []
+    return articulo
+
+
+def test_articles_without_a_body_are_discarded(tmp_path, monkeypatch):
+    """Las narraciones en directo llegan sin cuerpo: no se guardan."""
+    monkeypatch.setattr(runner, "parse_article", _sin_cuerpo)
+    resumen = run(options(tmp_path, min_words=10))
+
+    assert resumen["skipped_empty"] == 1
+    assert resumen["saved"] == 5
+    assert not (tmp_path / "data" / "tenis").exists()
+    # queda marcada como vista, para no volver a pedirla en cada ejecucion
+    assert any("ccc3" in u for u in RunState(tmp_path / "state").seen)
+
+
+def test_min_words_zero_keeps_everything(tmp_path, monkeypatch):
+    monkeypatch.setattr(runner, "parse_article", _sin_cuerpo)
+    resumen = run(options(tmp_path, min_words=0))
+
+    assert resumen["skipped_empty"] == 0
+    assert resumen["saved"] == 6

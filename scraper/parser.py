@@ -237,6 +237,10 @@ def parse_article(html: str, url: str, category_depth: int) -> dict | None:
     canonical = urlutil.normalize(
         urljoin(url, canonical_tag["href"]) if canonical_tag and canonical_tag.get("href") else url
     )
+    # Algunas paginas declaran un canonical en otro dominio (promociones,
+    # publirreportajes). Esa URL no es nuestra y falsearia la categoria.
+    if not urlutil.host_allowed(canonical):
+        canonical = urlutil.normalize(url)
 
     title = (
         (data.get("headline") if isinstance(data.get("headline"), str) else None)

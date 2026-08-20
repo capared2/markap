@@ -41,6 +41,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--time-budget", type=int, default=config.DEFAULT_TIME_BUDGET,
                         help="segundos maximos de ejecucion (0 = sin limite)")
     parser.add_argument("--since", default=None, help="descarta noticias anteriores a YYYY-MM-DD")
+    parser.add_argument("--min-words", type=int, default=10,
+                        help="descarta noticias con menos palabras de cuerpo (0 = guardar todo)")
     parser.add_argument("--max-failures", type=int, default=3,
                         help="intentos por URL antes de descartarla definitivamente")
     parser.add_argument("--data-dir", default="data")
@@ -89,6 +91,7 @@ def main(argv: list[str] | None = None) -> int:
         time_budget=args.time_budget,
         since=args.since,
         max_failures=args.max_failures,
+        min_words=args.min_words,
         data_dir=args.data_dir,
         state_dir=args.state_dir,
         user_agent=args.user_agent,

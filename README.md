@@ -102,6 +102,25 @@ Si Marca cambia su maquetación, el workflow **Inspeccionar página** vuelca la
 estructura de cualquier noticia en `tools/ultima-inspeccion.txt` para poder
 reajustar los selectores.
 
+### Lo que no se guarda
+
+Las narraciones en directo cargan el minuto a minuto por JavaScript, así que en
+el HTML no hay cuerpo que recoger; lo mismo pasa con algunos álbumes y
+publirreportajes. Se descartan al vuelo: `--min-words` (10 por defecto) tira la
+noticia y marca su URL como vista, para no volver a pedirla en cada ejecución.
+Las crónicas que Marca publica *después* del partido en esa misma URL sí traen
+texto y se guardan con normalidad.
+
+También se ignora el `<link rel="canonical">` cuando apunta fuera de
+marca.com, porque esa URL no es nuestra y falsearía la categoría.
+
+Para limpiar lo que se guardó antes de estas reglas:
+
+```bash
+python tools/purge.py --min-words 10 --dry-run
+python tools/purge.py --min-words 10
+```
+
 ## De dónde salen las noticias
 
 Tres fuentes que se complementan y se pueden combinar con `--sources`:

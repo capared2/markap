@@ -36,6 +36,7 @@ class Options:
     time_budget: int = config.DEFAULT_TIME_BUDGET
     since: str | None = None         # ISO date, drops older stories
     max_failures: int = 3            # give up on a URL after this many failed runs
+    min_words: int = 10              # por debajo de esto la noticia no tiene cuerpo
     discovery_share: float = DISCOVERY_SHARE  # fraction of the budget spent finding URLs
     data_dir: str = "data"
     state_dir: str = "state"
@@ -83,6 +84,7 @@ def run(options: Options) -> dict:
         "fetched": 0,
         "saved": 0,
         "skipped_old": 0,
+        "skipped_empty": 0,
         "failed": 0,
         "categories": {},
     }
@@ -143,6 +145,14 @@ def run(options: Options) -> dict:
                     if options.since and (article.get("published_at") or "")[:10] < options.since:
                         summary["skipped_old"] += 1
                         state.mark_seen(url)
+                        continue
+                    # Las narraciones en directo cargan el minuto a minuto por
+                    # JavaScript: en el HTML no hay cuerpo que guardar. Se marcan
+                    # como vistas para no volver a pedirlas en cada ejecucion.
+                    if article["word_count"] < options.min_words:
+                        summary["skipped_empty"] += 1
+                        state.mark_seen(url)
+                        state.mark_seen(article["url"])
                         continue
                     store.add(article)
                     state.mark_seen(url)

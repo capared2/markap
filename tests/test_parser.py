@@ -96,3 +96,15 @@ def test_tags_come_from_marcas_own_tag_list(article):
 
 def test_content_type_is_read_from_marca_metadata(article):
     assert article["content_type"] == "opinion"
+
+
+def test_canonical_on_another_domain_is_ignored():
+    """Algunas paginas de Marca declaran un canonical fuera del dominio."""
+    html = """<html><head>
+      <link rel="canonical" href="https://secure.webpublication.es/247586/.lavuelta"/>
+      <title>Promo</title></head>
+      <body><h1>Publirreportaje</h1><p>Un texto cualquiera para el cuerpo.</p></body></html>"""
+    url = "https://www.marca.com/ciclismo/2026/08/19/promo-vuelta.html"
+    articulo = parse_article(html, url, 2)
+    assert articulo["url"] == url
+    assert articulo["category"] == "ciclismo"
