@@ -106,10 +106,14 @@ reajustar los selectores.
 
 Las narraciones en directo cargan el minuto a minuto por JavaScript, así que en
 el HTML no hay cuerpo que recoger; lo mismo pasa con algunos álbumes y
-publirreportajes. Se descartan al vuelo: `--min-words` (10 por defecto) tira la
-noticia y marca su URL como vista, para no volver a pedirla en cada ejecución.
-Las crónicas que Marca publica *después* del partido en esa misma URL sí traen
-texto y se guardan con normalidad.
+publirreportajes. `--min-words` (10 por defecto) descarta esas noticias.
+
+No se dan por vistas, porque Marca reutiliza la URL del directo para publicar
+la crónica cuando acaba el partido: se vuelven a pedir mientras sigan
+apareciendo en las fuentes, hasta agotar `--empty-retries` (3 por defecto).
+Así se recupera la crónica sin gastar peticiones eternamente en álbumes que
+nunca van a tener texto. El contador vive en `state/empty.json` y se borra en
+cuanto la noticia llega con cuerpo.
 
 También se ignora el `<link rel="canonical">` cuando apunta fuera de
 marca.com, porque esa URL no es nuestra y falsearía la categoría.
@@ -188,6 +192,7 @@ state/
 ├── seen.txt      # URLs ya guardadas: nunca se vuelven a descargar
 ├── pending.txt   # cola de URLs descubiertas y todavía sin procesar
 ├── failed.json   # URLs con fallos y su contador (se abandonan al 3er intento)
+├── empty.json    # URLs que llegaron sin cuerpo y sus reintentos
 └── run.json      # resumen de la última ejecución
 ```
 

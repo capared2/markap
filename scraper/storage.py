@@ -190,23 +190,29 @@ class ArticleStore:
 class RunState:
     """Tracks scraped URLs, the queue of URLs still to fetch and failure counts."""
 
-    def __init__(self, state_dir: str | Path, max_failures: int = 3):
+    def __init__(self, state_dir: str | Path, max_failures: int = 3, empty_retries: int = 3):
         self.state_dir = Path(state_dir)
         self.seen_path = self.state_dir / "seen.txt"
         self.pending_path = self.state_dir / "pending.txt"
         self.failed_path = self.state_dir / "failed.json"
+        self.empty_path = self.state_dir / "empty.json"
         self.meta_path = self.state_dir / "run.json"
         self.max_failures = max(1, max_failures)
+        self.empty_retries = max(1, empty_retries)
 
         self.seen: set[str] = self._read_lines(self.seen_path)
         self.pending: list[str] = [u for u in self._read_ordered(self.pending_path) if u not in self.seen]
         failed = _read_json(self.failed_path, {})
         self.failed: dict[str, int] = failed if isinstance(failed, dict) else {}
+        empty = _read_json(self.empty_path, {})
+        self.empty: dict[str, int] = empty if isinstance(empty, dict) else {}
         self._lock = threading.Lock()
 
     def _exhausted(self) -> set[str]:
-        """URLs that failed too many times to be worth queueing again."""
-        return {url for url, count in self.failed.items() if count >= self.max_failures}
+        """URLs que ya no merece la pena volver a pedir."""
+        agotadas = {url for url, count in self.failed.items() if count >= self.max_failures}
+        agotadas |= {url for url, count in self.empty.items() if count >= self.empty_retries}
+        return agotadas
 
     @staticmethod
     def _read_lines(path: Path) -> set[str]:
@@ -244,10 +250,21 @@ class RunState:
         with self._lock:
             self.seen.add(url)
             self.failed.pop(url, None)
+            self.empty.pop(url, None)
 
     def mark_failed(self, url: str) -> None:
         with self._lock:
             self.failed[url] = self.failed.get(url, 0) + 1
+
+    def mark_empty(self, url: str) -> None:
+        """La pagina no traia cuerpo. Se reintentara unas cuantas veces mas.
+
+        Las narraciones en directo se llenan de texto cuando acaba el partido,
+        asi que no se dan por vistas: se vuelven a pedir mientras sigan
+        apareciendo en las fuentes, hasta agotar los reintentos.
+        """
+        with self._lock:
+            self.empty[url] = self.empty.get(url, 0) + 1
 
     def requeue(self, items) -> None:
         with self._lock:
@@ -259,11 +276,13 @@ class RunState:
             self._write_lines(self.seen_path, sorted(self.seen))
             self._write_lines(self.pending_path, self.pending)
             _write_json(self.failed_path, dict(sorted(self.failed.items())))
+            _write_json(self.empty_path, dict(sorted(self.empty.items())))
             payload = {
                 "updated_at": _now(),
                 "seen": len(self.seen),
                 "pending": len(self.pending),
                 "failed": len(self.failed),
+                "empty": len(self.empty),
                 "abandoned": len(self._exhausted()),
             }
             payload.update(meta or {})

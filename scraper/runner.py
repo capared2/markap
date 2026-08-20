@@ -37,6 +37,7 @@ class Options:
     since: str | None = None         # ISO date, drops older stories
     max_failures: int = 3            # give up on a URL after this many failed runs
     min_words: int = 10              # por debajo de esto la noticia no tiene cuerpo
+    empty_retries: int = 3           # veces que se reintenta una pagina sin cuerpo
     discovery_share: float = DISCOVERY_SHARE  # fraction of the budget spent finding URLs
     data_dir: str = "data"
     state_dir: str = "state"
@@ -75,7 +76,11 @@ def run(options: Options) -> dict:
         respect_robots=options.respect_robots,
     )
     store = ArticleStore(options.data_dir, options.shard_size)
-    state = RunState(options.state_dir, max_failures=options.max_failures)
+    state = RunState(
+        options.state_dir,
+        max_failures=options.max_failures,
+        empty_retries=options.empty_retries,
+    )
 
     summary = {
         "mode": options.mode,
@@ -147,12 +152,13 @@ def run(options: Options) -> dict:
                         state.mark_seen(url)
                         continue
                     # Las narraciones en directo cargan el minuto a minuto por
-                    # JavaScript: en el HTML no hay cuerpo que guardar. Se marcan
-                    # como vistas para no volver a pedirlas en cada ejecucion.
+                    # JavaScript: en el HTML no hay cuerpo que guardar. No se dan
+                    # por vistas, porque esa misma URL suele traer la cronica
+                    # cuando acaba el partido; se reintentan un numero acotado de
+                    # veces para no gastar peticiones en album tras album.
                     if article["word_count"] < options.min_words:
                         summary["skipped_empty"] += 1
-                        state.mark_seen(url)
-                        state.mark_seen(article["url"])
+                        state.mark_empty(url)
                         continue
                     store.add(article)
                     state.mark_seen(url)

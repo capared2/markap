@@ -138,8 +138,11 @@ def test_articles_without_a_body_are_discarded(tmp_path, monkeypatch):
     assert resumen["skipped_empty"] == 1
     assert resumen["saved"] == 5
     assert not (tmp_path / "data" / "tenis").exists()
-    # queda marcada como vista, para no volver a pedirla en cada ejecucion
-    assert any("ccc3" in u for u in RunState(tmp_path / "state").seen)
+
+    estado = RunState(tmp_path / "state")
+    # NO se da por vista: esa misma URL puede traer la cronica mas tarde
+    assert not any("ccc3" in u for u in estado.seen)
+    assert any("ccc3" in u for u in estado.empty)
 
 
 def test_min_words_zero_keeps_everything(tmp_path, monkeypatch):
@@ -148,3 +151,36 @@ def test_min_words_zero_keeps_everything(tmp_path, monkeypatch):
 
     assert resumen["skipped_empty"] == 0
     assert resumen["saved"] == 6
+
+
+def test_an_empty_page_is_retried_and_then_abandoned(tmp_path, monkeypatch):
+    """Un directo se reintenta unas veces; un album vacio no se pide eternamente."""
+    monkeypatch.setattr(runner, "parse_article", _sin_cuerpo)
+
+    for intento in (1, 2, 3):
+        run(options(tmp_path, min_words=10, empty_retries=3))
+        estado = RunState(tmp_path / "state", empty_retries=3)
+        vacia = next(u for u in estado.empty if "ccc3" in u)
+        assert estado.empty[vacia] == intento, f"intento {intento}"
+
+    # agotados los reintentos, deja de encolarse
+    estado = RunState(tmp_path / "state", empty_retries=3)
+    assert estado.enqueue([vacia]) == 0
+
+
+def test_a_page_that_later_has_a_body_is_saved(tmp_path, monkeypatch):
+    """La cronica que aparece despues del partido si se guarda."""
+    monkeypatch.setattr(runner, "parse_article", _sin_cuerpo)
+    run(options(tmp_path, min_words=10))
+    assert not (tmp_path / "data" / "tenis").exists()
+
+    # ahora la misma URL ya trae texto
+    from scraper.parser import parse_article as real
+
+    monkeypatch.setattr(runner, "parse_article", real)
+    resumen = run(options(tmp_path, min_words=10))
+
+    assert resumen["saved"] == 1
+    assert (tmp_path / "data" / "tenis" / "part-0001.json").exists()
+    estado = RunState(tmp_path / "state")
+    assert not any("ccc3" in u for u in estado.empty)
