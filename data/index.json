@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-21T03:02:14.662999Z",
-  "total_articles": 8963,
+  "generated_at": "2026-08-21T04:37:27.124039Z",
+  "total_articles": 8971,
   "total_categories": 319,
   "categories": [
     {
       "category": "motor/formula1",
-      "articles": 1215,
+      "articles": 1216,
       "files": [
         {
           "file": "motor/formula1/part-0001.json",
@@ -58,7 +58,7 @@
         },
         {
           "file": "motor/formula1/part-0013.json",
-          "count": 15
+          "count": 16
         }
       ]
     },
@@ -254,11 +254,11 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 76,
+      "articles": 78,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
-          "count": 76
+          "count": 78
         }
       ]
     },
@@ -274,11 +274,11 @@
     },
     {
       "category": "baloncesto/nba",
-      "articles": 72,
+      "articles": 73,
       "files": [
         {
           "file": "baloncesto/nba/part-0001.json",
-          "count": 72
+          "count": 73
         }
       ]
     },
@@ -343,6 +343,16 @@
       ]
     },
     {
+      "category": "futbol/liga-italiana",
+      "articles": 57,
+      "files": [
+        {
+          "file": "futbol/liga-italiana/part-0001.json",
+          "count": 57
+        }
+      ]
+    },
+    {
       "category": "juegos-olimpicos",
       "articles": 57,
       "files": [
@@ -358,16 +368,6 @@
       "files": [
         {
           "file": "futbol/bundesliga/part-0001.json",
-          "count": 56
-        }
-      ]
-    },
-    {
-      "category": "futbol/liga-italiana",
-      "articles": 56,
-      "files": [
-        {
-          "file": "futbol/liga-italiana/part-0001.json",
           "count": 56
         }
       ]
@@ -933,21 +933,21 @@
       ]
     },
     {
+      "category": "mx/actualidad",
+      "articles": 31,
+      "files": [
+        {
+          "file": "mx/actualidad/part-0001.json",
+          "count": 31
+        }
+      ]
+    },
+    {
       "category": "futbol/espanyol",
       "articles": 30,
       "files": [
         {
           "file": "futbol/espanyol/part-0001.json",
-          "count": 30
-        }
-      ]
-    },
-    {
-      "category": "mx/actualidad",
-      "articles": 30,
-      "files": [
-        {
-          "file": "mx/actualidad/part-0001.json",
           "count": 30
         }
       ]
@@ -1373,6 +1373,16 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 17,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 17
+        }
+      ]
+    },
+    {
       "category": "tiramillas",
       "articles": 17,
       "files": [
@@ -1389,16 +1399,6 @@
         {
           "file": "tiramillas/ciencia/part-0001.json",
           "count": 17
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 16,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 16
         }
       ]
     },
@@ -1573,6 +1573,16 @@
       ]
     },
     {
+      "category": "co",
+      "articles": 11,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 11
+        }
+      ]
+    },
+    {
       "category": "lifestyle/celebrities",
       "articles": 11,
       "files": [
@@ -1589,16 +1599,6 @@
         {
           "file": "nfl/kansas-city-chiefs/part-0001.json",
           "count": 11
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 10,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 10
         }
       ]
     },
