@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-20T22:26:07.536529Z",
-  "total_articles": 8927,
-  "total_categories": 316,
+  "generated_at": "2026-08-21T01:06:15.749950Z",
+  "total_articles": 8949,
+  "total_categories": 318,
   "categories": [
     {
       "category": "motor/formula1",
@@ -254,11 +254,11 @@
     },
     {
       "category": "futbol/primera-division",
-      "articles": 74,
+      "articles": 75,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
-          "count": 74
+          "count": 75
         }
       ]
     },
@@ -279,6 +279,16 @@
         {
           "file": "futbol/atletico/part-0001.json",
           "count": 70
+        }
+      ]
+    },
+    {
+      "category": "mx/futbol",
+      "articles": 69,
+      "files": [
+        {
+          "file": "mx/futbol/part-0001.json",
+          "count": 69
         }
       ]
     },
@@ -319,16 +329,6 @@
         {
           "file": "futbol/estados-unidos/part-0001.json",
           "count": 61
-        }
-      ]
-    },
-    {
-      "category": "mx/futbol",
-      "articles": 58,
-      "files": [
-        {
-          "file": "mx/futbol/part-0001.json",
-          "count": 58
         }
       ]
     },
@@ -1533,6 +1533,16 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 12,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 12
+        }
+      ]
+    },
+    {
       "category": "premios/adn",
       "articles": 12,
       "files": [
@@ -1568,6 +1578,16 @@
       "files": [
         {
           "file": "lifestyle/celebrities/part-0001.json",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "category": "nfl/kansas-city-chiefs",
+      "articles": 11,
+      "files": [
+        {
+          "file": "nfl/kansas-city-chiefs/part-0001.json",
           "count": 11
         }
       ]
@@ -1618,16 +1638,6 @@
       "files": [
         {
           "file": "motor/24-horas-daytona/part-0001.json",
-          "count": 10
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 10,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
           "count": 10
         }
       ]
@@ -1693,11 +1703,11 @@
       ]
     },
     {
-      "category": "nfl/kansas-city-chiefs",
+      "category": "mx/motor",
       "articles": 9,
       "files": [
         {
-          "file": "nfl/kansas-city-chiefs/part-0001.json",
+          "file": "mx/motor/part-0001.json",
           "count": 9
         }
       ]
@@ -1748,16 +1758,6 @@
       "files": [
         {
           "file": "loteria/bonoloto/part-0001.json",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "category": "mx/motor",
-      "articles": 8,
-      "files": [
-        {
-          "file": "mx/motor/part-0001.json",
           "count": 8
         }
       ]
@@ -1973,6 +1973,16 @@
       ]
     },
     {
+      "category": "futbol/album",
+      "articles": 5,
+      "files": [
+        {
+          "file": "futbol/album/part-0001.json",
+          "count": 5
+        }
+      ]
+    },
+    {
       "category": "futbol/celta-fortuna",
       "articles": 5,
       "files": [
@@ -2058,16 +2068,6 @@
       "files": [
         {
           "file": "football/spanish-football/part-0001.json",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "category": "futbol/album",
-      "articles": 4,
-      "files": [
-        {
-          "file": "futbol/album/part-0001.json",
           "count": 4
         }
       ]
@@ -2178,6 +2178,26 @@
       "files": [
         {
           "file": "loteria/loteria-nino/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "mlb/los-angeles-dodgers",
+      "articles": 4,
+      "files": [
+        {
+          "file": "mlb/los-angeles-dodgers/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "nfl/cleveland-browns",
+      "articles": 4,
+      "files": [
+        {
+          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 4
         }
       ]
@@ -2308,26 +2328,6 @@
       "files": [
         {
           "file": "loteria/primitiva/part-0001.json",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "category": "mlb/los-angeles-dodgers",
-      "articles": 3,
-      "files": [
-        {
-          "file": "mlb/los-angeles-dodgers/part-0001.json",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "category": "nfl/cleveland-browns",
-      "articles": 3,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 3
         }
       ]
@@ -3073,11 +3073,31 @@
       ]
     },
     {
+      "category": "mx/tecnologia",
+      "articles": 1,
+      "files": [
+        {
+          "file": "mx/tecnologia/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
       "category": "mx/ufc",
       "articles": 1,
       "files": [
         {
           "file": "mx/ufc/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "mx/videojuegos",
+      "articles": 1,
+      "files": [
+        {
+          "file": "mx/videojuegos/part-0001.json",
           "count": 1
         }
       ]
