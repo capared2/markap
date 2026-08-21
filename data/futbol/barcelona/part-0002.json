@@ -1,8 +1,8 @@
 {
   "category": "futbol/barcelona",
   "part": 2,
-  "count": 4,
-  "updated_at": "2026-08-21T14:39:55.163457Z",
+  "count": 5,
+  "updated_at": "2026-08-21T16:31:56.506121Z",
   "articles": [
     {
       "id": "barca-ficha-livakovic",
@@ -283,6 +283,76 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-21T14:36:36.571391Z"
+    },
+    {
+      "id": "barca-inscribe-primeros-fichajes",
+      "url": "https://www.marca.com/futbol/barcelona/2026/08/21/barca-inscribe-primeros-fichajes.html",
+      "source_url": "https://www.marca.com/futbol/barcelona/2026/08/21/barca-inscribe-primeros-fichajes.html",
+      "category": "futbol/barcelona",
+      "category_path": [
+        "futbol",
+        "barcelona"
+      ],
+      "section": "Barcelona",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA EA Sports",
+        "Barcelona"
+      ],
+      "title": "El Barça inscribe a sus primeros fichajes",
+      "standfirst": "Rodri, Adeyemi y Christensen, que fue dado de baja, ya está registrados en LaLiga",
+      "summary": "Rodri, Adeyemi y Christensen, que fue dado de baja, ya está registrados en LaLiga",
+      "body": "El Barcelona ha comenzado con las inscripción de sus nuevas incorporaciones con el fin de que puedan estar disponibles este domingo para el partido que juega el equipo azulgrana en Elche. Desde el club habían asegurado que todos ellos estarán inscritos para este partido con la única duda de Cancelo.\n\nLos dos primeros en ser inscritos han sido Rodri y Adeyemi por lo que Flick ya podrá contar con ellos a todos los efectos. También se ha inscrito a Christensen , que había causado baja después de finalizar su contrato. Una vez renovado, también ha quedado inscrito.\n\nQuedan por registrarse Gordon y Cancelo. Con el primero no debería existir ningún problema, mientras que con el portugués se sigue esperando tener toda la documentación requerida para poder inscribirlo.",
+      "paragraphs": [
+        "El Barcelona ha comenzado con las inscripción de sus nuevas incorporaciones con el fin de que puedan estar disponibles este domingo para el partido que juega el equipo azulgrana en Elche. Desde el club habían asegurado que todos ellos estarán inscritos para este partido con la única duda de Cancelo.",
+        "Los dos primeros en ser inscritos han sido Rodri y Adeyemi por lo que Flick ya podrá contar con ellos a todos los efectos. También se ha inscrito a Christensen , que había causado baja después de finalizar su contrato. Una vez renovado, también ha quedado inscrito.",
+        "Quedan por registrarse Gordon y Cancelo. Con el primero no debería existir ningún problema, mientras que con el portugués se sigue esperando tener toda la documentación requerida para poder inscribirlo."
+      ],
+      "word_count": 127,
+      "authors": [
+        "Luis Fernando Rojo"
+      ],
+      "tags": [
+        "FC Barcelona",
+        "Karim Adeyemi",
+        "Rodrigo Hernández",
+        "barça"
+      ],
+      "published_at": "2026-08-21T15:35:15Z",
+      "modified_at": "2026-08-21T15:35:15Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/21/6a886e1ebd313.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/08/21/6a886e1ebd313.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/08/21/6a886e1ebd313.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/21/6a886ff579ba1.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/21/6a886e1ebd313.jpeg",
+          "caption": "Rodri, en su presentación en el Camp Nou. EFE"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/21/6a886ff579ba1.jpeg",
+          "caption": "Adeyemi, nuevo fichaje del Barcelona. EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-08-21T16:31:52.213726Z"
     }
   ]
 }
