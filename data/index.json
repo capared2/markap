@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-21T01:06:15.749950Z",
-  "total_articles": 8949,
-  "total_categories": 318,
+  "generated_at": "2026-08-21T03:02:14.662999Z",
+  "total_articles": 8963,
+  "total_categories": 319,
   "categories": [
     {
       "category": "motor/formula1",
@@ -140,7 +140,7 @@
     },
     {
       "category": "futbol",
-      "articles": 207,
+      "articles": 208,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -152,7 +152,7 @@
         },
         {
           "file": "futbol/part-0003.json",
-          "count": 7
+          "count": 8
         }
       ]
     },
@@ -253,6 +253,16 @@
       ]
     },
     {
+      "category": "mx/futbol",
+      "articles": 76,
+      "files": [
+        {
+          "file": "mx/futbol/part-0001.json",
+          "count": 76
+        }
+      ]
+    },
+    {
       "category": "futbol/primera-division",
       "articles": 75,
       "files": [
@@ -279,16 +289,6 @@
         {
           "file": "futbol/atletico/part-0001.json",
           "count": 70
-        }
-      ]
-    },
-    {
-      "category": "mx/futbol",
-      "articles": 69,
-      "files": [
-        {
-          "file": "mx/futbol/part-0001.json",
-          "count": 69
         }
       ]
     },
@@ -1393,22 +1393,22 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 16,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 16
+        }
+      ]
+    },
+    {
       "category": "futbol/venezuela",
       "articles": 16,
       "files": [
         {
           "file": "futbol/venezuela/part-0001.json",
           "count": 16
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 15,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 15
         }
       ]
     },
@@ -1953,6 +1953,16 @@
       ]
     },
     {
+      "category": "nfl/las-vegas-raiders",
+      "articles": 6,
+      "files": [
+        {
+          "file": "nfl/las-vegas-raiders/part-0001.json",
+          "count": 6
+        }
+      ]
+    },
+    {
       "category": "baloncesto/copa-del-rey",
       "articles": 5,
       "files": [
@@ -2033,11 +2043,11 @@
       ]
     },
     {
-      "category": "nfl/las-vegas-raiders",
+      "category": "nfl/cleveland-browns",
       "articles": 5,
       "files": [
         {
-          "file": "nfl/las-vegas-raiders/part-0001.json",
+          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 5
         }
       ]
@@ -2193,16 +2203,6 @@
       ]
     },
     {
-      "category": "nfl/cleveland-browns",
-      "articles": 4,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
-          "count": 4
-        }
-      ]
-    },
-    {
       "category": "nfl/en",
       "articles": 4,
       "files": [
@@ -2328,6 +2328,16 @@
       "files": [
         {
           "file": "loteria/primitiva/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "mlb/en",
+      "articles": 3,
+      "files": [
+        {
+          "file": "mlb/en/part-0001.json",
           "count": 3
         }
       ]
