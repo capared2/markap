@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-21T22:23:15.211129Z",
-  "total_articles": 10818,
-  "total_categories": 334,
+  "generated_at": "2026-08-22T01:02:37.682052Z",
+  "total_articles": 10833,
+  "total_categories": 336,
   "categories": [
     {
       "category": "motor/formula1",
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1106,
+      "articles": 1114,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -112,7 +112,7 @@
         },
         {
           "file": "mx/futbol/part-0012.json",
-          "count": 6
+          "count": 14
         }
       ]
     },
@@ -322,11 +322,11 @@
     },
     {
       "category": "futbol/primera-division",
-      "articles": 79,
+      "articles": 81,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
-          "count": 79
+          "count": 81
         }
       ]
     },
@@ -1601,6 +1601,16 @@
       ]
     },
     {
+      "category": "lifestyle/us-news",
+      "articles": 16,
+      "files": [
+        {
+          "file": "lifestyle/us-news/part-0001.json",
+          "count": 16
+        }
+      ]
+    },
+    {
       "category": "ciclismo/tour-francia",
       "articles": 15,
       "files": [
@@ -1646,16 +1656,6 @@
       "files": [
         {
           "file": "golf/liv-golf/part-0001.json",
-          "count": 15
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/us-news",
-      "articles": 15,
-      "files": [
-        {
-          "file": "lifestyle/us-news/part-0001.json",
           "count": 15
         }
       ]
@@ -2101,6 +2101,16 @@
       ]
     },
     {
+      "category": "futbol/album",
+      "articles": 6,
+      "files": [
+        {
+          "file": "futbol/album/part-0001.json",
+          "count": 6
+        }
+      ]
+    },
+    {
       "category": "futbol/real-sociedad-b",
       "articles": 6,
       "files": [
@@ -2176,16 +2186,6 @@
       "files": [
         {
           "file": "bienestar/salud/part-0001.json",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "category": "futbol/album",
-      "articles": 5,
-      "files": [
-        {
-          "file": "futbol/album/part-0001.json",
           "count": 5
         }
       ]
@@ -2706,6 +2706,16 @@
       "files": [
         {
           "file": "mx/juegos-olimpicos/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "nfl/houston-texans",
+      "articles": 2,
+      "files": [
+        {
+          "file": "nfl/houston-texans/part-0001.json",
           "count": 2
         }
       ]
@@ -3291,6 +3301,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 1,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
       "category": "nfl/album",
       "articles": 1,
       "files": [
@@ -3311,11 +3331,11 @@
       ]
     },
     {
-      "category": "nfl/houston-texans",
+      "category": "nfl/atlanta-falcons",
       "articles": 1,
       "files": [
         {
-          "file": "nfl/houston-texans/part-0001.json",
+          "file": "nfl/atlanta-falcons/part-0001.json",
           "count": 1
         }
       ]
