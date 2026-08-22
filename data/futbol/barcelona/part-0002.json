@@ -1,8 +1,8 @@
 {
   "category": "futbol/barcelona",
   "part": 2,
-  "count": 5,
-  "updated_at": "2026-08-21T16:31:56.506121Z",
+  "count": 6,
+  "updated_at": "2026-08-22T06:36:27.642822Z",
   "articles": [
     {
       "id": "barca-ficha-livakovic",
@@ -353,6 +353,64 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-21T16:31:52.213726Z"
+    },
+    {
+      "id": "rodrigo-acercarse-nuevo-champions",
+      "url": "https://www.marca.com/futbol/barcelona/opinion/2026/08/22/rodrigo-acercarse-nuevo-champions.html",
+      "source_url": "https://www.marca.com/futbol/barcelona/opinion/2026/08/22/rodrigo-acercarse-nuevo-champions.html",
+      "category": "futbol/barcelona",
+      "category_path": [
+        "futbol",
+        "barcelona",
+        "opinion"
+      ],
+      "section": "Barcelona",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA EA Sports",
+        "Barcelona"
+      ],
+      "title": "Rodrigo o cómo acercarse de nuevo a la Champions",
+      "standfirst": "El capitán de España puede ser el salto definitivo del Barça para tocar la orejona que no gana desde 2015",
+      "summary": "El capitán de España puede ser el salto definitivo del Barça para tocar la orejona que no gana desde 2015",
+      "body": "No sólo del culebrón Julián vive el fútbol español. El de nuestro segundo Balón de Oro, Rodrigo Hernández, copó la actualidad durante semanas. Bandazo final para acabar en el Barça cuando todo indicaba que sería madridista. El mejor jugador del último Mundial, el ancla más deseado, llega al Camp Nou con una misión.\n\nY sí, es ganar la Champions de azulgrana . Ya la consiguió con el Manchester City con gol incluido en la final.\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "No sólo del culebrón Julián vive el fútbol español. El de nuestro segundo Balón de Oro, Rodrigo Hernández, copó la actualidad durante semanas. Bandazo final para acabar en el Barça cuando todo indicaba que sería madridista. El mejor jugador del último Mundial, el ancla más deseado, llega al Camp Nou con una misión.",
+        "Y sí, es ganar la Champions de azulgrana . Ya la consiguió con el Manchester City con gol incluido en la final.",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 80,
+      "authors": [
+        "David Medina"
+      ],
+      "tags": [],
+      "published_at": "2026-08-22T05:34:27Z",
+      "modified_at": "2026-08-22T05:34:27Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/21/6a8837c42f7f8.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/08/21/6a8837c42f7f8.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/08/21/6a8837c42f7f8.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/21/6a8837c42f7f8.jpeg",
+          "caption": "Rodrigo, en su presentación con el Barcelona. EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-08-22T06:36:24.732552Z"
     }
   ]
 }
