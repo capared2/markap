@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-22T01:02:37.682052Z",
-  "total_articles": 10833,
-  "total_categories": 336,
+  "generated_at": "2026-08-22T02:54:05.241316Z",
+  "total_articles": 10843,
+  "total_categories": 337,
   "categories": [
     {
       "category": "motor/formula1",
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1114,
+      "articles": 1119,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -112,7 +112,7 @@
         },
         {
           "file": "mx/futbol/part-0012.json",
-          "count": 14
+          "count": 19
         }
       ]
     },
@@ -1321,6 +1321,16 @@
       ]
     },
     {
+      "category": "mma",
+      "articles": 22,
+      "files": [
+        {
+          "file": "mma/part-0001.json",
+          "count": 22
+        }
+      ]
+    },
+    {
       "category": "toros",
       "articles": 22,
       "files": [
@@ -1376,16 +1386,6 @@
       "files": [
         {
           "file": "futbol/zaragoza/part-0001.json",
-          "count": 21
-        }
-      ]
-    },
-    {
-      "category": "mma",
-      "articles": 21,
-      "files": [
-        {
-          "file": "mma/part-0001.json",
           "count": 21
         }
       ]
@@ -1551,6 +1551,16 @@
       ]
     },
     {
+      "category": "lifestyle/celebrities",
+      "articles": 18,
+      "files": [
+        {
+          "file": "lifestyle/celebrities/part-0001.json",
+          "count": 18
+        }
+      ]
+    },
+    {
       "category": "tiramillas",
       "articles": 18,
       "files": [
@@ -1567,16 +1577,6 @@
         {
           "file": "turf/part-0001.json",
           "count": 18
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/celebrities",
-      "articles": 17,
-      "files": [
-        {
-          "file": "lifestyle/celebrities/part-0001.json",
-          "count": 17
         }
       ]
     },
@@ -2151,6 +2151,16 @@
       ]
     },
     {
+      "category": "nfl/cleveland-browns",
+      "articles": 6,
+      "files": [
+        {
+          "file": "nfl/cleveland-browns/part-0001.json",
+          "count": 6
+        }
+      ]
+    },
+    {
       "category": "baloncesto/copa-del-rey",
       "articles": 5,
       "files": [
@@ -2246,16 +2256,6 @@
       "files": [
         {
           "file": "motor/mas-motor/part-0001.json",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "category": "nfl/cleveland-browns",
-      "articles": 5,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 5
         }
       ]
@@ -2751,6 +2751,16 @@
       ]
     },
     {
+      "category": "technology/en",
+      "articles": 2,
+      "files": [
+        {
+          "file": "technology/en/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
       "category": "tenis/copa-davis",
       "articles": 2,
       "files": [
@@ -3231,6 +3241,16 @@
       ]
     },
     {
+      "category": "mlb/atlanta-braves",
+      "articles": 1,
+      "files": [
+        {
+          "file": "mlb/atlanta-braves/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
       "category": "mlb/new-york-mets",
       "articles": 1,
       "files": [
@@ -3476,16 +3496,6 @@
       "files": [
         {
           "file": "soccer/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "category": "technology/en",
-      "articles": 1,
-      "files": [
-        {
-          "file": "technology/en/part-0001.json",
           "count": 1
         }
       ]

@@ -1,44 +1,43 @@
 {
-  "updated_at": "2026-08-22T01:02:37.721738Z",
-  "seen": 11092,
+  "updated_at": "2026-08-22T02:54:05.269653Z",
+  "seen": 11102,
   "pending": 0,
   "failed": 47,
-  "empty": 455,
+  "empty": 461,
   "abandoned": 95,
   "last_run": {
     "mode": "incremental",
     "discovered": 8634,
-    "queued": 20,
-    "fetched": 20,
-    "saved": 15,
+    "queued": 16,
+    "fetched": 16,
+    "saved": 10,
     "skipped_old": 0,
-    "skipped_empty": 5,
+    "skipped_empty": 6,
     "failed": 0,
     "categories": {
-      "futbol/primera-division": 2,
-      "mx/futbol": 8,
-      "nfl/atlanta-falcons": 1,
-      "lifestyle/us-news": 1,
-      "nfl/houston-texans": 1,
-      "ncaa/en": 1,
-      "futbol/album": 1
+      "mx/futbol": 5,
+      "technology/en": 1,
+      "lifestyle/celebrities": 1,
+      "nfl/cleveland-browns": 1,
+      "mlb/atlanta-braves": 1,
+      "mma": 1
     },
     "seo": {
-      "generated_at": "2026-08-22T01:02:37.713943Z",
+      "generated_at": "2026-08-22T02:54:05.264308Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 11188,
+      "total_urls": 11199,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 828
+      "news_urls": 821
     },
-    "total_articles": 10833,
-    "total_categories": 336,
-    "duration_seconds": 233.0,
+    "total_articles": 10843,
+    "total_categories": 337,
+    "duration_seconds": 217.1,
     "http": {
-      "requests": 358,
+      "requests": 354,
       "errors": 6,
       "blocked": 0
     }
