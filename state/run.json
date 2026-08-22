@@ -1,43 +1,45 @@
 {
-  "updated_at": "2026-08-22T02:54:05.269653Z",
-  "seen": 11102,
+  "updated_at": "2026-08-22T04:31:56.771857Z",
+  "seen": 11116,
   "pending": 0,
   "failed": 47,
-  "empty": 461,
+  "empty": 465,
   "abandoned": 95,
   "last_run": {
     "mode": "incremental",
-    "discovered": 8634,
-    "queued": 16,
-    "fetched": 16,
-    "saved": 10,
+    "discovered": 8636,
+    "queued": 18,
+    "fetched": 18,
+    "saved": 14,
     "skipped_old": 0,
-    "skipped_empty": 6,
+    "skipped_empty": 4,
     "failed": 0,
     "categories": {
-      "mx/futbol": 5,
-      "technology/en": 1,
+      "mx/boxeo": 1,
+      "nfl/dallas-cowboys": 1,
+      "nfl/new-england-patriots": 1,
+      "mx/futbol": 6,
+      "mx/actualidad": 2,
+      "nfl/las-vegas-raiders": 1,
       "lifestyle/celebrities": 1,
-      "nfl/cleveland-browns": 1,
-      "mlb/atlanta-braves": 1,
-      "mma": 1
+      "football/liga-mx": 1
     },
     "seo": {
-      "generated_at": "2026-08-22T02:54:05.264308Z",
+      "generated_at": "2026-08-22T04:31:56.763396Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 11199,
+      "total_urls": 11214,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 821
+      "news_urls": 824
     },
-    "total_articles": 10843,
-    "total_categories": 337,
-    "duration_seconds": 217.1,
+    "total_articles": 10857,
+    "total_categories": 338,
+    "duration_seconds": 224.0,
     "http": {
-      "requests": 354,
+      "requests": 356,
       "errors": 6,
       "blocked": 0
     }

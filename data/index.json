@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-22T02:54:05.241316Z",
-  "total_articles": 10843,
-  "total_categories": 337,
+  "generated_at": "2026-08-22T04:31:56.722299Z",
+  "total_articles": 10857,
+  "total_categories": 338,
   "categories": [
     {
       "category": "motor/formula1",
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1119,
+      "articles": 1125,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -112,7 +112,7 @@
         },
         {
           "file": "mx/futbol/part-0012.json",
-          "count": 19
+          "count": 25
         }
       ]
     },
@@ -931,6 +931,16 @@
       ]
     },
     {
+      "category": "mx/actualidad",
+      "articles": 42,
+      "files": [
+        {
+          "file": "mx/actualidad/part-0001.json",
+          "count": 42
+        }
+      ]
+    },
+    {
       "category": "futbol/malaga",
       "articles": 41,
       "files": [
@@ -961,16 +971,6 @@
       ]
     },
     {
-      "category": "mx/actualidad",
-      "articles": 40,
-      "files": [
-        {
-          "file": "mx/actualidad/part-0001.json",
-          "count": 40
-        }
-      ]
-    },
-    {
       "category": "futbol/america",
       "articles": 39,
       "files": [
@@ -981,21 +981,21 @@
       ]
     },
     {
+      "category": "mx/boxeo",
+      "articles": 39,
+      "files": [
+        {
+          "file": "mx/boxeo/part-0001.json",
+          "count": 39
+        }
+      ]
+    },
+    {
       "category": "futbol/elche",
       "articles": 38,
       "files": [
         {
           "file": "futbol/elche/part-0001.json",
-          "count": 38
-        }
-      ]
-    },
-    {
-      "category": "mx/boxeo",
-      "articles": 38,
-      "files": [
-        {
-          "file": "mx/boxeo/part-0001.json",
           "count": 38
         }
       ]
@@ -1531,6 +1531,16 @@
       ]
     },
     {
+      "category": "lifestyle/celebrities",
+      "articles": 19,
+      "files": [
+        {
+          "file": "lifestyle/celebrities/part-0001.json",
+          "count": 19
+        }
+      ]
+    },
+    {
       "category": "futbol/mundial-sub-20",
       "articles": 18,
       "files": [
@@ -1546,16 +1556,6 @@
       "files": [
         {
           "file": "futbol/supercopa-espana/part-0001.json",
-          "count": 18
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/celebrities",
-      "articles": 18,
-      "files": [
-        {
-          "file": "lifestyle/celebrities/part-0001.json",
           "count": 18
         }
       ]
@@ -1831,6 +1831,16 @@
       ]
     },
     {
+      "category": "nfl/las-vegas-raiders",
+      "articles": 10,
+      "files": [
+        {
+          "file": "nfl/las-vegas-raiders/part-0001.json",
+          "count": 10
+        }
+      ]
+    },
+    {
       "category": "balonmano/ehf-champions-league",
       "articles": 9,
       "files": [
@@ -1846,16 +1856,6 @@
       "files": [
         {
           "file": "mx/juegos-centroamericanos-caribe/part-0001.json",
-          "count": 9
-        }
-      ]
-    },
-    {
-      "category": "nfl/las-vegas-raiders",
-      "articles": 9,
-      "files": [
-        {
-          "file": "nfl/las-vegas-raiders/part-0001.json",
           "count": 9
         }
       ]
@@ -2431,6 +2431,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 4,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
       "category": "nfl/en",
       "articles": 4,
       "files": [
@@ -2556,16 +2566,6 @@
       "files": [
         {
           "file": "mlb/new-york-yankees/part-0001.json",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 3,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 3
         }
       ]
@@ -2716,6 +2716,16 @@
       "files": [
         {
           "file": "nfl/houston-texans/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "nfl/new-england-patriots",
+      "articles": 2,
+      "files": [
+        {
+          "file": "nfl/new-england-patriots/part-0001.json",
           "count": 2
         }
       ]
@@ -2906,6 +2916,16 @@
       "files": [
         {
           "file": "football/fifa-club-world-cup/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "football/liga-mx",
+      "articles": 1,
+      "files": [
+        {
+          "file": "football/liga-mx/part-0001.json",
           "count": 1
         }
       ]
@@ -3366,16 +3386,6 @@
       "files": [
         {
           "file": "nfl/miami-dolphins/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "category": "nfl/new-england-patriots",
-      "articles": 1,
-      "files": [
-        {
-          "file": "nfl/new-england-patriots/part-0001.json",
           "count": 1
         }
       ]
