@@ -1,7 +1,7 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-23T01:07:52.802510Z",
-  "total_articles": 11193,
+  "generated_at": "2026-08-23T03:01:53.798709Z",
+  "total_articles": 11205,
   "total_categories": 346,
   "categories": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1159,
+      "articles": 1164,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -112,7 +112,7 @@
         },
         {
           "file": "mx/futbol/part-0012.json",
-          "count": 59
+          "count": 64
         }
       ]
     },
@@ -545,6 +545,16 @@
       ]
     },
     {
+      "category": "mx/actualidad",
+      "articles": 53,
+      "files": [
+        {
+          "file": "mx/actualidad/part-0001.json",
+          "count": 53
+        }
+      ]
+    },
+    {
       "category": "mx/basquetbol",
       "articles": 53,
       "files": [
@@ -610,16 +620,6 @@
       "files": [
         {
           "file": "futbol/futbol-sala/part-0001.json",
-          "count": 51
-        }
-      ]
-    },
-    {
-      "category": "mx/actualidad",
-      "articles": 51,
-      "files": [
-        {
-          "file": "mx/actualidad/part-0001.json",
           "count": 51
         }
       ]
@@ -1285,6 +1285,16 @@
       ]
     },
     {
+      "category": "lifestyle/celebrities",
+      "articles": 25,
+      "files": [
+        {
+          "file": "lifestyle/celebrities/part-0001.json",
+          "count": 25
+        }
+      ]
+    },
+    {
       "category": "balonmano",
       "articles": 24,
       "files": [
@@ -1310,16 +1320,6 @@
       "files": [
         {
           "file": "golf/part-0001.json",
-          "count": 24
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/celebrities",
-      "articles": 24,
-      "files": [
-        {
-          "file": "lifestyle/celebrities/part-0001.json",
           "count": 24
         }
       ]
@@ -2015,6 +2015,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 8,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 8
+        }
+      ]
+    },
+    {
       "category": "regalos-promociones/tecnologia-electronica",
       "articles": 8,
       "files": [
@@ -2305,16 +2315,6 @@
       ]
     },
     {
-      "category": "ncaa/en",
-      "articles": 5,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
-          "count": 5
-        }
-      ]
-    },
-    {
       "category": "nfl/philadelphia-eagles",
       "articles": 5,
       "files": [
@@ -2350,6 +2350,16 @@
       "files": [
         {
           "file": "football/en/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "football/mls",
+      "articles": 4,
+      "files": [
+        {
+          "file": "football/mls/part-0001.json",
           "count": 4
         }
       ]
@@ -2530,16 +2540,6 @@
       "files": [
         {
           "file": "coches-y-motos/album/part-0001.json",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "category": "football/mls",
-      "articles": 3,
-      "files": [
-        {
-          "file": "football/mls/part-0001.json",
           "count": 3
         }
       ]
