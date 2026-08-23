@@ -1,8 +1,8 @@
 {
   "category": "futbol/opinion",
   "part": 1,
-  "count": 1,
-  "updated_at": "2026-08-20T03:44:27.500255Z",
+  "count": 2,
+  "updated_at": "2026-08-23T06:37:09.478459Z",
   "articles": [
     {
       "id": "futbol-dramon",
@@ -61,6 +61,64 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-08-20T01:47:55.030197Z"
+    },
+    {
+      "id": "messi-jugaba-futbol",
+      "url": "https://www.marca.com/futbol/opinion/2026/08/23/messi-jugaba-futbol.html",
+      "source_url": "https://www.marca.com/futbol/opinion/2026/08/23/messi-jugaba-futbol.html",
+      "category": "futbol/opinion",
+      "category_path": [
+        "futbol",
+        "opinion"
+      ],
+      "section": "Fútbol",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol"
+      ],
+      "title": "Messi y su 'yo sólo jugaba al fútbol'",
+      "standfirst": "El borde del área, por José Luis Hurtado",
+      "summary": "El borde del área, por José Luis Hurtado",
+      "body": "m urió Jorge Messi y su hijo Leo tituló sin querer la mejor autoentrevista de su vida en forma de mensaje de despedida. El futbolista expuso para el universo con un 'Yo sólo jugaba al fútbol' el dolor que sentía, ese agujero que abrasa porque no cuenta con remedio ni explicación. Esa declaración fue un gol de vaselina desde mediocampo en un potrero.\n\n‘Yo sólo jugaba al fútbol’ puede ser la denominación de un grupo d\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "m urió Jorge Messi y su hijo Leo tituló sin querer la mejor autoentrevista de su vida en forma de mensaje de despedida. El futbolista expuso para el universo con un 'Yo sólo jugaba al fútbol' el dolor que sentía, ese agujero que abrasa porque no cuenta con remedio ni explicación. Esa declaración fue un gol de vaselina desde mediocampo en un potrero.",
+        "‘Yo sólo jugaba al fútbol’ puede ser la denominación de un grupo d",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 81,
+      "authors": [
+        "José Luis Hurtado"
+      ],
+      "tags": [
+        "sólo",
+        "fútbol"
+      ],
+      "published_at": "2026-08-23T05:38:27Z",
+      "modified_at": "2026-08-23T05:38:27Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/22/6a89dd57b67eb.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/08/22/6a89dd57b67eb.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/08/22/6a89dd57b67eb.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/22/6a89dd57b67eb.jpeg",
+          "caption": "Messi, en el inicio de su carrera, con su padre Jorge, recientemente fallecido. ARCHIVO MARCA"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-08-23T06:37:03.436529Z"
     }
   ]
 }
