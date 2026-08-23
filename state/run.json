@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-08-23T03:01:53.833480Z",
-  "seen": 11464,
+  "updated_at": "2026-08-23T04:36:06.019062Z",
+  "seen": 11470,
   "pending": 0,
   "failed": 62,
-  "empty": 525,
-  "abandoned": 127,
+  "empty": 529,
+  "abandoned": 134,
   "last_run": {
     "mode": "incremental",
-    "discovered": 8619,
-    "queued": 29,
-    "fetched": 29,
-    "saved": 12,
+    "discovered": 8615,
+    "queued": 17,
+    "fetched": 17,
+    "saved": 6,
     "skipped_old": 0,
-    "skipped_empty": 17,
+    "skipped_empty": 11,
     "failed": 0,
     "categories": {
-      "mx/futbol": 5,
-      "ncaa/en": 3,
-      "mx/actualidad": 2,
-      "football/mls": 1,
-      "lifestyle/celebrities": 1
+      "nfl/dallas-cowboys": 1,
+      "basketball/wnba": 1,
+      "olympic-games/track-and-field": 1,
+      "mx/futbol": 2,
+      "mma": 1
     },
     "seo": {
-      "generated_at": "2026-08-23T03:01:53.826920Z",
+      "generated_at": "2026-08-23T04:36:06.012549Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 11570,
+      "total_urls": 11577,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 751
+      "news_urls": 749
     },
-    "total_articles": 11205,
-    "total_categories": 346,
-    "duration_seconds": 230.4,
+    "total_articles": 11211,
+    "total_categories": 347,
+    "duration_seconds": 216.4,
     "http": {
-      "requests": 367,
+      "requests": 355,
       "errors": 6,
       "blocked": 0
     }

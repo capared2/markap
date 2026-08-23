@@ -1,8 +1,8 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-23T03:01:53.798709Z",
-  "total_articles": 11205,
-  "total_categories": 346,
+  "generated_at": "2026-08-23T04:36:05.986389Z",
+  "total_articles": 11211,
+  "total_categories": 347,
   "categories": [
     {
       "category": "motor/formula1",
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1164,
+      "articles": 1166,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -112,7 +112,7 @@
         },
         {
           "file": "mx/futbol/part-0012.json",
-          "count": 64
+          "count": 66
         }
       ]
     },
@@ -1185,6 +1185,16 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 28,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 28
+        }
+      ]
+    },
+    {
       "category": "futbol/alaves",
       "articles": 28,
       "files": [
@@ -1211,16 +1221,6 @@
         {
           "file": "futbol/villarreal/part-0001.json",
           "count": 28
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 27,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 27
         }
       ]
     },
@@ -1325,6 +1325,16 @@
       ]
     },
     {
+      "category": "mma",
+      "articles": 23,
+      "files": [
+        {
+          "file": "mma/part-0001.json",
+          "count": 23
+        }
+      ]
+    },
+    {
       "category": "deportes-aventura",
       "articles": 22,
       "files": [
@@ -1360,16 +1370,6 @@
       "files": [
         {
           "file": "lifestyle/us-news/part-0001.json",
-          "count": 22
-        }
-      ]
-    },
-    {
-      "category": "mma",
-      "articles": 22,
-      "files": [
-        {
-          "file": "mma/part-0001.json",
           "count": 22
         }
       ]
@@ -2315,6 +2315,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 5,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 5
+        }
+      ]
+    },
+    {
       "category": "nfl/philadelphia-eagles",
       "articles": 5,
       "files": [
@@ -2480,16 +2490,6 @@
       "files": [
         {
           "file": "mlb/en/part-0001.json",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 4,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 4
         }
       ]
@@ -3500,6 +3500,16 @@
       "files": [
         {
           "file": "olimpismo/opinion/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "olympic-games/track-and-field",
+      "articles": 1,
+      "files": [
+        {
+          "file": "olympic-games/track-and-field/part-0001.json",
           "count": 1
         }
       ]
