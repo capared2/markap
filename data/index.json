@@ -1,7 +1,7 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-24T03:02:30.975151Z",
-  "total_articles": 11558,
+  "generated_at": "2026-08-24T04:43:46.299038Z",
+  "total_articles": 11568,
   "total_categories": 352,
   "categories": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1200,
+      "articles": 1203,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -113,6 +113,10 @@
         {
           "file": "mx/futbol/part-0012.json",
           "count": 100
+        },
+        {
+          "file": "mx/futbol/part-0013.json",
+          "count": 3
         }
       ]
     },
@@ -1063,6 +1067,16 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 37,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 37
+        }
+      ]
+    },
+    {
       "category": "futbol/copa-intercontinental",
       "articles": 37,
       "files": [
@@ -1119,16 +1133,6 @@
         {
           "file": "futbol/futbol-internacional/part-0001.json",
           "count": 36
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 35,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 35
         }
       ]
     },
@@ -1774,21 +1778,21 @@
     },
     {
       "category": "nfl/cleveland-browns",
-      "articles": 13,
+      "articles": 14,
       "files": [
         {
           "file": "nfl/cleveland-browns/part-0001.json",
-          "count": 13
+          "count": 14
         }
       ]
     },
     {
       "category": "nfl/las-vegas-raiders",
-      "articles": 13,
+      "articles": 14,
       "files": [
         {
           "file": "nfl/las-vegas-raiders/part-0001.json",
-          "count": 13
+          "count": 14
         }
       ]
     },
@@ -2663,6 +2667,16 @@
       ]
     },
     {
+      "category": "nfl/indianapolis-colts",
+      "articles": 3,
+      "files": [
+        {
+          "file": "nfl/indianapolis-colts/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
       "category": "nfl/jacksonville-jaguars",
       "articles": 3,
       "files": [
@@ -2688,6 +2702,16 @@
       "files": [
         {
           "file": "soccer/leagues-cup/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "technology/en",
+      "articles": 3,
+      "files": [
+        {
+          "file": "technology/en/part-0001.json",
           "count": 3
         }
       ]
@@ -2863,21 +2887,21 @@
       ]
     },
     {
-      "category": "nfl/indianapolis-colts",
-      "articles": 2,
-      "files": [
-        {
-          "file": "nfl/indianapolis-colts/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
       "category": "nfl/new-england-patriots",
       "articles": 2,
       "files": [
         {
           "file": "nfl/new-england-patriots/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "nfl/san-francisco-49ers",
+      "articles": 2,
+      "files": [
+        {
+          "file": "nfl/san-francisco-49ers/part-0001.json",
           "count": 2
         }
       ]
@@ -2908,16 +2932,6 @@
       "files": [
         {
           "file": "sport-business/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "category": "technology/en",
-      "articles": 2,
-      "files": [
-        {
-          "file": "technology/en/part-0001.json",
           "count": 2
         }
       ]
@@ -3538,16 +3552,6 @@
       "files": [
         {
           "file": "nfl/miami-dolphins/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "category": "nfl/san-francisco-49ers",
-      "articles": 1,
-      "files": [
-        {
-          "file": "nfl/san-francisco-49ers/part-0001.json",
           "count": 1
         }
       ]
