@@ -1,7 +1,7 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-24T04:43:46.299038Z",
-  "total_articles": 11568,
+  "generated_at": "2026-08-24T06:52:42.648206Z",
+  "total_articles": 11588,
   "total_categories": 352,
   "categories": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1203,
+      "articles": 1205,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -116,13 +116,13 @@
         },
         {
           "file": "mx/futbol/part-0013.json",
-          "count": 3
+          "count": 5
         }
       ]
     },
     {
       "category": "motor/motogp",
-      "articles": 1105,
+      "articles": 1106,
       "files": [
         {
           "file": "motor/motogp/part-0001.json",
@@ -170,7 +170,7 @@
         },
         {
           "file": "motor/motogp/part-0012.json",
-          "count": 5
+          "count": 6
         }
       ]
     },
@@ -216,7 +216,7 @@
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 192,
+      "articles": 194,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -224,7 +224,7 @@
         },
         {
           "file": "futbol/real-madrid/part-0002.json",
-          "count": 92
+          "count": 94
         }
       ]
     },
@@ -286,7 +286,7 @@
     },
     {
       "category": "futbol/primera-division",
-      "articles": 111,
+      "articles": 112,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
@@ -294,13 +294,13 @@
         },
         {
           "file": "futbol/primera-division/part-0002.json",
-          "count": 11
+          "count": 12
         }
       ]
     },
     {
       "category": "tiramillas/sociedad",
-      "articles": 104,
+      "articles": 107,
       "files": [
         {
           "file": "tiramillas/sociedad/part-0001.json",
@@ -308,13 +308,13 @@
         },
         {
           "file": "tiramillas/sociedad/part-0002.json",
-          "count": 4
+          "count": 7
         }
       ]
     },
     {
       "category": "futbol/premier-league",
-      "articles": 101,
+      "articles": 103,
       "files": [
         {
           "file": "futbol/premier-league/part-0001.json",
@@ -322,17 +322,17 @@
         },
         {
           "file": "futbol/premier-league/part-0002.json",
-          "count": 1
+          "count": 3
         }
       ]
     },
     {
       "category": "futbol/atletico",
-      "articles": 92,
+      "articles": 93,
       "files": [
         {
           "file": "futbol/atletico/part-0001.json",
-          "count": 92
+          "count": 93
         }
       ]
     },
@@ -467,21 +467,21 @@
       ]
     },
     {
+      "category": "futbol/real-sociedad",
+      "articles": 61,
+      "files": [
+        {
+          "file": "futbol/real-sociedad/part-0001.json",
+          "count": 61
+        }
+      ]
+    },
+    {
       "category": "futbol/betis",
       "articles": 60,
       "files": [
         {
           "file": "futbol/betis/part-0001.json",
-          "count": 60
-        }
-      ]
-    },
-    {
-      "category": "futbol/real-sociedad",
-      "articles": 60,
-      "files": [
-        {
-          "file": "futbol/real-sociedad/part-0001.json",
           "count": 60
         }
       ]
@@ -567,22 +567,22 @@
       ]
     },
     {
+      "category": "ciclismo/vuelta-espana",
+      "articles": 54,
+      "files": [
+        {
+          "file": "ciclismo/vuelta-espana/part-0001.json",
+          "count": 54
+        }
+      ]
+    },
+    {
       "category": "otros-deportes",
       "articles": 54,
       "files": [
         {
           "file": "otros-deportes/part-0001.json",
           "count": 54
-        }
-      ]
-    },
-    {
-      "category": "ciclismo/vuelta-espana",
-      "articles": 53,
-      "files": [
-        {
-          "file": "ciclismo/vuelta-espana/part-0001.json",
-          "count": 53
         }
       ]
     },
@@ -917,6 +917,16 @@
       ]
     },
     {
+      "category": "tiramillas/economia",
+      "articles": 47,
+      "files": [
+        {
+          "file": "tiramillas/economia/part-0001.json",
+          "count": 47
+        }
+      ]
+    },
+    {
       "category": "futbol/athletic",
       "articles": 46,
       "files": [
@@ -952,16 +962,6 @@
       "files": [
         {
           "file": "mx/tenis/part-0001.json",
-          "count": 45
-        }
-      ]
-    },
-    {
-      "category": "tiramillas/economia",
-      "articles": 45,
-      "files": [
-        {
-          "file": "tiramillas/economia/part-0001.json",
           "count": 45
         }
       ]
@@ -1027,6 +1027,16 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 40,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 40
+        }
+      ]
+    },
+    {
       "category": "futbol/america",
       "articles": 39,
       "files": [
@@ -1043,16 +1053,6 @@
         {
           "file": "videojuegos/juegos/part-0001.json",
           "count": 39
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 38,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
-          "count": 38
         }
       ]
     },
@@ -1798,11 +1798,11 @@
     },
     {
       "category": "tecnologia",
-      "articles": 13,
+      "articles": 14,
       "files": [
         {
           "file": "tecnologia/part-0001.json",
-          "count": 13
+          "count": 14
         }
       ]
     },
@@ -2287,6 +2287,16 @@
       ]
     },
     {
+      "category": "motor/mas-motor",
+      "articles": 6,
+      "files": [
+        {
+          "file": "motor/mas-motor/part-0001.json",
+          "count": 6
+        }
+      ]
+    },
+    {
       "category": "nfl/en",
       "articles": 6,
       "files": [
@@ -2342,16 +2352,6 @@
       "files": [
         {
           "file": "hockey/hockey-hielo/part-0001.json",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "category": "motor/mas-motor",
-      "articles": 5,
-      "files": [
-        {
-          "file": "motor/mas-motor/part-0001.json",
           "count": 5
         }
       ]
