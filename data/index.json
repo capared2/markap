@@ -1,7 +1,7 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-25T01:04:21.847233Z",
-  "total_articles": 11965,
+  "generated_at": "2026-08-25T02:57:54.341392Z",
+  "total_articles": 11980,
   "total_categories": 355,
   "categories": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "category": "mx/futbol",
-      "articles": 1227,
+      "articles": 1233,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -116,7 +116,7 @@
         },
         {
           "file": "mx/futbol/part-0013.json",
-          "count": 27
+          "count": 33
         }
       ]
     },
@@ -418,11 +418,11 @@
     },
     {
       "category": "mx/motor",
-      "articles": 69,
+      "articles": 70,
       "files": [
         {
           "file": "mx/motor/part-0001.json",
-          "count": 69
+          "count": 70
         }
       ]
     },
@@ -1037,21 +1037,21 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 42,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 42
+        }
+      ]
+    },
+    {
       "category": "mx/boxeo",
       "articles": 41,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
-          "count": 41
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 41,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
           "count": 41
         }
       ]
@@ -1217,6 +1217,16 @@
       ]
     },
     {
+      "category": "co",
+      "articles": 31,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 31
+        }
+      ]
+    },
+    {
       "category": "tenis/masters-1000-cincinnati",
       "articles": 31,
       "files": [
@@ -1253,16 +1263,6 @@
         {
           "file": "futbol/villarreal/part-0001.json",
           "count": 30
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 29,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 29
         }
       ]
     },
@@ -1347,6 +1347,16 @@
       ]
     },
     {
+      "category": "nfl/kansas-city-chiefs",
+      "articles": 27,
+      "files": [
+        {
+          "file": "nfl/kansas-city-chiefs/part-0001.json",
+          "count": 27
+        }
+      ]
+    },
+    {
       "category": "balonmano",
       "articles": 25,
       "files": [
@@ -1372,16 +1382,6 @@
       "files": [
         {
           "file": "golf/part-0001.json",
-          "count": 25
-        }
-      ]
-    },
-    {
-      "category": "nfl/kansas-city-chiefs",
-      "articles": 25,
-      "files": [
-        {
-          "file": "nfl/kansas-city-chiefs/part-0001.json",
           "count": 25
         }
       ]
@@ -1597,6 +1597,16 @@
       ]
     },
     {
+      "category": "nfl/cleveland-browns",
+      "articles": 20,
+      "files": [
+        {
+          "file": "nfl/cleveland-browns/part-0001.json",
+          "count": 20
+        }
+      ]
+    },
+    {
       "category": "calendario-adviento",
       "articles": 19,
       "files": [
@@ -1632,16 +1642,6 @@
       "files": [
         {
           "file": "golf/liv-golf/part-0001.json",
-          "count": 19
-        }
-      ]
-    },
-    {
-      "category": "nfl/cleveland-browns",
-      "articles": 19,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 19
         }
       ]
@@ -1957,6 +1957,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 10,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 10
+        }
+      ]
+    },
+    {
       "category": "tiramillas/series",
       "articles": 10,
       "files": [
@@ -2142,16 +2152,6 @@
       "files": [
         {
           "file": "mlb/los-angeles-dodgers/part-0001.json",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 8,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 8
         }
       ]
