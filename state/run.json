@@ -1,45 +1,46 @@
 {
-  "updated_at": "2026-08-25T02:57:54.388216Z",
-  "seen": 12241,
+  "updated_at": "2026-08-25T04:38:18.987560Z",
+  "seen": 12253,
   "pending": 0,
   "failed": 84,
-  "empty": 608,
-  "abandoned": 180,
+  "empty": 612,
+  "abandoned": 183,
   "last_run": {
     "mode": "incremental",
-    "discovered": 8605,
-    "queued": 24,
-    "fetched": 24,
-    "saved": 15,
+    "discovered": 8613,
+    "queued": 21,
+    "fetched": 21,
+    "saved": 12,
     "skipped_old": 0,
-    "skipped_empty": 8,
-    "failed": 1,
+    "skipped_empty": 9,
+    "failed": 0,
     "categories": {
-      "mx/futbol": 6,
-      "nfl/dallas-cowboys": 2,
-      "mx/trending": 1,
-      "nfl/kansas-city-chiefs": 2,
-      "co": 2,
-      "mx/motor": 1,
-      "nfl/cleveland-browns": 1
+      "mx/futbol": 5,
+      "motor/formula1": 1,
+      "futbol/real-madrid": 1,
+      "nfl/dallas-cowboys": 1,
+      "ciclismo/vuelta-espana": 1,
+      "futbol/atletico": 1,
+      "futbol/bundesliga": 1,
+      "mx/actualidad": 1
     },
     "seo": {
-      "generated_at": "2026-08-25T02:57:54.379384Z",
+      "generated_at": "2026-08-25T04:38:18.979455Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 12354,
+      "total_urls": 12366,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 758
+      "news_urls": 765
     },
-    "total_articles": 11980,
+    "total_articles": 11992,
     "total_categories": 355,
-    "duration_seconds": 225.0,
+    "duration_seconds": 241.5,
     "http": {
-      "requests": 362,
-      "errors": 7,
+      "requests": 359,
+      "errors": 6,
       "blocked": 0
     }
   }

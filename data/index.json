@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-25T02:57:54.341392Z",
-  "total_articles": 11980,
+  "generated_at": "2026-08-25T04:38:18.928750Z",
+  "total_articles": 11992,
   "total_categories": 355,
   "categories": [
     {
       "category": "motor/formula1",
-      "articles": 1257,
+      "articles": 1258,
       "files": [
         {
           "file": "motor/formula1/part-0001.json",
@@ -58,13 +58,13 @@
         },
         {
           "file": "motor/formula1/part-0013.json",
-          "count": 57
+          "count": 58
         }
       ]
     },
     {
       "category": "mx/futbol",
-      "articles": 1233,
+      "articles": 1238,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -116,7 +116,7 @@
         },
         {
           "file": "mx/futbol/part-0013.json",
-          "count": 33
+          "count": 38
         }
       ]
     },
@@ -216,7 +216,7 @@
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 200,
+      "articles": 201,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -225,6 +225,10 @@
         {
           "file": "futbol/real-madrid/part-0002.json",
           "count": 100
+        },
+        {
+          "file": "futbol/real-madrid/part-0003.json",
+          "count": 1
         }
       ]
     },
@@ -328,11 +332,11 @@
     },
     {
       "category": "futbol/atletico",
-      "articles": 96,
+      "articles": 97,
       "files": [
         {
           "file": "futbol/atletico/part-0001.json",
-          "count": 96
+          "count": 97
         }
       ]
     },
@@ -368,11 +372,21 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 76,
+      "articles": 77,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
-          "count": 76
+          "count": 77
+        }
+      ]
+    },
+    {
+      "category": "ciclismo/vuelta-espana",
+      "articles": 71,
+      "files": [
+        {
+          "file": "ciclismo/vuelta-espana/part-0001.json",
+          "count": 71
         }
       ]
     },
@@ -407,16 +421,6 @@
       ]
     },
     {
-      "category": "ciclismo/vuelta-espana",
-      "articles": 70,
-      "files": [
-        {
-          "file": "ciclismo/vuelta-espana/part-0001.json",
-          "count": 70
-        }
-      ]
-    },
-    {
       "category": "mx/motor",
       "articles": 70,
       "files": [
@@ -447,6 +451,16 @@
       ]
     },
     {
+      "category": "futbol/bundesliga",
+      "articles": 65,
+      "files": [
+        {
+          "file": "futbol/bundesliga/part-0001.json",
+          "count": 65
+        }
+      ]
+    },
+    {
       "category": "futbol/estados-unidos",
       "articles": 65,
       "files": [
@@ -463,16 +477,6 @@
         {
           "file": "mx/beisbol/part-0001.json",
           "count": 65
-        }
-      ]
-    },
-    {
-      "category": "futbol/bundesliga",
-      "articles": 64,
-      "files": [
-        {
-          "file": "futbol/bundesliga/part-0001.json",
-          "count": 64
         }
       ]
     },
@@ -1887,6 +1891,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 11,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 11
+        }
+      ]
+    },
+    {
       "category": "fantasy",
       "articles": 10,
       "files": [
@@ -1952,16 +1966,6 @@
       "files": [
         {
           "file": "ncaa/en/part-0001.json",
-          "count": 10
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 10,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 10
         }
       ]
