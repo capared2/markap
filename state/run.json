@@ -1,51 +1,43 @@
 {
-  "updated_at": "2026-08-26T01:06:13.579011Z",
-  "seen": 12675,
+  "updated_at": "2026-08-26T03:03:53.712553Z",
+  "seen": 12686,
   "pending": 0,
   "failed": 89,
-  "empty": 632,
+  "empty": 636,
   "abandoned": 191,
   "last_run": {
     "mode": "incremental",
-    "discovered": 8624,
-    "queued": 32,
-    "fetched": 32,
-    "saved": 27,
+    "discovered": 8623,
+    "queued": 15,
+    "fetched": 15,
+    "saved": 11,
     "skipped_old": 0,
-    "skipped_empty": 5,
+    "skipped_empty": 4,
     "failed": 0,
     "categories": {
-      "lifestyle/celebrities": 3,
-      "mx/futbol": 9,
-      "mx/actualidad": 2,
-      "mx/motor": 1,
-      "nfl/cleveland-browns": 2,
-      "nfl/jacksonville-jaguars": 1,
-      "futbol/album": 1,
-      "boxing/en": 1,
-      "mx/trending": 2,
+      "mx/futbol": 6,
+      "ncaa/en": 1,
+      "lifestyle/celebrities": 1,
       "basketball/wnba": 1,
-      "futbol/champions-league": 1,
-      "mlb/los-angeles-dodgers": 1,
-      "nfl/dallas-cowboys": 1,
-      "nfl/new-england-patriots": 1
+      "tennis/en": 1,
+      "mlb/new-york-yankees": 1
     },
     "seo": {
-      "generated_at": "2026-08-26T01:06:13.569646Z",
+      "generated_at": "2026-08-26T03:03:53.705568Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 12790,
+      "total_urls": 12801,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 864
+      "news_urls": 854
     },
-    "total_articles": 12413,
+    "total_articles": 12424,
     "total_categories": 358,
-    "duration_seconds": 231.9,
+    "duration_seconds": 219.4,
     "http": {
-      "requests": 370,
+      "requests": 353,
       "errors": 6,
       "blocked": 0
     }

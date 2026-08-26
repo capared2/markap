@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-26T01:06:13.524710Z",
-  "total_articles": 12413,
+  "generated_at": "2026-08-26T03:03:53.674583Z",
+  "total_articles": 12424,
   "total_categories": 358,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1272,
+      "articles": 1278,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -58,7 +58,7 @@
         },
         {
           "file": "mx/futbol/part-0013.json",
-          "count": 72
+          "count": 78
         }
       ]
     },
@@ -535,6 +535,16 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 60,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 60
+        }
+      ]
+    },
+    {
       "category": "motor/indycar",
       "articles": 60,
       "files": [
@@ -560,16 +570,6 @@
       "files": [
         {
           "file": "apuestas-deportivas/predicciones/part-0001.json",
-          "count": 59
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 59,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
           "count": 59
         }
       ]
@@ -985,6 +985,16 @@
       ]
     },
     {
+      "category": "lifestyle/celebrities",
+      "articles": 46,
+      "files": [
+        {
+          "file": "lifestyle/celebrities/part-0001.json",
+          "count": 46
+        }
+      ]
+    },
+    {
       "category": "baloncesto/copa-rey",
       "articles": 45,
       "files": [
@@ -1000,16 +1010,6 @@
       "files": [
         {
           "file": "futbol/colombia/part-0001.json",
-          "count": 45
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/celebrities",
-      "articles": 45,
-      "files": [
-        {
-          "file": "lifestyle/celebrities/part-0001.json",
           "count": 45
         }
       ]
@@ -1775,6 +1775,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 16,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 16
+        }
+      ]
+    },
+    {
       "category": "ciclismo/tour-francia",
       "articles": 15,
       "files": [
@@ -1790,16 +1800,6 @@
       "files": [
         {
           "file": "futbol/mundial-sub-17/part-0001.json",
-          "count": 15
-        }
-      ]
-    },
-    {
-      "category": "ncaa/en",
-      "articles": 15,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
           "count": 15
         }
       ]
@@ -2055,6 +2055,16 @@
       ]
     },
     {
+      "category": "tennis/en",
+      "articles": 10,
+      "files": [
+        {
+          "file": "tennis/en/part-0001.json",
+          "count": 10
+        }
+      ]
+    },
+    {
       "category": "tiramillas/tiempo",
       "articles": 10,
       "files": [
@@ -2145,16 +2155,6 @@
       ]
     },
     {
-      "category": "tennis/en",
-      "articles": 9,
-      "files": [
-        {
-          "file": "tennis/en/part-0001.json",
-          "count": 9
-        }
-      ]
-    },
-    {
       "category": "tiramillas/gastronomia",
       "articles": 9,
       "files": [
@@ -2225,6 +2225,16 @@
       ]
     },
     {
+      "category": "mlb/new-york-yankees",
+      "articles": 8,
+      "files": [
+        {
+          "file": "mlb/new-york-yankees/part-0001.json",
+          "count": 8
+        }
+      ]
+    },
+    {
       "category": "regalos-promociones/tecnologia-electronica",
       "articles": 8,
       "files": [
@@ -2290,16 +2300,6 @@
       "files": [
         {
           "file": "futbol/eibar/part-0001.json",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "category": "mlb/new-york-yankees",
-      "articles": 7,
-      "files": [
-        {
-          "file": "mlb/new-york-yankees/part-0001.json",
           "count": 7
         }
       ]
