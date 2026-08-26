@@ -1,43 +1,51 @@
 {
-  "updated_at": "2026-08-26T03:03:53.712553Z",
-  "seen": 12686,
+  "updated_at": "2026-08-26T04:39:33.610303Z",
+  "seen": 12708,
   "pending": 0,
   "failed": 89,
-  "empty": 636,
+  "empty": 638,
   "abandoned": 191,
   "last_run": {
     "mode": "incremental",
-    "discovered": 8623,
-    "queued": 15,
-    "fetched": 15,
-    "saved": 11,
+    "discovered": 8619,
+    "queued": 24,
+    "fetched": 24,
+    "saved": 22,
     "skipped_old": 0,
-    "skipped_empty": 4,
+    "skipped_empty": 2,
     "failed": 0,
     "categories": {
-      "mx/futbol": 6,
-      "ncaa/en": 1,
-      "lifestyle/celebrities": 1,
+      "mx/futbol": 7,
+      "futbol/real-madrid": 3,
+      "golf/liv-golf": 1,
+      "futbol/tenerife": 1,
+      "ciclismo/vuelta-espana": 1,
       "basketball/wnba": 1,
-      "tennis/en": 1,
-      "mlb/new-york-yankees": 1
+      "motor/formula1": 1,
+      "ncaa/en": 1,
+      "futbol/las-palmas": 1,
+      "otros-deportes/opinion": 1,
+      "co": 1,
+      "futbol": 1,
+      "futbol/primera-division": 1,
+      "mx/actualidad": 1
     },
     "seo": {
-      "generated_at": "2026-08-26T03:03:53.705568Z",
+      "generated_at": "2026-08-26T04:39:33.604730Z",
       "site_url": "https://jomperr.com",
-      "total_urls": 12801,
+      "total_urls": 12824,
       "sitemaps": [
         "sitemap-secciones.xml",
         "sitemap-news.xml",
         "sitemap-noticias-0001.xml"
       ],
-      "news_urls": 854
+      "news_urls": 870
     },
-    "total_articles": 12424,
-    "total_categories": 358,
-    "duration_seconds": 219.4,
+    "total_articles": 12446,
+    "total_categories": 359,
+    "duration_seconds": 228.1,
     "http": {
-      "requests": 353,
+      "requests": 362,
       "errors": 6,
       "blocked": 0
     }

@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-26T03:03:53.674583Z",
-  "total_articles": 12424,
-  "total_categories": 358,
+  "generated_at": "2026-08-26T04:39:33.582310Z",
+  "total_articles": 12446,
+  "total_categories": 359,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1278,
+      "articles": 1285,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -58,13 +58,13 @@
         },
         {
           "file": "mx/futbol/part-0013.json",
-          "count": 78
+          "count": 85
         }
       ]
     },
     {
       "category": "motor/formula1",
-      "articles": 1263,
+      "articles": 1264,
       "files": [
         {
           "file": "motor/formula1/part-0001.json",
@@ -116,7 +116,7 @@
         },
         {
           "file": "motor/formula1/part-0013.json",
-          "count": 63
+          "count": 64
         }
       ]
     },
@@ -198,7 +198,7 @@
     },
     {
       "category": "futbol",
-      "articles": 265,
+      "articles": 266,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -210,13 +210,13 @@
         },
         {
           "file": "futbol/part-0003.json",
-          "count": 65
+          "count": 66
         }
       ]
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 214,
+      "articles": 217,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -228,7 +228,7 @@
         },
         {
           "file": "futbol/real-madrid/part-0003.json",
-          "count": 14
+          "count": 17
         }
       ]
     },
@@ -304,7 +304,7 @@
     },
     {
       "category": "futbol/primera-division",
-      "articles": 120,
+      "articles": 121,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
@@ -312,7 +312,7 @@
         },
         {
           "file": "futbol/primera-division/part-0002.json",
-          "count": 20
+          "count": 21
         }
       ]
     },
@@ -356,11 +356,11 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 94,
+      "articles": 95,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
-          "count": 94
+          "count": 95
         }
       ]
     },
@@ -376,11 +376,11 @@
     },
     {
       "category": "ciclismo/vuelta-espana",
-      "articles": 86,
+      "articles": 87,
       "files": [
         {
           "file": "ciclismo/vuelta-espana/part-0001.json",
-          "count": 86
+          "count": 87
         }
       ]
     },
@@ -525,22 +525,22 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 61,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 61
+        }
+      ]
+    },
+    {
       "category": "futbol/valencia",
       "articles": 61,
       "files": [
         {
           "file": "futbol/valencia/part-0001.json",
           "count": 61
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 60,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 60
         }
       ]
     },
@@ -1205,6 +1205,16 @@
       ]
     },
     {
+      "category": "co",
+      "articles": 35,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 35
+        }
+      ]
+    },
+    {
       "category": "futbol/levante",
       "articles": 35,
       "files": [
@@ -1221,16 +1231,6 @@
         {
           "file": "tiramillas/ciencia/part-0001.json",
           "count": 35
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 34,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 34
         }
       ]
     },
@@ -1535,6 +1535,16 @@
       ]
     },
     {
+      "category": "futbol/las-palmas",
+      "articles": 21,
+      "files": [
+        {
+          "file": "futbol/las-palmas/part-0001.json",
+          "count": 21
+        }
+      ]
+    },
+    {
       "category": "futbol/leagues-cup",
       "articles": 21,
       "files": [
@@ -1615,11 +1625,11 @@
       ]
     },
     {
-      "category": "futbol/las-palmas",
+      "category": "golf/liv-golf",
       "articles": 20,
       "files": [
         {
-          "file": "futbol/las-palmas/part-0001.json",
+          "file": "golf/liv-golf/part-0001.json",
           "count": 20
         }
       ]
@@ -1660,16 +1670,6 @@
       "files": [
         {
           "file": "futbol/supercopa-europa/part-0001.json",
-          "count": 19
-        }
-      ]
-    },
-    {
-      "category": "golf/liv-golf",
-      "articles": 19,
-      "files": [
-        {
-          "file": "golf/liv-golf/part-0001.json",
           "count": 19
         }
       ]
@@ -1745,6 +1745,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 17,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 17
+        }
+      ]
+    },
+    {
       "category": "football/spanish-football",
       "articles": 16,
       "files": [
@@ -1770,16 +1780,6 @@
       "files": [
         {
           "file": "futbol/venezuela/part-0001.json",
-          "count": 16
-        }
-      ]
-    },
-    {
-      "category": "ncaa/en",
-      "articles": 16,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
           "count": 16
         }
       ]
@@ -2895,6 +2895,16 @@
       ]
     },
     {
+      "category": "futbol/tenerife",
+      "articles": 2,
+      "files": [
+        {
+          "file": "futbol/tenerife/part-0001.json",
+          "count": 2
+        }
+      ]
+    },
+    {
       "category": "golf/solheim-cup",
       "articles": 2,
       "files": [
@@ -3315,16 +3325,6 @@
       ]
     },
     {
-      "category": "futbol/tenerife",
-      "articles": 1,
-      "files": [
-        {
-          "file": "futbol/tenerife/part-0001.json",
-          "count": 1
-        }
-      ]
-    },
-    {
       "category": "futbol/trofeo-joan-gamper",
       "articles": 1,
       "files": [
@@ -3670,6 +3670,16 @@
       "files": [
         {
           "file": "olympic-games/track-and-field/part-0001.json",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "otros-deportes/opinion",
+      "articles": 1,
+      "files": [
+        {
+          "file": "otros-deportes/opinion/part-0001.json",
           "count": 1
         }
       ]
