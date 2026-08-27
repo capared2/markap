@@ -1,8 +1,8 @@
 {
   "category": "loteria/loteria-nacional",
   "part": 1,
-  "count": 1,
-  "updated_at": "2026-08-20T18:37:04.470030Z",
+  "count": 2,
+  "updated_at": "2026-08-27T18:52:49.197319Z",
   "articles": [
     {
       "id": "6a8732936c283cdca8ba7fc6-directo",
@@ -54,6 +54,56 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-20T18:36:25.623181Z"
+    },
+    {
+      "id": "6a906d12b364eacdc86d001a-directo",
+      "url": "https://www.marca.com/loteria/loteria-nacional/2026/08/27/6a906d12b364eacdc86d001a-directo.html",
+      "source_url": "https://www.marca.com/loteria/loteria-nacional/2026/08/27/6a906d12b364eacdc86d001a-directo.html",
+      "category": "loteria/loteria-nacional",
+      "category_path": [
+        "loteria",
+        "loteria-nacional"
+      ],
+      "section": "loteria-nacional",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Lotería"
+      ],
+      "title": "Lotería Nacional, en directo | Comprobar resultados del sorteo, premios y extracciones de hoy jueves, 27 de agosto de 2026",
+      "standfirst": "",
+      "summary": "¿Por qué la Lotería Nacional del jueves es tan popular? Descubre su encanto. La popularidad de la Lotería Nacional del jueves no es casualidad. Su for",
+      "body": "ADVERTENCIA: MARCA no es responsable en caso de que esta noticia contenga algún error u omisión. Advirtiendo a los usuarios que la única lista oficial válida del sorteo es la que hace pública la web de Loterías y Apuestas del Estado (LAE).",
+      "paragraphs": [
+        "ADVERTENCIA: MARCA no es responsable en caso de que esta noticia contenga algún error u omisión. Advirtiendo a los usuarios que la única lista oficial válida del sorteo es la que hace pública la web de Loterías y Apuestas del Estado (LAE)."
+      ],
+      "word_count": 42,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "Lotería Nacional",
+        "Lotería",
+        "loteria-nacional",
+        "loteria"
+      ],
+      "published_at": "2026-08-27T18:41:22Z",
+      "modified_at": "2026-08-27T18:41:23Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/97274302f926bfcedf00ba3e0704f382/resize/1200/assets/multimedia/imagenes/2026/08/27/17878560617410.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/08/27/17878560617410.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-08-27T18:50:09.424047Z"
     }
   ]
 }
