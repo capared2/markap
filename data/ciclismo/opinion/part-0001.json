@@ -1,8 +1,8 @@
 {
   "category": "ciclismo/opinion",
   "part": 1,
-  "count": 2,
-  "updated_at": "2026-08-27T07:03:25.783266Z",
+  "count": 3,
+  "updated_at": "2026-08-28T16:37:12.341899Z",
   "articles": [
     {
       "id": "pogacar-siempre-culpa",
@@ -121,6 +121,60 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-08-27T07:03:06.431466Z"
+    },
+    {
+      "id": "pasar-facturas-sacar-trompeta",
+      "url": "https://www.marca.com/ciclismo/opinion/2026/08/28/pasar-facturas-sacar-trompeta.html",
+      "source_url": "https://www.marca.com/ciclismo/opinion/2026/08/28/pasar-facturas-sacar-trompeta.html",
+      "category": "ciclismo/opinion",
+      "category_path": [
+        "ciclismo",
+        "opinion"
+      ],
+      "section": "Ciclismo",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Ciclismo"
+      ],
+      "title": "\"No es tiempo de pasar facturas, sí de sacar la trompeta\"",
+      "standfirst": "La opinión de Nacho Labarga",
+      "summary": "La opinión de Nacho Labarga",
+      "body": "A Enric Mas le enterraron tantas veces que ya debería tener descuento en la funeraria . Cada curso aparece alguien dispuesto a explicar que le falta colmillo, sonreír como Landa o incluso desayunar con más brío. Se hacen juegos feos con su apellido, se retuercen los memes.\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "A Enric Mas le enterraron tantas veces que ya debería tener descuento en la funeraria . Cada curso aparece alguien dispuesto a explicar que le falta colmillo, sonreír como Landa o incluso desayunar con más brío. Se hacen juegos feos con su apellido, se retuercen los memes.",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 52,
+      "authors": [
+        "Nacho Labarga"
+      ],
+      "tags": [],
+      "published_at": "2026-08-28T06:12:22Z",
+      "modified_at": "2026-08-28T06:12:22Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/28/6a91264b81db6.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/08/28/6a91264b81db6.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/08/28/6a91264b81db6.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/28/6a91264b81db6.jpeg",
+          "caption": "Enric Mas, persiguiendo a Pogacar en El Bartolo."
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-08-28T16:35:23.072470Z"
     }
   ]
 }
