@@ -1,8 +1,8 @@
 {
   "category": "futbol/sporting",
   "part": 1,
-  "count": 14,
-  "updated_at": "2026-08-23T16:24:00.425524Z",
+  "count": 15,
+  "updated_at": "2026-08-29T01:30:15.963197Z",
   "articles": [
     {
       "id": "sporting-cierra-llegada-aimar-dunabeitia",
@@ -957,6 +957,66 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-23T16:23:19.041704Z"
+    },
+    {
+      "id": "sporting-heliodoro-taxi",
+      "url": "https://www.marca.com/futbol/sporting/2026/08/28/sporting-heliodoro-taxi.html",
+      "source_url": "https://www.marca.com/futbol/sporting/2026/08/28/sporting-heliodoro-taxi.html",
+      "category": "futbol/sporting",
+      "category_path": [
+        "futbol",
+        "sporting"
+      ],
+      "section": "Sporting",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA Hypermotion",
+        "Sporting"
+      ],
+      "title": "El Sporting, al Heliodoro…¡en taxi!",
+      "standfirst": "El autobús no llegó a tiempo al hotel de concentración del equipo asturiano en Tenerife",
+      "summary": "El autobús no llegó a tiempo al hotel de concentración del equipo asturiano en Tenerife",
+      "body": "La llegada del Sporting de Gijón al Heliodoro Rodríguez López, el estadio del Tenerife, se desarrolló de una manera poco habitual . Los jugadores rojiblancos estaban citados para subirse al autobús que le desplazase del hotel de concentración al estadio, donde se disputaba el primer partido de la tercera jornada de LaLiga Hypermotion, pero el problema es que el autobús no llegó.\n\nLa ausencia del medio de transporte habitual obligó a los rojiblancos a repartirse en grupos y adentrarse en taxis para acudir al estadio. Una imagen curiosa que derivó en otra también poco habitual. Los taxis dejaron a los jugadores fuera del cordón de seguridad , obligando a los futbolistas a caminar a pie los 400 metros que les separaban del campo. Algo que retrasó la llegada de la expedición rojiblanca unos 10 minutos de la llegada prevista.",
+      "paragraphs": [
+        "La llegada del Sporting de Gijón al Heliodoro Rodríguez López, el estadio del Tenerife, se desarrolló de una manera poco habitual . Los jugadores rojiblancos estaban citados para subirse al autobús que le desplazase del hotel de concentración al estadio, donde se disputaba el primer partido de la tercera jornada de LaLiga Hypermotion, pero el problema es que el autobús no llegó.",
+        "La ausencia del medio de transporte habitual obligó a los rojiblancos a repartirse en grupos y adentrarse en taxis para acudir al estadio. Una imagen curiosa que derivó en otra también poco habitual. Los taxis dejaron a los jugadores fuera del cordón de seguridad , obligando a los futbolistas a caminar a pie los 400 metros que les separaban del campo. Algo que retrasó la llegada de la expedición rojiblanca unos 10 minutos de la llegada prevista."
+      ],
+      "word_count": 139,
+      "authors": [
+        "Borja Fernández"
+      ],
+      "tags": [
+        "Segunda División",
+        "Sporting de Gijón",
+        "CD Tenerife"
+      ],
+      "published_at": "2026-08-28T19:42:11Z",
+      "modified_at": "2026-08-28T19:42:11Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/08/28/6a91e487e54dd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/08/28/6a91e487e54dd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/08/28/6a91e487e54dd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/08/28/6a91e487e54dd.jpeg",
+          "caption": "Imagen del partido que disputan Tenerife y Sporting en el Heliodoro"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-08-29T01:29:10.576786Z"
     }
   ]
 }
