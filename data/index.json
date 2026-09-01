@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-08-31T23:40:19.469874Z",
-  "total_articles": 14967,
+  "generated_at": "2026-09-01T03:22:18.737924Z",
+  "total_articles": 14990,
   "total_categories": 378,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1513,
+      "articles": 1523,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -70,7 +70,7 @@
         },
         {
           "file": "mx/futbol/part-0016.json",
-          "count": 13
+          "count": 23
         }
       ]
     },
@@ -210,7 +210,7 @@
     },
     {
       "category": "futbol",
-      "articles": 314,
+      "articles": 315,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -226,7 +226,7 @@
         },
         {
           "file": "futbol/part-0004.json",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -304,7 +304,7 @@
     },
     {
       "category": "futbol/barcelona",
-      "articles": 195,
+      "articles": 196,
       "files": [
         {
           "file": "futbol/barcelona/part-0001.json",
@@ -312,13 +312,13 @@
         },
         {
           "file": "futbol/barcelona/part-0002.json",
-          "count": 95
+          "count": 96
         }
       ]
     },
     {
       "category": "mx/actualidad",
-      "articles": 164,
+      "articles": 165,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -326,7 +326,7 @@
         },
         {
           "file": "mx/actualidad/part-0002.json",
-          "count": 64
+          "count": 65
         }
       ]
     },
@@ -346,7 +346,7 @@
     },
     {
       "category": "futbol/premier-league",
-      "articles": 156,
+      "articles": 157,
       "files": [
         {
           "file": "futbol/premier-league/part-0001.json",
@@ -354,7 +354,7 @@
         },
         {
           "file": "futbol/premier-league/part-0002.json",
-          "count": 56
+          "count": 57
         }
       ]
     },
@@ -416,7 +416,7 @@
     },
     {
       "category": "basketball/wnba",
-      "articles": 104,
+      "articles": 105,
       "files": [
         {
           "file": "basketball/wnba/part-0001.json",
@@ -424,7 +424,7 @@
         },
         {
           "file": "basketball/wnba/part-0002.json",
-          "count": 4
+          "count": 5
         }
       ]
     },
@@ -593,6 +593,16 @@
       ]
     },
     {
+      "category": "mx/nfl",
+      "articles": 74,
+      "files": [
+        {
+          "file": "mx/nfl/part-0001.json",
+          "count": 74
+        }
+      ]
+    },
+    {
       "category": "futbol/champions-league",
       "articles": 73,
       "files": [
@@ -608,16 +618,6 @@
       "files": [
         {
           "file": "futbol/segunda-division/part-0001.json",
-          "count": 73
-        }
-      ]
-    },
-    {
-      "category": "mx/nfl",
-      "articles": 73,
-      "files": [
-        {
-          "file": "mx/nfl/part-0001.json",
           "count": 73
         }
       ]
@@ -833,21 +833,21 @@
       ]
     },
     {
+      "category": "co",
+      "articles": 61,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 61
+        }
+      ]
+    },
+    {
       "category": "baloncesto/basketfeb",
       "articles": 59,
       "files": [
         {
           "file": "baloncesto/basketfeb/part-0001.json",
-          "count": 59
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 59,
-      "files": [
-        {
-          "file": "co/part-0001.json",
           "count": 59
         }
       ]
@@ -889,6 +889,16 @@
         {
           "file": "juegos-olimpicos/part-0001.json",
           "count": 57
+        }
+      ]
+    },
+    {
+      "category": "basketball/nba",
+      "articles": 56,
+      "files": [
+        {
+          "file": "basketball/nba/part-0001.json",
+          "count": 56
         }
       ]
     },
@@ -938,16 +948,6 @@
       "files": [
         {
           "file": "baloncesto/part-0001.json",
-          "count": 55
-        }
-      ]
-    },
-    {
-      "category": "basketball/nba",
-      "articles": 55,
-      "files": [
-        {
-          "file": "basketball/nba/part-0001.json",
           "count": 55
         }
       ]
@@ -1313,21 +1313,21 @@
       ]
     },
     {
+      "category": "nfl/cleveland-browns",
+      "articles": 39,
+      "files": [
+        {
+          "file": "nfl/cleveland-browns/part-0001.json",
+          "count": 39
+        }
+      ]
+    },
+    {
       "category": "futbol/alaves",
       "articles": 38,
       "files": [
         {
           "file": "futbol/alaves/part-0001.json",
-          "count": 38
-        }
-      ]
-    },
-    {
-      "category": "nfl/cleveland-browns",
-      "articles": 38,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
           "count": 38
         }
       ]
@@ -1453,6 +1453,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 31,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 31
+        }
+      ]
+    },
+    {
       "category": "tenis/masters-1000-cincinnati",
       "articles": 31,
       "files": [
@@ -1548,16 +1558,6 @@
       "files": [
         {
           "file": "futbol/zaragoza/part-0001.json",
-          "count": 29
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 29,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 29
         }
       ]
@@ -2063,6 +2063,16 @@
       ]
     },
     {
+      "category": "mlb/new-york-yankees",
+      "articles": 15,
+      "files": [
+        {
+          "file": "mlb/new-york-yankees/part-0001.json",
+          "count": 15
+        }
+      ]
+    },
+    {
       "category": "motor",
       "articles": 15,
       "files": [
@@ -2148,16 +2158,6 @@
       "files": [
         {
           "file": "loteria/bonoloto/part-0001.json",
-          "count": 14
-        }
-      ]
-    },
-    {
-      "category": "mlb/new-york-yankees",
-      "articles": 14,
-      "files": [
-        {
-          "file": "mlb/new-york-yankees/part-0001.json",
           "count": 14
         }
       ]
