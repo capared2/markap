@@ -1,8 +1,8 @@
 {
   "category": "technology/en",
   "part": 1,
-  "count": 4,
-  "updated_at": "2026-08-24T16:35:56.939436Z",
+  "count": 5,
+  "updated_at": "2026-09-03T19:08:55.913308Z",
   "articles": [
     {
       "id": "mark-zuckerberg-and-his-wife-make-an-extravagant-wish-come-true-with-billionaire-money",
@@ -276,6 +276,71 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-24T16:35:30.481623Z"
+    },
+    {
+      "id": "chatgpt-goes-silent-as-74-000-outage-reports-pour-in-and-openai-works-on-fix",
+      "url": "https://www.marca.com/en/technology/2026/09/03/chatgpt-goes-silent-as-74-000-outage-reports-pour-in-and-openai-works-on-fix.html",
+      "source_url": "https://www.marca.com/en/technology/2026/09/03/chatgpt-goes-silent-as-74-000-outage-reports-pour-in-and-openai-works-on-fix.html",
+      "category": "technology/en",
+      "category_path": [
+        "en",
+        "technology"
+      ],
+      "section": "Technology",
+      "content_type": null,
+      "breadcrumbs": [
+        "Home",
+        "Technology"
+      ],
+      "title": "ChatGPT goes silent as 74,000 outage reports pour in and OpenAI works on a fix",
+      "standfirst": "Complaints exploded within 30 minutes as elevated errors affected both ChatGPT and Codex",
+      "summary": "Complaints exploded within 30 minutes as elevated errors affected both ChatGPT and Codex",
+      "body": "For a platform designed to answer almost any question, the most frustrating one Thursday morning was also the simplest: Is ChatGPT down? For tens of thousands of users, the chatbot could not even respond.\n\nReports began climbing at extraordinary speed. More than 5,000 problems had been reported to Downdetector by 7:53 a.m. PT. Ten minutes later, that number had surpassed 22,000. By 8:23 a.m., more than 74,000 reports had poured in.\n\nOpenAI’s status page initially showed no known problems, even as complaints spread online and searches for “Is ChatGPT down?” began trending. At 7:58 a.m. PT, the company officially acknowledged “elevated errors” affecting both ChatGPT and Codex, its AI coding service.\n\nOpenAI applies mitigation as users wait for recovery\n\nAt 8:22 a.m. PT, OpenAI announced that it had applied a mitigation and was monitoring the recovery . The incident page listed 15 affected ChatGPT components and four Codex components, although the disruption did not appear to be a complete shutdown for every user.\n\nThat helps explain why some people could still access ChatGPT while others encountered failed prompts, slow responses or a service that would not load at all. Large online platforms can suffer partial or intermittent failures that affect particular regions, accounts or features without taking the entire system offline.\n\nThe gap between the first user complaints and OpenAI’s acknowledgment is also not necessarily unusual. Downdetector reacts immediately to sudden increases in public reports, while a company must first detect, verify and classify an incident before changing its official status page. Its figures represent submitted reports, not a confirmed count of every person affected.\n\nOpenAI has not yet explained what went wrong or confirmed that the problem is completely over . But the reaction said plenty: ChatGPT has become part of how people work, study and get through their day and when it suddenly goes silent, they feel its absence immediately.",
+      "paragraphs": [
+        "For a platform designed to answer almost any question, the most frustrating one Thursday morning was also the simplest: Is ChatGPT down? For tens of thousands of users, the chatbot could not even respond.",
+        "Reports began climbing at extraordinary speed. More than 5,000 problems had been reported to Downdetector by 7:53 a.m. PT. Ten minutes later, that number had surpassed 22,000. By 8:23 a.m., more than 74,000 reports had poured in.",
+        "OpenAI’s status page initially showed no known problems, even as complaints spread online and searches for “Is ChatGPT down?” began trending. At 7:58 a.m. PT, the company officially acknowledged “elevated errors” affecting both ChatGPT and Codex, its AI coding service.",
+        "OpenAI applies mitigation as users wait for recovery",
+        "At 8:22 a.m. PT, OpenAI announced that it had applied a mitigation and was monitoring the recovery . The incident page listed 15 affected ChatGPT components and four Codex components, although the disruption did not appear to be a complete shutdown for every user.",
+        "That helps explain why some people could still access ChatGPT while others encountered failed prompts, slow responses or a service that would not load at all. Large online platforms can suffer partial or intermittent failures that affect particular regions, accounts or features without taking the entire system offline.",
+        "The gap between the first user complaints and OpenAI’s acknowledgment is also not necessarily unusual. Downdetector reacts immediately to sudden increases in public reports, while a company must first detect, verify and classify an incident before changing its official status page. Its figures represent submitted reports, not a confirmed count of every person affected.",
+        "OpenAI has not yet explained what went wrong or confirmed that the problem is completely over . But the reaction said plenty: ChatGPT has become part of how people work, study and get through their day and when it suddenly goes silent, they feel its absence immediately."
+      ],
+      "word_count": 312,
+      "authors": [
+        "Roberto Ortega"
+      ],
+      "tags": [
+        "Technology",
+        "OpenAI",
+        "ChatGPT",
+        "74"
+      ],
+      "published_at": "2026-09-03T15:58:44Z",
+      "modified_at": "2026-09-03T15:58:44Z",
+      "language": "en-US",
+      "images": [
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat/uploads/2026/09/03/6a99982faa0fd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat_4_3/uploads/2026/09/03/6a99982faa0fd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat_1_1/uploads/2026/09/03/6a99982faa0fd.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/uploads/2026/09/03/6a99982faa0fd.jpeg",
+          "caption": "The ChatGPT app is displayed on an iPhone in New York"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-03T19:07:52.133109Z"
     }
   ]
 }
