@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-03T22:16:06.333636Z",
-  "total_articles": 16386,
+  "generated_at": "2026-09-04T02:44:08.155761Z",
+  "total_articles": 16417,
   "total_categories": 386,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1630,
+      "articles": 1642,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -74,7 +74,7 @@
         },
         {
           "file": "mx/futbol/part-0017.json",
-          "count": 30
+          "count": 42
         }
       ]
     },
@@ -334,7 +334,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 202,
+      "articles": 203,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -346,7 +346,7 @@
         },
         {
           "file": "mx/actualidad/part-0003.json",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -436,7 +436,7 @@
     },
     {
       "category": "basketball/wnba",
-      "articles": 118,
+      "articles": 119,
       "files": [
         {
           "file": "basketball/wnba/part-0001.json",
@@ -444,7 +444,7 @@
         },
         {
           "file": "basketball/wnba/part-0002.json",
-          "count": 18
+          "count": 19
         }
       ]
     },
@@ -492,7 +492,7 @@
     },
     {
       "category": "tenis/us-open",
-      "articles": 104,
+      "articles": 106,
       "files": [
         {
           "file": "tenis/us-open/part-0001.json",
@@ -500,7 +500,7 @@
         },
         {
           "file": "tenis/us-open/part-0002.json",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -520,11 +520,11 @@
     },
     {
       "category": "otros-deportes",
-      "articles": 97,
+      "articles": 98,
       "files": [
         {
           "file": "otros-deportes/part-0001.json",
-          "count": 97
+          "count": 98
         }
       ]
     },
@@ -779,6 +779,26 @@
       ]
     },
     {
+      "category": "co",
+      "articles": 75,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 75
+        }
+      ]
+    },
+    {
+      "category": "basketball/nba",
+      "articles": 74,
+      "files": [
+        {
+          "file": "basketball/nba/part-0001.json",
+          "count": 74
+        }
+      ]
+    },
+    {
       "category": "futbol/champions-league",
       "articles": 74,
       "files": [
@@ -799,32 +819,12 @@
       ]
     },
     {
-      "category": "co",
-      "articles": 73,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 73
-        }
-      ]
-    },
-    {
       "category": "mx/trending",
       "articles": 73,
       "files": [
         {
           "file": "mx/trending/part-0001.json",
           "count": 73
-        }
-      ]
-    },
-    {
-      "category": "basketball/nba",
-      "articles": 72,
-      "files": [
-        {
-          "file": "basketball/nba/part-0001.json",
-          "count": 72
         }
       ]
     },
@@ -1279,6 +1279,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 46,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 46
+        }
+      ]
+    },
+    {
       "category": "baloncesto/copa-rey",
       "articles": 45,
       "files": [
@@ -1339,21 +1349,21 @@
       ]
     },
     {
-      "category": "ncaa/en",
-      "articles": 44,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
-          "count": 44
-        }
-      ]
-    },
-    {
       "category": "nfl/cleveland-browns",
       "articles": 44,
       "files": [
         {
           "file": "nfl/cleveland-browns/part-0001.json",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "category": "nfl/dallas-cowboys",
+      "articles": 44,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 44
         }
       ]
@@ -1375,16 +1385,6 @@
         {
           "file": "futbol/premios-marca/part-0001.json",
           "count": 43
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 42,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
-          "count": 42
         }
       ]
     },
@@ -1609,6 +1609,16 @@
       ]
     },
     {
+      "category": "balonmano",
+      "articles": 29,
+      "files": [
+        {
+          "file": "balonmano/part-0001.json",
+          "count": 29
+        }
+      ]
+    },
+    {
       "category": "futbol/eurocopa",
       "articles": 29,
       "files": [
@@ -1655,16 +1665,6 @@
         {
           "file": "golf/part-0001.json",
           "count": 28
-        }
-      ]
-    },
-    {
-      "category": "balonmano",
-      "articles": 27,
-      "files": [
-        {
-          "file": "balonmano/part-0001.json",
-          "count": 27
         }
       ]
     },
@@ -2059,6 +2059,16 @@
       ]
     },
     {
+      "category": "baloncesto/mundial-femenino",
+      "articles": 17,
+      "files": [
+        {
+          "file": "baloncesto/mundial-femenino/part-0001.json",
+          "count": 17
+        }
+      ]
+    },
+    {
       "category": "fantasy",
       "articles": 17,
       "files": [
@@ -2155,16 +2165,6 @@
         {
           "file": "tennis/en/part-0001.json",
           "count": 16
-        }
-      ]
-    },
-    {
-      "category": "baloncesto/mundial-femenino",
-      "articles": 15,
-      "files": [
-        {
-          "file": "baloncesto/mundial-femenino/part-0001.json",
-          "count": 15
         }
       ]
     },
@@ -2589,6 +2589,16 @@
       ]
     },
     {
+      "category": "nfl/pittsburgh-steelers",
+      "articles": 8,
+      "files": [
+        {
+          "file": "nfl/pittsburgh-steelers/part-0001.json",
+          "count": 8
+        }
+      ]
+    },
+    {
       "category": "regalos-promociones/deporte-salud",
       "articles": 8,
       "files": [
@@ -2634,16 +2644,6 @@
       "files": [
         {
           "file": "loteria/primitiva/part-0001.json",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "category": "nfl/pittsburgh-steelers",
-      "articles": 7,
-      "files": [
-        {
-          "file": "nfl/pittsburgh-steelers/part-0001.json",
           "count": 7
         }
       ]
@@ -3159,6 +3159,16 @@
       ]
     },
     {
+      "category": "mlb/pittsburgh-pirates",
+      "articles": 3,
+      "files": [
+        {
+          "file": "mlb/pittsburgh-pirates/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
       "category": "mundo-marca",
       "articles": 3,
       "files": [
@@ -3394,16 +3404,6 @@
       "files": [
         {
           "file": "mlb/los-angeles-angels/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "category": "mlb/pittsburgh-pirates",
-      "articles": 2,
-      "files": [
-        {
-          "file": "mlb/pittsburgh-pirates/part-0001.json",
           "count": 2
         }
       ]
