@@ -1,8 +1,8 @@
 {
   "category": "futbol/laliga-hypermotion",
   "part": 1,
-  "count": 2,
-  "updated_at": "2026-08-31T18:47:09.674716Z",
+  "count": 3,
+  "updated_at": "2026-09-05T13:18:27.104526Z",
   "articles": [
     {
       "id": "01_0102_20260815_181_192-directo",
@@ -103,6 +103,62 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-31T18:45:18.336379Z"
+    },
+    {
+      "id": "01_0102_20260905_3567_612-directo",
+      "url": "https://www.marca.com/futbol/laliga-hypermotion/real-sociedad-b-tenerife/2026/09/05/01_0102_20260905_3567_612-directo.html",
+      "source_url": "https://www.marca.com/futbol/laliga-hypermotion/real-sociedad-b-tenerife/2026/09/05/01_0102_20260905_3567_612-directo.html",
+      "category": "futbol/laliga-hypermotion",
+      "category_path": [
+        "futbol",
+        "laliga-hypermotion",
+        "real-sociedad-b-tenerife"
+      ],
+      "section": "segunda-division",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA Hypermotion"
+      ],
+      "title": "Real Sociedad B - Tenerife, en directo | Última hora de LALIGA Hypermotion hoy, en vivo",
+      "standfirst": "",
+      "summary": "Fuera de juego, Real Sociedad B. Lander Astiazarán intentó un pase en profundidad pero Gorka Carrera estaba en posición de fuera de juego. Remate fall",
+      "body": "Última hora del Real Sociedad B - Tenerife, en directo",
+      "paragraphs": [
+        "Última hora del Real Sociedad B - Tenerife, en directo"
+      ],
+      "word_count": 10,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "Real Sociedad B",
+        "CD Tenerife",
+        "real-sociedad-b",
+        "cd-tenerife"
+      ],
+      "published_at": "2026-09-05T10:30:00Z",
+      "modified_at": "2026-09-05T13:14:01Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/cd74968ad0029ab5d18e348a6e63b94f/resize/1200/assets/multimedia/imagenes/2026/09/05/17885976828595.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/amp/AMP-DIRECTO-futbol-es.png",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/09/05/17885976828595.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-05T13:17:53.063277Z"
     }
   ]
 }
