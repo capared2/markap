@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-04T23:44:29.649586Z",
-  "total_articles": 16867,
+  "generated_at": "2026-09-05T02:45:30.153099Z",
+  "total_articles": 16879,
   "total_categories": 389,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1680,
+      "articles": 1688,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -74,7 +74,7 @@
         },
         {
           "file": "mx/futbol/part-0017.json",
-          "count": 80
+          "count": 88
         }
       ]
     },
@@ -825,22 +825,22 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 76,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 76
+        }
+      ]
+    },
+    {
       "category": "tenis",
       "articles": 76,
       "files": [
         {
           "file": "tenis/part-0001.json",
           "count": 76
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 75,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
-          "count": 75
         }
       ]
     },
@@ -865,21 +865,21 @@
       ]
     },
     {
+      "category": "nfl/kansas-city-chiefs",
+      "articles": 72,
+      "files": [
+        {
+          "file": "nfl/kansas-city-chiefs/part-0001.json",
+          "count": 72
+        }
+      ]
+    },
+    {
       "category": "baloncesto/euroliga",
       "articles": 71,
       "files": [
         {
           "file": "baloncesto/euroliga/part-0001.json",
-          "count": 71
-        }
-      ]
-    },
-    {
-      "category": "nfl/kansas-city-chiefs",
-      "articles": 71,
-      "files": [
-        {
-          "file": "nfl/kansas-city-chiefs/part-0001.json",
           "count": 71
         }
       ]
@@ -1155,6 +1155,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 52,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 52
+        }
+      ]
+    },
+    {
       "category": "coches-y-motos/consejos",
       "articles": 51,
       "files": [
@@ -1190,16 +1200,6 @@
       "files": [
         {
           "file": "mx/lucha-libre/part-0001.json",
-          "count": 51
-        }
-      ]
-    },
-    {
-      "category": "ncaa/en",
-      "articles": 51,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
           "count": 51
         }
       ]
@@ -2675,6 +2675,16 @@
       ]
     },
     {
+      "category": "nfl/jacksonville-jaguars",
+      "articles": 7,
+      "files": [
+        {
+          "file": "nfl/jacksonville-jaguars/part-0001.json",
+          "count": 7
+        }
+      ]
+    },
+    {
       "category": "tenis/masters-1000-canada",
       "articles": 7,
       "files": [
@@ -2750,16 +2760,6 @@
       "files": [
         {
           "file": "more-sports/en/part-0001.json",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "category": "nfl/jacksonville-jaguars",
-      "articles": 6,
-      "files": [
-        {
-          "file": "nfl/jacksonville-jaguars/part-0001.json",
           "count": 6
         }
       ]
