@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-05T23:35:17.747949Z",
-  "total_articles": 17263,
+  "generated_at": "2026-09-06T02:43:07.718190Z",
+  "total_articles": 17284,
   "total_categories": 391,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 1723,
+      "articles": 1735,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -78,7 +78,7 @@
         },
         {
           "file": "mx/futbol/part-0018.json",
-          "count": 23
+          "count": 35
         }
       ]
     },
@@ -593,22 +593,22 @@
       ]
     },
     {
+      "category": "mx/motor",
+      "articles": 96,
+      "files": [
+        {
+          "file": "mx/motor/part-0001.json",
+          "count": 96
+        }
+      ]
+    },
+    {
       "category": "tiramillas/television",
       "articles": 96,
       "files": [
         {
           "file": "tiramillas/television/part-0001.json",
           "count": 96
-        }
-      ]
-    },
-    {
-      "category": "mx/motor",
-      "articles": 95,
-      "files": [
-        {
-          "file": "mx/motor/part-0001.json",
-          "count": 95
         }
       ]
     },
@@ -704,11 +704,11 @@
     },
     {
       "category": "lifestyle/us-news",
-      "articles": 89,
+      "articles": 90,
       "files": [
         {
           "file": "lifestyle/us-news/part-0001.json",
-          "count": 89
+          "count": 90
         }
       ]
     },
@@ -734,11 +734,11 @@
     },
     {
       "category": "mma",
-      "articles": 87,
+      "articles": 88,
       "files": [
         {
           "file": "mma/part-0001.json",
-          "count": 87
+          "count": 88
         }
       ]
     },
@@ -749,6 +749,16 @@
         {
           "file": "futbol/bundesliga/part-0001.json",
           "count": 85
+        }
+      ]
+    },
+    {
+      "category": "co",
+      "articles": 84,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 84
         }
       ]
     },
@@ -769,16 +779,6 @@
         {
           "file": "futbol/liga-francesa/part-0001.json",
           "count": 82
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 81,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 81
         }
       ]
     },
@@ -994,11 +994,11 @@
     },
     {
       "category": "ncaa/en",
-      "articles": 59,
+      "articles": 60,
       "files": [
         {
           "file": "ncaa/en/part-0001.json",
-          "count": 59
+          "count": 60
         }
       ]
     },
@@ -1863,6 +1863,16 @@
       ]
     },
     {
+      "category": "mlb/los-angeles-dodgers",
+      "articles": 23,
+      "files": [
+        {
+          "file": "mlb/los-angeles-dodgers/part-0001.json",
+          "count": 23
+        }
+      ]
+    },
+    {
       "category": "tiramillas",
       "articles": 23,
       "files": [
@@ -1898,16 +1908,6 @@
       "files": [
         {
           "file": "lifestyle/music/part-0001.json",
-          "count": 22
-        }
-      ]
-    },
-    {
-      "category": "mlb/los-angeles-dodgers",
-      "articles": 22,
-      "files": [
-        {
-          "file": "mlb/los-angeles-dodgers/part-0001.json",
           "count": 22
         }
       ]
@@ -2113,6 +2113,16 @@
       ]
     },
     {
+      "category": "mx/otros-deportes",
+      "articles": 18,
+      "files": [
+        {
+          "file": "mx/otros-deportes/part-0001.json",
+          "count": 18
+        }
+      ]
+    },
+    {
       "category": "turf",
       "articles": 18,
       "files": [
@@ -2138,16 +2148,6 @@
       "files": [
         {
           "file": "futbol/mercado-fichajes/part-0001.json",
-          "count": 17
-        }
-      ]
-    },
-    {
-      "category": "mx/otros-deportes",
-      "articles": 17,
-      "files": [
-        {
-          "file": "mx/otros-deportes/part-0001.json",
           "count": 17
         }
       ]
