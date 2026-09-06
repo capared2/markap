@@ -1,8 +1,8 @@
 {
   "category": "futbol/laliga-hypermotion",
   "part": 1,
-  "count": 3,
-  "updated_at": "2026-09-05T13:18:27.104526Z",
+  "count": 4,
+  "updated_at": "2026-09-06T13:26:46.047488Z",
   "articles": [
     {
       "id": "01_0102_20260815_181_192-directo",
@@ -159,6 +159,61 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-05T13:17:53.063277Z"
+    },
+    {
+      "id": "01_0102_20260906_953_5683-directo",
+      "url": "https://www.marca.com/futbol/laliga-hypermotion/eibar-granada/2026/09/06/01_0102_20260906_953_5683-directo.html",
+      "source_url": "https://www.marca.com/futbol/laliga-hypermotion/eibar-granada/2026/09/06/01_0102_20260906_953_5683-directo.html",
+      "category": "futbol/laliga-hypermotion",
+      "category_path": [
+        "futbol",
+        "laliga-hypermotion",
+        "eibar-granada"
+      ],
+      "section": "segunda-division",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA Hypermotion"
+      ],
+      "title": "Eibar - Granada, en directo | Última hora de LALIGA Hypermotion hoy, en vivo",
+      "standfirst": "",
+      "summary": "Sergio Rodelas (Granada) ha visto tarjeta amarilla. Cambio en Eibar, entra al campo Sergio Cubero sustituyendo a Álvaro Rodríguez. Remate parado alto",
+      "body": "Última hora del Eibar - Granada, en directo\n\nMinuto a minuto del Eibar - Granada en MARCA.com",
+      "paragraphs": [
+        "Última hora del Eibar - Granada, en directo",
+        "Minuto a minuto del Eibar - Granada en MARCA.com"
+      ],
+      "word_count": 17,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "SD Eibar",
+        "Granada CF",
+        "Segunda División",
+        "sd-eibar",
+        "granada-cf",
+        "segunda-division"
+      ],
+      "published_at": "2026-09-06T10:30:00Z",
+      "modified_at": "2026-09-06T13:24:27Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/7f8f8c9f0a74a4cc44dcb19f18ab8aba/resize/1200/assets/multimedia/imagenes/2026/09/06/17886900880432.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/09/06/17886900880432.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-06T13:26:38.809148Z"
     }
   ]
 }
