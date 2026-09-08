@@ -1,8 +1,8 @@
 {
   "category": "lifestyle/world-news",
   "part": 1,
-  "count": 7,
-  "updated_at": "2026-09-07T15:33:42.719938Z",
+  "count": 8,
+  "updated_at": "2026-09-08T19:18:59.498646Z",
   "articles": [
     {
       "id": "nasa-publishes-images-of-the-location-on-the-moon-where-the-spacex-rocket-impacted",
@@ -511,6 +511,72 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-07T15:33:17.555436Z"
+    },
+    {
+      "id": "the-planets-would-not-orbit-exactly-around-the-sun",
+      "url": "https://www.marca.com/en/lifestyle/world-news/2026/09/08/the-planets-would-not-orbit-exactly-around-the-sun.html",
+      "source_url": "https://www.marca.com/en/lifestyle/world-news/2026/09/08/the-planets-would-not-orbit-exactly-around-the-sun.html",
+      "category": "lifestyle/world-news",
+      "category_path": [
+        "en",
+        "lifestyle",
+        "world-news"
+      ],
+      "section": "World News",
+      "content_type": null,
+      "breadcrumbs": [
+        "Home",
+        "Lifestyle"
+      ],
+      "title": "The planets would not orbit exactly around the Sun",
+      "standfirst": "Our star doesn't remain completely still either",
+      "summary": "Our star doesn't remain completely still either",
+      "body": "Since we were little, we have been taught a fairly simple image of the Solar System: the Sun at the center and the planets revolving around it. An explanation that works perfectly for understanding the basics, but which, when looked at in a little more detail, has a small nuance that may surprise more than one person.\n\nAlthough its enormous size and mass make the movement virtually imperceptible, our star also moves . The reason lies in something as simple as gravity: the planets not only receive the Sun’s influence, but they themselves also exert a force on it.\n\n\"The key lies in the barycenter\n\nTo understand this, we need to talk about the so-called barycenter, which is, simply put, the point around which a system made up of two bodies that are gravitationally related moves.\n\nIn the case of the Earth and the Sun, that point is very close to the center of our star. It could not be otherwise, considering the enormous difference in mass between the two. That is why, at first glance, it seems that the Earth revolves around a completely motionless Sun.\n\nThe situation changes when Jupiter appears\n\nThe gas giant is so massive that its influence on the Sun is much more evident. In fact, the center of mass between the two can even be located outside the Sun itself. In other words: while Jupiter travels along its orbit, our star also makes a small movement around that point.\n\nIt may seem like a detail without much importance, but it has very interesting consequences. In fact, this little ‘wobble’ of the stars is one of the tools astronomers use to find planets that are light-years away and that we cannot even observe directly.\n\nWhen a planet gravitationally pulls on its star, it causes small variations in its motion . Current instruments are capable of detecting those changes and, from them, deducing that there is a planet orbiting it.",
+      "paragraphs": [
+        "Since we were little, we have been taught a fairly simple image of the Solar System: the Sun at the center and the planets revolving around it. An explanation that works perfectly for understanding the basics, but which, when looked at in a little more detail, has a small nuance that may surprise more than one person.",
+        "Although its enormous size and mass make the movement virtually imperceptible, our star also moves . The reason lies in something as simple as gravity: the planets not only receive the Sun’s influence, but they themselves also exert a force on it.",
+        "\"The key lies in the barycenter",
+        "To understand this, we need to talk about the so-called barycenter, which is, simply put, the point around which a system made up of two bodies that are gravitationally related moves.",
+        "In the case of the Earth and the Sun, that point is very close to the center of our star. It could not be otherwise, considering the enormous difference in mass between the two. That is why, at first glance, it seems that the Earth revolves around a completely motionless Sun.",
+        "The situation changes when Jupiter appears",
+        "The gas giant is so massive that its influence on the Sun is much more evident. In fact, the center of mass between the two can even be located outside the Sun itself. In other words: while Jupiter travels along its orbit, our star also makes a small movement around that point.",
+        "It may seem like a detail without much importance, but it has very interesting consequences. In fact, this little ‘wobble’ of the stars is one of the tools astronomers use to find planets that are light-years away and that we cannot even observe directly.",
+        "When a planet gravitationally pulls on its star, it causes small variations in its motion . Current instruments are capable of detecting those changes and, from them, deducing that there is a planet orbiting it."
+      ],
+      "word_count": 324,
+      "authors": [
+        "Juan Carlos Diaz"
+      ],
+      "tags": [
+        "World News",
+        "Science",
+        "Sun"
+      ],
+      "published_at": "2026-09-08T09:41:23Z",
+      "modified_at": "2026-09-08T09:41:23Z",
+      "language": "en-US",
+      "images": [
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat/uploads/2026/09/08/6a9fd6e4c0d35.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat_4_3/uploads/2026/09/08/6a9fd6e4c0d35.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/files/article_main_microformat_1_1/uploads/2026/09/08/6a9fd6e4c0d35.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-en.uecdn.es/uploads/2026/09/08/6a9fd6e4c0d35.jpeg",
+          "caption": "Sun"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-08T19:17:17.371202Z"
     }
   ]
 }
