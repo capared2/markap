@@ -1,8 +1,8 @@
 {
   "category": "loteria/loteria-nacional",
   "part": 1,
-  "count": 3,
-  "updated_at": "2026-09-03T19:08:55.787655Z",
+  "count": 4,
+  "updated_at": "2026-09-10T19:00:09.484899Z",
   "articles": [
     {
       "id": "6a8732936c283cdca8ba7fc6-directo",
@@ -155,6 +155,57 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-03T19:07:32.972907Z"
+    },
+    {
+      "id": "6aa2e2126c283cdca8e65a6f-directo",
+      "url": "https://www.marca.com/loteria/loteria-nacional/2026/09/10/6aa2e2126c283cdca8e65a6f-directo.html",
+      "source_url": "https://www.marca.com/loteria/loteria-nacional/2026/09/10/6aa2e2126c283cdca8e65a6f-directo.html",
+      "category": "loteria/loteria-nacional",
+      "category_path": [
+        "loteria",
+        "loteria-nacional"
+      ],
+      "section": "loteria-nacional",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Lotería"
+      ],
+      "title": "Lotería Nacional, en directo | Comprobar resultados del sorteo, premios y extracciones de hoy jueves, 10 de septiembre de 2026",
+      "standfirst": "",
+      "summary": "¿Por qué la Lotería Nacional del jueves es tan popular? Descubre su encanto. La popularidad de la Lotería Nacional del jueves no es casualidad. Su for",
+      "body": "Última hora de la Lotería Nacional en directo:\n\nADVERTENCIA: MARCA no es responsable en caso de que esta noticia contenga algún error u omisión. Advirtiendo a los usuarios que la única lista oficial válida del sorteo es la que hace pública la web de Loterías y Apuestas del Estado (LAE).",
+      "paragraphs": [
+        "Última hora de la Lotería Nacional en directo:",
+        "ADVERTENCIA: MARCA no es responsable en caso de que esta noticia contenga algún error u omisión. Advirtiendo a los usuarios que la única lista oficial válida del sorteo es la que hace pública la web de Loterías y Apuestas del Estado (LAE)."
+      ],
+      "word_count": 50,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "Lotería Nacional",
+        "Lotería",
+        "loteria-nacional",
+        "loteria"
+      ],
+      "published_at": "2026-09-10T18:44:04Z",
+      "modified_at": "2026-09-10T18:44:04Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/68f783daf8ac495997ae392201e37a97/resize/1200/assets/multimedia/imagenes/2023/02/09/16759612430073.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2023/02/09/16759612430073.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-10T18:58:29.465686Z"
     }
   ]
 }
