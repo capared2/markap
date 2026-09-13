@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-12T23:45:25.991148Z",
-  "total_articles": 20567,
+  "generated_at": "2026-09-13T02:56:12.095408Z",
+  "total_articles": 20583,
   "total_categories": 406,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 2078,
+      "articles": 2086,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -90,7 +90,7 @@
         },
         {
           "file": "mx/futbol/part-0021.json",
-          "count": 78
+          "count": 86
         }
       ]
     },
@@ -404,7 +404,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 294,
+      "articles": 295,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -416,7 +416,7 @@
         },
         {
           "file": "mx/actualidad/part-0003.json",
-          "count": 94
+          "count": 95
         }
       ]
     },
@@ -843,6 +843,20 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 110,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "mx/trending/part-0002.json",
+          "count": 10
+        }
+      ]
+    },
+    {
       "category": "mma",
       "articles": 109,
       "files": [
@@ -852,20 +866,6 @@
         },
         {
           "file": "mma/part-0002.json",
-          "count": 9
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 109,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "mx/trending/part-0002.json",
           "count": 9
         }
       ]
@@ -971,6 +971,16 @@
       ]
     },
     {
+      "category": "ncaa/en",
+      "articles": 89,
+      "files": [
+        {
+          "file": "ncaa/en/part-0001.json",
+          "count": 89
+        }
+      ]
+    },
+    {
       "category": "tiramillas/sucesos",
       "articles": 88,
       "files": [
@@ -1006,16 +1016,6 @@
       "files": [
         {
           "file": "mx/nfl/part-0001.json",
-          "count": 87
-        }
-      ]
-    },
-    {
-      "category": "ncaa/en",
-      "articles": 87,
-      "files": [
-        {
-          "file": "ncaa/en/part-0001.json",
           "count": 87
         }
       ]
@@ -1112,11 +1112,11 @@
     },
     {
       "category": "mx/boxeo",
-      "articles": 71,
+      "articles": 73,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
-          "count": 71
+          "count": 73
         }
       ]
     },
@@ -1891,6 +1891,16 @@
       ]
     },
     {
+      "category": "futbol/album",
+      "articles": 31,
+      "files": [
+        {
+          "file": "futbol/album/part-0001.json",
+          "count": 31
+        }
+      ]
+    },
+    {
       "category": "tenis/masters-1000-cincinnati",
       "articles": 31,
       "files": [
@@ -1906,16 +1916,6 @@
       "files": [
         {
           "file": "coches-y-motos/part-0001.json",
-          "count": 30
-        }
-      ]
-    },
-    {
-      "category": "futbol/album",
-      "articles": 30,
-      "files": [
-        {
-          "file": "futbol/album/part-0001.json",
           "count": 30
         }
       ]
@@ -1981,6 +1981,16 @@
       ]
     },
     {
+      "category": "nfl/new-england-patriots",
+      "articles": 28,
+      "files": [
+        {
+          "file": "nfl/new-england-patriots/part-0001.json",
+          "count": 28
+        }
+      ]
+    },
+    {
       "category": "tiramillas",
       "articles": 28,
       "files": [
@@ -2006,16 +2016,6 @@
       "files": [
         {
           "file": "lifestyle/music/part-0001.json",
-          "count": 27
-        }
-      ]
-    },
-    {
-      "category": "nfl/new-england-patriots",
-      "articles": 27,
-      "files": [
-        {
-          "file": "nfl/new-england-patriots/part-0001.json",
           "count": 27
         }
       ]
