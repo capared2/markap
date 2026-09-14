@@ -1,8 +1,8 @@
 {
   "category": "padel/opinion",
   "part": 1,
-  "count": 3,
-  "updated_at": "2026-09-07T08:56:46.511204Z",
+  "count": 4,
+  "updated_at": "2026-09-14T21:27:31.537964Z",
   "articles": [
     {
       "id": "claudia-martina-proceso-rapido-lento-pausa",
@@ -184,6 +184,63 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-09-07T08:56:36.497160Z"
+    },
+    {
+      "id": "maldicion-chingotto",
+      "url": "https://www.marca.com/padel/opinion/2026/09/14/maldicion-chingotto.html",
+      "source_url": "https://www.marca.com/padel/opinion/2026/09/14/maldicion-chingotto.html",
+      "category": "padel/opinion",
+      "category_path": [
+        "padel",
+        "opinion"
+      ],
+      "section": "Pádel",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Pádel"
+      ],
+      "title": "La maldición de Chingotto",
+      "standfirst": "Por quinto año consecutivo el argentino cae en la final de Roland Garros y por tercer año se le escapa el número uno; y aún así seguirá intenándolo de nuevo.",
+      "summary": "Por quinto año consecutivo el argentino Fede Chingotto cae en la final de Roland Garros y por tercer año se le escapa el número uno ante los Golden Boys.",
+      "body": "Dicen que no hay maldición que cien años dure. Una frase hecha o adaptada al deporte para aceptar aquello que se repite hasta lo inexplicable y que escapa a la lógica deportiva, a la racionalidad de la táctica, el resultado o lo épico. Y Fede Chingotto tiene su propia maldición.\n\nAmanece el lunes con tono gris en París. Un lunes más plomizo en la capital de Francia que esta semana sabe a resaca de Major, a gesta de los Golden Boys,\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "Dicen que no hay maldición que cien años dure. Una frase hecha o adaptada al deporte para aceptar aquello que se repite hasta lo inexplicable y que escapa a la lógica deportiva, a la racionalidad de la táctica, el resultado o lo épico. Y Fede Chingotto tiene su propia maldición.",
+        "Amanece el lunes con tono gris en París. Un lunes más plomizo en la capital de Francia que esta semana sabe a resaca de Major, a gesta de los Golden Boys,",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 86,
+      "authors": [
+        "Jesús Mata"
+      ],
+      "tags": [
+        "maldición"
+      ],
+      "published_at": "2026-09-14T18:19:50Z",
+      "modified_at": "2026-09-14T18:19:50Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/14/6aa837218b9a5.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/14/6aa837218b9a5.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/14/6aa837218b9a5.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/14/6aa837218b9a5.jpeg",
+          "caption": "Chingotto durante un partido. Premier Padel"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-09-14T21:26:14.360730Z"
     }
   ]
 }
