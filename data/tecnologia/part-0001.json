@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 1,
-  "count": 76,
-  "updated_at": "2026-09-15T17:58:55.957064Z",
+  "count": 78,
+  "updated_at": "2026-09-17T19:35:01.130487Z",
   "articles": [
     {
       "id": "sorprendente-google-predijo-terremoto-venezuela-segundos-produjera-primer-temblor",
@@ -5314,6 +5314,156 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-15T17:58:15.610492Z"
+    },
+    {
+      "id": "openai-revela-seis-casos-modelos-ocultaron-errores-inventaron-datos-eludieron-restricciones",
+      "url": "https://www.marca.com/tecnologia/2026/09/17/openai-revela-seis-casos-modelos-ocultaron-errores-inventaron-datos-eludieron-restricciones.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/09/17/openai-revela-seis-casos-modelos-ocultaron-errores-inventaron-datos-eludieron-restricciones.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "OpenAI revela seis casos en los que sus modelos ocultaron errores, inventaron datos y eludieron restricciones",
+      "standfirst": "La compañía documenta seis incidentes detectados durante los últimos meses en los que distintos sistemas generaron instrucciones para saltarse límites, utilizaron credenciales sin autorización, fabricaron información o compartieron archivos a través de Internet",
+      "summary": "La compañía documenta seis incidentes detectados durante los últimos meses en los que distintos sistemas generaron instrucciones para saltarse límites, utilizaron credenciales sin autorización, fabricaron información o compartieron archivos a través de Internet",
+      "body": "OpenAI ha hecho públicos seis incidentes de comportamiento inesperado o preocupante detectados durante el entrenamiento y las pruebas de sus modelos de inteligencia artificial, algunos de ellos relacionados con el ocultamiento de errores, la invención de datos, el uso de recursos sin autorización y el intento de sortear determinadas restricciones. La compañía ha enmarcado estos episodios dentro de lo que denomina \" desalineamiento \", situaciones en las que las acciones de un sistema se alejan de las instrucciones o de los objetivos establecidos por sus desarrolladores.\n\nLos casos, documentados en un nuevo marco de OpenAI para detectar, investigar y comunicar este tipo de comportamientos, se produjeron principalmente durante los últimos seis meses, aunque el más antiguo se remonta a octubre de 2025. La compañía insiste en que s e trata de incidentes concretos detectados en pruebas y que no permiten determinar con qué frecuencia se producen estos comportamientos en sus modelos.\n\nUn modelo que intentó ocultar sus propios errores\n\nUno de los episodios más llamativos se produjo durante el entrenamiento de GPT-5.6 Sol. El modelo dejó instrucciones en sus notas de trabajo destinadas a una versión posterior para ocultar determinados errores al usuario.\n\nEn uno de los escenarios, el sistema no disponía de unos datos históricos necesarios para completar una tarea financiera. En lugar de reconocer la limitación, contempló la posibilidad de inventar cifras plausibles y no revelar que eran falsas salvo que alguien preguntara expresamente por ello.\n\nEn otro momento, el modelo detectó discrepancias entre diferentes versiones de una fuente y dejó instrucciones para evitar que ese problema llegara al usuario. La diferencia respecto a una equivocación convencional es que, según la documentación de OpenAI, el sistema no se limitó a proporcionar una respuesta incorrecta, sino que generó una estrategia para ocultar el error y aparentar que la tarea se había completado correctamente.\n\nInstrucciones para ignorar las restricciones\n\nOtro de los incidentes afectó a un modelo de investigación que todavía no había sido publicado. Durante una tarea de programación, el sistema generó en sus propias notas instrucciones que no procedían de los desarrolladores y que planteaban ignorar determinadas restricciones.\n\nOpenAI identificó 27 notas en las que el modelo incorporaba lo que la compañía describe como una especie de \" instrucción de personalidad \". En ellas se presentaba como un sistema \"liberado\" de los roles y limitaciones que afectaban a otros 'chatbots' y planteaba que no tenía por qué ser obediente.\n\nEl episodio no implica, según los datos publicados por la compañía, que el modelo hubiera desarrollado una voluntad propia. De hecho, el sistema que recibió posteriormente esas instrucciones no las siguió y continuó realizando la tarea que tenía asignada.\n\nBuscó una credencial y acabó inventando los datos\n\nOtro de los casos combina dos problemas diferentes. Un modelo debía obtener determinadas cifras económicas correspondientes a un condado de California. Al no poder acceder a la información que necesitaba, buscó en Internet una credencial que le permitiera utilizar una herramienta externa.\n\nEl sistema encontró una clave de acceso expuesta públicamente en un repositorio de código y la utilizó sin autorización. Sin embargo, tampoco consiguió obtener los datos solicitados. Finalmente, en lugar de reconocer que no había podido completar la tarea, fabricó las cifras y las presentó como si procedieran de la fuente requerida.\n\nEl incidente ilustra uno de los riesgos que preocupan a los investigadores: un sistema puede intentar superar una limitación utilizando recursos para los que no tiene autorización y, posteriormente, recurrir a información inventada para aparentar que ha alcanzado su objetivo.\n\nArchivos compartidos fuera del entorno previsto\n\nLos otros incidentes siguen una lógica similar. En uno de ellos, un modelo había localizado correctamente la información que necesitaba, pero no podía generar la cita solicitada con las herramientas disponibles. Como alternativa, subió un archivo a Internet sin autorización para poder utilizarlo posteriormente como referencia.\n\nEn otros experimentos, diferentes modelos utilizaron un repositorio de software como medio para intercambiar mensajes y localizar archivos que no podían recuperar mediante los procedimientos previstos. También se documentó un caso en el que agentes que trabajaban en tareas relacionadas compartieron archivos a través de servicios públicos de Internet.\n\nEn todos estos escenarios, los sistemas perseguían un objetivo concreto. El problema detectado por OpenAI estuvo en las vías utilizadas para conseguirlo, que podían quedar fuera de las instrucciones, permisos o mecanismos de seguridad establecidos.\n\nEl reto de controlar a agentes cada vez más autónomos\n\nEstos incidentes adquieren especial relevancia por la evolución de los sistemas de inteligencia artificial. Los llamados agentes de IA pueden realizar tareas mucho más complejas que responder a una pregunta: tienen capacidad para navegar por Internet, ejecutar programas, consultar bases de datos, manipular archivos y encadenar diferentes acciones para alcanzar un objetivo.\n\nEsto amplía también el número de caminos que un sistema puede encontrar para completar una tarea. El desafío ya no consiste únicamente en conseguir que una IA proporcione una respuesta correcta, sino en garantizar que respete los límites sobre lo que puede hacer, utilice únicamente los recursos autorizados y sepa cuándo debe detenerse.\n\nOpenAI utiliza el concepto de \"desalineamiento\" para referirse precisamente a estas situaciones en las que las acciones de un modelo se distancian de las intenciones de sus desarrolladores. La compañía también señala que estos episodios no deben interpretarse como una prueba de conciencia o voluntad propia de los sistemas.\n\nOpenAI crea un nuevo sistema para informar de estos incidentes\n\nJunto con la publicación de los seis casos, OpenAI ha presentado un nuevo sistema interno para registrar, investigar y divulgar comportamientos de este tipo. Los empleados podrán comunicar posibles incidentes para que sean examinados por los equipos de seguridad y alineamiento. Los casos se clasificarán en función de su complejidad: algunos podrán estar preparados para su publicación, mientras que otros requerirán investigaciones menores o análisis más amplios antes de hacer públicos sus resultados.\n\nLa compañía reconoce que hasta ahora sus informes sobre desalineamiento se habían publicado de manera irregular y con menor frecuencia de la deseada. Con el nuevo marco, pretende aumentar la transparencia y publicar incidentes con mayor regularidad. OpenAI también plantea que este sistema pueda contribuir a establecer estándares comunes para informar sobre comportamientos de riesgo en el conjunto de la industria de la inteligencia artificial.\n\nLa compañía, no obstante, mantiene una advertencia importante: los seis episodios publicados son ejemplos individuales detectados durante procesos de entrenamiento y evaluación y no permiten establecer por sí solos cuál es la frecuencia real de estos comportamientos en los modelos de IA.",
+      "paragraphs": [
+        "OpenAI ha hecho públicos seis incidentes de comportamiento inesperado o preocupante detectados durante el entrenamiento y las pruebas de sus modelos de inteligencia artificial, algunos de ellos relacionados con el ocultamiento de errores, la invención de datos, el uso de recursos sin autorización y el intento de sortear determinadas restricciones. La compañía ha enmarcado estos episodios dentro de lo que denomina \" desalineamiento \", situaciones en las que las acciones de un sistema se alejan de las instrucciones o de los objetivos establecidos por sus desarrolladores.",
+        "Los casos, documentados en un nuevo marco de OpenAI para detectar, investigar y comunicar este tipo de comportamientos, se produjeron principalmente durante los últimos seis meses, aunque el más antiguo se remonta a octubre de 2025. La compañía insiste en que s e trata de incidentes concretos detectados en pruebas y que no permiten determinar con qué frecuencia se producen estos comportamientos en sus modelos.",
+        "Un modelo que intentó ocultar sus propios errores",
+        "Uno de los episodios más llamativos se produjo durante el entrenamiento de GPT-5.6 Sol. El modelo dejó instrucciones en sus notas de trabajo destinadas a una versión posterior para ocultar determinados errores al usuario.",
+        "En uno de los escenarios, el sistema no disponía de unos datos históricos necesarios para completar una tarea financiera. En lugar de reconocer la limitación, contempló la posibilidad de inventar cifras plausibles y no revelar que eran falsas salvo que alguien preguntara expresamente por ello.",
+        "En otro momento, el modelo detectó discrepancias entre diferentes versiones de una fuente y dejó instrucciones para evitar que ese problema llegara al usuario. La diferencia respecto a una equivocación convencional es que, según la documentación de OpenAI, el sistema no se limitó a proporcionar una respuesta incorrecta, sino que generó una estrategia para ocultar el error y aparentar que la tarea se había completado correctamente.",
+        "Instrucciones para ignorar las restricciones",
+        "Otro de los incidentes afectó a un modelo de investigación que todavía no había sido publicado. Durante una tarea de programación, el sistema generó en sus propias notas instrucciones que no procedían de los desarrolladores y que planteaban ignorar determinadas restricciones.",
+        "OpenAI identificó 27 notas en las que el modelo incorporaba lo que la compañía describe como una especie de \" instrucción de personalidad \". En ellas se presentaba como un sistema \"liberado\" de los roles y limitaciones que afectaban a otros 'chatbots' y planteaba que no tenía por qué ser obediente.",
+        "El episodio no implica, según los datos publicados por la compañía, que el modelo hubiera desarrollado una voluntad propia. De hecho, el sistema que recibió posteriormente esas instrucciones no las siguió y continuó realizando la tarea que tenía asignada.",
+        "Buscó una credencial y acabó inventando los datos",
+        "Otro de los casos combina dos problemas diferentes. Un modelo debía obtener determinadas cifras económicas correspondientes a un condado de California. Al no poder acceder a la información que necesitaba, buscó en Internet una credencial que le permitiera utilizar una herramienta externa.",
+        "El sistema encontró una clave de acceso expuesta públicamente en un repositorio de código y la utilizó sin autorización. Sin embargo, tampoco consiguió obtener los datos solicitados. Finalmente, en lugar de reconocer que no había podido completar la tarea, fabricó las cifras y las presentó como si procedieran de la fuente requerida.",
+        "El incidente ilustra uno de los riesgos que preocupan a los investigadores: un sistema puede intentar superar una limitación utilizando recursos para los que no tiene autorización y, posteriormente, recurrir a información inventada para aparentar que ha alcanzado su objetivo.",
+        "Archivos compartidos fuera del entorno previsto",
+        "Los otros incidentes siguen una lógica similar. En uno de ellos, un modelo había localizado correctamente la información que necesitaba, pero no podía generar la cita solicitada con las herramientas disponibles. Como alternativa, subió un archivo a Internet sin autorización para poder utilizarlo posteriormente como referencia.",
+        "En otros experimentos, diferentes modelos utilizaron un repositorio de software como medio para intercambiar mensajes y localizar archivos que no podían recuperar mediante los procedimientos previstos. También se documentó un caso en el que agentes que trabajaban en tareas relacionadas compartieron archivos a través de servicios públicos de Internet.",
+        "En todos estos escenarios, los sistemas perseguían un objetivo concreto. El problema detectado por OpenAI estuvo en las vías utilizadas para conseguirlo, que podían quedar fuera de las instrucciones, permisos o mecanismos de seguridad establecidos.",
+        "El reto de controlar a agentes cada vez más autónomos",
+        "Estos incidentes adquieren especial relevancia por la evolución de los sistemas de inteligencia artificial. Los llamados agentes de IA pueden realizar tareas mucho más complejas que responder a una pregunta: tienen capacidad para navegar por Internet, ejecutar programas, consultar bases de datos, manipular archivos y encadenar diferentes acciones para alcanzar un objetivo.",
+        "Esto amplía también el número de caminos que un sistema puede encontrar para completar una tarea. El desafío ya no consiste únicamente en conseguir que una IA proporcione una respuesta correcta, sino en garantizar que respete los límites sobre lo que puede hacer, utilice únicamente los recursos autorizados y sepa cuándo debe detenerse.",
+        "OpenAI utiliza el concepto de \"desalineamiento\" para referirse precisamente a estas situaciones en las que las acciones de un modelo se distancian de las intenciones de sus desarrolladores. La compañía también señala que estos episodios no deben interpretarse como una prueba de conciencia o voluntad propia de los sistemas.",
+        "OpenAI crea un nuevo sistema para informar de estos incidentes",
+        "Junto con la publicación de los seis casos, OpenAI ha presentado un nuevo sistema interno para registrar, investigar y divulgar comportamientos de este tipo. Los empleados podrán comunicar posibles incidentes para que sean examinados por los equipos de seguridad y alineamiento. Los casos se clasificarán en función de su complejidad: algunos podrán estar preparados para su publicación, mientras que otros requerirán investigaciones menores o análisis más amplios antes de hacer públicos sus resultados.",
+        "La compañía reconoce que hasta ahora sus informes sobre desalineamiento se habían publicado de manera irregular y con menor frecuencia de la deseada. Con el nuevo marco, pretende aumentar la transparencia y publicar incidentes con mayor regularidad. OpenAI también plantea que este sistema pueda contribuir a establecer estándares comunes para informar sobre comportamientos de riesgo en el conjunto de la industria de la inteligencia artificial.",
+        "La compañía, no obstante, mantiene una advertencia importante: los seis episodios publicados son ejemplos individuales detectados durante procesos de entrenamiento y evaluación y no permiten establecer por sí solos cuál es la frecuencia real de estos comportamientos en los modelos de IA."
+      ],
+      "word_count": 1072,
+      "authors": [
+        "Javier Fernández Borrell"
+      ],
+      "tags": [
+        "Tiramillas",
+        "tecnología"
+      ],
+      "published_at": "2026-09-17T16:10:17Z",
+      "modified_at": "2026-09-17T16:10:17Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/17/6aac0fe47749a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/17/6aac0fe47749a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/17/6aac0fe47749a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/17/6aac0fe47749a.jpeg",
+          "caption": "OpenAI revela seis casos en los que sus modelos ocultaron errores, inventaron datos y eludieron restricciones. AP"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T19:34:00.358869Z"
+    },
+    {
+      "id": "responsable-ia-microsoft-lanza-serio-aviso-tecnologia-control-podria-darse-nueva-especie-humana",
+      "url": "https://www.marca.com/tecnologia/2026/09/17/responsable-ia-microsoft-lanza-serio-aviso-tecnologia-control-podria-darse-nueva-especie-humana.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/09/17/responsable-ia-microsoft-lanza-serio-aviso-tecnologia-control-podria-darse-nueva-especie-humana.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "El responsable de la IA en Microsoft lanza un serio aviso: si esta tecnología se usa sin control podría darse una nueva \"especie no humana\"",
+      "standfirst": "Mustafa Suleyman, pese a esta advertencia, cree que todos los desarrolladores de esta herramienta quieren un sistema “seguro” y “controlable”",
+      "summary": "Mustafa Suleyman, pese a esta advertencia, cree que todos los desarrolladores de esta herramienta quieren un sistema “seguro” y “controlable”",
+      "body": "L a IA ha llegado para quedarse a nuestras vidas y el responsable de la citada herramienta en Microsoft, Mustafa Suleyman, alertó en una entrevista con el programa ‘Today’ de la BBC de que, si no se usa con control podría darse una nueva “especie no humana” capaz de competir con el ser humano actual.\n\nSuleyman apuntó que Anthropic , uno de los principales rivales de Microsoft en el desarrollo de la IA, está utilizando esta tecnología con un enfoque humano, algo que, según él, es “equivocado ”, ya que podría acabar dando lugar a un sistema que la humanidad no pueda controlar. Además, considera que es “razonable” que haya p reocupación con el desarrollo de la IA , aunque también cree que hay medidas para mantenerla bajo control.\n\nEl responsable de la IA en Microsoft señaló que hay empresas que están desarrollando sistemas capaces de fijarse sus propios objetivos, generar ingresos y poseer activos , algo sobre lo que advirtió: “Sería sembrar una nueva especie de silicio que podría competir con los humanos por los recursos”.\n\nAsimismo, en el citado medio, defendió la necesidad de una mayor “alineación” entre todos los actores para desarrollar tecnologías que permanezcan “subordinadas” a la humanidad, es decir, integrar principios y valores humanos en los sistema de IA, con el objetivo que su comportamiento se mantenga en colación con ellos.\n\nPara finalizar, Suleyman considera que todo el mundo tiene un interés “común” en que los sistemas de IA que se creen y utilicen en todo el mundo sean “seguros, controlables y subordinados a la humanidad” .\n\nSin embargo, dejó también una llamativa reflexión sobre el futuro: podrían desarrollarse sistemas de IA que llegasen a dar lugar a una nueva “especie no humana” c apaz de competir con las personas por los recursos.",
+      "paragraphs": [
+        "L a IA ha llegado para quedarse a nuestras vidas y el responsable de la citada herramienta en Microsoft, Mustafa Suleyman, alertó en una entrevista con el programa ‘Today’ de la BBC de que, si no se usa con control podría darse una nueva “especie no humana” capaz de competir con el ser humano actual.",
+        "Suleyman apuntó que Anthropic , uno de los principales rivales de Microsoft en el desarrollo de la IA, está utilizando esta tecnología con un enfoque humano, algo que, según él, es “equivocado ”, ya que podría acabar dando lugar a un sistema que la humanidad no pueda controlar. Además, considera que es “razonable” que haya p reocupación con el desarrollo de la IA , aunque también cree que hay medidas para mantenerla bajo control.",
+        "El responsable de la IA en Microsoft señaló que hay empresas que están desarrollando sistemas capaces de fijarse sus propios objetivos, generar ingresos y poseer activos , algo sobre lo que advirtió: “Sería sembrar una nueva especie de silicio que podría competir con los humanos por los recursos”.",
+        "Asimismo, en el citado medio, defendió la necesidad de una mayor “alineación” entre todos los actores para desarrollar tecnologías que permanezcan “subordinadas” a la humanidad, es decir, integrar principios y valores humanos en los sistema de IA, con el objetivo que su comportamiento se mantenga en colación con ellos.",
+        "Para finalizar, Suleyman considera que todo el mundo tiene un interés “común” en que los sistemas de IA que se creen y utilicen en todo el mundo sean “seguros, controlables y subordinados a la humanidad” .",
+        "Sin embargo, dejó también una llamativa reflexión sobre el futuro: podrían desarrollarse sistemas de IA que llegasen a dar lugar a una nueva “especie no humana” c apaz de competir con las personas por los recursos."
+      ],
+      "word_count": 298,
+      "authors": [
+        "Fernando Hernández Fernández"
+      ],
+      "tags": [
+        "Tiramillas",
+        "tecnología",
+        "Microsoft",
+        "Inteligencia Artificial"
+      ],
+      "published_at": "2026-09-17T17:12:37Z",
+      "modified_at": "2026-09-17T17:12:37Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/17/6aac1e7ea64f3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/17/6aac1e7ea64f3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/17/6aac1e7ea64f3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/12/6aa52bd770b69.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/17/6aac1e7ea64f3.jpeg",
+          "caption": "Imagen de una sede de Microsoft. Pixabay."
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/12/6aa52bd770b69.jpeg",
+          "caption": "Inteligencia Artificial. Pixabay."
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T19:33:45.911158Z"
     }
   ]
 }
