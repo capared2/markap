@@ -1,8 +1,8 @@
 {
   "category": "tiramillas/ciencia",
   "part": 2,
-  "count": 66,
-  "updated_at": "2026-09-16T19:25:58.798216Z",
+  "count": 71,
+  "updated_at": "2026-09-17T09:12:53.066768Z",
   "articles": [
     {
       "id": "trasplantes-tradicionales-asi-funciona-corazon-artificial-titanio",
@@ -4722,6 +4722,368 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-16T19:25:16.838989Z"
+    },
+    {
+      "id": "implante-cerebral-permite-personas-paralisis-hablar-gesticular-traves-avatar",
+      "url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/implante-cerebral-permite-personas-paralisis-hablar-gesticular-traves-avatar.html",
+      "source_url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/implante-cerebral-permite-personas-paralisis-hablar-gesticular-traves-avatar.html",
+      "category": "tiramillas/ciencia",
+      "category_path": [
+        "tiramillas",
+        "ciencia"
+      ],
+      "section": "Ciencia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "Un implante cerebral permite a personas con parálisis hablar y gesticular a través de un avatar",
+      "standfirst": "Investigadores de la Universidad de California desarrollan un sistema capaz de decodificar de forma simultánea las señales cerebrales relacionadas con el habla y los movimientos corporales",
+      "summary": "Investigadores de la Universidad de California desarrollan un sistema capaz de decodificar de forma simultánea las señales cerebrales relacionadas con el habla y los movimientos corporales",
+      "body": "Hablar, asentir con la cabeza, levantar un brazo o encogerse de hombros son gestos habituales en cualquier conversación. Sin embargo, las personas con parálisis graves pueden perder estas formas de comunicación como consecuencia de un ictus o de enfermedades neurodegenerativas. Ahora, un equipo de investigadores ha logrado que dos pacientes recuperen parte de esa capacidad mediante un implante cerebral conectado a un avatar de cuerpo completo.\n\nEl avance ha sido desarrollado por investigadores de la Universidad de California en San Francisco (UCSF) y permite interpretar simultáneamente las señales cerebrales asociadas al habla y a los movimientos. Una inteligencia artificial procesa posteriormente esa información y hace que un avatar reproduzca en una pantalla tanto las palabras que el paciente intenta pronunciar como los gestos que quiere realizar.\n\nLa investigación forma parte del ensayo clínico BRAVO (Brain-Computer Interface Restoration of Arm and Voice), coordinado por el neurocirujano Edward Chang, y sus resultados han sido publicados en la revista Nature Neuroscience . Hasta ahora, las interfaces cerebro-computadora habían conseguido decodificar el habla o los movimientos, pero hacerlo de manera independiente suponía una importante limitación para reproducir una conversación natural.\n\n253 electrodos para interpretar las señales cerebrales\n\nPara desarrollar el sistema, los investigadores implantaron en el hemisferio izquierdo de los participantes una malla metálica flexible equipada con 253 electrodos de alta definición. El dispositivo se coloca sobre la superficie de la corteza sensorimotora, una región cerebral implicada tanto en los movimientos corporales como en los necesarios para producir el habla.\n\nPrecisamente, uno de los principales retos consistía en diferenciar las señales correspondientes a cada actividad. Los investigadores comprobaron que la actividad cerebral asociada a los movimientos de los brazos y la relacionada con el habla pueden solaparse cuando ambas acciones se realizan al mismo tiempo.\n\nPara superar este problema, entrenaron un sistema de inteligencia artificial con distintas situaciones: pacientes intentando únicamente hablar, realizando solamente gestos y combinando ambas acciones. De esta manera, el algoritmo aprendió a identificar las diferentes señales cerebrales y a reducir las interferencias entre ellas.\n\nHasta un 100% de precisión\n\nLos resultados fueron diferentes en los dos participantes principales. Bravo-6, diagnosticado con ELA a los 56 años, alcanzó un 85% de precisión en el reconocimiento de gestos y un 75% en la transcripción de frases. El sistema le permitió controlar diez expresiones físicas y diez enunciados verbales.\n\nEn el caso de Bravo-1r, un hombre que sufrió un infarto cerebral masivo en el tronco del encéfalo a los 20 años y quedó con una tetraplejia severa, la precisión llegó al 100% tanto para el habla como para los gestos durante varios bloques de conversación.\n\nMientras las palabras del paciente aparecían en forma de subtítulos, el avatar podía reproducir distintos movimientos, como saludar con el brazo, asentir con la cabeza, encogerse de hombros o cerrar el puño. El objetivo es que la comunicación no se limite a traducir lo que una persona intenta decir, sino que también pueda incorporar los elementos no verbales que forman parte de una conversación cotidiana.\n\nUn avance todavía en fase experimental\n\nLos investigadores consideran que el sistema podría ampliarse en el futuro para incorporar miles de palabras y decenas de movimientos, sin necesidad de entrenar de forma individual cada una de las posibles combinaciones entre habla y gestos.\n\nNo obstante, el avance se encuentra todavía en una fase inicial. El vocabulario utilizado en los experimentos es limitado y las pruebas se han realizado en entornos controlados y con un número muy reducido de participantes. Será necesario realizar nuevos estudios con más pacientes y con diferentes perfiles clínicos para determinar hasta qué punto esta tecnología puede funcionar de manera estable y convertirse en una herramienta médica de uso habitual.\n\nEl trabajo supone, en cualquier caso, un paso hacia interfaces cerebro-computadora capaces de reproducir una comunicación más completa y natural, combinando en tiempo real lo que una persona quiere decir con la forma en que pretende expresarlo.",
+      "paragraphs": [
+        "Hablar, asentir con la cabeza, levantar un brazo o encogerse de hombros son gestos habituales en cualquier conversación. Sin embargo, las personas con parálisis graves pueden perder estas formas de comunicación como consecuencia de un ictus o de enfermedades neurodegenerativas. Ahora, un equipo de investigadores ha logrado que dos pacientes recuperen parte de esa capacidad mediante un implante cerebral conectado a un avatar de cuerpo completo.",
+        "El avance ha sido desarrollado por investigadores de la Universidad de California en San Francisco (UCSF) y permite interpretar simultáneamente las señales cerebrales asociadas al habla y a los movimientos. Una inteligencia artificial procesa posteriormente esa información y hace que un avatar reproduzca en una pantalla tanto las palabras que el paciente intenta pronunciar como los gestos que quiere realizar.",
+        "La investigación forma parte del ensayo clínico BRAVO (Brain-Computer Interface Restoration of Arm and Voice), coordinado por el neurocirujano Edward Chang, y sus resultados han sido publicados en la revista Nature Neuroscience . Hasta ahora, las interfaces cerebro-computadora habían conseguido decodificar el habla o los movimientos, pero hacerlo de manera independiente suponía una importante limitación para reproducir una conversación natural.",
+        "253 electrodos para interpretar las señales cerebrales",
+        "Para desarrollar el sistema, los investigadores implantaron en el hemisferio izquierdo de los participantes una malla metálica flexible equipada con 253 electrodos de alta definición. El dispositivo se coloca sobre la superficie de la corteza sensorimotora, una región cerebral implicada tanto en los movimientos corporales como en los necesarios para producir el habla.",
+        "Precisamente, uno de los principales retos consistía en diferenciar las señales correspondientes a cada actividad. Los investigadores comprobaron que la actividad cerebral asociada a los movimientos de los brazos y la relacionada con el habla pueden solaparse cuando ambas acciones se realizan al mismo tiempo.",
+        "Para superar este problema, entrenaron un sistema de inteligencia artificial con distintas situaciones: pacientes intentando únicamente hablar, realizando solamente gestos y combinando ambas acciones. De esta manera, el algoritmo aprendió a identificar las diferentes señales cerebrales y a reducir las interferencias entre ellas.",
+        "Hasta un 100% de precisión",
+        "Los resultados fueron diferentes en los dos participantes principales. Bravo-6, diagnosticado con ELA a los 56 años, alcanzó un 85% de precisión en el reconocimiento de gestos y un 75% en la transcripción de frases. El sistema le permitió controlar diez expresiones físicas y diez enunciados verbales.",
+        "En el caso de Bravo-1r, un hombre que sufrió un infarto cerebral masivo en el tronco del encéfalo a los 20 años y quedó con una tetraplejia severa, la precisión llegó al 100% tanto para el habla como para los gestos durante varios bloques de conversación.",
+        "Mientras las palabras del paciente aparecían en forma de subtítulos, el avatar podía reproducir distintos movimientos, como saludar con el brazo, asentir con la cabeza, encogerse de hombros o cerrar el puño. El objetivo es que la comunicación no se limite a traducir lo que una persona intenta decir, sino que también pueda incorporar los elementos no verbales que forman parte de una conversación cotidiana.",
+        "Un avance todavía en fase experimental",
+        "Los investigadores consideran que el sistema podría ampliarse en el futuro para incorporar miles de palabras y decenas de movimientos, sin necesidad de entrenar de forma individual cada una de las posibles combinaciones entre habla y gestos.",
+        "No obstante, el avance se encuentra todavía en una fase inicial. El vocabulario utilizado en los experimentos es limitado y las pruebas se han realizado en entornos controlados y con un número muy reducido de participantes. Será necesario realizar nuevos estudios con más pacientes y con diferentes perfiles clínicos para determinar hasta qué punto esta tecnología puede funcionar de manera estable y convertirse en una herramienta médica de uso habitual.",
+        "El trabajo supone, en cualquier caso, un paso hacia interfaces cerebro-computadora capaces de reproducir una comunicación más completa y natural, combinando en tiempo real lo que una persona quiere decir con la forma en que pretende expresarlo."
+      ],
+      "word_count": 647,
+      "authors": [
+        "Javier Fernández Borrell"
+      ],
+      "tags": [
+        "Tiramillas",
+        "ciencia",
+        "parálisis"
+      ],
+      "published_at": "2026-09-17T04:48:37Z",
+      "modified_at": "2026-09-17T04:48:37Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaaf52217528.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/16/6aaaf52217528.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/16/6aaaf52217528.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaaf52217528.jpeg",
+          "caption": "Un implante cerebral permite a personas con parálisis hablar y gesticular a través de un avatar. PEXELS"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T09:12:13.416448Z"
+    },
+    {
+      "id": "mercurio-tambien-verse-simple-vista-hay-trampa-planeta-dificil-observar",
+      "url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/mercurio-tambien-verse-simple-vista-hay-trampa-planeta-dificil-observar.html",
+      "source_url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/mercurio-tambien-verse-simple-vista-hay-trampa-planeta-dificil-observar.html",
+      "category": "tiramillas/ciencia",
+      "category_path": [
+        "tiramillas",
+        "ciencia"
+      ],
+      "section": "Ciencia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "Mercurio también puede verse a simple vista, pero hay una trampa: el planeta más difícil de observar",
+      "standfirst": "Mercurio forma parte del reducido grupo de planetas que pueden contemplarse sin telescopio desde la Tierra, pero localizarlo resulta mucho más complicado que observar Venus, Marte o Júpiter",
+      "summary": "Mercurio forma parte del reducido grupo de planetas que pueden contemplarse sin telescopio desde la Tierra, pero localizarlo resulta mucho más complicado que observar Venus, Marte o Júpiter",
+      "body": "M ercurio es uno de esos planetas que parecen esconderse en el cielo. Aunque forma parte, junto a Venus, Marte, Júpiter y Saturno, del pequeño grupo de planetas visibles a simple vista desde la Tierra, identificarlo puede convertirse en todo un desafío incluso para los aficionados a la astronomía. El problema no es que sea demasiado débil para ser visto, sino que aparece prácticamente siempre junto al resplandor del Sol.\n\nAl ser el planeta más cercano a nuestra estrella, Mercurio nunca se aleja demasiado del Sol desde la perspectiva terrestre. Por eso no puede contemplarse durante una noche completa como ocurre con otros planetas. Sus mejores oportunidades de observación se producen durante el crepúsculo, poco después de la puesta de Sol o poco antes del amanecer.\n\nUn planeta brillante en el peor lugar del cielo\n\nMercurio puede alcanzar un brillo suficiente para ser observado sin instrumentos e incluso resultar visible desde lugares afectados por cierta contaminación lumínica. Sin embargo, rara vez aparece contra un cielo completamente oscuro. Mientras Júpiter o Saturno pueden elevarse bastante sobre el horizonte y permanecer visibles durante horas, Mercurio se mantiene siempre cerca del Sol.\n\nLa explicación está en su órbita. Mercurio es un planeta interior, ya que se encuentra dentro de la órbita terrestre. Desde nuestro planeta nunca puede situarse en oposición al Sol, es decir, en el lado contrario del cielo. Por esa razón no llega a culminar a medianoche ni a dominar el firmamento nocturno.\n\nLa NASA señala que la observación de Mercurio a simple vista resulta especialmente difícil salvo cuando alcanza una gran separación aparente respecto al Sol, conocida como elongación. Es entonces cuando las condiciones pueden ser suficientemente favorables para localizarlo durante unos minutos en el cielo del amanecer o del atardecer.\n\nLa clave está en la máxima elongación\n\nLa elongación es la distancia angular aparente entre un planeta y el Sol observada desde la Tierra. En Mercurio este valor siempre es limitado, pero cuando alcanza su máxima elongación dispone de una mayor separación respecto al resplandor solar y aumenta la posibilidad de localizarlo.\n\nCuando la máxima elongación es oriental, Mercurio aparece como un objeto vespertino y debe buscarse hacia el oeste, poco después de la puesta de Sol. Si la máxima elongación es occidental, se convierte en un objeto matutino y hay que mirar hacia el este, poco antes del amanecer. Pero alcanzar una buena elongación no garantiza que vaya a ser fácil encontrarlo.\n\nEl horizonte se convierte en otro obstáculo\n\nLa altura sobre el horizonte es otro de los factores determinantes. Mercurio puede estar suficientemente separado del Sol y, aun así, permanecer tan bajo que quede oculto por edificios, árboles, montañas o la propia bruma del horizonte.\n\nPor eso, buscarlo requiere una estrategia diferente a la utilizada para localizar planetas como Venus o Júpiter. No basta con levantar la mirada hacia el cielo. Hay que concentrarse en una zona muy baja del horizonte, precisamente donde el Sol acaba de desaparecer o está a punto de aparecer.\n\nEsta dificultad explica por qué muchas personas pueden haber observado durante años el cielo nocturno sin identificar nunca Mercurio. Una pequeña obstrucción o unas condiciones atmosféricas poco favorables pueden ser suficientes para perder la oportunidad.\n\nUna observación que exige precaución\n\nLa proximidad de Mercurio al Sol añade además un importante factor de seguridad. Aunque el planeta pueda observarse a simple vista durante el crepúsculo, no es recomendable buscarlo con prismáticos o telescopios mientras el Sol se encuentre cerca de la zona observada. Un descuido que permita que la luz solar entre directamente en el instrumento puede provocar daños oculares graves e irreversibles.\n\nPara una observación a simple vista, la opción más segura consiste en esperar a que el Sol haya desaparecido por completo tras el horizonte en el caso de una aparición vespertina. Las aplicaciones astronómicas pueden servir para conocer de antemano dónde y cuándo buscarlo, pero no deben utilizarse como motivo para apuntar instrumentos ópticos hacia una zona próxima al Sol.\n\nNo todas las apariciones de Mercurio son iguales\n\nOtra de las peculiaridades del planeta es que sus distintas apariciones pueden presentar condiciones muy diferentes. Incluso cuando alcanza una máxima elongación, puede resultar complicado de observar si su posición respecto al horizonte no es favorable. En esta circunstancia intervienen factores como la época del año, la latitud desde la que se realiza la observación, si Mercurio aparece por la mañana o por la tarde y, especialmente, la inclinación de la eclíptica respecto al horizonte.\n\nLa eclíptica es la trayectoria aparente que siguen el Sol, la Luna y los planetas sobre el cielo. Cuando esta línea forma un ángulo pronunciado con el horizonte durante el amanecer o el atardecer, Mercurio puede alcanzar una mayor altura y resultar más sencillo de localizar. En cambio, cuando la eclíptica queda muy tendida respecto al horizonte, el planeta puede encontrarse relativamente separado del Sol y, pese a ello, permanecer demasiado bajo para ser observado con facilidad.\n\nAsí, Mercurio no es invisible ni necesita necesariamente un telescopio para ser contemplado. Su verdadero problema es otro: solo ofrece pequeñas ventanas de observación y, además, lo hace en una de las zonas más difíciles del cielo. Encontrarlo requiere conocer el momento adecuado, disponer de un horizonte despejado y saber exactamente dónde mirar.",
+      "paragraphs": [
+        "M ercurio es uno de esos planetas que parecen esconderse en el cielo. Aunque forma parte, junto a Venus, Marte, Júpiter y Saturno, del pequeño grupo de planetas visibles a simple vista desde la Tierra, identificarlo puede convertirse en todo un desafío incluso para los aficionados a la astronomía. El problema no es que sea demasiado débil para ser visto, sino que aparece prácticamente siempre junto al resplandor del Sol.",
+        "Al ser el planeta más cercano a nuestra estrella, Mercurio nunca se aleja demasiado del Sol desde la perspectiva terrestre. Por eso no puede contemplarse durante una noche completa como ocurre con otros planetas. Sus mejores oportunidades de observación se producen durante el crepúsculo, poco después de la puesta de Sol o poco antes del amanecer.",
+        "Un planeta brillante en el peor lugar del cielo",
+        "Mercurio puede alcanzar un brillo suficiente para ser observado sin instrumentos e incluso resultar visible desde lugares afectados por cierta contaminación lumínica. Sin embargo, rara vez aparece contra un cielo completamente oscuro. Mientras Júpiter o Saturno pueden elevarse bastante sobre el horizonte y permanecer visibles durante horas, Mercurio se mantiene siempre cerca del Sol.",
+        "La explicación está en su órbita. Mercurio es un planeta interior, ya que se encuentra dentro de la órbita terrestre. Desde nuestro planeta nunca puede situarse en oposición al Sol, es decir, en el lado contrario del cielo. Por esa razón no llega a culminar a medianoche ni a dominar el firmamento nocturno.",
+        "La NASA señala que la observación de Mercurio a simple vista resulta especialmente difícil salvo cuando alcanza una gran separación aparente respecto al Sol, conocida como elongación. Es entonces cuando las condiciones pueden ser suficientemente favorables para localizarlo durante unos minutos en el cielo del amanecer o del atardecer.",
+        "La clave está en la máxima elongación",
+        "La elongación es la distancia angular aparente entre un planeta y el Sol observada desde la Tierra. En Mercurio este valor siempre es limitado, pero cuando alcanza su máxima elongación dispone de una mayor separación respecto al resplandor solar y aumenta la posibilidad de localizarlo.",
+        "Cuando la máxima elongación es oriental, Mercurio aparece como un objeto vespertino y debe buscarse hacia el oeste, poco después de la puesta de Sol. Si la máxima elongación es occidental, se convierte en un objeto matutino y hay que mirar hacia el este, poco antes del amanecer. Pero alcanzar una buena elongación no garantiza que vaya a ser fácil encontrarlo.",
+        "El horizonte se convierte en otro obstáculo",
+        "La altura sobre el horizonte es otro de los factores determinantes. Mercurio puede estar suficientemente separado del Sol y, aun así, permanecer tan bajo que quede oculto por edificios, árboles, montañas o la propia bruma del horizonte.",
+        "Por eso, buscarlo requiere una estrategia diferente a la utilizada para localizar planetas como Venus o Júpiter. No basta con levantar la mirada hacia el cielo. Hay que concentrarse en una zona muy baja del horizonte, precisamente donde el Sol acaba de desaparecer o está a punto de aparecer.",
+        "Esta dificultad explica por qué muchas personas pueden haber observado durante años el cielo nocturno sin identificar nunca Mercurio. Una pequeña obstrucción o unas condiciones atmosféricas poco favorables pueden ser suficientes para perder la oportunidad.",
+        "Una observación que exige precaución",
+        "La proximidad de Mercurio al Sol añade además un importante factor de seguridad. Aunque el planeta pueda observarse a simple vista durante el crepúsculo, no es recomendable buscarlo con prismáticos o telescopios mientras el Sol se encuentre cerca de la zona observada. Un descuido que permita que la luz solar entre directamente en el instrumento puede provocar daños oculares graves e irreversibles.",
+        "Para una observación a simple vista, la opción más segura consiste en esperar a que el Sol haya desaparecido por completo tras el horizonte en el caso de una aparición vespertina. Las aplicaciones astronómicas pueden servir para conocer de antemano dónde y cuándo buscarlo, pero no deben utilizarse como motivo para apuntar instrumentos ópticos hacia una zona próxima al Sol.",
+        "No todas las apariciones de Mercurio son iguales",
+        "Otra de las peculiaridades del planeta es que sus distintas apariciones pueden presentar condiciones muy diferentes. Incluso cuando alcanza una máxima elongación, puede resultar complicado de observar si su posición respecto al horizonte no es favorable. En esta circunstancia intervienen factores como la época del año, la latitud desde la que se realiza la observación, si Mercurio aparece por la mañana o por la tarde y, especialmente, la inclinación de la eclíptica respecto al horizonte.",
+        "La eclíptica es la trayectoria aparente que siguen el Sol, la Luna y los planetas sobre el cielo. Cuando esta línea forma un ángulo pronunciado con el horizonte durante el amanecer o el atardecer, Mercurio puede alcanzar una mayor altura y resultar más sencillo de localizar. En cambio, cuando la eclíptica queda muy tendida respecto al horizonte, el planeta puede encontrarse relativamente separado del Sol y, pese a ello, permanecer demasiado bajo para ser observado con facilidad.",
+        "Así, Mercurio no es invisible ni necesita necesariamente un telescopio para ser contemplado. Su verdadero problema es otro: solo ofrece pequeñas ventanas de observación y, además, lo hace en una de las zonas más difíciles del cielo. Encontrarlo requiere conocer el momento adecuado, disponer de un horizonte despejado y saber exactamente dónde mirar."
+      ],
+      "word_count": 872,
+      "authors": [
+        "Javier Fernández Borrell"
+      ],
+      "tags": [
+        "Tiramillas",
+        "ciencia"
+      ],
+      "published_at": "2026-09-17T04:48:49Z",
+      "modified_at": "2026-09-17T04:48:49Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaaf582108ca.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/16/6aaaf582108ca.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/16/6aaaf582108ca.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaaf582108ca.jpeg",
+          "caption": "Mercurio también puede verse a simple vista desde la Tierra. PEXELS"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T09:12:35.068807Z"
+    },
+    {
+      "id": "arqueologos-hallan-pruebas-egipcios-construyeron-antiguas-piramides-utilizando-maquina-alta-tecnologia-avanzada-epoca",
+      "url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/arqueologos-hallan-pruebas-egipcios-construyeron-antiguas-piramides-utilizando-maquina-alta-tecnologia-avanzada-epoca.html",
+      "source_url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/arqueologos-hallan-pruebas-egipcios-construyeron-antiguas-piramides-utilizando-maquina-alta-tecnologia-avanzada-epoca.html",
+      "category": "tiramillas/ciencia",
+      "category_path": [
+        "tiramillas",
+        "ciencia"
+      ],
+      "section": "Ciencia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "Arqueólogos hallan pruebas de que los egipcios construyeron las antiguas pirámides utilizando una máquina de alta tecnología muy avanzada para su época",
+      "standfirst": "Unas herramientas que pudieron ser adelantadas y totalmente novedosas",
+      "summary": "Unas herramientas que pudieron ser adelantadas y totalmente novedosas",
+      "body": "La construcción de las pirámides en Egipto es uno de los grandes temas de conversación y que mantienen a la humanidad, varios siglos después, en un estado constante de sorpresa. En la Pirámide Escalonada de Djoser, en Saqqara, hay una zanja de piedra caliza que lleva décadas provocando inquietud entre los expertos, con sus tres kilómetros de longitud y excavada hasta 20 metros en la roca madre.\n\nDesde 1930, una de las preguntas más repetidas era si esto era una cantera o un simple monumento, pero un estudio publicado en Plos One abre una tercera vía: un sistema hidráulico con el cual los esclavos subían las piedras de la pirámide desde el interior.\n\nEsta pirámide de Djoser data de hace 4.700 años y fue levantada para conmemorar al rey Djoser, siendo así la más antigua de las siete pirámides monumentales de Egipto, además de ser la primera en ser construida con piedra labrada en su totalidad. Según los datos, 2.3 millones de bloques de piedra caliza se usaron en el proceso y cada uno tenía unos 300 kilos de peso.\n\nAsí el funcionamiento para la construcción de las pirámides\n\nUna de las principales dudas respecto a la construcción se ciñe al sistema empleado para apilar esos enormes bloques. Por ello, cobra especial relevancia el estudio liderado por Xavier Landreau, científico de materiales y director ejecutivo del instituto de investigación Paleotechnic.\n\nLas miradas se centran en el Gisr el-Mudir, un rectángulo de piedra de 360 por 620 metros, con muros de 15 metros. Al analizar y cartografiar la cuenca hidrográfica situada aguas arriba, vieron que estaba en el curso del uadi Abusir. Otra explicación sobre este posible sistema hidráulico es la construcción en capas del muro , al estilo de una presa del Imperio Antiguo, la conocida Sadd el-Kafara.\n\nEl sistema hacía que los sedimentos más gruesos se asentaran y el agua que llevaba a la zona de la pirámide fuese más limpia. Era entonces cuando entraba en el foso seco junto a Djoser a través de un canal, conocido como Trinchera Profunda , que conecta al menos tres zonas subterráneas. Tras pasar por diversos procesos, el agua entraba a unos pozos y elevaba una plataforma flotante de madera, conectada con cuerdas y poleas, se colocaban los bloques y, al vaciarse de nuevo el pozo, hacía subir la plataforma a la zona de construcción más elevada desde el interior de la pirámide.",
+      "paragraphs": [
+        "La construcción de las pirámides en Egipto es uno de los grandes temas de conversación y que mantienen a la humanidad, varios siglos después, en un estado constante de sorpresa. En la Pirámide Escalonada de Djoser, en Saqqara, hay una zanja de piedra caliza que lleva décadas provocando inquietud entre los expertos, con sus tres kilómetros de longitud y excavada hasta 20 metros en la roca madre.",
+        "Desde 1930, una de las preguntas más repetidas era si esto era una cantera o un simple monumento, pero un estudio publicado en Plos One abre una tercera vía: un sistema hidráulico con el cual los esclavos subían las piedras de la pirámide desde el interior.",
+        "Esta pirámide de Djoser data de hace 4.700 años y fue levantada para conmemorar al rey Djoser, siendo así la más antigua de las siete pirámides monumentales de Egipto, además de ser la primera en ser construida con piedra labrada en su totalidad. Según los datos, 2.3 millones de bloques de piedra caliza se usaron en el proceso y cada uno tenía unos 300 kilos de peso.",
+        "Así el funcionamiento para la construcción de las pirámides",
+        "Una de las principales dudas respecto a la construcción se ciñe al sistema empleado para apilar esos enormes bloques. Por ello, cobra especial relevancia el estudio liderado por Xavier Landreau, científico de materiales y director ejecutivo del instituto de investigación Paleotechnic.",
+        "Las miradas se centran en el Gisr el-Mudir, un rectángulo de piedra de 360 por 620 metros, con muros de 15 metros. Al analizar y cartografiar la cuenca hidrográfica situada aguas arriba, vieron que estaba en el curso del uadi Abusir. Otra explicación sobre este posible sistema hidráulico es la construcción en capas del muro , al estilo de una presa del Imperio Antiguo, la conocida Sadd el-Kafara.",
+        "El sistema hacía que los sedimentos más gruesos se asentaran y el agua que llevaba a la zona de la pirámide fuese más limpia. Era entonces cuando entraba en el foso seco junto a Djoser a través de un canal, conocido como Trinchera Profunda , que conecta al menos tres zonas subterráneas. Tras pasar por diversos procesos, el agua entraba a unos pozos y elevaba una plataforma flotante de madera, conectada con cuerdas y poleas, se colocaban los bloques y, al vaciarse de nuevo el pozo, hacía subir la plataforma a la zona de construcción más elevada desde el interior de la pirámide."
+      ],
+      "word_count": 401,
+      "authors": [
+        "Ramón Garcia Parrilla"
+      ],
+      "tags": [
+        "Tiramillas",
+        "ciencia",
+        "arqueólogos"
+      ],
+      "published_at": "2026-09-17T04:51:32Z",
+      "modified_at": "2026-09-17T04:51:32Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaa73f6a1192.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/16/6aaa73f6a1192.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/16/6aaa73f6a1192.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaa7416e55e1.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaa73f6a1192.jpeg",
+          "caption": "Arqueólogos Egipto Magnific"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaa7416e55e1.jpeg",
+          "caption": "Arqueólogos Egipto Magnific"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T09:11:58.979001Z"
+    },
+    {
+      "id": "ingeniera-22-anos-kenia-construyo-manos-roboticas-impresas-3d-plastico-reciclado-traduce-voces-profesores-lenguaje-senas-ninos-sordos",
+      "url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/ingeniera-22-anos-kenia-construyo-manos-roboticas-impresas-3d-plastico-reciclado-traduce-voces-profesores-lenguaje-senas-ninos-sordos.html",
+      "source_url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/ingeniera-22-anos-kenia-construyo-manos-roboticas-impresas-3d-plastico-reciclado-traduce-voces-profesores-lenguaje-senas-ninos-sordos.html",
+      "category": "tiramillas/ciencia",
+      "category_path": [
+        "tiramillas",
+        "ciencia"
+      ],
+      "section": "Ciencia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "Ingeniera de 22 años de Kenia construyó unas manos robóticas impresas en 3D con plástico reciclado: traduce voces de profesores al lenguaje de señas para niños sordos",
+      "standfirst": "Un elemento que solo cuesta 350 dólares y puede cambiar la forma de impartir clase",
+      "summary": "Un elemento que solo cuesta 350 dólares y puede cambiar la forma de impartir clase",
+      "body": "Los avances en las nuevas tecnologías hacen posible que la integración de las personas en el mundo sea independiente de sus capacidades. Esto quiere decir que cada vez existen menos límites impuestos por problemas tales, como discapacidades, ya que son las nuevas máquinas las que hacen que estas se minimicen.\n\nPor ejemplo, las impresoras 3D han supuesto un avance para las personas, pudiendo diseñar piezas necesarias con un coste menor que hace años. Precisamente, de esta manera es cómo ayuda la ingeniera keniana Norah Kimathi, de 22 años , quien ha desarrollado unas m anos robóticas con plástico reciclado capaces de traducir, en tiempo real, la voz de los profesores al lenguaje de signos.\n\nLos alumnos sordos ahora podrían seguir mucho mejor las clases impartidas en las escuelas debido a este aparato que los maestros podrían empezar a implementar. El mecanismo de este invento se basa en que cuando un profesor habla, el sistema procesa el discurso y las manos robóticas reproducen los signos correspondientes , facilitando que los alumnos sordos puedan seguir las explicaciones sin necesidad de un intérprete humano en todo momento.\n\nUn invento en fase inicial implementado en varios centros educativos en Kenia\n\nAdemás, su apuesta por que sea mediante plástico reciclado implica una ventaja, ya que se trata de un invento que lleva por bandera la sostenibilidad y que, en cuanto a los costes, es mucho más barato que la producción industrial que hasta ahora se hacía de este tipo de elementos.\n\nPara que este proyecto sea perfecto, ha sido necesaria la colaboración de docentes para que la memoria de los signos utilizados sea correcta. Cabe destacar que se encuentra en una fase inicial y que ya se implementa en algunos centros educativos del país.\n\nAdemás, la empresa desarrolladora, de nombre Zerobionic y de la que Kimanthi es cofundadora, se encuentra impulsando otros proyectos relacionados con la robótica como la creación de robots humanoides destinados a futuras aplicaciones asistenciales y educativas.",
+      "paragraphs": [
+        "Los avances en las nuevas tecnologías hacen posible que la integración de las personas en el mundo sea independiente de sus capacidades. Esto quiere decir que cada vez existen menos límites impuestos por problemas tales, como discapacidades, ya que son las nuevas máquinas las que hacen que estas se minimicen.",
+        "Por ejemplo, las impresoras 3D han supuesto un avance para las personas, pudiendo diseñar piezas necesarias con un coste menor que hace años. Precisamente, de esta manera es cómo ayuda la ingeniera keniana Norah Kimathi, de 22 años , quien ha desarrollado unas m anos robóticas con plástico reciclado capaces de traducir, en tiempo real, la voz de los profesores al lenguaje de signos.",
+        "Los alumnos sordos ahora podrían seguir mucho mejor las clases impartidas en las escuelas debido a este aparato que los maestros podrían empezar a implementar. El mecanismo de este invento se basa en que cuando un profesor habla, el sistema procesa el discurso y las manos robóticas reproducen los signos correspondientes , facilitando que los alumnos sordos puedan seguir las explicaciones sin necesidad de un intérprete humano en todo momento.",
+        "Un invento en fase inicial implementado en varios centros educativos en Kenia",
+        "Además, su apuesta por que sea mediante plástico reciclado implica una ventaja, ya que se trata de un invento que lleva por bandera la sostenibilidad y que, en cuanto a los costes, es mucho más barato que la producción industrial que hasta ahora se hacía de este tipo de elementos.",
+        "Para que este proyecto sea perfecto, ha sido necesaria la colaboración de docentes para que la memoria de los signos utilizados sea correcta. Cabe destacar que se encuentra en una fase inicial y que ya se implementa en algunos centros educativos del país.",
+        "Además, la empresa desarrolladora, de nombre Zerobionic y de la que Kimanthi es cofundadora, se encuentra impulsando otros proyectos relacionados con la robótica como la creación de robots humanoides destinados a futuras aplicaciones asistenciales y educativas."
+      ],
+      "word_count": 325,
+      "authors": [
+        "Carlos Gallego Benito"
+      ],
+      "tags": [
+        "Tiramillas",
+        "ciencia",
+        "22",
+        "años",
+        "construyó"
+      ],
+      "published_at": "2026-09-17T04:51:34Z",
+      "modified_at": "2026-09-17T04:51:34Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaa95e789886.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/16/6aaa95e789886.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/16/6aaa95e789886.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/16/6aaa9704283a5.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaa95e789886.jpeg",
+          "caption": "Norah Kimathi Redes sociales"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/16/6aaa9704283a5.jpeg",
+          "caption": "Redes sociales"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T09:11:55.985733Z"
+    },
+    {
+      "id": "desierto-seco-mundo-convierte-mar-flores-10-anos",
+      "url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/desierto-seco-mundo-convierte-mar-flores-10-anos.html",
+      "source_url": "https://www.marca.com/tiramillas/ciencia/2026/09/17/desierto-seco-mundo-convierte-mar-flores-10-anos.html",
+      "category": "tiramillas/ciencia",
+      "category_path": [
+        "tiramillas",
+        "ciencia"
+      ],
+      "section": "Ciencia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "El desierto más seco del mundo que se convierte en un mar de flores cada 10 años",
+      "standfirst": "El Atacama, en el norte de Chile, vive uno de sus episodios de floración más espectaculares",
+      "summary": "El Atacama, en el norte de Chile, vive uno de sus episodios de floración más espectaculares",
+      "body": "C uesta imaginar un paisaje más alejado de una pradera que el desierto de Atacama. Durante buena parte del año, esta enorme extensión del norte de Chile presenta un aspecto árido y casi lunar, con terrenos rocosos, salares y enormes superficies donde la lluvia es prácticamente una rareza. Pero este año el escenario ha dado un giro radical.\n\nLas lluvias registradas durante el invierno han despertado las semillas y bulbos que permanecen ocultos bajo tierra durante largos periodos. El resultado es un fenómeno conocido como desierto florido: extensas zonas que empiezan a cubrirse de flores blancas, rosas, amarillas y violetas, creando un contraste sorprendente con el suelo desértico. Las autoridades chilenas esperan una de las floraciones más importantes de las últimas décadas.\n\nLas semillas esperan durante años bajo tierra\n\nLa clave está precisamente en lo que no se ve. Muchas de las plantas que aparecen durante estas semanas pasan largos periodos en estado de latencia, protegidas bajo la superficie a la espera de que llegue la combinación adecuada de humedad y temperatura . Cuando las precipitaciones alcanzan determinados niveles, el terreno aparentemente muerto comienza a llenarse de vida.\n\nNo es un espectáculo que pueda contemplarse todos los años . El Atacama está considerado el desierto no polar más seco del planeta y algunas de sus zonas apenas reciben precipitaciones. Por eso, cuando las condiciones cambian, la transformación resulta especialmente llamativa.\n\nEn 2026, las lluvias han sido extraordinarias en determinadas zonas. En la provincia de Huasco y el sur de Atacama se han acumulado cantidades de agua que no se registraban desde hace décadas, con un récord de 183,5 milímetros en Vallenar. Las previsiones apuntan a que más de 200 especies de plantas podrían participar en esta explosión de color.\n\nPrecisamente por eso, l as autoridades chilenas piden a los visitantes extremar el cuidado. Caminar fuera de los senderos o conducir sobre las zonas floridas puede dañar plantas, semillas y otros organismos que permanecen bajo tierra. El espectáculo puede durar unas semanas, pero el ecosistema que lo hace posible necesita mucho más tiempo para recuperarse.",
+      "paragraphs": [
+        "C uesta imaginar un paisaje más alejado de una pradera que el desierto de Atacama. Durante buena parte del año, esta enorme extensión del norte de Chile presenta un aspecto árido y casi lunar, con terrenos rocosos, salares y enormes superficies donde la lluvia es prácticamente una rareza. Pero este año el escenario ha dado un giro radical.",
+        "Las lluvias registradas durante el invierno han despertado las semillas y bulbos que permanecen ocultos bajo tierra durante largos periodos. El resultado es un fenómeno conocido como desierto florido: extensas zonas que empiezan a cubrirse de flores blancas, rosas, amarillas y violetas, creando un contraste sorprendente con el suelo desértico. Las autoridades chilenas esperan una de las floraciones más importantes de las últimas décadas.",
+        "Las semillas esperan durante años bajo tierra",
+        "La clave está precisamente en lo que no se ve. Muchas de las plantas que aparecen durante estas semanas pasan largos periodos en estado de latencia, protegidas bajo la superficie a la espera de que llegue la combinación adecuada de humedad y temperatura . Cuando las precipitaciones alcanzan determinados niveles, el terreno aparentemente muerto comienza a llenarse de vida.",
+        "No es un espectáculo que pueda contemplarse todos los años . El Atacama está considerado el desierto no polar más seco del planeta y algunas de sus zonas apenas reciben precipitaciones. Por eso, cuando las condiciones cambian, la transformación resulta especialmente llamativa.",
+        "En 2026, las lluvias han sido extraordinarias en determinadas zonas. En la provincia de Huasco y el sur de Atacama se han acumulado cantidades de agua que no se registraban desde hace décadas, con un récord de 183,5 milímetros en Vallenar. Las previsiones apuntan a que más de 200 especies de plantas podrían participar en esta explosión de color.",
+        "Precisamente por eso, l as autoridades chilenas piden a los visitantes extremar el cuidado. Caminar fuera de los senderos o conducir sobre las zonas floridas puede dañar plantas, semillas y otros organismos que permanecen bajo tierra. El espectáculo puede durar unas semanas, pero el ecosistema que lo hace posible necesita mucho más tiempo para recuperarse."
+      ],
+      "word_count": 344,
+      "authors": [
+        "Alfonso Pareja"
+      ],
+      "tags": [
+        "Tiramillas",
+        "Chile",
+        "ciencia",
+        "más"
+      ],
+      "published_at": "2026-09-17T08:31:37Z",
+      "modified_at": "2026-09-17T08:31:37Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/17/6aaba02517a74.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/17/6aaba02517a74.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/17/6aaba02517a74.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/17/6aaba20c03c9a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/17/6aaba02517a74.jpeg",
+          "caption": "El Atacama, desierto situado en Chile EFE"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/17/6aaba20c03c9a.jpeg",
+          "caption": "Atacama, Chile EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-17T09:12:06.779495Z"
     }
   ]
 }
