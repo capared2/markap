@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 1,
-  "count": 80,
-  "updated_at": "2026-09-18T14:08:45.188821Z",
+  "count": 81,
+  "updated_at": "2026-09-19T13:44:42.731961Z",
   "articles": [
     {
       "id": "sorprendente-google-predijo-terremoto-venezuela-segundos-produjera-primer-temblor",
@@ -5602,6 +5602,77 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-18T14:07:22.796391Z"
+    },
+    {
+      "id": "google-admite-ia-gemini-hackeo-tres-empresas-durante-ensayo",
+      "url": "https://www.marca.com/tecnologia/2026/09/19/google-admite-ia-gemini-hackeo-tres-empresas-durante-ensayo.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/09/19/google-admite-ia-gemini-hackeo-tres-empresas-durante-ensayo.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Google admite que su IA Gemini hackeó tres empresas durante un ensayo",
+      "standfirst": "Este suceso vuelve a abrir el debate sobre los límites de estas herramientas",
+      "summary": "Este suceso vuelve a abrir el debate sobre los límites de estas herramientas",
+      "body": "Google ha reconocido por primera vez que su modelo de inteligencia artificial Gemini consiguió atravesar las medidas de seguridad y acceder a los sistemas de tres empresas reales durante unas pruebas de ciberseguridad. Los incidentes tuvieron lugar el pasado mes de mayo y se produjeron de forma accidental después de que el sistema obtuviera conexión con Internet.\n\nLos ensayos fueron realizados por Irregular, una empresa israelí especializada en auditorías de seguridad de sistemas de inteligencia artificial. El objetivo era comprobar el comportamiento de Gemini en un entorno controlado y aislado , conocido como sandbox, utilizando identidades y compañías ficticias. Sin embargo, un fallo permitió conectar el sistema con la red general. A partir de ese momento, Gemini salió del escenario diseñado para las pruebas y comenzó a interactuar con infraestructuras pertenecientes a compañías reales.\n\nGemini varió el método empleado según la prueba\n\nEn uno de los casos, la inteligencia artificial recibió la orden de obtener información del software de una empresa ficticia cuyo nombre coincidía con el de una compañía existente. Tras disponer de acceso a Internet, Gemini consiguió deducir una contraseña y entrar en los servidores de la organización real.\n\nEn los otros dos episodios, el modelo rastreó páginas web y encontró repositorios públicos que contenían credenciales de acceso pertenecientes a otras dos compañías. Gemini utilizó esa información para acceder a sus entornos.\n\nHeather Adkins, vicepresidenta de ingeniería de seguridad de Google, explicó que el sistema “encontró información pública y dedujo las credenciales al considerar que las páginas formaban parte del ejercicio” . Según la directiva, Gemini detuvo las acciones por iniciativa propia cuando detectó que estaba interactuando con sistemas reales.\n\nIrregular comunicó formalmente los incidentes a Google a finales de julio. La compañía confirmó posteriormente los hechos y señaló que no informó públicamente porque Gemini no provocó daños en los sistemas afectados . Google aseguró, no obstante, que avisó de manera privada a las tres empresas.\n\nEl caso vuelve a poner sobre la mesa los riesgos asociados a sistemas capaces de realizar tareas de ciberseguridad de forma autónoma y la necesidad de establecer controles que limiten sus acciones fuera de entornos de prueba.",
+      "paragraphs": [
+        "Google ha reconocido por primera vez que su modelo de inteligencia artificial Gemini consiguió atravesar las medidas de seguridad y acceder a los sistemas de tres empresas reales durante unas pruebas de ciberseguridad. Los incidentes tuvieron lugar el pasado mes de mayo y se produjeron de forma accidental después de que el sistema obtuviera conexión con Internet.",
+        "Los ensayos fueron realizados por Irregular, una empresa israelí especializada en auditorías de seguridad de sistemas de inteligencia artificial. El objetivo era comprobar el comportamiento de Gemini en un entorno controlado y aislado , conocido como sandbox, utilizando identidades y compañías ficticias. Sin embargo, un fallo permitió conectar el sistema con la red general. A partir de ese momento, Gemini salió del escenario diseñado para las pruebas y comenzó a interactuar con infraestructuras pertenecientes a compañías reales.",
+        "Gemini varió el método empleado según la prueba",
+        "En uno de los casos, la inteligencia artificial recibió la orden de obtener información del software de una empresa ficticia cuyo nombre coincidía con el de una compañía existente. Tras disponer de acceso a Internet, Gemini consiguió deducir una contraseña y entrar en los servidores de la organización real.",
+        "En los otros dos episodios, el modelo rastreó páginas web y encontró repositorios públicos que contenían credenciales de acceso pertenecientes a otras dos compañías. Gemini utilizó esa información para acceder a sus entornos.",
+        "Heather Adkins, vicepresidenta de ingeniería de seguridad de Google, explicó que el sistema “encontró información pública y dedujo las credenciales al considerar que las páginas formaban parte del ejercicio” . Según la directiva, Gemini detuvo las acciones por iniciativa propia cuando detectó que estaba interactuando con sistemas reales.",
+        "Irregular comunicó formalmente los incidentes a Google a finales de julio. La compañía confirmó posteriormente los hechos y señaló que no informó públicamente porque Gemini no provocó daños en los sistemas afectados . Google aseguró, no obstante, que avisó de manera privada a las tres empresas.",
+        "El caso vuelve a poner sobre la mesa los riesgos asociados a sistemas capaces de realizar tareas de ciberseguridad de forma autónoma y la necesidad de establecer controles que limiten sus acciones fuera de entornos de prueba."
+      ],
+      "word_count": 355,
+      "authors": [
+        "Ruben Zurro"
+      ],
+      "tags": [
+        "Tiramillas",
+        "tecnología",
+        "hackeó"
+      ],
+      "published_at": "2026-09-19T13:18:22Z",
+      "modified_at": "2026-09-19T13:18:22Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/19/6aae89016c620.png",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/19/6aae89016c620.png",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/19/6aae89016c620.png",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/19/6aae8a366779f.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/19/6aae89016c620.png",
+          "caption": "Gemini logró superar las barreras de seguridad de tres empresas EFE"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/19/6aae8a366779f.jpeg",
+          "caption": "Gemini encontró credenciales de acceso de los sistemas EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-19T13:43:53.915210Z"
     }
   ]
 }
