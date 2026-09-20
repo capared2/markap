@@ -1,8 +1,8 @@
 {
   "category": "futbol/laliga-hypermotion",
   "part": 1,
-  "count": 5,
-  "updated_at": "2026-09-19T13:44:42.600440Z",
+  "count": 6,
+  "updated_at": "2026-09-20T17:20:43.744005Z",
   "articles": [
     {
       "id": "01_0102_20260815_181_192-directo",
@@ -261,6 +261,60 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-19T13:43:25.947079Z"
+    },
+    {
+      "id": "01_0102_20260920_407_951-directo",
+      "url": "https://www.marca.com/futbol/laliga-hypermotion/las-palmas-burgos-cf/2026/09/20/01_0102_20260920_407_951-directo.html",
+      "source_url": "https://www.marca.com/futbol/laliga-hypermotion/las-palmas-burgos-cf/2026/09/20/01_0102_20260920_407_951-directo.html",
+      "category": "futbol/laliga-hypermotion",
+      "category_path": [
+        "futbol",
+        "laliga-hypermotion",
+        "las-palmas-burgos-cf"
+      ],
+      "section": "segunda-division",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA Hypermotion"
+      ],
+      "title": "Las Palmas - Burgos, en directo | Última hora de LALIGA Hypermotion en vivo hoy",
+      "standfirst": "",
+      "summary": "Final primera parte, Las Palmas 1, Burgos 0. El cuarto árbitro ha anunciado 1 minutos de tiempo añadido. Remate fallado por Kirian Rodríguez (Las Palm",
+      "body": "Última hora del Las Palmas - Burgos CF en directo",
+      "paragraphs": [
+        "Última hora del Las Palmas - Burgos CF en directo"
+      ],
+      "word_count": 10,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "UD Las Palmas",
+        "Burgos CF",
+        "Segunda División",
+        "ud-las-palmas",
+        "burgos-cf",
+        "segunda-division"
+      ],
+      "published_at": "2026-09-20T15:00:00Z",
+      "modified_at": "2026-09-20T17:17:39Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/78fae8355f488dcfbfce273e8e2cda93/resize/1200/assets/multimedia/imagenes/2026/09/20/17898935079197.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/09/20/17898935079197.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-20T17:20:39.448457Z"
     }
   ]
 }
