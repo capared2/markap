@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-20T23:53:15.137892Z",
-  "total_articles": 24315,
+  "generated_at": "2026-09-21T03:07:30.846111Z",
+  "total_articles": 24336,
   "total_categories": 422,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 2408,
+      "articles": 2414,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -106,7 +106,7 @@
         },
         {
           "file": "mx/futbol/part-0025.json",
-          "count": 8
+          "count": 14
         }
       ]
     },
@@ -408,7 +408,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 396,
+      "articles": 397,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -424,7 +424,7 @@
         },
         {
           "file": "mx/actualidad/part-0004.json",
-          "count": 96
+          "count": 97
         }
       ]
     },
@@ -568,7 +568,7 @@
     },
     {
       "category": "basketball/wnba",
-      "articles": 202,
+      "articles": 204,
       "files": [
         {
           "file": "basketball/wnba/part-0001.json",
@@ -580,7 +580,7 @@
         },
         {
           "file": "basketball/wnba/part-0003.json",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -642,7 +642,7 @@
     },
     {
       "category": "nfl/kansas-city-chiefs",
-      "articles": 178,
+      "articles": 180,
       "files": [
         {
           "file": "nfl/kansas-city-chiefs/part-0001.json",
@@ -650,7 +650,7 @@
         },
         {
           "file": "nfl/kansas-city-chiefs/part-0002.json",
-          "count": 78
+          "count": 80
         }
       ]
     },
@@ -754,7 +754,7 @@
     },
     {
       "category": "co",
-      "articles": 152,
+      "articles": 156,
       "files": [
         {
           "file": "co/part-0001.json",
@@ -762,7 +762,7 @@
         },
         {
           "file": "co/part-0002.json",
-          "count": 52
+          "count": 56
         }
       ]
     },
@@ -949,6 +949,20 @@
       ]
     },
     {
+      "category": "mma",
+      "articles": 130,
+      "files": [
+        {
+          "file": "mma/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "mma/part-0002.json",
+          "count": 30
+        }
+      ]
+    },
+    {
       "category": "futbol/celta",
       "articles": 129,
       "files": [
@@ -958,20 +972,6 @@
         },
         {
           "file": "futbol/celta/part-0002.json",
-          "count": 29
-        }
-      ]
-    },
-    {
-      "category": "mma",
-      "articles": 129,
-      "files": [
-        {
-          "file": "mma/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "mma/part-0002.json",
           "count": 29
         }
       ]
@@ -1005,6 +1005,20 @@
       ]
     },
     {
+      "category": "tiramillas/sucesos",
+      "articles": 120,
+      "files": [
+        {
+          "file": "tiramillas/sucesos/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "tiramillas/sucesos/part-0002.json",
+          "count": 20
+        }
+      ]
+    },
+    {
       "category": "baloncesto/nba",
       "articles": 119,
       "files": [
@@ -1014,20 +1028,6 @@
         },
         {
           "file": "baloncesto/nba/part-0002.json",
-          "count": 19
-        }
-      ]
-    },
-    {
-      "category": "tiramillas/sucesos",
-      "articles": 119,
-      "files": [
-        {
-          "file": "tiramillas/sucesos/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "tiramillas/sucesos/part-0002.json",
           "count": 19
         }
       ]
@@ -1225,6 +1225,16 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 86,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 86
+        }
+      ]
+    },
+    {
       "category": "futbol/europa-league",
       "articles": 85,
       "files": [
@@ -1240,16 +1250,6 @@
       "files": [
         {
           "file": "mx/beisbol/part-0001.json",
-          "count": 85
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 85,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
           "count": 85
         }
       ]
@@ -1735,6 +1735,16 @@
       ]
     },
     {
+      "category": "futbol/america",
+      "articles": 48,
+      "files": [
+        {
+          "file": "futbol/america/part-0001.json",
+          "count": 48
+        }
+      ]
+    },
+    {
       "category": "futbol/mexico",
       "articles": 48,
       "files": [
@@ -1750,16 +1760,6 @@
       "files": [
         {
           "file": "baloncesto/mundial/part-0001.json",
-          "count": 47
-        }
-      ]
-    },
-    {
-      "category": "futbol/america",
-      "articles": 47,
-      "files": [
-        {
-          "file": "futbol/america/part-0001.json",
           "count": 47
         }
       ]
@@ -2075,6 +2075,16 @@
       ]
     },
     {
+      "category": "nfl/new-england-patriots",
+      "articles": 31,
+      "files": [
+        {
+          "file": "nfl/new-england-patriots/part-0001.json",
+          "count": 31
+        }
+      ]
+    },
+    {
       "category": "tenis/masters-1000-cincinnati",
       "articles": 31,
       "files": [
@@ -2120,16 +2130,6 @@
       "files": [
         {
           "file": "natacion/part-0001.json",
-          "count": 30
-        }
-      ]
-    },
-    {
-      "category": "nfl/new-england-patriots",
-      "articles": 30,
-      "files": [
-        {
-          "file": "nfl/new-england-patriots/part-0001.json",
           "count": 30
         }
       ]
@@ -3105,6 +3105,16 @@
       ]
     },
     {
+      "category": "lifestyle/en",
+      "articles": 9,
+      "files": [
+        {
+          "file": "lifestyle/en/part-0001.json",
+          "count": 9
+        }
+      ]
+    },
+    {
       "category": "lifestyle/uk-news",
       "articles": 9,
       "files": [
@@ -3200,16 +3210,6 @@
       "files": [
         {
           "file": "f1/en/part-0001.json",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "category": "lifestyle/en",
-      "articles": 8,
-      "files": [
-        {
-          "file": "lifestyle/en/part-0001.json",
           "count": 8
         }
       ]
