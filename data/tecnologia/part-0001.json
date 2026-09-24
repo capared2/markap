@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 1,
-  "count": 88,
-  "updated_at": "2026-09-24T09:02:43.747449Z",
+  "count": 89,
+  "updated_at": "2026-09-24T19:50:59.453752Z",
   "articles": [
     {
       "id": "sorprendente-google-predijo-terremoto-venezuela-segundos-produjera-primer-temblor",
@@ -6156,6 +6156,86 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-24T09:02:26.067419Z"
+    },
+    {
+      "id": "maquinas-generan-trafico-internet-seres-humanos-bots-superan-primera-vez-personas",
+      "url": "https://www.marca.com/tecnologia/2026/09/24/maquinas-generan-trafico-internet-seres-humanos-bots-superan-primera-vez-personas.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/09/24/maquinas-generan-trafico-internet-seres-humanos-bots-superan-primera-vez-personas.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Las máquinas ya generan más tráfico en internet que los seres humanos: los 'bots' superan por primera vez a las personas",
+      "standfirst": "El 57,4% de las solicitudes web analizadas por Cloudflare procede ya de sistemas automatizados, frente al 42,6% generado por usuarios humanos",
+      "summary": "El 57,4% de las solicitudes web analizadas por Cloudflare procede ya de sistemas automatizados, frente al 42,6% generado por usuarios humanos",
+      "body": "Durante décadas, internet se construyó alrededor de una idea aparentemente sencilla: detrás de cada visita a una página web había una persona buscando información, leyendo una noticia, comparando productos, realizando una compra o interactuando con otros usuarios. Esa premisa está dejando de ser cierta. Las máquinas ya generan más actividad en la web que los seres humanos.\n\nLos últimos datos difundidos a partir de las mediciones de Cloudflare sitúan en el 57,4% el porcentaje de solicitudes web procedentes de sistemas automatizados, frente al 42,6% correspondiente a personas. Dicho de otra manera, de cada diez peticiones realizadas en la red analizada, casi seis las realiza una máquina y poco más de cuatro un humano. El dato supone un cambio significativo en la historia de internet y coincide con la expansión acelerada de la inteligencia artificial. El crecimiento de los agentes de IA capaces de navegar por páginas, recopilar información y ejecutar tareas en nombre de los usuarios está multiplicando el número de peticiones automatizadas.\n\n¿Qué hacen tantos 'bots' en internet?\n\nQue los 'bots' sean mayoría no significa que toda esa actividad sea sospechosa o maliciosa. Un 'bot' es, básicamente, un programa capaz de realizar determinadas tareas de manera automática y existen desde mucho antes de la actual revolución de la inteligencia artificial. Entre ellos están, por ejemplo, los rastreadores de los buscadores, que recorren millones de páginas para indexarlas; herramientas de monitorización; sistemas automatizados empleados para detectar amenazas o programas que realizan tareas específicas de mantenimiento y análisis.\n\nLa IA, sin embargo, ha incorporado nuevos protagonistas. Existen rastreadores que recopilan contenidos para entrenar o mejorar modelos de inteligencia artificial, pero también agentes capaces de actuar en tiempo real en nombre de una persona. Un usuario puede pedir a un agente que encuentre un producto, compare diferentes opciones o recopile determinada información. El agente puede entonces visitar automáticamente decenas, cientos o incluso miles de páginas para completar esa tarea. La diferencia fundamental está en la escala. Una persona puede consultar unas pocas webs para buscar un producto. Una máquina puede hacer lo mismo con miles de páginas en cuestión de minutos.\n\nLa inteligencia artificial acelera el 'sorpasso'\n\nEl crecimiento de estos sistemas está modificando rápidamente el equilibrio del tráfico web. Cloudflare ya reconocía este verano que más de la mitad de las solicitudes de internet estaban impulsadas por bots y agentes automatizados, un cambio que, según la compañía, se produjo antes de lo previsto.\n\nLa plataforma distingue actualmente entre diferentes tipos de automatización, incluidos los rastreadores utilizados para búsquedas, los agentes que interactúan con la web en tiempo real y los sistemas que recopilan información para entrenar modelos de IA. No todas estas categorías tienen el mismo impacto ni persiguen los mismos objetivos. Pero juntas explican buena parte de un fenómeno que está transformando la arquitectura de internet: cada vez hay más actividad digital sin que necesariamente haya una persona mirando una pantalla al otro lado.\n\nHay lugares donde los bots llegan a dominar casi por completo la red\n\nEl fenómeno tampoco se distribuye de manera uniforme por todo el mundo. El porcentaje de tráfico automatizado cambia considerablemente dependiendo del territorio, las infraestructuras tecnológicas y el tipo de actividad concentrada en cada región.\n\nAlgunos análisis basados en los datos de Cloudflare sitúan la actividad automatizada en Norteamérica cerca del 69%, lo que dejaría a los usuarios humanos en torno al 31% de las solicitudes. El caso más extremo es el de Gibraltar, donde en determinados momentos se han registrado picos en los que los sistemas automatizados llegaron a representar aproximadamente el 97% de la actividad web medida. Se trata, no obstante, de un episodio extremo y no de un porcentaje permanente. En otros territorios, el tráfico humano continúa siendo mayoritario.\n\nLos 'bots' ya existían antes de la inteligencia artificial\n\nLa actual explosión de los agentes de IA no significa que la automatización de internet sea un fenómeno nuevo. Durante años han existido granjas de 'bots' y granjas de clics, estructuras capaces de controlar numerosas cuentas o dispositivos para generar artificialmente visualizaciones, interacciones, clics o seguidores. Estos sistemas pueden utilizarse para inflar artificialmente la popularidad de un contenido o una cuenta, alterar métricas comerciales o simular una relevancia que no se corresponde con el comportamiento real de los usuarios. También pueden emplearse para amplificar determinados mensajes en redes sociales.\n\nEl otro gran problema: la desinformación\n\nUno de los usos más preocupantes de estas tecnologías está relacionado con la difusión masiva y coordinada de contenidos engañosos o manipuladores. Una red de 'bots' puede publicar enormes cantidades de mensajes en poco tiempo, introducir determinados temas en las conversaciones digitales y generar la impresión de que existe un respaldo social mucho mayor del que realmente existe.\n\nEl mecanismo puede convertirse en un círculo de amplificación: los 'bots' producen grandes cantidades de contenido, los algoritmos detectan esa actividad y pueden aumentar su visibilidad, usuarios reales comienzan a interactuar con ella y el asunto termina llegando incluso a medios de comunicación y responsables públicos. La inteligencia artificial añade una nueva dimensión al problema porque permite generar contenidos de forma mucho más rápida, barata y personalizada, aumentando potencialmente la capacidad de estas redes automatizadas.\n\nEl reto ya no es bloquear a los 'bots', sino saber qué quieren\n\nLa nueva realidad plantea una pregunta cada vez más importante: ¿cómo saber si detrás de una actividad digital hay realmente una persona? Cloudflare lleva años desarrollando sistemas para distinguir entre tráfico humano y automatizado. El problema es que algunos bots están diseñados precisamente para imitar el comportamiento de los usuarios y evitar ser detectados.\n\nY no toda automatización es negativa. Los rastreadores de los buscadores, las herramientas de seguridad o determinados servicios automáticos desempeñan funciones esenciales para el funcionamiento de internet. Por eso, el desafío no consiste simplemente en bloquear todas las máquinas. La cuestión es identificar qué máquina está entrando en una web, qué está haciendo y con qué finalidad.\n\nUna internet en la que una visita ya no significa necesariamente una persona\n\nEl cambio puede tener consecuencias especialmente importantes para medios de comunicación, redes sociales y negocios digitales. Durante años, una visita a una página podía traducirse potencialmente en un lector, un espectador, un consumidor o un suscriptor. La publicidad digital también se ha construido alrededor de esa relación entre tráfico y personas. Pero los agentes de inteligencia artificial están rompiendo esa equivalencia.\n\nUna página puede recibir miles de solicitudes sin que detrás exista necesariamente un usuario que vaya a leer el contenido, visualizar un anuncio o comprar un producto. Al mismo tiempo, los contenidos de esas páginas pueden estar siendo consultados y procesados por máquinas a una escala desconocida hasta ahora. Cloudflare está desarrollando herramientas para que los propietarios de las webs puedan decidir si permiten que sus contenidos sean utilizados por motores de búsqueda, agentes de IA o sistemas destinados al entrenamiento de modelos.\n\nEl dato, en definitiva, marca un antes y un después: por primera vez, las máquinas generan más tráfico web que los seres humanos. Internet nació como una red para conectar personas, pero la expansión de la inteligencia artificial está convirtiéndola cada vez más en un espacio donde las máquinas no solo transportan información: también la buscan, la procesan, la generan y actúan unas con otras. La gran incógnita ahora es qué ocurrirá cuando una visita a internet deje de significar, por defecto, que hay una persona al otro lado.",
+      "paragraphs": [
+        "Durante décadas, internet se construyó alrededor de una idea aparentemente sencilla: detrás de cada visita a una página web había una persona buscando información, leyendo una noticia, comparando productos, realizando una compra o interactuando con otros usuarios. Esa premisa está dejando de ser cierta. Las máquinas ya generan más actividad en la web que los seres humanos.",
+        "Los últimos datos difundidos a partir de las mediciones de Cloudflare sitúan en el 57,4% el porcentaje de solicitudes web procedentes de sistemas automatizados, frente al 42,6% correspondiente a personas. Dicho de otra manera, de cada diez peticiones realizadas en la red analizada, casi seis las realiza una máquina y poco más de cuatro un humano. El dato supone un cambio significativo en la historia de internet y coincide con la expansión acelerada de la inteligencia artificial. El crecimiento de los agentes de IA capaces de navegar por páginas, recopilar información y ejecutar tareas en nombre de los usuarios está multiplicando el número de peticiones automatizadas.",
+        "¿Qué hacen tantos 'bots' en internet?",
+        "Que los 'bots' sean mayoría no significa que toda esa actividad sea sospechosa o maliciosa. Un 'bot' es, básicamente, un programa capaz de realizar determinadas tareas de manera automática y existen desde mucho antes de la actual revolución de la inteligencia artificial. Entre ellos están, por ejemplo, los rastreadores de los buscadores, que recorren millones de páginas para indexarlas; herramientas de monitorización; sistemas automatizados empleados para detectar amenazas o programas que realizan tareas específicas de mantenimiento y análisis.",
+        "La IA, sin embargo, ha incorporado nuevos protagonistas. Existen rastreadores que recopilan contenidos para entrenar o mejorar modelos de inteligencia artificial, pero también agentes capaces de actuar en tiempo real en nombre de una persona. Un usuario puede pedir a un agente que encuentre un producto, compare diferentes opciones o recopile determinada información. El agente puede entonces visitar automáticamente decenas, cientos o incluso miles de páginas para completar esa tarea. La diferencia fundamental está en la escala. Una persona puede consultar unas pocas webs para buscar un producto. Una máquina puede hacer lo mismo con miles de páginas en cuestión de minutos.",
+        "La inteligencia artificial acelera el 'sorpasso'",
+        "El crecimiento de estos sistemas está modificando rápidamente el equilibrio del tráfico web. Cloudflare ya reconocía este verano que más de la mitad de las solicitudes de internet estaban impulsadas por bots y agentes automatizados, un cambio que, según la compañía, se produjo antes de lo previsto.",
+        "La plataforma distingue actualmente entre diferentes tipos de automatización, incluidos los rastreadores utilizados para búsquedas, los agentes que interactúan con la web en tiempo real y los sistemas que recopilan información para entrenar modelos de IA. No todas estas categorías tienen el mismo impacto ni persiguen los mismos objetivos. Pero juntas explican buena parte de un fenómeno que está transformando la arquitectura de internet: cada vez hay más actividad digital sin que necesariamente haya una persona mirando una pantalla al otro lado.",
+        "Hay lugares donde los bots llegan a dominar casi por completo la red",
+        "El fenómeno tampoco se distribuye de manera uniforme por todo el mundo. El porcentaje de tráfico automatizado cambia considerablemente dependiendo del territorio, las infraestructuras tecnológicas y el tipo de actividad concentrada en cada región.",
+        "Algunos análisis basados en los datos de Cloudflare sitúan la actividad automatizada en Norteamérica cerca del 69%, lo que dejaría a los usuarios humanos en torno al 31% de las solicitudes. El caso más extremo es el de Gibraltar, donde en determinados momentos se han registrado picos en los que los sistemas automatizados llegaron a representar aproximadamente el 97% de la actividad web medida. Se trata, no obstante, de un episodio extremo y no de un porcentaje permanente. En otros territorios, el tráfico humano continúa siendo mayoritario.",
+        "Los 'bots' ya existían antes de la inteligencia artificial",
+        "La actual explosión de los agentes de IA no significa que la automatización de internet sea un fenómeno nuevo. Durante años han existido granjas de 'bots' y granjas de clics, estructuras capaces de controlar numerosas cuentas o dispositivos para generar artificialmente visualizaciones, interacciones, clics o seguidores. Estos sistemas pueden utilizarse para inflar artificialmente la popularidad de un contenido o una cuenta, alterar métricas comerciales o simular una relevancia que no se corresponde con el comportamiento real de los usuarios. También pueden emplearse para amplificar determinados mensajes en redes sociales.",
+        "El otro gran problema: la desinformación",
+        "Uno de los usos más preocupantes de estas tecnologías está relacionado con la difusión masiva y coordinada de contenidos engañosos o manipuladores. Una red de 'bots' puede publicar enormes cantidades de mensajes en poco tiempo, introducir determinados temas en las conversaciones digitales y generar la impresión de que existe un respaldo social mucho mayor del que realmente existe.",
+        "El mecanismo puede convertirse en un círculo de amplificación: los 'bots' producen grandes cantidades de contenido, los algoritmos detectan esa actividad y pueden aumentar su visibilidad, usuarios reales comienzan a interactuar con ella y el asunto termina llegando incluso a medios de comunicación y responsables públicos. La inteligencia artificial añade una nueva dimensión al problema porque permite generar contenidos de forma mucho más rápida, barata y personalizada, aumentando potencialmente la capacidad de estas redes automatizadas.",
+        "El reto ya no es bloquear a los 'bots', sino saber qué quieren",
+        "La nueva realidad plantea una pregunta cada vez más importante: ¿cómo saber si detrás de una actividad digital hay realmente una persona? Cloudflare lleva años desarrollando sistemas para distinguir entre tráfico humano y automatizado. El problema es que algunos bots están diseñados precisamente para imitar el comportamiento de los usuarios y evitar ser detectados.",
+        "Y no toda automatización es negativa. Los rastreadores de los buscadores, las herramientas de seguridad o determinados servicios automáticos desempeñan funciones esenciales para el funcionamiento de internet. Por eso, el desafío no consiste simplemente en bloquear todas las máquinas. La cuestión es identificar qué máquina está entrando en una web, qué está haciendo y con qué finalidad.",
+        "Una internet en la que una visita ya no significa necesariamente una persona",
+        "El cambio puede tener consecuencias especialmente importantes para medios de comunicación, redes sociales y negocios digitales. Durante años, una visita a una página podía traducirse potencialmente en un lector, un espectador, un consumidor o un suscriptor. La publicidad digital también se ha construido alrededor de esa relación entre tráfico y personas. Pero los agentes de inteligencia artificial están rompiendo esa equivalencia.",
+        "Una página puede recibir miles de solicitudes sin que detrás exista necesariamente un usuario que vaya a leer el contenido, visualizar un anuncio o comprar un producto. Al mismo tiempo, los contenidos de esas páginas pueden estar siendo consultados y procesados por máquinas a una escala desconocida hasta ahora. Cloudflare está desarrollando herramientas para que los propietarios de las webs puedan decidir si permiten que sus contenidos sean utilizados por motores de búsqueda, agentes de IA o sistemas destinados al entrenamiento de modelos.",
+        "El dato, en definitiva, marca un antes y un después: por primera vez, las máquinas generan más tráfico web que los seres humanos. Internet nació como una red para conectar personas, pero la expansión de la inteligencia artificial está convirtiéndola cada vez más en un espacio donde las máquinas no solo transportan información: también la buscan, la procesan, la generan y actúan unas con otras. La gran incógnita ahora es qué ocurrirá cuando una visita a internet deje de significar, por defecto, que hay una persona al otro lado."
+      ],
+      "word_count": 1225,
+      "authors": [
+        "Javier Fernández Borrell"
+      ],
+      "tags": [
+        "Tiramillas",
+        "tecnología",
+        "máquinas",
+        "más",
+        "tráfico"
+      ],
+      "published_at": "2026-09-24T17:34:10Z",
+      "modified_at": "2026-09-24T17:34:10Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/24/6ab5594adf9ce.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/24/6ab5594adf9ce.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/24/6ab5594adf9ce.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/24/6ab5594adf9ce.jpeg",
+          "caption": "Las máquinas ya generan más tráfico en internet que los seres humanos. IMAGEN CREADA POR IA"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-09-24T19:50:36.894408Z"
     }
   ]
 }
