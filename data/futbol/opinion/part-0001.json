@@ -1,8 +1,8 @@
 {
   "category": "futbol/opinion",
   "part": 1,
-  "count": 5,
-  "updated_at": "2026-09-15T07:11:38.393026Z",
+  "count": 6,
+  "updated_at": "2026-09-26T09:05:59.832401Z",
   "articles": [
     {
       "id": "futbol-dramon",
@@ -298,6 +298,64 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-09-15T07:11:14.593679Z"
+    },
+    {
+      "id": "dias-agrios-florentino",
+      "url": "https://www.marca.com/futbol/opinion/2026/09/26/dias-agrios-florentino.html",
+      "source_url": "https://www.marca.com/futbol/opinion/2026/09/26/dias-agrios-florentino.html",
+      "category": "futbol/opinion",
+      "category_path": [
+        "futbol",
+        "opinion"
+      ],
+      "section": "Fútbol",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol"
+      ],
+      "title": "Los días más agrios de Florentino",
+      "standfirst": "'Comprimidos', por Juan Ignacio Gallardo",
+      "summary": "'Comprimidos', por Juan Ignacio Gallardo",
+      "body": "Lo que una vez fue señorío ahora son vídeos, ataques, enfados, vetos, comunicados ... La crispación permanente se ha apoderado de Florentino Pérez. Creo que no es una buena señal. Denota nerviosismo y, en el fondo, es un síntoma evidente de que las cosas no están saliendo como quiere.\n\nSi es él quien ordena este relato de irritación, furia y victimismo, seguramente muy jaleado en las redes pero en el que muchos madr\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "Lo que una vez fue señorío ahora son vídeos, ataques, enfados, vetos, comunicados ... La crispación permanente se ha apoderado de Florentino Pérez. Creo que no es una buena señal. Denota nerviosismo y, en el fondo, es un síntoma evidente de que las cosas no están saliendo como quiere.",
+        "Si es él quien ordena este relato de irritación, furia y victimismo, seguramente muy jaleado en las redes pero en el que muchos madr",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 78,
+      "authors": [
+        "Juan Ignacio Gallardo"
+      ],
+      "tags": [
+        "días",
+        "más"
+      ],
+      "published_at": "2026-09-26T07:41:36Z",
+      "modified_at": "2026-09-26T07:41:36Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/26/6ab776be4c450.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/26/6ab776be4c450.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/26/6ab776be4c450.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/26/6ab776be4c450.jpeg",
+          "caption": "Florentino Pérez. MARCA"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-09-26T09:05:40.525127Z"
     }
   ]
 }
