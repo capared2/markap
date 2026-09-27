@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-09-26T22:24:25.852058Z",
-  "total_articles": 27003,
+  "generated_at": "2026-09-27T03:33:17.784320Z",
+  "total_articles": 27066,
   "total_categories": 430,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 2622,
+      "articles": 2654,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -114,7 +114,7 @@
         },
         {
           "file": "mx/futbol/part-0027.json",
-          "count": 22
+          "count": 54
         }
       ]
     },
@@ -350,7 +350,7 @@
     },
     {
       "category": "futbol",
-      "articles": 574,
+      "articles": 576,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -374,7 +374,7 @@
         },
         {
           "file": "futbol/part-0006.json",
-          "count": 74
+          "count": 76
         }
       ]
     },
@@ -410,7 +410,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 475,
+      "articles": 478,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -430,7 +430,7 @@
         },
         {
           "file": "mx/actualidad/part-0005.json",
-          "count": 75
+          "count": 78
         }
       ]
     },
@@ -662,7 +662,7 @@
     },
     {
       "category": "lifestyle/celebrities",
-      "articles": 214,
+      "articles": 216,
       "files": [
         {
           "file": "lifestyle/celebrities/part-0001.json",
@@ -674,7 +674,7 @@
         },
         {
           "file": "lifestyle/celebrities/part-0003.json",
-          "count": 14
+          "count": 16
         }
       ]
     },
@@ -878,7 +878,7 @@
     },
     {
       "category": "mx/trending",
-      "articles": 164,
+      "articles": 165,
       "files": [
         {
           "file": "mx/trending/part-0001.json",
@@ -886,7 +886,21 @@
         },
         {
           "file": "mx/trending/part-0002.json",
-          "count": 64
+          "count": 65
+        }
+      ]
+    },
+    {
+      "category": "otros-deportes",
+      "articles": 163,
+      "files": [
+        {
+          "file": "otros-deportes/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "otros-deportes/part-0002.json",
+          "count": 63
         }
       ]
     },
@@ -905,22 +919,8 @@
       ]
     },
     {
-      "category": "otros-deportes",
-      "articles": 162,
-      "files": [
-        {
-          "file": "otros-deportes/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "otros-deportes/part-0002.json",
-          "count": 62
-        }
-      ]
-    },
-    {
       "category": "mx/motor",
-      "articles": 160,
+      "articles": 162,
       "files": [
         {
           "file": "mx/motor/part-0001.json",
@@ -928,7 +928,21 @@
         },
         {
           "file": "mx/motor/part-0002.json",
-          "count": 60
+          "count": 62
+        }
+      ]
+    },
+    {
+      "category": "combates-ufc",
+      "articles": 157,
+      "files": [
+        {
+          "file": "combates-ufc/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "combates-ufc/part-0002.json",
+          "count": 57
         }
       ]
     },
@@ -943,20 +957,6 @@
         {
           "file": "tenis/part-0002.json",
           "count": 57
-        }
-      ]
-    },
-    {
-      "category": "combates-ufc",
-      "articles": 156,
-      "files": [
-        {
-          "file": "combates-ufc/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "combates-ufc/part-0002.json",
-          "count": 56
         }
       ]
     },
@@ -1060,7 +1060,7 @@
     },
     {
       "category": "ncaa/en",
-      "articles": 144,
+      "articles": 145,
       "files": [
         {
           "file": "ncaa/en/part-0001.json",
@@ -1068,7 +1068,7 @@
         },
         {
           "file": "ncaa/en/part-0002.json",
-          "count": 44
+          "count": 45
         }
       ]
     },
@@ -1157,6 +1157,20 @@
       ]
     },
     {
+      "category": "mx/nfl",
+      "articles": 121,
+      "files": [
+        {
+          "file": "mx/nfl/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "mx/nfl/part-0002.json",
+          "count": 21
+        }
+      ]
+    },
+    {
       "category": "futbol/athletic",
       "articles": 120,
       "files": [
@@ -1166,20 +1180,6 @@
         },
         {
           "file": "futbol/athletic/part-0002.json",
-          "count": 20
-        }
-      ]
-    },
-    {
-      "category": "mx/nfl",
-      "articles": 120,
-      "files": [
-        {
-          "file": "mx/nfl/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "mx/nfl/part-0002.json",
           "count": 20
         }
       ]
@@ -1242,7 +1242,7 @@
     },
     {
       "category": "mx/boxeo",
-      "articles": 102,
+      "articles": 103,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
@@ -1250,6 +1250,20 @@
         },
         {
           "file": "mx/boxeo/part-0002.json",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "nfl/dallas-cowboys",
+      "articles": 102,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "nfl/dallas-cowboys/part-0002.json",
           "count": 2
         }
       ]
@@ -1269,15 +1283,15 @@
       ]
     },
     {
-      "category": "nfl/dallas-cowboys",
+      "category": "futbol/primera-rfef",
       "articles": 101,
       "files": [
         {
-          "file": "nfl/dallas-cowboys/part-0001.json",
+          "file": "futbol/primera-rfef/part-0001.json",
           "count": 100
         },
         {
-          "file": "nfl/dallas-cowboys/part-0002.json",
+          "file": "futbol/primera-rfef/part-0002.json",
           "count": 1
         }
       ]
@@ -1317,22 +1331,22 @@
       ]
     },
     {
-      "category": "futbol/primera-rfef",
-      "articles": 93,
-      "files": [
-        {
-          "file": "futbol/primera-rfef/part-0001.json",
-          "count": 93
-        }
-      ]
-    },
-    {
       "category": "videojuegos/esports",
       "articles": 90,
       "files": [
         {
           "file": "videojuegos/esports/part-0001.json",
           "count": 90
+        }
+      ]
+    },
+    {
+      "category": "football/en",
+      "articles": 89,
+      "files": [
+        {
+          "file": "football/en/part-0001.json",
+          "count": 89
         }
       ]
     },
@@ -1353,16 +1367,6 @@
         {
           "file": "futbol/nations-league/part-0001.json",
           "count": 89
-        }
-      ]
-    },
-    {
-      "category": "football/en",
-      "articles": 88,
-      "files": [
-        {
-          "file": "football/en/part-0001.json",
-          "count": 88
         }
       ]
     },
@@ -1917,6 +1921,16 @@
       ]
     },
     {
+      "category": "futbol/album",
+      "articles": 48,
+      "files": [
+        {
+          "file": "futbol/album/part-0001.json",
+          "count": 48
+        }
+      ]
+    },
+    {
       "category": "futbol/mexico",
       "articles": 48,
       "files": [
@@ -1942,16 +1956,6 @@
       "files": [
         {
           "file": "baloncesto/mundial/part-0001.json",
-          "count": 47
-        }
-      ]
-    },
-    {
-      "category": "futbol/album",
-      "articles": 47,
-      "files": [
-        {
-          "file": "futbol/album/part-0001.json",
           "count": 47
         }
       ]
@@ -1992,6 +1996,16 @@
       "files": [
         {
           "file": "futbol/zaragoza/part-0001.json",
+          "count": 46
+        }
+      ]
+    },
+    {
+      "category": "mundo-marca",
+      "articles": 46,
+      "files": [
+        {
+          "file": "mundo-marca/part-0001.json",
           "count": 46
         }
       ]
@@ -2052,16 +2066,6 @@
       "files": [
         {
           "file": "deportes-aventura/part-0001.json",
-          "count": 41
-        }
-      ]
-    },
-    {
-      "category": "mundo-marca",
-      "articles": 41,
-      "files": [
-        {
-          "file": "mundo-marca/part-0001.json",
           "count": 41
         }
       ]
