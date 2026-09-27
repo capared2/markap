@@ -1,8 +1,8 @@
 {
   "category": "futbol/opinion",
   "part": 1,
-  "count": 6,
-  "updated_at": "2026-09-26T09:05:59.832401Z",
+  "count": 7,
+  "updated_at": "2026-09-27T09:51:01.854508Z",
   "articles": [
     {
       "id": "futbol-dramon",
@@ -356,6 +356,62 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-09-26T09:05:40.525127Z"
+    },
+    {
+      "id": "juega-mejor-mbappe",
+      "url": "https://www.marca.com/futbol/opinion/2026/09/27/juega-mejor-mbappe.html",
+      "source_url": "https://www.marca.com/futbol/opinion/2026/09/27/juega-mejor-mbappe.html",
+      "category": "futbol/opinion",
+      "category_path": [
+        "futbol",
+        "opinion"
+      ],
+      "section": "Fútbol",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol"
+      ],
+      "title": "\"Se juega mejor sin Mbappé...\"",
+      "standfirst": "El borde del área, por José Luis Hurtado",
+      "summary": "El borde del área, por José Luis Hurtado",
+      "body": "Terminó el verano, aunque en el fútbol el cambio climático es diferente:\u0010 ahora están el verano Balón de Oro, el otoño Balón de Oro, el invierno Balón de Oro y la primavera Balón de Oro. Lo que era un trofeo, una distinción futbolera, se ha convertido en un disparate universal, un avispero por el que luchan agencias de representación, marcas deportivas, emporios del marketing, presidentes y hasta futbolistas.\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "Terminó el verano, aunque en el fútbol el cambio climático es diferente:\u0010 ahora están el verano Balón de Oro, el otoño Balón de Oro, el invierno Balón de Oro y la primavera Balón de Oro. Lo que era un trofeo, una distinción futbolera, se ha convertido en un disparate universal, un avispero por el que luchan agencias de representación, marcas deportivas, emporios del marketing, presidentes y hasta futbolistas.",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 73,
+      "authors": [
+        "José Luis Hurtado"
+      ],
+      "tags": [
+        "mbappé"
+      ],
+      "published_at": "2026-09-27T05:20:07Z",
+      "modified_at": "2026-09-27T05:20:07Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/09/26/6ab802f3740f2.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/09/26/6ab802f3740f2.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/09/26/6ab802f3740f2.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/09/26/6ab802f3740f2.jpeg",
+          "caption": "Mbappé se duele tras su lesión en Turquía. EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-09-27T09:50:39.647892Z"
     }
   ]
 }
