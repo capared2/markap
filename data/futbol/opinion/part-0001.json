@@ -1,8 +1,8 @@
 {
   "category": "futbol/opinion",
   "part": 1,
-  "count": 7,
-  "updated_at": "2026-09-27T09:51:01.854508Z",
+  "count": 8,
+  "updated_at": "2026-10-02T17:26:46.896348Z",
   "articles": [
     {
       "id": "futbol-dramon",
@@ -412,6 +412,63 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-09-27T09:50:39.647892Z"
+    },
+    {
+      "id": "cristiano-leo-hora-adios",
+      "url": "https://www.marca.com/futbol/opinion/2026/10/02/cristiano-leo-hora-adios.html",
+      "source_url": "https://www.marca.com/futbol/opinion/2026/10/02/cristiano-leo-hora-adios.html",
+      "category": "futbol/opinion",
+      "category_path": [
+        "futbol",
+        "opinion"
+      ],
+      "section": "Fútbol",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol"
+      ],
+      "title": "Cristiano y Leo en la hora del adiós",
+      "standfirst": "Ambas estrellas se mantienen fieles a sí mismas en sus últimos días sobre el césped",
+      "summary": "Ambas estrellas se mantienen fieles a sí mismas en sus últimos días sobre el césped",
+      "body": "La era de Cristiano y Messi ha terminado. En realidad acabó hace ya algún tiempo y lo que estamos viendo es uno de esos epílogos a tiempos de grandeza que a veces son dignos de ella y a veces no.\n\nPodría decirse que en el final cada uno está siendo fiel a sí mismo. Leo consume sus últimos días sobre el césped sin grandes estridencias fuera del mismo, porque los homenajes no lo son. Cristiano ,\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "La era de Cristiano y Messi ha terminado. En realidad acabó hace ya algún tiempo y lo que estamos viendo es uno de esos epílogos a tiempos de grandeza que a veces son dignos de ella y a veces no.",
+        "Podría decirse que en el final cada uno está siendo fiel a sí mismo. Leo consume sus últimos días sobre el césped sin grandes estridencias fuera del mismo, porque los homenajes no lo son. Cristiano ,",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 81,
+      "authors": [
+        "Fernando Carreño"
+      ],
+      "tags": [
+        "adiós"
+      ],
+      "published_at": "2026-10-02T10:32:48Z",
+      "modified_at": "2026-10-02T10:32:48Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/02/6abf87fd6a024.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/10/02/6abf87fd6a024.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/10/02/6abf87fd6a024.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/10/02/6abf87fd6a024.jpeg",
+          "caption": "Leo Messi y Cristiano Ronaldo, en sus tiempos en el Barcelona y el Real Madrid EFE"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-10-02T17:25:46.822979Z"
     }
   ]
 }
