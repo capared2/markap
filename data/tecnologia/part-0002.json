@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 2,
-  "count": 4,
-  "updated_at": "2026-10-03T13:04:50.848265Z",
+  "count": 5,
+  "updated_at": "2026-10-04T13:44:23.199941Z",
   "articles": [
     {
       "id": "nuevo-experimento-google-teclado-mueve-teclas-cinta-transportadora",
@@ -254,6 +254,81 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-10-03T13:03:42.840412Z"
+    },
+    {
+      "id": "1809-napoleon-ordeno-informar-posicion-tropas-carta-cifrada-217-anos-ia-revela-primera-vez-contenido-misiva",
+      "url": "https://www.marca.com/tecnologia/2026/10/04/1809-napoleon-ordeno-informar-posicion-tropas-carta-cifrada-217-anos-ia-revela-primera-vez-contenido-misiva.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/10/04/1809-napoleon-ordeno-informar-posicion-tropas-carta-cifrada-217-anos-ia-revela-primera-vez-contenido-misiva.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "En 1809, Napoleón ordenó informar de la posición de sus tropas en una carta cifrada; 217 años después, la IA revela por primera vez el contenido de la misiva",
+      "standfirst": "Un ingeniero ha utilizado la tecnología para resolver el cifrado militar",
+      "summary": "Un ingeniero ha utilizado la tecnología para resolver el cifrado militar",
+      "body": "Más de dos siglos después , una carta cifrada de 1809 ha vuelto a abrirse paso en la historia gracias a la Inteligencia Artificial. Un ingeniero ha utilizado un modelo de IA para descifrar un documento relacionado con Napoleón en el que se informaba de la posición de sus tropas durante las guerras napoleónicas.\n\nDe acuerdo con la información recogida por Euronews, la carta no fue escrita directamente por Napoleón . El documento se originó en el cuartel general de Eugène de Beauharnais, virrey de Italia, y contenía un informe cifrado sobre los movimientos de las tropas que fue enviado al general Auguste de Marmont por orden de Napoleón.\n\nEl documento llevaba décadas siendo objeto de estudio. Sin embargo, los intentos por reconstruir su contenido nunca habían conseguido descifrarlo por completo. Ahora, la Inteligencia Artificial ha permitido completar ese trabajo en apenas unas horas.\n\nLa IA tardó unas seis horas en descifrar la carta\n\nEl encargado de poner el documento a prueba fue Carter Church, ingeniero de la empresa de ciberseguridad SentinelOne . Según explicó en sus redes sociales, utilizó el modelo GPT-6 Astra de OpenAI para analizar la carta, transcribir su contenido y tratar de romper el sistema de cifrado.\n\n\"Astra dividió la lámina de 1,202 por 1,836 en filas, leyó los signos, decidió cuáles de las 175 marcas dibujadas a mano eran el mismo signo escrito dos veces y solo entonces empezó a romper el cifrado\", escribió Church en una entrada de blog.\n\nA partir de ahí, el modelo analizó el cifrado por sustitución homofónica, estudió la escritura utilizada en el código y contrastó la información con registros históricos. El resultado permitió reconstruir el contenido del documento y conocer con mayor precisión la información militar que contenía.\n\nLa carta reveló datos sobre las posiciones de las fuerzas bávaras, polacas y francesas , además de referencias a los movimientos de las tropas rusas y austríacas.\n\n\"Los rusos marchan contra Austria y el ejército de Friuli cuenta hoy con ochenta mil hombres \", se lee en el documento.\n\n\"Sume el cuerpo de Dalmacia, sin contar las reservas que se están organizando por todas partes en la retaguardia , y verá que Austria será atacada de inmediato por todos los flancos. En consecuencia, se precipita hacia su ruina. Cuando reciba la orden de marchar, no debe dejarse intimidar por unas pocas tropas o por una reunión de chusma\".",
+      "paragraphs": [
+        "Más de dos siglos después , una carta cifrada de 1809 ha vuelto a abrirse paso en la historia gracias a la Inteligencia Artificial. Un ingeniero ha utilizado un modelo de IA para descifrar un documento relacionado con Napoleón en el que se informaba de la posición de sus tropas durante las guerras napoleónicas.",
+        "De acuerdo con la información recogida por Euronews, la carta no fue escrita directamente por Napoleón . El documento se originó en el cuartel general de Eugène de Beauharnais, virrey de Italia, y contenía un informe cifrado sobre los movimientos de las tropas que fue enviado al general Auguste de Marmont por orden de Napoleón.",
+        "El documento llevaba décadas siendo objeto de estudio. Sin embargo, los intentos por reconstruir su contenido nunca habían conseguido descifrarlo por completo. Ahora, la Inteligencia Artificial ha permitido completar ese trabajo en apenas unas horas.",
+        "La IA tardó unas seis horas en descifrar la carta",
+        "El encargado de poner el documento a prueba fue Carter Church, ingeniero de la empresa de ciberseguridad SentinelOne . Según explicó en sus redes sociales, utilizó el modelo GPT-6 Astra de OpenAI para analizar la carta, transcribir su contenido y tratar de romper el sistema de cifrado.",
+        "\"Astra dividió la lámina de 1,202 por 1,836 en filas, leyó los signos, decidió cuáles de las 175 marcas dibujadas a mano eran el mismo signo escrito dos veces y solo entonces empezó a romper el cifrado\", escribió Church en una entrada de blog.",
+        "A partir de ahí, el modelo analizó el cifrado por sustitución homofónica, estudió la escritura utilizada en el código y contrastó la información con registros históricos. El resultado permitió reconstruir el contenido del documento y conocer con mayor precisión la información militar que contenía.",
+        "La carta reveló datos sobre las posiciones de las fuerzas bávaras, polacas y francesas , además de referencias a los movimientos de las tropas rusas y austríacas.",
+        "\"Los rusos marchan contra Austria y el ejército de Friuli cuenta hoy con ochenta mil hombres \", se lee en el documento.",
+        "\"Sume el cuerpo de Dalmacia, sin contar las reservas que se están organizando por todas partes en la retaguardia , y verá que Austria será atacada de inmediato por todos los flancos. En consecuencia, se precipita hacia su ruina. Cuando reciba la orden de marchar, no debe dejarse intimidar por unas pocas tropas o por una reunión de chusma\"."
+      ],
+      "word_count": 397,
+      "authors": [
+        "Javier Rodriguez Ruiz"
+      ],
+      "tags": [
+        "tecnología",
+        "1809",
+        "napoleón",
+        "ordenó",
+        "posición"
+      ],
+      "published_at": "2026-10-04T10:38:25Z",
+      "modified_at": "2026-10-04T10:38:25Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/04/6ac22530876b4.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/10/04/6ac22530876b4.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/10/04/6ac22530876b4.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/04/6ac225c29ff3d.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/10/04/6ac22530876b4.jpeg",
+          "caption": "Imagen generada con IA"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/10/04/6ac225c29ff3d.jpeg",
+          "caption": "Captura de pantalla del tuit"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-10-04T13:43:29.701836Z"
     }
   ]
 }
