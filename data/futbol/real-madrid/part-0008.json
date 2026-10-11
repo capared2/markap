@@ -1,8 +1,8 @@
 {
   "category": "futbol/real-madrid",
   "part": 8,
-  "count": 4,
-  "updated_at": "2026-10-11T00:43:57.189219Z",
+  "count": 5,
+  "updated_at": "2026-10-11T08:18:45.688240Z",
   "articles": [
     {
       "id": "mourinho-habla-partido",
@@ -310,6 +310,66 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-10-11T00:43:42.525016Z"
+    },
+    {
+      "id": "madrid-juega-agita",
+      "url": "https://www.marca.com/futbol/real-madrid/opinion/2026/10/11/madrid-juega-agita.html",
+      "source_url": "https://www.marca.com/futbol/real-madrid/opinion/2026/10/11/madrid-juega-agita.html",
+      "category": "futbol/real-madrid",
+      "category_path": [
+        "futbol",
+        "real-madrid",
+        "opinion"
+      ],
+      "section": "Real Madrid",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol",
+        "LALIGA EA Sports",
+        "Real Madrid"
+      ],
+      "title": "El Madrid no juega, pero agita",
+      "standfirst": "Al otro lado del espejo",
+      "summary": "Al otro lado del espejo",
+      "body": "Mourinho no da con el equipo, pero a cambio se ha agarrado gozoso a la cuerda victimista que él mismo instaló en el Madrid y que ahora le viene de perlas para que la falta de juego pase a un segundo plano. Y encima, como al que nace para martillo, los clavos le caen del cielo. Ayer ocurrió una jugada como inventada por el diablo, que transformó un gol de Vinicius en expulsión del propio Vinicius, nada a menos, VAR mediante. En el arranque de la j\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "Mourinho no da con el equipo, pero a cambio se ha agarrado gozoso a la cuerda victimista que él mismo instaló en el Madrid y que ahora le viene de perlas para que la falta de juego pase a un segundo plano. Y encima, como al que nace para martillo, los clavos le caen del cielo. Ayer ocurrió una jugada como inventada por el diablo, que transformó un gol de Vinicius en expulsión del propio Vinicius, nada a menos, VAR mediante. En el arranque de la j",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 92,
+      "authors": [
+        "Alfredo Relaño"
+      ],
+      "tags": [
+        "relaño",
+        "villarreal"
+      ],
+      "published_at": "2026-10-11T03:16:02Z",
+      "modified_at": "2026-10-11T03:16:02Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/10/6acab18991384.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/10/10/6acab18991384.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/10/10/6acab18991384.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/10/10/6acab18991384.jpeg",
+          "caption": "Los jugadores del Real Madrid sujetan a Vinicius por sus protestas tras la expulsión. Pablo Moreno"
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-10-11T08:18:23.202323Z"
     }
   ]
 }
