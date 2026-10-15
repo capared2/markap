@@ -1,8 +1,8 @@
 {
   "category": "futbol/champions-league",
   "part": 4,
-  "count": 30,
-  "updated_at": "2026-10-15T08:52:33.524090Z",
+  "count": 31,
+  "updated_at": "2026-10-15T19:45:14.304899Z",
   "articles": [
     {
       "id": "01_0103_20261014_280_14-directo",
@@ -1978,6 +1978,56 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-10-15T08:52:26.464287Z"
+    },
+    {
+      "id": "cara-mou-video",
+      "url": "https://www.marca.com/futbol/champions-league/2026/10/15/cara-mou-video.html",
+      "source_url": "https://www.marca.com/futbol/champions-league/2026/10/15/cara-mou-video.html",
+      "category": "futbol/champions-league",
+      "category_path": [
+        "futbol",
+        "champions-league"
+      ],
+      "section": "Champions League",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol Internacional",
+        "Champions League"
+      ],
+      "title": "La otra cara de Mou",
+      "standfirst": "",
+      "summary": "No todo lo de Mou es polémica: sus ruedas de prensa esconden mensajes positivos que pasan desapercibidos, especialmente los dirigidos a esos jugadores acostumbrados a estar fuera de los focos.",
+      "body": "No todo lo de Mou es polémica: sus ruedas de prensa esconden mensajes positivos que pasan desapercibidos, especialmente los dirigidos a esos jugadores acostumbrados a estar fuera de los focos.",
+      "paragraphs": [
+        "No todo lo de Mou es polémica: sus ruedas de prensa esconden mensajes positivos que pasan desapercibidos, especialmente los dirigidos a esos jugadores acostumbrados a estar fuera de los focos."
+      ],
+      "word_count": 30,
+      "authors": [
+        "Javier Mancebo"
+      ],
+      "tags": [],
+      "published_at": "2026-10-15T15:30:24Z",
+      "modified_at": "2026-10-15T15:30:24Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/15/g2CAs1gqF5grrVnK3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/10/15/g2CAs1gqF5grrVnK3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/10/15/g2CAs1gqF5grrVnK3.jpeg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-10-15T19:44:54.232507Z"
     }
   ]
 }
