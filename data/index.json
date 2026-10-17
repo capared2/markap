@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-10-16T22:31:42.437705Z",
-  "total_articles": 36219,
+  "generated_at": "2026-10-17T02:50:59.736930Z",
+  "total_articles": 36250,
   "total_categories": 456,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 3421,
+      "articles": 3431,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -146,7 +146,7 @@
         },
         {
           "file": "mx/futbol/part-0035.json",
-          "count": 21
+          "count": 31
         }
       ]
     },
@@ -426,7 +426,7 @@
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 809,
+      "articles": 810,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -462,13 +462,13 @@
         },
         {
           "file": "futbol/real-madrid/part-0009.json",
-          "count": 9
+          "count": 10
         }
       ]
     },
     {
       "category": "mx/actualidad",
-      "articles": 719,
+      "articles": 721,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -500,13 +500,13 @@
         },
         {
           "file": "mx/actualidad/part-0008.json",
-          "count": 19
+          "count": 21
         }
       ]
     },
     {
       "category": "futbol/primera-division",
-      "articles": 618,
+      "articles": 621,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
@@ -534,7 +534,7 @@
         },
         {
           "file": "futbol/primera-division/part-0007.json",
-          "count": 18
+          "count": 21
         }
       ]
     },
@@ -574,7 +574,7 @@
     },
     {
       "category": "futbol/barcelona",
-      "articles": 571,
+      "articles": 572,
       "files": [
         {
           "file": "futbol/barcelona/part-0001.json",
@@ -598,7 +598,7 @@
         },
         {
           "file": "futbol/barcelona/part-0006.json",
-          "count": 71
+          "count": 72
         }
       ]
     },
@@ -782,7 +782,7 @@
     },
     {
       "category": "lifestyle/celebrities",
-      "articles": 335,
+      "articles": 336,
       "files": [
         {
           "file": "lifestyle/celebrities/part-0001.json",
@@ -798,7 +798,7 @@
         },
         {
           "file": "lifestyle/celebrities/part-0004.json",
-          "count": 35
+          "count": 36
         }
       ]
     },
@@ -914,7 +914,7 @@
     },
     {
       "category": "basketball/nba",
-      "articles": 302,
+      "articles": 303,
       "files": [
         {
           "file": "basketball/nba/part-0001.json",
@@ -930,7 +930,7 @@
         },
         {
           "file": "basketball/nba/part-0004.json",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1097,6 +1097,24 @@
       ]
     },
     {
+      "category": "mx/trending",
+      "articles": 243,
+      "files": [
+        {
+          "file": "mx/trending/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "mx/trending/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "mx/trending/part-0003.json",
+          "count": 43
+        }
+      ]
+    },
+    {
       "category": "baloncesto/nba",
       "articles": 241,
       "files": [
@@ -1110,24 +1128,6 @@
         },
         {
           "file": "baloncesto/nba/part-0003.json",
-          "count": 41
-        }
-      ]
-    },
-    {
-      "category": "mx/trending",
-      "articles": 241,
-      "files": [
-        {
-          "file": "mx/trending/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "mx/trending/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "mx/trending/part-0003.json",
           "count": 41
         }
       ]
@@ -1350,7 +1350,7 @@
     },
     {
       "category": "padel",
-      "articles": 198,
+      "articles": 200,
       "files": [
         {
           "file": "padel/part-0001.json",
@@ -1358,7 +1358,7 @@
         },
         {
           "file": "padel/part-0002.json",
-          "count": 98
+          "count": 100
         }
       ]
     },
@@ -1574,7 +1574,7 @@
     },
     {
       "category": "mx/boxeo",
-      "articles": 139,
+      "articles": 140,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
@@ -1582,7 +1582,7 @@
         },
         {
           "file": "mx/boxeo/part-0002.json",
-          "count": 39
+          "count": 40
         }
       ]
     },
@@ -1782,11 +1782,11 @@
     },
     {
       "category": "nfl/las-vegas-raiders",
-      "articles": 93,
+      "articles": 94,
       "files": [
         {
           "file": "nfl/las-vegas-raiders/part-0001.json",
-          "count": 93
+          "count": 94
         }
       ]
     },
@@ -1921,22 +1921,22 @@
       ]
     },
     {
+      "category": "futbol/album",
+      "articles": 78,
+      "files": [
+        {
+          "file": "futbol/album/part-0001.json",
+          "count": 78
+        }
+      ]
+    },
+    {
       "category": "mx/lucha-libre",
       "articles": 78,
       "files": [
         {
           "file": "mx/lucha-libre/part-0001.json",
           "count": 78
-        }
-      ]
-    },
-    {
-      "category": "futbol/album",
-      "articles": 77,
-      "files": [
-        {
-          "file": "futbol/album/part-0001.json",
-          "count": 77
         }
       ]
     },
@@ -2041,22 +2041,22 @@
       ]
     },
     {
+      "category": "golf",
+      "articles": 70,
+      "files": [
+        {
+          "file": "golf/part-0001.json",
+          "count": 70
+        }
+      ]
+    },
+    {
       "category": "lifestyle/music",
       "articles": 70,
       "files": [
         {
           "file": "lifestyle/music/part-0001.json",
           "count": 70
-        }
-      ]
-    },
-    {
-      "category": "golf",
-      "articles": 69,
-      "files": [
-        {
-          "file": "golf/part-0001.json",
-          "count": 69
         }
       ]
     },
@@ -3021,6 +3021,16 @@
       ]
     },
     {
+      "category": "golf/en",
+      "articles": 29,
+      "files": [
+        {
+          "file": "golf/en/part-0001.json",
+          "count": 29
+        }
+      ]
+    },
+    {
       "category": "technology/en",
       "articles": 29,
       "files": [
@@ -3046,16 +3056,6 @@
       "files": [
         {
           "file": "futbol/sporting/part-0001.json",
-          "count": 28
-        }
-      ]
-    },
-    {
-      "category": "golf/en",
-      "articles": 28,
-      "files": [
-        {
-          "file": "golf/en/part-0001.json",
           "count": 28
         }
       ]
@@ -3261,6 +3261,16 @@
       ]
     },
     {
+      "category": "ufc/en",
+      "articles": 20,
+      "files": [
+        {
+          "file": "ufc/en/part-0001.json",
+          "count": 20
+        }
+      ]
+    },
+    {
       "category": "balonmano/ehf-champions-league",
       "articles": 19,
       "files": [
@@ -3336,16 +3346,6 @@
       "files": [
         {
           "file": "turf/part-0001.json",
-          "count": 19
-        }
-      ]
-    },
-    {
-      "category": "ufc/en",
-      "articles": 19,
-      "files": [
-        {
-          "file": "ufc/en/part-0001.json",
           "count": 19
         }
       ]
@@ -3691,6 +3691,16 @@
       ]
     },
     {
+      "category": "nfl/green-bay-packers",
+      "articles": 12,
+      "files": [
+        {
+          "file": "nfl/green-bay-packers/part-0001.json",
+          "count": 12
+        }
+      ]
+    },
+    {
       "category": "premios/adn",
       "articles": 12,
       "files": [
@@ -3736,16 +3746,6 @@
       "files": [
         {
           "file": "mlb/new-york-mets/part-0001.json",
-          "count": 11
-        }
-      ]
-    },
-    {
-      "category": "nfl/green-bay-packers",
-      "articles": 11,
-      "files": [
-        {
-          "file": "nfl/green-bay-packers/part-0001.json",
           "count": 11
         }
       ]
@@ -4451,6 +4451,16 @@
       ]
     },
     {
+      "category": "mlb/milwaukee-brewers",
+      "articles": 3,
+      "files": [
+        {
+          "file": "mlb/milwaukee-brewers/part-0001.json",
+          "count": 3
+        }
+      ]
+    },
+    {
       "category": "nascar/en",
       "articles": 3,
       "files": [
@@ -4706,16 +4716,6 @@
       "files": [
         {
           "file": "mlb/los-angeles-angels/part-0001.json",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "category": "mlb/milwaukee-brewers",
-      "articles": 2,
-      "files": [
-        {
-          "file": "mlb/milwaukee-brewers/part-0001.json",
           "count": 2
         }
       ]
