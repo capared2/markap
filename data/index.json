@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-10-17T23:48:23.751137Z",
-  "total_articles": 36656,
+  "generated_at": "2026-10-18T02:52:19.630293Z",
+  "total_articles": 36670,
   "total_categories": 457,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 3470,
+      "articles": 3476,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -146,7 +146,7 @@
         },
         {
           "file": "mx/futbol/part-0035.json",
-          "count": 70
+          "count": 76
         }
       ]
     },
@@ -472,7 +472,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 731,
+      "articles": 732,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -504,7 +504,7 @@
         },
         {
           "file": "mx/actualidad/part-0008.json",
-          "count": 31
+          "count": 32
         }
       ]
     },
@@ -578,7 +578,7 @@
     },
     {
       "category": "futbol/barcelona",
-      "articles": 584,
+      "articles": 585,
       "files": [
         {
           "file": "futbol/barcelona/part-0001.json",
@@ -602,7 +602,7 @@
         },
         {
           "file": "futbol/barcelona/part-0006.json",
-          "count": 84
+          "count": 85
         }
       ]
     },
@@ -786,7 +786,7 @@
     },
     {
       "category": "lifestyle/celebrities",
-      "articles": 342,
+      "articles": 343,
       "files": [
         {
           "file": "lifestyle/celebrities/part-0001.json",
@@ -802,7 +802,7 @@
         },
         {
           "file": "lifestyle/celebrities/part-0004.json",
-          "count": 42
+          "count": 43
         }
       ]
     },
@@ -1516,7 +1516,7 @@
     },
     {
       "category": "football/en",
-      "articles": 155,
+      "articles": 156,
       "files": [
         {
           "file": "football/en/part-0001.json",
@@ -1524,7 +1524,7 @@
         },
         {
           "file": "football/en/part-0002.json",
-          "count": 55
+          "count": 56
         }
       ]
     },
@@ -1572,7 +1572,7 @@
     },
     {
       "category": "mx/boxeo",
-      "articles": 143,
+      "articles": 144,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
@@ -1580,7 +1580,7 @@
         },
         {
           "file": "mx/boxeo/part-0002.json",
-          "count": 43
+          "count": 44
         }
       ]
     },
@@ -1977,6 +1977,16 @@
       ]
     },
     {
+      "category": "futbol/las-palmas",
+      "articles": 73,
+      "files": [
+        {
+          "file": "futbol/las-palmas/part-0001.json",
+          "count": 73
+        }
+      ]
+    },
+    {
       "category": "futbol/liga-arabia-saudi",
       "articles": 73,
       "files": [
@@ -2012,16 +2022,6 @@
       "files": [
         {
           "file": "futbol/argentina/part-0001.json",
-          "count": 72
-        }
-      ]
-    },
-    {
-      "category": "futbol/las-palmas",
-      "articles": 72,
-      "files": [
-        {
-          "file": "futbol/las-palmas/part-0001.json",
           "count": 72
         }
       ]
@@ -2098,11 +2098,11 @@
     },
     {
       "category": "football/mls",
-      "articles": 66,
+      "articles": 67,
       "files": [
         {
           "file": "football/mls/part-0001.json",
-          "count": 66
+          "count": 67
         }
       ]
     },
@@ -4327,6 +4327,16 @@
       ]
     },
     {
+      "category": "nfl/tampa-bay-buccaneers",
+      "articles": 4,
+      "files": [
+        {
+          "file": "nfl/tampa-bay-buccaneers/part-0001.json",
+          "count": 4
+        }
+      ]
+    },
+    {
       "category": "premios/marca-laureus",
       "articles": 4,
       "files": [
@@ -4512,16 +4522,6 @@
       "files": [
         {
           "file": "nfl/new-york-jets/part-0001.json",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "category": "nfl/tampa-bay-buccaneers",
-      "articles": 3,
-      "files": [
-        {
-          "file": "nfl/tampa-bay-buccaneers/part-0001.json",
           "count": 3
         }
       ]
