@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-10-21T23:04:38.498227Z",
-  "total_articles": 38517,
+  "generated_at": "2026-10-22T03:09:15.511638Z",
+  "total_articles": 38547,
   "total_categories": 462,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 3628,
+      "articles": 3644,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -154,7 +154,7 @@
         },
         {
           "file": "mx/futbol/part-0037.json",
-          "count": 28
+          "count": 44
         }
       ]
     },
@@ -492,7 +492,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 779,
+      "articles": 781,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -524,7 +524,7 @@
         },
         {
           "file": "mx/actualidad/part-0008.json",
-          "count": 79
+          "count": 81
         }
       ]
     },
@@ -713,6 +713,32 @@
       ]
     },
     {
+      "category": "basketball/wnba",
+      "articles": 439,
+      "files": [
+        {
+          "file": "basketball/wnba/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/wnba/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/wnba/part-0003.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/wnba/part-0004.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/wnba/part-0005.json",
+          "count": 39
+        }
+      ]
+    },
+    {
       "category": "futbol/premier-league",
       "articles": 438,
       "files": [
@@ -735,32 +761,6 @@
         {
           "file": "futbol/premier-league/part-0005.json",
           "count": 38
-        }
-      ]
-    },
-    {
-      "category": "basketball/wnba",
-      "articles": 435,
-      "files": [
-        {
-          "file": "basketball/wnba/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/wnba/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/wnba/part-0003.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/wnba/part-0004.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/wnba/part-0005.json",
-          "count": 35
         }
       ]
     },
@@ -950,7 +950,7 @@
     },
     {
       "category": "nfl/kansas-city-chiefs",
-      "articles": 345,
+      "articles": 346,
       "files": [
         {
           "file": "nfl/kansas-city-chiefs/part-0001.json",
@@ -966,7 +966,7 @@
         },
         {
           "file": "nfl/kansas-city-chiefs/part-0004.json",
-          "count": 45
+          "count": 46
         }
       ]
     },
@@ -1060,7 +1060,7 @@
     },
     {
       "category": "co",
-      "articles": 289,
+      "articles": 292,
       "files": [
         {
           "file": "co/part-0001.json",
@@ -1072,7 +1072,7 @@
         },
         {
           "file": "co/part-0003.json",
-          "count": 89
+          "count": 92
         }
       ]
     },
@@ -1114,7 +1114,7 @@
     },
     {
       "category": "baloncesto/nba",
-      "articles": 269,
+      "articles": 270,
       "files": [
         {
           "file": "baloncesto/nba/part-0001.json",
@@ -1126,7 +1126,7 @@
         },
         {
           "file": "baloncesto/nba/part-0003.json",
-          "count": 69
+          "count": 70
         }
       ]
     },
@@ -1847,21 +1847,21 @@
       ]
     },
     {
+      "category": "nfl/las-vegas-raiders",
+      "articles": 100,
+      "files": [
+        {
+          "file": "nfl/las-vegas-raiders/part-0001.json",
+          "count": 100
+        }
+      ]
+    },
+    {
       "category": "futbol/levante",
       "articles": 98,
       "files": [
         {
           "file": "futbol/levante/part-0001.json",
-          "count": 98
-        }
-      ]
-    },
-    {
-      "category": "nfl/las-vegas-raiders",
-      "articles": 98,
-      "files": [
-        {
-          "file": "nfl/las-vegas-raiders/part-0001.json",
           "count": 98
         }
       ]
@@ -2867,6 +2867,16 @@
       ]
     },
     {
+      "category": "mx/otros-deportes",
+      "articles": 37,
+      "files": [
+        {
+          "file": "mx/otros-deportes/part-0001.json",
+          "count": 37
+        }
+      ]
+    },
+    {
       "category": "natacion/waterpolo",
       "articles": 37,
       "files": [
@@ -2912,16 +2922,6 @@
       "files": [
         {
           "file": "futbol/oviedo/part-0001.json",
-          "count": 36
-        }
-      ]
-    },
-    {
-      "category": "mx/otros-deportes",
-      "articles": 36,
-      "files": [
-        {
-          "file": "mx/otros-deportes/part-0001.json",
           "count": 36
         }
       ]
