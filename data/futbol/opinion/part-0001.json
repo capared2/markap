@@ -1,8 +1,8 @@
 {
   "category": "futbol/opinion",
   "part": 1,
-  "count": 16,
-  "updated_at": "2026-10-23T09:09:00.734843Z",
+  "count": 17,
+  "updated_at": "2026-10-25T03:46:30.253055Z",
   "articles": [
     {
       "id": "futbol-dramon",
@@ -973,6 +973,68 @@
       "is_premium": true,
       "source": "marca.com",
       "scraped_at": "2026-10-23T09:08:06.021995Z"
+    },
+    {
+      "id": "clasico-649-euros",
+      "url": "https://www.marca.com/futbol/opinion/2026/10/25/clasico-649-euros.html",
+      "source_url": "https://www.marca.com/futbol/opinion/2026/10/25/clasico-649-euros.html",
+      "category": "futbol/opinion",
+      "category_path": [
+        "futbol",
+        "opinion"
+      ],
+      "section": "Fútbol",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol"
+      ],
+      "title": "El Clásico de los 649 euros",
+      "standfirst": "El borde del área, por José Luis Hurtado",
+      "summary": "El borde del área, por José Luis Hurtado",
+      "body": "Llega el Clásico, aquello que en tiempos de Di Stéfano y Kubala, de Amancio y Luisito Suárez, y de Butragueño y Guardiola era conocido como el Barcelona-Real Madrid. Los bares se llaman de todo menos bares. Son las modas.\n\nEs ahí, en las tripas del evento, donde llega el asombro. Manos arriba, esto es un Clásico. La localidad más barata, -aquí se podría escuchar la sintonía de Curro Jiménez-, para entrar en el Spotify Camp Nou se f\n\n¿Ya tienes cuenta? Inicia sesión",
+      "paragraphs": [
+        "Llega el Clásico, aquello que en tiempos de Di Stéfano y Kubala, de Amancio y Luisito Suárez, y de Butragueño y Guardiola era conocido como el Barcelona-Real Madrid. Los bares se llaman de todo menos bares. Son las modas.",
+        "Es ahí, en las tripas del evento, donde llega el asombro. Manos arriba, esto es un Clásico. La localidad más barata, -aquí se podría escuchar la sintonía de Curro Jiménez-, para entrar en el Spotify Camp Nou se f",
+        "¿Ya tienes cuenta? Inicia sesión"
+      ],
+      "word_count": 83,
+      "authors": [
+        "José Luis Hurtado"
+      ],
+      "tags": [
+        "clásico",
+        "649"
+      ],
+      "published_at": "2026-10-25T01:59:27Z",
+      "modified_at": "2026-10-25T01:59:27Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/10/24/6adccccc16958.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/10/24/6adccccc16958.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/10/24/6adccccc16958.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/10/24/6adccccc16958.jpeg",
+          "caption": "Panorámica del Camp Nou en un partido del Barcelona FC BARCELONA"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/avatar_92/uploads/2026/10/02/6abf97546fd63.png",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": true,
+      "source": "marca.com",
+      "scraped_at": "2026-10-25T03:46:05.505490Z"
     }
   ]
 }
