@@ -1,8 +1,8 @@
 {
   "category": "tiramillas/economia",
   "part": 8,
-  "count": 76,
-  "updated_at": "2026-11-02T14:45:13.558132Z",
+  "count": 77,
+  "updated_at": "2026-11-02T23:22:57.019975Z",
   "articles": [
     {
       "id": "2005-mel-gibson-compro-isla-paradisiaca-15-millones-dolares-pesar-descendientes-tribu-opusieron-construyo-bolera-privada",
@@ -5684,6 +5684,78 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-02T14:44:43.864114Z"
+    },
+    {
+      "id": "oleada-ciberataques-europa-eleva-congeladores-50-c-provoca-perdidas-millonarias-seis-paises",
+      "url": "https://www.marca.com/tiramillas/economia/2026/11/02/oleada-ciberataques-europa-eleva-congeladores-50-c-provoca-perdidas-millonarias-seis-paises.html",
+      "source_url": "https://www.marca.com/tiramillas/economia/2026/11/02/oleada-ciberataques-europa-eleva-congeladores-50-c-provoca-perdidas-millonarias-seis-paises.html",
+      "category": "tiramillas/economia",
+      "category_path": [
+        "tiramillas",
+        "economia"
+      ],
+      "section": "Economia",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tiramillas"
+      ],
+      "title": "Una oleada de ciberataques en Europa eleva los congeladores a 50 °C y provoca pérdidas millonarias en seis países",
+      "standfirst": "Muchos supermercados se han visto obligados a desechar toneladas de alimentos",
+      "summary": "Muchos supermercados se han visto obligados a desechar toneladas de alimentos",
+      "body": "Una oleada de ciberataques masivos contra los sistemas de refrigeración de supermercados europeos ha provocado pérdidas millonarias tras elevar las temperaturas de neveras y congeladores hasta los 50 °C, obligando a desechar toneladas de alimentos frescos y congelados por la ruptura de la cadena de frío.\n\nEl incidente más reciente se detectó durante la madrugada del domingo al lunes 2 de noviembre de 2026, afectando a establecimientos de al menos seis países europeos. En Bélgica , cadenas como Delhaize reportaron más de cuarenta tiendas afectadas y se registraron fallos en unos quince establecimientos de Carrefour, supermercados Spar e Intermarché.\n\nPor otro lado, grandes distribuidoras de Suecia que controlan gran parte del mercado, como ICA Group y Coop, sufrieron la manipulación de sus centrales frigoríficas. Asimismo, se han confirmado alteraciones similares en Países Bajos, Irlanda, Luxemburgo y Estonia. En este último, la firma tecnológica Selver reportó la manipulación directa de sus ordenadores centrales de refrigeración.\n\nAsí ha sido el modus operandi de los hackers que han saboteado los congeladores en Europa\n\nEl modus operandi de los atacantes se ha basado en explotar una vulnerabilidad en los controladores inteligentes conectados a Internet que utilizan los supermercados para la supervisión y el mantenimiento remoto de los equipos. Primero, los hackers tomaron el control de los termostatos y modificaron los parámetros de los equipos a distancia durante la madrugada.\n\nUna vez hecho esto, forzaron de forma prolongada el modo de desescarche (defrost) , una función diseñada originalmente para aplicar calor de forma temporal y eliminar la escarcha acumulada. Finalmente, al prolongar artificialmente este ciclo, los compresores dejaron de enfriar y los aparatos comenzaron a expulsar aire caliente, disparando el termómetro en algunos puntos desde los -27 °C habituales hasta los 45 °C y 50 °C .\n\nLas investigaciones de los ataques previos apuntan a que los sistemas afectados utilizaban controladores del fabricante danés Danfoss , concretamente líneas de producto antiguas cuyo software de ciberseguridad se encontraba desactualizado.\n\nEl antecedente de Francia\n\nEsta nueva oleada replica es muy similar al ataque masivo sufrido en Francia a mediados de octubre , donde cerca de 700 supermercados (de marcas como Intermarché, Leclerc, Carrefour y Monoprix) sufrieron el mismo pirateo informático, perdiendo millones de euros en carnes, lácteos y productos congelados que tuvieron que ser retirados de inmediato. Hasta la fecha, ningún grupo de piratas informáticos ha reivindicado públicamente la autoría de estas operaciones coordinadas.",
+      "paragraphs": [
+        "Una oleada de ciberataques masivos contra los sistemas de refrigeración de supermercados europeos ha provocado pérdidas millonarias tras elevar las temperaturas de neveras y congeladores hasta los 50 °C, obligando a desechar toneladas de alimentos frescos y congelados por la ruptura de la cadena de frío.",
+        "El incidente más reciente se detectó durante la madrugada del domingo al lunes 2 de noviembre de 2026, afectando a establecimientos de al menos seis países europeos. En Bélgica , cadenas como Delhaize reportaron más de cuarenta tiendas afectadas y se registraron fallos en unos quince establecimientos de Carrefour, supermercados Spar e Intermarché.",
+        "Por otro lado, grandes distribuidoras de Suecia que controlan gran parte del mercado, como ICA Group y Coop, sufrieron la manipulación de sus centrales frigoríficas. Asimismo, se han confirmado alteraciones similares en Países Bajos, Irlanda, Luxemburgo y Estonia. En este último, la firma tecnológica Selver reportó la manipulación directa de sus ordenadores centrales de refrigeración.",
+        "Así ha sido el modus operandi de los hackers que han saboteado los congeladores en Europa",
+        "El modus operandi de los atacantes se ha basado en explotar una vulnerabilidad en los controladores inteligentes conectados a Internet que utilizan los supermercados para la supervisión y el mantenimiento remoto de los equipos. Primero, los hackers tomaron el control de los termostatos y modificaron los parámetros de los equipos a distancia durante la madrugada.",
+        "Una vez hecho esto, forzaron de forma prolongada el modo de desescarche (defrost) , una función diseñada originalmente para aplicar calor de forma temporal y eliminar la escarcha acumulada. Finalmente, al prolongar artificialmente este ciclo, los compresores dejaron de enfriar y los aparatos comenzaron a expulsar aire caliente, disparando el termómetro en algunos puntos desde los -27 °C habituales hasta los 45 °C y 50 °C .",
+        "Las investigaciones de los ataques previos apuntan a que los sistemas afectados utilizaban controladores del fabricante danés Danfoss , concretamente líneas de producto antiguas cuyo software de ciberseguridad se encontraba desactualizado.",
+        "El antecedente de Francia",
+        "Esta nueva oleada replica es muy similar al ataque masivo sufrido en Francia a mediados de octubre , donde cerca de 700 supermercados (de marcas como Intermarché, Leclerc, Carrefour y Monoprix) sufrieron el mismo pirateo informático, perdiendo millones de euros en carnes, lácteos y productos congelados que tuvieron que ser retirados de inmediato. Hasta la fecha, ningún grupo de piratas informáticos ha reivindicado públicamente la autoría de estas operaciones coordinadas."
+      ],
+      "word_count": 397,
+      "authors": [
+        "Sergio Belinchón Rodríguez"
+      ],
+      "tags": [
+        "Tiramillas",
+        "economía"
+      ],
+      "published_at": "2026-11-02T14:57:30Z",
+      "modified_at": "2026-11-02T14:57:30Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/02/6ae8a1ff9e43a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/11/02/6ae8a1ff9e43a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/11/02/6ae8a1ff9e43a.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/02/6ae8a442ad7ce.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/11/02/6ae8a1ff9e43a.jpeg",
+          "caption": "Una oleada de ciberataques en Europa eleva los congeladores a 50 °C y provoca pérdidas millonarias en seis países Pixabay"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/11/02/6ae8a442ad7ce.jpeg",
+          "caption": "Congelador de un supermercado Pixabay"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-02T23:22:29.359497Z"
     }
   ]
 }
