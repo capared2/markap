@@ -1,8 +1,8 @@
 {
   "category": "baloncesto/liga-endesa",
   "part": 1,
-  "count": 1,
-  "updated_at": "2026-09-26T22:24:24.300031Z",
+  "count": 2,
+  "updated_at": "2026-11-08T18:44:07.313455Z",
   "articles": [
     {
       "id": "02_0201_20260926_6216_7553-directo",
@@ -58,6 +58,59 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-09-26T22:23:37.329826Z"
+    },
+    {
+      "id": "02_0201_20261108_6210_6232-directo",
+      "url": "https://www.marca.com/baloncesto/liga-endesa/real-madrid-ucam-murcia/2026/11/08/02_0201_20261108_6210_6232-directo.html",
+      "source_url": "https://www.marca.com/baloncesto/liga-endesa/real-madrid-ucam-murcia/2026/11/08/02_0201_20261108_6210_6232-directo.html",
+      "category": "baloncesto/liga-endesa",
+      "category_path": [
+        "baloncesto",
+        "liga-endesa",
+        "real-madrid-ucam-murcia"
+      ],
+      "section": "acb",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Baloncesto",
+        "Liga Endesa"
+      ],
+      "title": "Real Madrid - UCAM Murcia, en directo | Última hora de Liga Endesa en vivo hoy",
+      "standfirst": "",
+      "summary": "Primera falta personal de Timothe Luwawu-Cabarrot [Real Madrid] sobre Wilhelm Falk Triple de Juani Marcos [UCAM Murcia] Gabriele Procida [Real Madrid]",
+      "body": "Última hora del Real Madrid - UCAM Murcia, en directo",
+      "paragraphs": [
+        "Última hora del Real Madrid - UCAM Murcia, en directo"
+      ],
+      "word_count": 10,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "baloncesto",
+        "Liga ACB",
+        "Real Madrid Baloncesto",
+        "liga-acb",
+        "real-madrid-baloncesto"
+      ],
+      "published_at": "2026-11-08T17:27:14Z",
+      "modified_at": "2026-11-08T18:41:29Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/15640829937fea705bc352ccc58ff567/resize/1200/assets/multimedia/imagenes/2026/11/08/17941587748988.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/11/08/17941587748988.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-08T18:43:37.236647Z"
     }
   ]
 }
