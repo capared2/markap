@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-11-07T23:28:43.544716Z",
-  "total_articles": 46389,
+  "generated_at": "2026-11-08T04:11:50.601726Z",
+  "total_articles": 46415,
   "total_categories": 476,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 4250,
+      "articles": 4259,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -178,7 +178,7 @@
         },
         {
           "file": "mx/futbol/part-0043.json",
-          "count": 50
+          "count": 59
         }
       ]
     },
@@ -576,7 +576,7 @@
     },
     {
       "category": "mx/actualidad",
-      "articles": 972,
+      "articles": 974,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -616,7 +616,7 @@
         },
         {
           "file": "mx/actualidad/part-0010.json",
-          "count": 72
+          "count": 74
         }
       ]
     },
@@ -664,7 +664,7 @@
     },
     {
       "category": "futbol/primera-division",
-      "articles": 817,
+      "articles": 819,
       "files": [
         {
           "file": "futbol/primera-division/part-0001.json",
@@ -700,7 +700,7 @@
         },
         {
           "file": "futbol/primera-division/part-0009.json",
-          "count": 17
+          "count": 19
         }
       ]
     },
@@ -1254,7 +1254,7 @@
     },
     {
       "category": "mx/motor",
-      "articles": 363,
+      "articles": 364,
       "files": [
         {
           "file": "mx/motor/part-0001.json",
@@ -1270,7 +1270,7 @@
         },
         {
           "file": "mx/motor/part-0004.json",
-          "count": 63
+          "count": 64
         }
       ]
     },
@@ -1476,7 +1476,7 @@
     },
     {
       "category": "ncaa/en",
-      "articles": 273,
+      "articles": 274,
       "files": [
         {
           "file": "ncaa/en/part-0001.json",
@@ -1488,7 +1488,7 @@
         },
         {
           "file": "ncaa/en/part-0003.json",
-          "count": 73
+          "count": 74
         }
       ]
     },
@@ -1548,7 +1548,7 @@
     },
     {
       "category": "nfl/dallas-cowboys",
-      "articles": 268,
+      "articles": 269,
       "files": [
         {
           "file": "nfl/dallas-cowboys/part-0001.json",
@@ -1560,7 +1560,7 @@
         },
         {
           "file": "nfl/dallas-cowboys/part-0003.json",
-          "count": 68
+          "count": 69
         }
       ]
     },
@@ -1709,6 +1709,24 @@
       ]
     },
     {
+      "category": "futbol/primera-rfef",
+      "articles": 223,
+      "files": [
+        {
+          "file": "futbol/primera-rfef/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "futbol/primera-rfef/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "futbol/primera-rfef/part-0003.json",
+          "count": 23
+        }
+      ]
+    },
+    {
       "category": "futbol/malaga",
       "articles": 222,
       "files": [
@@ -1723,24 +1741,6 @@
         {
           "file": "futbol/malaga/part-0003.json",
           "count": 22
-        }
-      ]
-    },
-    {
-      "category": "futbol/primera-rfef",
-      "articles": 216,
-      "files": [
-        {
-          "file": "futbol/primera-rfef/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "futbol/primera-rfef/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "futbol/primera-rfef/part-0003.json",
-          "count": 16
         }
       ]
     },
@@ -2195,6 +2195,20 @@
       ]
     },
     {
+      "category": "nfl/cleveland-browns",
+      "articles": 110,
+      "files": [
+        {
+          "file": "nfl/cleveland-browns/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "nfl/cleveland-browns/part-0002.json",
+          "count": 10
+        }
+      ]
+    },
+    {
       "category": "lifestyle/world-news",
       "articles": 109,
       "files": [
@@ -2209,22 +2223,8 @@
       ]
     },
     {
-      "category": "nfl/cleveland-browns",
-      "articles": 109,
-      "files": [
-        {
-          "file": "nfl/cleveland-browns/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "nfl/cleveland-browns/part-0002.json",
-          "count": 9
-        }
-      ]
-    },
-    {
       "category": "futbol/album",
-      "articles": 105,
+      "articles": 106,
       "files": [
         {
           "file": "futbol/album/part-0001.json",
@@ -2232,7 +2232,7 @@
         },
         {
           "file": "futbol/album/part-0002.json",
-          "count": 5
+          "count": 6
         }
       ]
     },
@@ -4309,6 +4309,16 @@
       ]
     },
     {
+      "category": "balonmano/seleccion",
+      "articles": 9,
+      "files": [
+        {
+          "file": "balonmano/seleccion/part-0001.json",
+          "count": 9
+        }
+      ]
+    },
+    {
       "category": "futbol/champions-league-femenina",
       "articles": 9,
       "files": [
@@ -4374,16 +4384,6 @@
       "files": [
         {
           "file": "baloncesto/clasificacion-mundial-europa/part-0001.json",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "category": "balonmano/seleccion",
-      "articles": 8,
-      "files": [
-        {
-          "file": "balonmano/seleccion/part-0001.json",
           "count": 8
         }
       ]
