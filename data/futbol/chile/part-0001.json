@@ -1,8 +1,8 @@
 {
   "category": "futbol/chile",
   "part": 1,
-  "count": 14,
-  "updated_at": "2026-08-20T07:18:20.983475Z",
+  "count": 15,
+  "updated_at": "2026-11-09T15:06:04.989324Z",
   "articles": [
     {
       "id": "5b0830eb268e3eec4e8b4687",
@@ -874,6 +874,58 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-08-20T01:27:32.767808Z"
+    },
+    {
+      "id": "vozinha-historia-chil-video",
+      "url": "https://www.marca.com/futbol/chile/2026/11/09/vozinha-historia-chil-video.html",
+      "source_url": "https://www.marca.com/futbol/chile/2026/11/09/vozinha-historia-chil-video.html",
+      "category": "futbol/chile",
+      "category_path": [
+        "futbol",
+        "chile"
+      ],
+      "section": "Chile",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Fútbol América",
+        "Chile"
+      ],
+      "title": "¡Vozinha hace historia en Chile!",
+      "standfirst": "",
+      "summary": "El arquero de la Selección de Cabo Verde hizo historia en Chile, se proclamó campeón de la Liga Primera de Chile 2026 en su primera temporada con el Colo-Colo.",
+      "body": "El arquero de la Selección de Cabo Verde hizo historia en Chile, se proclamó campeón de la Liga Primera de Chile 2026 en su primera temporada con el Colo-Colo.",
+      "paragraphs": [
+        "El arquero de la Selección de Cabo Verde hizo historia en Chile, se proclamó campeón de la Liga Primera de Chile 2026 en su primera temporada con el Colo-Colo."
+      ],
+      "word_count": 29,
+      "authors": [
+        "José Martín Pérez"
+      ],
+      "tags": [
+        "chile"
+      ],
+      "published_at": "2026-11-09T12:10:07Z",
+      "modified_at": "2026-11-09T12:10:07Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/09/4nc3uH.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/11/09/4nc3uH.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/11/09/4nc3uH.jpeg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-09T15:05:10.881844Z"
     }
   ]
 }
