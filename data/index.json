@@ -1,12 +1,12 @@
 {
   "source": "marca.com",
-  "generated_at": "2026-11-10T00:02:59.533952Z",
-  "total_articles": 47241,
+  "generated_at": "2026-11-10T06:06:29.238337Z",
+  "total_articles": 47277,
   "total_categories": 478,
   "categories": [
     {
       "category": "mx/futbol",
-      "articles": 4323,
+      "articles": 4328,
       "files": [
         {
           "file": "mx/futbol/part-0001.json",
@@ -182,7 +182,7 @@
         },
         {
           "file": "mx/futbol/part-0044.json",
-          "count": 23
+          "count": 28
         }
       ]
     },
@@ -340,7 +340,7 @@
     },
     {
       "category": "motor/motogp",
-      "articles": 1519,
+      "articles": 1520,
       "files": [
         {
           "file": "motor/motogp/part-0001.json",
@@ -404,13 +404,13 @@
         },
         {
           "file": "motor/motogp/part-0016.json",
-          "count": 19
+          "count": 20
         }
       ]
     },
     {
       "category": "futbol",
-      "articles": 1254,
+      "articles": 1255,
       "files": [
         {
           "file": "futbol/part-0001.json",
@@ -462,7 +462,7 @@
         },
         {
           "file": "futbol/part-0013.json",
-          "count": 54
+          "count": 55
         }
       ]
     },
@@ -526,7 +526,7 @@
     },
     {
       "category": "futbol/real-madrid",
-      "articles": 1160,
+      "articles": 1161,
       "files": [
         {
           "file": "futbol/real-madrid/part-0001.json",
@@ -574,13 +574,13 @@
         },
         {
           "file": "futbol/real-madrid/part-0012.json",
-          "count": 60
+          "count": 61
         }
       ]
     },
     {
       "category": "mx/actualidad",
-      "articles": 997,
+      "articles": 998,
       "files": [
         {
           "file": "mx/actualidad/part-0001.json",
@@ -620,7 +620,7 @@
         },
         {
           "file": "mx/actualidad/part-0010.json",
-          "count": 97
+          "count": 98
         }
       ]
     },
@@ -786,7 +786,7 @@
     },
     {
       "category": "futbol/atletico",
-      "articles": 590,
+      "articles": 592,
       "files": [
         {
           "file": "futbol/atletico/part-0001.json",
@@ -810,7 +810,7 @@
         },
         {
           "file": "futbol/atletico/part-0006.json",
-          "count": 90
+          "count": 92
         }
       ]
     },
@@ -905,6 +905,36 @@
       ]
     },
     {
+      "category": "basketball/nba",
+      "articles": 512,
+      "files": [
+        {
+          "file": "basketball/nba/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/nba/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/nba/part-0003.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/nba/part-0004.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/nba/part-0005.json",
+          "count": 100
+        },
+        {
+          "file": "basketball/nba/part-0006.json",
+          "count": 12
+        }
+      ]
+    },
+    {
       "category": "futbol/champions-league",
       "articles": 512,
       "files": [
@@ -931,36 +961,6 @@
         {
           "file": "futbol/champions-league/part-0006.json",
           "count": 12
-        }
-      ]
-    },
-    {
-      "category": "basketball/nba",
-      "articles": 511,
-      "files": [
-        {
-          "file": "basketball/nba/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/nba/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/nba/part-0003.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/nba/part-0004.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/nba/part-0005.json",
-          "count": 100
-        },
-        {
-          "file": "basketball/nba/part-0006.json",
-          "count": 11
         }
       ]
     },
@@ -992,7 +992,7 @@
     },
     {
       "category": "nfl/kansas-city-chiefs",
-      "articles": 479,
+      "articles": 481,
       "files": [
         {
           "file": "nfl/kansas-city-chiefs/part-0001.json",
@@ -1012,7 +1012,7 @@
         },
         {
           "file": "nfl/kansas-city-chiefs/part-0005.json",
-          "count": 79
+          "count": 81
         }
       ]
     },
@@ -1148,7 +1148,7 @@
     },
     {
       "category": "tiramillas/ciencia",
-      "articles": 423,
+      "articles": 424,
       "files": [
         {
           "file": "tiramillas/ciencia/part-0001.json",
@@ -1168,13 +1168,13 @@
         },
         {
           "file": "tiramillas/ciencia/part-0005.json",
-          "count": 23
+          "count": 24
         }
       ]
     },
     {
       "category": "baloncesto/nba",
-      "articles": 418,
+      "articles": 421,
       "files": [
         {
           "file": "baloncesto/nba/part-0001.json",
@@ -1194,7 +1194,29 @@
         },
         {
           "file": "baloncesto/nba/part-0005.json",
-          "count": 18
+          "count": 21
+        }
+      ]
+    },
+    {
+      "category": "co",
+      "articles": 380,
+      "files": [
+        {
+          "file": "co/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "co/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "co/part-0003.json",
+          "count": 100
+        },
+        {
+          "file": "co/part-0004.json",
+          "count": 80
         }
       ]
     },
@@ -1217,28 +1239,6 @@
         {
           "file": "otros-deportes/part-0004.json",
           "count": 78
-        }
-      ]
-    },
-    {
-      "category": "co",
-      "articles": 377,
-      "files": [
-        {
-          "file": "co/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "co/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "co/part-0003.json",
-          "count": 100
-        },
-        {
-          "file": "co/part-0004.json",
-          "count": 77
         }
       ]
     },
@@ -1354,7 +1354,7 @@
     },
     {
       "category": "apuestas-deportivas/predicciones",
-      "articles": 327,
+      "articles": 328,
       "files": [
         {
           "file": "apuestas-deportivas/predicciones/part-0001.json",
@@ -1370,7 +1370,7 @@
         },
         {
           "file": "apuestas-deportivas/predicciones/part-0004.json",
-          "count": 27
+          "count": 28
         }
       ]
     },
@@ -1487,6 +1487,24 @@
       ]
     },
     {
+      "category": "nfl/dallas-cowboys",
+      "articles": 277,
+      "files": [
+        {
+          "file": "nfl/dallas-cowboys/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "nfl/dallas-cowboys/part-0002.json",
+          "count": 100
+        },
+        {
+          "file": "nfl/dallas-cowboys/part-0003.json",
+          "count": 77
+        }
+      ]
+    },
+    {
       "category": "ncaa/en",
       "articles": 276,
       "files": [
@@ -1500,24 +1518,6 @@
         },
         {
           "file": "ncaa/en/part-0003.json",
-          "count": 76
-        }
-      ]
-    },
-    {
-      "category": "nfl/dallas-cowboys",
-      "articles": 276,
-      "files": [
-        {
-          "file": "nfl/dallas-cowboys/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "nfl/dallas-cowboys/part-0002.json",
-          "count": 100
-        },
-        {
-          "file": "nfl/dallas-cowboys/part-0003.json",
           "count": 76
         }
       ]
@@ -1794,7 +1794,7 @@
     },
     {
       "category": "mx/boxeo",
-      "articles": 210,
+      "articles": 211,
       "files": [
         {
           "file": "mx/boxeo/part-0001.json",
@@ -1806,7 +1806,7 @@
         },
         {
           "file": "mx/boxeo/part-0003.json",
-          "count": 10
+          "count": 11
         }
       ]
     },
@@ -1830,7 +1830,7 @@
     },
     {
       "category": "mx/nfl",
-      "articles": 205,
+      "articles": 207,
       "files": [
         {
           "file": "mx/nfl/part-0001.json",
@@ -1842,7 +1842,7 @@
         },
         {
           "file": "mx/nfl/part-0003.json",
-          "count": 5
+          "count": 7
         }
       ]
     },
@@ -1921,6 +1921,20 @@
       ]
     },
     {
+      "category": "bienestar/salud",
+      "articles": 168,
+      "files": [
+        {
+          "file": "bienestar/salud/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "bienestar/salud/part-0002.json",
+          "count": 68
+        }
+      ]
+    },
+    {
       "category": "futbol/bundesliga",
       "articles": 168,
       "files": [
@@ -1931,20 +1945,6 @@
         {
           "file": "futbol/bundesliga/part-0002.json",
           "count": 68
-        }
-      ]
-    },
-    {
-      "category": "bienestar/salud",
-      "articles": 167,
-      "files": [
-        {
-          "file": "bienestar/salud/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "bienestar/salud/part-0002.json",
-          "count": 67
         }
       ]
     },
@@ -2048,7 +2048,7 @@
     },
     {
       "category": "futbol/copa-rey",
-      "articles": 128,
+      "articles": 129,
       "files": [
         {
           "file": "futbol/copa-rey/part-0001.json",
@@ -2056,7 +2056,7 @@
         },
         {
           "file": "futbol/copa-rey/part-0002.json",
-          "count": 28
+          "count": 29
         }
       ]
     },
@@ -2173,6 +2173,20 @@
       ]
     },
     {
+      "category": "boxeo",
+      "articles": 114,
+      "files": [
+        {
+          "file": "boxeo/part-0001.json",
+          "count": 100
+        },
+        {
+          "file": "boxeo/part-0002.json",
+          "count": 14
+        }
+      ]
+    },
+    {
       "category": "futbol/levante",
       "articles": 114,
       "files": [
@@ -2187,22 +2201,8 @@
       ]
     },
     {
-      "category": "boxeo",
-      "articles": 113,
-      "files": [
-        {
-          "file": "boxeo/part-0001.json",
-          "count": 100
-        },
-        {
-          "file": "boxeo/part-0002.json",
-          "count": 13
-        }
-      ]
-    },
-    {
       "category": "nfl/cleveland-browns",
-      "articles": 113,
+      "articles": 114,
       "files": [
         {
           "file": "nfl/cleveland-browns/part-0001.json",
@@ -2210,7 +2210,7 @@
         },
         {
           "file": "nfl/cleveland-browns/part-0002.json",
-          "count": 13
+          "count": 14
         }
       ]
     },
@@ -2244,7 +2244,7 @@
     },
     {
       "category": "futbol/album",
-      "articles": 107,
+      "articles": 108,
       "files": [
         {
           "file": "futbol/album/part-0001.json",
@@ -2252,7 +2252,7 @@
         },
         {
           "file": "futbol/album/part-0002.json",
-          "count": 7
+          "count": 8
         }
       ]
     },
@@ -2439,6 +2439,16 @@
       ]
     },
     {
+      "category": "balonmano",
+      "articles": 81,
+      "files": [
+        {
+          "file": "balonmano/part-0001.json",
+          "count": 81
+        }
+      ]
+    },
+    {
       "category": "futbol/liga-portuguesa",
       "articles": 81,
       "files": [
@@ -2455,16 +2465,6 @@
         {
           "file": "mx/lucha-libre/part-0001.json",
           "count": 81
-        }
-      ]
-    },
-    {
-      "category": "balonmano",
-      "articles": 80,
-      "files": [
-        {
-          "file": "balonmano/part-0001.json",
-          "count": 80
         }
       ]
     },
@@ -2959,6 +2959,16 @@
       ]
     },
     {
+      "category": "futbol/oviedo",
+      "articles": 50,
+      "files": [
+        {
+          "file": "futbol/oviedo/part-0001.json",
+          "count": 50
+        }
+      ]
+    },
+    {
       "category": "motor/24-horas-le-mans",
       "articles": 50,
       "files": [
@@ -3005,16 +3015,6 @@
         {
           "file": "tenis/masters-1000-shangai/part-0001.json",
           "count": 50
-        }
-      ]
-    },
-    {
-      "category": "futbol/oviedo",
-      "articles": 49,
-      "files": [
-        {
-          "file": "futbol/oviedo/part-0001.json",
-          "count": 49
         }
       ]
     },
@@ -4109,11 +4109,31 @@
       ]
     },
     {
+      "category": "f1/en",
+      "articles": 13,
+      "files": [
+        {
+          "file": "f1/en/part-0001.json",
+          "count": 13
+        }
+      ]
+    },
+    {
       "category": "mlb/new-york-mets",
       "articles": 13,
       "files": [
         {
           "file": "mlb/new-york-mets/part-0001.json",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "category": "mx/apuestas-deportivas",
+      "articles": 13,
+      "files": [
+        {
+          "file": "mx/apuestas-deportivas/part-0001.json",
           "count": 13
         }
       ]
@@ -4189,16 +4209,6 @@
       ]
     },
     {
-      "category": "f1/en",
-      "articles": 12,
-      "files": [
-        {
-          "file": "f1/en/part-0001.json",
-          "count": 12
-        }
-      ]
-    },
-    {
       "category": "football/nations-league",
       "articles": 12,
       "files": [
@@ -4224,16 +4234,6 @@
       "files": [
         {
           "file": "mlb/world-series/part-0001.json",
-          "count": 12
-        }
-      ]
-    },
-    {
-      "category": "mx/apuestas-deportivas",
-      "articles": 12,
-      "files": [
-        {
-          "file": "mx/apuestas-deportivas/part-0001.json",
           "count": 12
         }
       ]
@@ -4739,6 +4739,16 @@
       ]
     },
     {
+      "category": "tenis/wta-finals",
+      "articles": 5,
+      "files": [
+        {
+          "file": "tenis/wta-finals/part-0001.json",
+          "count": 5
+        }
+      ]
+    },
+    {
       "category": "vela/copa-america",
       "articles": 5,
       "files": [
@@ -4954,16 +4964,6 @@
       "files": [
         {
           "file": "radio/la-tribu/part-0001.json",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "category": "tenis/wta-finals",
-      "articles": 4,
-      "files": [
-        {
-          "file": "tenis/wta-finals/part-0001.json",
           "count": 4
         }
       ]
