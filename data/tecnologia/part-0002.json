@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 2,
-  "count": 65,
-  "updated_at": "2026-11-12T21:23:58.446878Z",
+  "count": 66,
+  "updated_at": "2026-11-13T11:54:52.148172Z",
   "articles": [
     {
       "id": "nuevo-experimento-google-teclado-mueve-teclas-cinta-transportadora",
@@ -4742,6 +4742,66 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-12T21:21:35.632373Z"
+    },
+    {
+      "id": "caida-mundial-microsoft-365-afecta-outlook-teams",
+      "url": "https://www.marca.com/tecnologia/2026/11/13/caida-mundial-microsoft-365-afecta-outlook-teams.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/11/13/caida-mundial-microsoft-365-afecta-outlook-teams.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Caída de Outlook y Teams a nivel mundial: fallos en el sistema Microsoft 365 durante horas",
+      "standfirst": "No funciona en todo el mundo el correo, teams, sharepoint…",
+      "summary": "No funciona en todo el mundo el correo, teams, sharepoint…",
+      "body": "Siguen los problemas. En este caso a afecta a la tecnología pero a nivel mundial después de que se haya producido una caída de Microsoft 365 que comenzó este jueves y ya ha afectado a usuarios de Outlook y a varias herramientas de la compañía .\n\nDe hecho, Microsoft ha confirmado que el fallo en Exchange Online, su servicio de correo en la nube, puede impedir que algunos usuarios abran su buzón tanto en la web como en la aplicación de escritorio y causar retrasos en la entrega de mensajes.\n\nFallos durante horas en Microsoft 365\n\nDesde anoche se está estudiando el escenario... y el vicepresidente ejecutivo de Copilot en Microsoft, Charles Lamanna, ha descartado que sea por un ataque cibernético . La empresa, por su parte, intenta recuperar este viernes la normalidad en sus operaciones. \"Por ahora, puedo confirmar que no hay indicios de que esto sea el resultado de una actividad maliciosa o cibernética \", escribió en X Lamanna.\n\nEstas incomodidades han afectado a servicios como el gestor de correo electrónico Outlook y la plataforma de videoconferencias Teams \"en cualquier región\". Según explicó la propia compañía en X, una parte de la infraestructura en \"múltiples regiones\" ha experimentado una \"carga elevada\", que se ha traducido en errores de conectividad.",
+      "paragraphs": [
+        "Siguen los problemas. En este caso a afecta a la tecnología pero a nivel mundial después de que se haya producido una caída de Microsoft 365 que comenzó este jueves y ya ha afectado a usuarios de Outlook y a varias herramientas de la compañía .",
+        "De hecho, Microsoft ha confirmado que el fallo en Exchange Online, su servicio de correo en la nube, puede impedir que algunos usuarios abran su buzón tanto en la web como en la aplicación de escritorio y causar retrasos en la entrega de mensajes.",
+        "Fallos durante horas en Microsoft 365",
+        "Desde anoche se está estudiando el escenario... y el vicepresidente ejecutivo de Copilot en Microsoft, Charles Lamanna, ha descartado que sea por un ataque cibernético . La empresa, por su parte, intenta recuperar este viernes la normalidad en sus operaciones. \"Por ahora, puedo confirmar que no hay indicios de que esto sea el resultado de una actividad maliciosa o cibernética \", escribió en X Lamanna.",
+        "Estas incomodidades han afectado a servicios como el gestor de correo electrónico Outlook y la plataforma de videoconferencias Teams \"en cualquier región\". Según explicó la propia compañía en X, una parte de la infraestructura en \"múltiples regiones\" ha experimentado una \"carga elevada\", que se ha traducido en errores de conectividad."
+      ],
+      "word_count": 211,
+      "authors": [
+        "Darío Puig"
+      ],
+      "tags": [
+        "tecnología",
+        "caída",
+        "365"
+      ],
+      "published_at": "2026-11-13T06:53:58Z",
+      "modified_at": "2026-11-13T10:58:53Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/13/gty5k1gzkp8MtFS8E.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/11/13/gty5k1gzkp8MtFS8E.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/11/13/gty5k1gzkp8MtFS8E.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/13/gty5k1gzkrzXrY1bl.jpeg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-13T11:54:10.878814Z"
     }
   ]
 }
