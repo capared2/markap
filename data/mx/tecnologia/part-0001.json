@@ -1,8 +1,8 @@
 {
   "category": "mx/tecnologia",
   "part": 1,
-  "count": 15,
-  "updated_at": "2026-11-12T21:23:58.471266Z",
+  "count": 16,
+  "updated_at": "2026-11-14T22:01:00.173301Z",
   "articles": [
     {
       "id": "registrar-linea-telcel-evitar-largas-filas-paso-paso-hacerlo-linea",
@@ -1186,6 +1186,85 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-12T21:21:56.746019Z"
+    },
+    {
+      "id": "microsoft-resuelve-problemas-outlook-revela-paso",
+      "url": "https://www.marca.com/mx/tecnologia/2026/11/14/microsoft-resuelve-problemas-outlook-revela-paso.html",
+      "source_url": "https://www.marca.com/mx/tecnologia/2026/11/14/microsoft-resuelve-problemas-outlook-revela-paso.html",
+      "category": "mx/tecnologia",
+      "category_path": [
+        "mx",
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Microsoft resuelve problemas con Outlook: Revela qué fue lo que pasó",
+      "standfirst": "Microsoft resolvió la caída mundial de Outlook y explicó que una falla en Exchange Online provocó la interrupción",
+      "summary": "Microsoft resolvió la caída mundial de Outlook y explicó que una falla en Exchange Online provocó la interrupción",
+      "body": "La caída global de Microsoft que comenzó el pasado jueves provocó problemas de acceso a Outlook y otros servicios de Microsoft 365 , afectando a usuarios, empresas y gobiernos en distintas regiones. Tras horas de interrupciones y reportes masivos, la compañía confirmó este sábado que el servicio fue restablecido por completo.\n\nEl incidente generó preocupación debido al alcance de las fallas y a que también se registraron problemas en plataformas como Teams, OneDrive y Copilot . Sin embargo, Microsoft descartó que el origen estuviera relacionado con un ataque informático o con sus sistemas de inteligencia artificial.\n\n¿Qué problema tuvo Microsoft? Así resolvió la falla masiva\n\nMicrosoft explicó que la falla se originó en Exchange Online , el servicio que permite gestionar los buzones corporativos de Outlook . Varios servidores dejaron de estar disponibles de manera inesperada y obligaron al resto de la infraestructura a absorber un mayor número de conexiones.\n\nLa compañía aclaró que la sobrecarga no fue provocada por un incremento del tráfico, sino por la salida imprevista de esos servidores. Esto ocasionó errores en la infraestructura encargada de recibir y procesar las solicitudes de acceso a los buzones. Para recuperar la operación, Microsoft aplicó distintas medidas:\n\nRedistribuyó las conexiones mediante su infraestructura global.\n\nReinició los servidores que habían presentado problemas.\n\nImplementó un cambio de configuración para superar los controles automáticos.\n\nSupervisó la recuperación de las regiones que todavía presentaban afectaciones.\n\nEste sábado, la tecnológica informó que había completado las acciones necesarias para resolver la causa del incidente y restablecer el servicio a los clientes que aún tenían problemas.\n\nMicrosoft pide disculpas por caída mundial de Outlook\n\nLa empresa ofreció disculpas por las interrupciones y señaló que realizará una revisión completa para determinar todos los detalles del incidente. Microsoft también adelantó que publicará un informe posterior cuando concluya ese análisis.\n\nLa compañía fue enfática en descartar un origen malicioso. Charles Lamanna , vicepresidente ejecutivo de Copilot, Agentes y Plataformas , afirmó que “no había indicios” de que la falla hubiera sido consecuencia de una actividad maliciosa.\n\nEl incidente también dejó reportes de problemas en Teams, OneDrive y Copilot , aunque Microsoft aclaró que algunos de esos avisos correspondían a incidentes distintos. Para los administradores, las actualizaciones se encuentran en el Centro de administración de Microsoft 365 y en la página pública de estado de los servicios.\n\nCon el servicio nuevamente operativo, Microsoft deberá ahora revisar qué ocurrió en su infraestructura y qué medidas puede implementar para evitar que una falla similar vuelva a provocar una interrupción de alcance mundial.",
+      "paragraphs": [
+        "La caída global de Microsoft que comenzó el pasado jueves provocó problemas de acceso a Outlook y otros servicios de Microsoft 365 , afectando a usuarios, empresas y gobiernos en distintas regiones. Tras horas de interrupciones y reportes masivos, la compañía confirmó este sábado que el servicio fue restablecido por completo.",
+        "El incidente generó preocupación debido al alcance de las fallas y a que también se registraron problemas en plataformas como Teams, OneDrive y Copilot . Sin embargo, Microsoft descartó que el origen estuviera relacionado con un ataque informático o con sus sistemas de inteligencia artificial.",
+        "¿Qué problema tuvo Microsoft? Así resolvió la falla masiva",
+        "Microsoft explicó que la falla se originó en Exchange Online , el servicio que permite gestionar los buzones corporativos de Outlook . Varios servidores dejaron de estar disponibles de manera inesperada y obligaron al resto de la infraestructura a absorber un mayor número de conexiones.",
+        "La compañía aclaró que la sobrecarga no fue provocada por un incremento del tráfico, sino por la salida imprevista de esos servidores. Esto ocasionó errores en la infraestructura encargada de recibir y procesar las solicitudes de acceso a los buzones. Para recuperar la operación, Microsoft aplicó distintas medidas:",
+        "Redistribuyó las conexiones mediante su infraestructura global.",
+        "Reinició los servidores que habían presentado problemas.",
+        "Implementó un cambio de configuración para superar los controles automáticos.",
+        "Supervisó la recuperación de las regiones que todavía presentaban afectaciones.",
+        "Este sábado, la tecnológica informó que había completado las acciones necesarias para resolver la causa del incidente y restablecer el servicio a los clientes que aún tenían problemas.",
+        "Microsoft pide disculpas por caída mundial de Outlook",
+        "La empresa ofreció disculpas por las interrupciones y señaló que realizará una revisión completa para determinar todos los detalles del incidente. Microsoft también adelantó que publicará un informe posterior cuando concluya ese análisis.",
+        "La compañía fue enfática en descartar un origen malicioso. Charles Lamanna , vicepresidente ejecutivo de Copilot, Agentes y Plataformas , afirmó que “no había indicios” de que la falla hubiera sido consecuencia de una actividad maliciosa.",
+        "El incidente también dejó reportes de problemas en Teams, OneDrive y Copilot , aunque Microsoft aclaró que algunos de esos avisos correspondían a incidentes distintos. Para los administradores, las actualizaciones se encuentran en el Centro de administración de Microsoft 365 y en la página pública de estado de los servicios.",
+        "Con el servicio nuevamente operativo, Microsoft deberá ahora revisar qué ocurrió en su infraestructura y qué medidas puede implementar para evitar que una falla similar vuelva a provocar una interrupción de alcance mundial."
+      ],
+      "word_count": 420,
+      "authors": [
+        "Mariana Ramírez"
+      ],
+      "tags": [],
+      "published_at": "2026-11-14T19:01:14Z",
+      "modified_at": "2026-11-14T19:01:14Z",
+      "language": "es-MX",
+      "images": [
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat/uploads/2026/11/14/6af8a99e6183a.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat_4_3/uploads/2026/11/14/6af8a99e6183a.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat_1_1/uploads/2026/11/14/6af8a99e6183a.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat/uploads/2026/11/14/6af8ab095527f.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/uploads/2026/11/14/6af8a99e6183a.png",
+          "caption": "Microsoft resuelve problemas con Outlook: Revela qué fue lo que pasó /LAPRESSE"
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/avatar_92/uploads/2026/10/02/6abfa0fd12886.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/uploads/2026/11/14/6af8ab095527f.png",
+          "caption": "Microsoft pide disculpas por caída mundial de Outlook /LAPRESSE"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-14T22:00:01.906261Z"
     }
   ]
 }
