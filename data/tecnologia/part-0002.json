@@ -1,8 +1,8 @@
 {
   "category": "tecnologia",
   "part": 2,
-  "count": 70,
-  "updated_at": "2026-11-17T00:04:25.652199Z",
+  "count": 71,
+  "updated_at": "2026-11-17T17:26:58.856488Z",
   "articles": [
     {
       "id": "nuevo-experimento-google-teclado-mueve-teclas-cinta-transportadora",
@@ -5064,6 +5064,74 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-17T00:03:19.954046Z"
+    },
+    {
+      "id": "ciberataque-masivo-compromete-webs-ikea-zoom-bbc-robar-datos-bancarios",
+      "url": "https://www.marca.com/tecnologia/2026/11/17/ciberataque-masivo-compromete-webs-ikea-zoom-bbc-robar-datos-bancarios.html",
+      "source_url": "https://www.marca.com/tecnologia/2026/11/17/ciberataque-masivo-compromete-webs-ikea-zoom-bbc-robar-datos-bancarios.html",
+      "category": "tecnologia",
+      "category_path": [
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Un ciberataque masivo compromete las webs de IKEA, Zoom y la BBC para robar datos bancarios",
+      "standfirst": "Los atacantes lograron inyectar un código malicioso a través de la plataforma Optimizely",
+      "summary": "Los atacantes lograron inyectar un código malicioso a través de la plataforma Optimizely",
+      "body": "El lunes, 16 de noviembre, un ciberataque a gran escala afectó al menos a 178 organizaciones globales , incluidas IKEA, Zoom, la BBC, CNN y HSBC, tras vulnerarse la plataforma Optimizely . Los atacantes lograron inyectar un código malicioso en esta herramienta de pruebas y personalización web para interceptar datos bancarios y atacar dispositivos de los visitantes.\n\nLos delincuentes no accedieron directamente a los servidores de cada compañía afectada, sino que aprovecharon un fallo en el registro de las cuentas de Optimizely. Esto provocó que las webs distribuyeran código JavaScript infectado durante un total de 17 horas (entre las 05:21 y las 22:10, hora peninsular española).\n\nEntre los sitios afectados figuran IKEA, ASOS y Mattel ; y portales de tecnología y finanzas como Zoom, Salesforce, HSBC, Equifax y ABN AMRO . También se vieron expuestas las webs de la BBC, CNN, Fox News , Air France, KLM, Change.org y UNICEF USA.\n\nRecomendaciones de los expertos si visitaste alguna de las webs afectadas por el ciberataque\n\nSegún los análisis de investigadores de seguridad como Scott Helme (Report URI), el programa oculto ejecutaba cuatro acciones principales contra los usuarios que navegaban por estas páginas: robo de tarjetas bancarias, desvío de criptomonedas, infección de dispositivos Apple y captura de datos de navegación .\n\nOptimizely confirmó que ya ha corregido la vulnerabilidad , eliminado el código malicioso y reforzado sus controles. Asimismo, empresas como Salesforce y Equifax desactivaron temporalmente la herramienta, mientras IKEA continúa evaluando el alcance en sus servicios.\n\nEn caso de que visitaras alguna de estas páginas durante la jornada del hackeo, es importante tener en cuenta varias recomendaciones. Primero, comprueba los cargos recientes de tu tarjeta si realizaste alguna compra o introdujiste datos de pago. Después, actualiza tus dispositivos iOS . Por último, borra cookies y cambia contraseñas si iniciaste sesión en alguno de los lugares comprometidos.",
+      "paragraphs": [
+        "El lunes, 16 de noviembre, un ciberataque a gran escala afectó al menos a 178 organizaciones globales , incluidas IKEA, Zoom, la BBC, CNN y HSBC, tras vulnerarse la plataforma Optimizely . Los atacantes lograron inyectar un código malicioso en esta herramienta de pruebas y personalización web para interceptar datos bancarios y atacar dispositivos de los visitantes.",
+        "Los delincuentes no accedieron directamente a los servidores de cada compañía afectada, sino que aprovecharon un fallo en el registro de las cuentas de Optimizely. Esto provocó que las webs distribuyeran código JavaScript infectado durante un total de 17 horas (entre las 05:21 y las 22:10, hora peninsular española).",
+        "Entre los sitios afectados figuran IKEA, ASOS y Mattel ; y portales de tecnología y finanzas como Zoom, Salesforce, HSBC, Equifax y ABN AMRO . También se vieron expuestas las webs de la BBC, CNN, Fox News , Air France, KLM, Change.org y UNICEF USA.",
+        "Recomendaciones de los expertos si visitaste alguna de las webs afectadas por el ciberataque",
+        "Según los análisis de investigadores de seguridad como Scott Helme (Report URI), el programa oculto ejecutaba cuatro acciones principales contra los usuarios que navegaban por estas páginas: robo de tarjetas bancarias, desvío de criptomonedas, infección de dispositivos Apple y captura de datos de navegación .",
+        "Optimizely confirmó que ya ha corregido la vulnerabilidad , eliminado el código malicioso y reforzado sus controles. Asimismo, empresas como Salesforce y Equifax desactivaron temporalmente la herramienta, mientras IKEA continúa evaluando el alcance en sus servicios.",
+        "En caso de que visitaras alguna de estas páginas durante la jornada del hackeo, es importante tener en cuenta varias recomendaciones. Primero, comprueba los cargos recientes de tu tarjeta si realizaste alguna compra o introdujiste datos de pago. Después, actualiza tus dispositivos iOS . Por último, borra cookies y cambia contraseñas si iniciaste sesión en alguno de los lugares comprometidos."
+      ],
+      "word_count": 306,
+      "authors": [
+        "Sergio Belinchón Rodríguez"
+      ],
+      "tags": [
+        "tecnología"
+      ],
+      "published_at": "2026-11-17T17:08:19Z",
+      "modified_at": "2026-11-17T17:08:19Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/17/6afc86f863214.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_4_3/uploads/2026/11/17/6afc86f863214.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat_1_1/uploads/2026/11/17/6afc86f863214.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/files/article_main_microformat/uploads/2026/11/17/6afc88682f553.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/11/17/6afc86f863214.jpeg",
+          "caption": "Un ciberataque masivo compromete las webs de IKEA, Zoom y la BBC para robar datos bancarios Pixabay"
+        },
+        {
+          "url": "https://objetos-xlk.estaticos-marca.com/uploads/2026/11/17/6afc88682f553.jpeg",
+          "caption": "Ciberseguridad Pixabay"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-17T17:25:39.033357Z"
     }
   ]
 }
