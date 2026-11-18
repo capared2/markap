@@ -1,8 +1,8 @@
 {
   "category": "mx/tecnologia",
   "part": 1,
-  "count": 16,
-  "updated_at": "2026-11-14T22:01:00.173301Z",
+  "count": 17,
+  "updated_at": "2026-11-18T00:32:17.354282Z",
   "articles": [
     {
       "id": "registrar-linea-telcel-evitar-largas-filas-paso-paso-hacerlo-linea",
@@ -1265,6 +1265,91 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-14T22:00:01.906261Z"
+    },
+    {
+      "id": "cayo-apple-hoy-17-noviembre-reportan-fallas-icloud-apple-music-apps",
+      "url": "https://www.marca.com/mx/tecnologia/2026/11/17/cayo-apple-hoy-17-noviembre-reportan-fallas-icloud-apple-music-apps.html",
+      "source_url": "https://www.marca.com/mx/tecnologia/2026/11/17/cayo-apple-hoy-17-noviembre-reportan-fallas-icloud-apple-music-apps.html",
+      "category": "mx/tecnologia",
+      "category_path": [
+        "mx",
+        "tecnologia"
+      ],
+      "section": "Tecnología",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Tecnología"
+      ],
+      "title": "Se cayó Apple hoy 17 de noviembre: Reportan fallas en iCloud, Apple Music y otras apps",
+      "standfirst": "Apple reportó fallas este 17 de noviembre en iCloud, Apple Pay, Apple Music y App Store. Esto se sabe sobre la interrupción y sus causas",
+      "summary": "Apple reportó fallas este 17 de noviembre en iCloud, Apple Pay, Apple Music y App Store. Esto se sabe sobre la interrupción y sus causas",
+      "body": "Este martes 17 de noviembre, usuarios de Apple comenzaron a encontrarse con un problema poco habitual: servicios que normalmente funcionan en segundo plano dejaron de responder con normalidad. Los reportes aumentaron durante la mañana y alcanzaron plataformas como iCloud, Apple Pay, Apple Music y App Store .\n\nLa situación también llegó a las tiendas físicas. En Filadelfia , empleados de una Apple Store informaron que no podían procesar algunas ventas debido a la interrupción. Mientras tanto, Downdetector registró un incremento de reportes, aunque estos datos por sí solos no significan que todos los servicios hayan sufrido una caída generalizada.\n\n¿Apple está fallando hoy?\n\nSí. Apple reconoció que una actualización interna provocó interrupciones en varios de sus sistemas durante la mañana. La compañía señaló que buena parte de sus servicios ya había regresado a la normalidad, mientras continuaban trabajando para restablecer los restantes. Entre los servicios con reportes de problemas estuvieron:\n\niCloud : dificultades para iniciar sesión y acceder a información.\n\nApple Pay y Apple Card : problemas para realizar operaciones.\n\nApple Music : usuarios reportaron dificultades de acceso.\n\nApp Store : fallas en compras y servicios relacionados.\n\nSoporte de Apple: también presentó incidencias.\n\n¿Cuáles son los problemas que enfrenta Apple hoy?\n\nLos inconvenientes no fueron exactamente iguales para todos los usuarios. Algunos tuvieron problemas para iniciar sesión, mientras otros encontraron errores al realizar pagos, acceder a contenidos o completar compras dentro de aplicaciones.\n\nApple Developer también reportó una incidencia en Subscription Purchase , sistema utilizado para gestionar suscripciones. El problema comenzó a las 10:28 UTC y fue marcado como resuelto a las 11:46 UTC, aproximadamente 78 minutos después.\n\nLa afectación resulta relevante porque el ecosistema de Apple concentra actividades personales, comerciales y financieras. Una interrupción, incluso temporal, puede impedir desde consultar fotografías almacenadas hasta completar una compra.\n\n¿Por qué Apple está fallando?\n\nLa explicación oficial apunta a una actualización interna que provocó interrupciones en diferentes sistemas. Apple no señaló un ciberataque como causa del incidente.\n\nLa caída ocurre además en un momento en que otras grandes plataformas han registrado problemas recientes. Sin embargo, no existe evidencia que permita relacionar técnicamente las interrupciones de Apple con las de Gmail, Microsoft , aerolíneas o bancos.\n\nPor ahora, la expectativa está puesta en que Apple termine de recuperar todos sus servicios y explique si serán necesarias nuevas medidas para evitar incidentes similares. La rapidez con la que la compañía consiga estabilizar su infraestructura será clave para recuperar la confianza de los usuarios.",
+      "paragraphs": [
+        "Este martes 17 de noviembre, usuarios de Apple comenzaron a encontrarse con un problema poco habitual: servicios que normalmente funcionan en segundo plano dejaron de responder con normalidad. Los reportes aumentaron durante la mañana y alcanzaron plataformas como iCloud, Apple Pay, Apple Music y App Store .",
+        "La situación también llegó a las tiendas físicas. En Filadelfia , empleados de una Apple Store informaron que no podían procesar algunas ventas debido a la interrupción. Mientras tanto, Downdetector registró un incremento de reportes, aunque estos datos por sí solos no significan que todos los servicios hayan sufrido una caída generalizada.",
+        "¿Apple está fallando hoy?",
+        "Sí. Apple reconoció que una actualización interna provocó interrupciones en varios de sus sistemas durante la mañana. La compañía señaló que buena parte de sus servicios ya había regresado a la normalidad, mientras continuaban trabajando para restablecer los restantes. Entre los servicios con reportes de problemas estuvieron:",
+        "iCloud : dificultades para iniciar sesión y acceder a información.",
+        "Apple Pay y Apple Card : problemas para realizar operaciones.",
+        "Apple Music : usuarios reportaron dificultades de acceso.",
+        "App Store : fallas en compras y servicios relacionados.",
+        "Soporte de Apple: también presentó incidencias.",
+        "¿Cuáles son los problemas que enfrenta Apple hoy?",
+        "Los inconvenientes no fueron exactamente iguales para todos los usuarios. Algunos tuvieron problemas para iniciar sesión, mientras otros encontraron errores al realizar pagos, acceder a contenidos o completar compras dentro de aplicaciones.",
+        "Apple Developer también reportó una incidencia en Subscription Purchase , sistema utilizado para gestionar suscripciones. El problema comenzó a las 10:28 UTC y fue marcado como resuelto a las 11:46 UTC, aproximadamente 78 minutos después.",
+        "La afectación resulta relevante porque el ecosistema de Apple concentra actividades personales, comerciales y financieras. Una interrupción, incluso temporal, puede impedir desde consultar fotografías almacenadas hasta completar una compra.",
+        "¿Por qué Apple está fallando?",
+        "La explicación oficial apunta a una actualización interna que provocó interrupciones en diferentes sistemas. Apple no señaló un ciberataque como causa del incidente.",
+        "La caída ocurre además en un momento en que otras grandes plataformas han registrado problemas recientes. Sin embargo, no existe evidencia que permita relacionar técnicamente las interrupciones de Apple con las de Gmail, Microsoft , aerolíneas o bancos.",
+        "Por ahora, la expectativa está puesta en que Apple termine de recuperar todos sus servicios y explique si serán necesarias nuevas medidas para evitar incidentes similares. La rapidez con la que la compañía consiga estabilizar su infraestructura será clave para recuperar la confianza de los usuarios."
+      ],
+      "word_count": 409,
+      "authors": [
+        "Mariana Ramírez"
+      ],
+      "tags": [
+        "Apple",
+        "cayó",
+        "17"
+      ],
+      "published_at": "2026-11-17T19:21:04Z",
+      "modified_at": "2026-11-17T19:21:04Z",
+      "language": "es-MX",
+      "images": [
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat/uploads/2026/11/17/6afca8f7ec698.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat_4_3/uploads/2026/11/17/6afca8f7ec698.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat_1_1/uploads/2026/11/17/6afca8f7ec698.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/article_main_microformat/uploads/2026/11/17/6afcabed93f97.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/uploads/2026/11/17/6afca8f7ec698.png",
+          "caption": "Se cayó Apple hoy 17 de noviembre: Reportan fallas en iCloud, Apple Music y otras apps /LAPRESSE"
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/files/avatar_92/uploads/2026/10/02/6abfa0fd12886.png",
+          "caption": ""
+        },
+        {
+          "url": "https://e00-xlk-ue-marca-mx.uecdn.es/uploads/2026/11/17/6afcabed93f97.png",
+          "caption": "¿Por qué Apple está fallando? /LAPRESSE"
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-18T00:31:01.171280Z"
     }
   ]
 }
