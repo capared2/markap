@@ -1,8 +1,8 @@
 {
   "category": "baloncesto/liga-endesa",
   "part": 1,
-  "count": 2,
-  "updated_at": "2026-11-08T18:44:07.313455Z",
+  "count": 3,
+  "updated_at": "2026-11-22T20:43:25.826003Z",
   "articles": [
     {
       "id": "02_0201_20260926_6216_7553-directo",
@@ -111,6 +111,61 @@
       "is_premium": false,
       "source": "marca.com",
       "scraped_at": "2026-11-08T18:43:37.236647Z"
+    },
+    {
+      "id": "02_0201_20261122_6277_6216-directo",
+      "url": "https://www.marca.com/baloncesto/liga-endesa/la-laguna-tenerife-barcelona/2026/11/22/02_0201_20261122_6277_6216-directo.html",
+      "source_url": "https://www.marca.com/baloncesto/liga-endesa/la-laguna-tenerife-barcelona/2026/11/22/02_0201_20261122_6277_6216-directo.html",
+      "category": "baloncesto/liga-endesa",
+      "category_path": [
+        "baloncesto",
+        "liga-endesa",
+        "la-laguna-tenerife-barcelona"
+      ],
+      "section": "acb",
+      "content_type": null,
+      "breadcrumbs": [
+        "Portada",
+        "Baloncesto",
+        "Liga Endesa"
+      ],
+      "title": "La Laguna Tenerife - Barcelona en directo | Última hora de Liga Endesa en vivo hoy",
+      "standfirst": "",
+      "summary": "Final del partido Justin Minaya [Barça] falla el triple. El rebote defensivo es para Kyle Guy. Triple de Wesley van Beck [La Laguna Tenerife] con asis",
+      "body": "Última hora del La Laguna Tenerife - Barcelona en directo:",
+      "paragraphs": [
+        "Última hora del La Laguna Tenerife - Barcelona en directo:"
+      ],
+      "word_count": 10,
+      "authors": [
+        "Redacción Marca"
+      ],
+      "tags": [
+        "baloncesto",
+        "Liga ACB",
+        "Barcelona Baloncesto",
+        "CB Canarias",
+        "liga-acb",
+        "barcelona-baloncesto",
+        "cb-canarias"
+      ],
+      "published_at": "2026-11-22T15:58:59Z",
+      "modified_at": "2026-11-22T18:50:08Z",
+      "language": "es",
+      "images": [
+        {
+          "url": "https://phantom.estaticos-marca.com/7eba8b543b622ae51693d5a1ba181804/resize/1200/assets/multimedia/imagenes/2026/11/22/17953630623196.jpg",
+          "caption": ""
+        },
+        {
+          "url": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/11/22/17953630623196.jpg",
+          "caption": ""
+        }
+      ],
+      "videos": [],
+      "is_premium": false,
+      "source": "marca.com",
+      "scraped_at": "2026-11-22T20:42:51.865392Z"
     }
   ]
 }
